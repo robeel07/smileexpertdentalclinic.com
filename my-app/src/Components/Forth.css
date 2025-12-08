@@ -1,0 +1,82 @@
+.map-container iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+  display: block;
+}
+
+.map-container {
+  width: 100%;
+}
+
+.footer {
+  background-color: #0c2a57; /* exact navy color from screenshot */
+  padding: 60px 40px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-column p {
+  font-size: 15px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.footer-icon-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.footer-icon-text svg {
+  margin-top: 3px;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0d6efd; 
+}
+
+
+@media (max-width: 1000px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+}

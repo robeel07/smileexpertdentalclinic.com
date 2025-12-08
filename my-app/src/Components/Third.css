@@ -1,0 +1,103 @@
+.wn-container {
+  width: 100%;
+  padding: 40px 20px 80px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.wn-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1A1462;
+  margin-bottom: 15px;
+}
+
+.wn-description {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4A4A4A;
+}
+
+.wn-link {
+  color: #00A7C7;
+  font-weight: 600;
+}
+
+.wn-card-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.wn-card {
+  background: white;
+  width: 420px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.wn-card-border {
+  border: 2px dashed #1A1462;
+  border-radius: 14px;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+.wn-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.wn-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1A1462;
+}
+
+.wn-faq-title {
+  font-size: 32px;
+  color: #1A1462;
+  margin-bottom: 30px;
+}
+
+.wn-faq-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .wn-faq-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.wn-faq-item {
+  background: #63B7B6;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.wn-faq-plus {
+  font-size: 22px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.wn-faq-question {
+  font-size: 15px;
+  font-weight: 500;
+  user-select: none;
+}
