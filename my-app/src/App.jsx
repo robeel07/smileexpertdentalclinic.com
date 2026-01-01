@@ -25,6 +25,26 @@ import YellowTeeth from "./Components/Pages/CosmeticImprovement/YellowTeeth";
 import MissingTeeth from "./Components/Pages/CosmeticImprovement/MissingTeeth";
 import WornTeeth from "./Components/Pages/CosmeticImprovement/WornTeeth";
 import CrookedTeeth from "./Components/Pages/CosmeticImprovement/CrookedTeeth";
+import EmergencyDentist from "./Components/Pages/CommonIssues/EmergencyDentist";
+import DentalAnxiety from "./Components/Pages/CommonIssues/DentalAnxiety";
+import OralCancer from "./Components/Pages/CommonIssues/OralCancer";
+import Braces from "./Components/Pages/Before&After/Braces";
+import Invisalign from "./Components/Pages/Before&After/Invisalign";
+import Crowns from "./Components/Pages/Before&After/Crowns";
+import Veneers from "./Components/Pages/Before&After/Veneers";
+import Teeth from "./Components/Pages/Before&After/Teeth";
+import Implants from "./Components/Pages/Before&After/Implants";
+import Bonding from "./Components/Pages/Before&After/Bonding";
+import Safety from "./Components/Pages/PatientSafety/Safety";
+import StepSterilization from "./Components/Pages/PatientSafety/StepSterilization";
+
+
+
+
+
+
+
+
 
 
 
@@ -65,6 +85,25 @@ function App() {
         <Route path="/missing-teeth-treatment" element={<MissingTeeth />} />
         <Route path="/worn-teeth-treatment" element={<WornTeeth />} />
         <Route path="/crooked-teeth-treatment" element={<CrookedTeeth />} />
+        <Route path="/emergency-dentist" element={<EmergencyDentist />} />
+        <Route path="/dental-anxiety" element={<DentalAnxiety />} />
+        <Route path="/oral-cancer" element={<OralCancer />} />
+        <Route path="/braces-before-and-after" element={<Braces />} />
+        <Route path="/invisalign-before-and-after" element={<Invisalign />} />
+        <Route path="/crowns-before-and-after" element={<Crowns />} />
+        <Route path="/veneers-before-and-after" element={<Veneers />} />
+        <Route path="/teeth-before-and-after" element={<Teeth />} />
+        <Route path="/dental-implants-before-and-after" element={<Implants />} />
+        <Route path="/dental-bonding-before-and-after" element={<Bonding />} />
+        <Route path="/7x-safety" element={<Safety />} />
+        <Route path="/4-step-sterilization" element={<StepSterilization />} />
+
+
+
+
+
+
+
 
 
 

@@ -14,23 +14,23 @@ export default function CrookedTeeth() {
   return (
     <>
     <div
-  className="hero-section"
-  style={{
-  backgroundImage: `url(${seventyeight})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center 50%",
-  backgroundRepeat: "no-repeat",
-  width: "100%",
-  display: "flex",
-  minHeight: "50vh",
-}}
->
-    {<Link to="/CosmeticImprovement/crookedteeth"></Link>}
-  <div className="hero-content">
-    <h2>Treatments</h2>
-    <h1>Crooked Teeth Treatment in Lahore</h1>
+      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      style={{ backgroundImage: `url(${seventyeight})` }}
+    >
+      <div className="absolute inset-0 bg-black/50"></div>
+
+    <div className="relative h-full max-w-6xl px-4 flex items-end">
+  <div className="pb-8 mt-6 w-full">
+    <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
+    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+      Crooked Teeth Treatment in Lahore
+    </h1>
   </div>
 </div>
+    </div>
+
+    {<Link to="/CosmeticImprovement/crookedteeth"></Link>}
+
 
 <div
   style={{
@@ -320,8 +320,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
 </div>
 
 
-{/* MAP SECTION */}
-<div className="w-full h-[250px] overflow-hidden mt-4">
+<div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe
     title="clinic-map"
     src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13615.739324467939!2d74.268749!3d31.443461!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI2JzM2LjUiTiA3NMKwMTYnMDcuNSJF!5e0!3m2!1sen!2sus!4v1765540023100!5m2!1sen!2sus"
@@ -334,7 +333,6 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
   />
 </div>
 
-{/* FOOTER SECTION */}
 <div className="bg-[#0c2340] text-white pt-[60px] pb-[60px] px-[40px] mt-0">
   <div className="flex justify-between flex-wrap max-w-[1400px] mx-auto gap-[40px]">
     {/* COLUMN 1 */}
@@ -347,7 +345,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       <p className="my-[6px]">Blogs</p>
     </div>
 
-    {/* COLUMN 2 */}
+    
     <div className="min-w-[200px]">
       <h3 className="text-[20px] mb-[20px]">Treatments</h3>
       <p className="my-[6px]">Exam & X-Rays Check-Up</p>
@@ -360,7 +358,6 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       <p className="my-[6px]">Clear Aligners</p>
     </div>
 
-    {/* COLUMN 3 */}
     <div className="min-w-[200px]">
       <h3 className="text-[20px] mb-[20px]">Dental Problems</h3>
       <p className="my-[6px]">Yellow Teeth</p>
@@ -373,7 +370,6 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       <p className="my-[6px]">Dental Anxiety</p>
     </div>
 
-    {/* COLUMN 4 */}
     <div className="min-w-[200px]">
       <h3 className="text-[20px] mb-[20px]">Patient Safety</h3>
       <p className="my-[6px]">7X SAFETY</p>
@@ -383,28 +379,21 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       <p className="my-[6px]">Quality</p>
     </div>
 
-    {/* COLUMN 5 */}
     <div className="min-w-[250px]">
       <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
 
-      <p className="my-2 flex gap-[10px]">📧 info@smileon.pk</p>
+      <p className="my-2 flex gap-[10px]">✉ aneelabrar555@gmail.com</p>
 
-      <p className="my-2 flex gap-[10px]">📞 0331 1066666</p>
+      <p className="my-2 flex gap-[10px] ">☏ 03008395562</p>
 
       <p className="my-2 flex gap-[10px] leading-[1.4]">
-        📍 335-B Iqbal Avenue, Khayaban-e-Jinnah Service Road, Near
-        <br />
-        Shokat Khanum Hospital Johar Town, Lahore
+        ⚲ Saddique hospital stadium road khanewal
       </p>
 
-      <p className="mt-5 font-semibold">⭐ Clinic Timing</p>
-      <p className="my-[6px]">11:00am to 9:00pm</p>
+      <p className="mt-6 font-semibold">🕒 Clinic Timing<br/> 11:00am to 9:00pm</p>
 
-      {/* SOCIAL ICONS */}
       <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
-        {/* Social Icons */}
         <div className="flex gap-[15px] mt-[20px]">
-          {/* Facebook */}
           <a
             href="#"
             className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
@@ -412,7 +401,6 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
             <FaFacebookF size={20} color="white" />
           </a>
 
-          {/* Instagram */}
           <a
             href="#"
             className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
@@ -420,7 +408,6 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
             <FaInstagram size={20} color="white" />
           </a>
 
-          {/* YouTube */}
           <a
             href="#"
             className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
@@ -432,6 +419,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
     </div>
   </div>
 </div>
+
 
 
 

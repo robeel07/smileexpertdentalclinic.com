@@ -11,23 +11,24 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 export default function TeethGrinding() {
   return (
     <>
-    <div
-  className="hero-section"
-  style={{
-    backgroundImage: `url(${twentythree})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center 70%",
-    backgroundRepeat: "no-repeat",
-    width: "100%",
-    height: "350px",
-  }}
->
-    {<Link to="/TeethGums/teethgrinding"></Link>}
-  <div className="hero-content">
-    <h2>Treatments</h2>
-    <h1>Teeth Grinding Treatment in Lahore</h1>
+     <div
+      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      style={{ backgroundImage: `url(${twentythree})` }}
+    >
+      <div className="absolute inset-0 bg-black/50"></div>
+
+    <div className="relative h-full max-w-6xl px-4 flex items-end">
+  <div className="pb-8 mt-6 w-full">
+    <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
+    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+      Teeth Grinding Treatment in Lahore
+    </h1>
   </div>
 </div>
+    </div>
+
+    {<Link to="/TeethGums/teethgrinding"></Link>}
+
 
 <div
   style={{
@@ -35,7 +36,7 @@ export default function TeethGrinding() {
     margin: "40px auto",
     padding: " 20px",
     lineHeight: "1.8",
-    fontSize: "18px",
+    fontSize: "16px",
     color: "#333",
     textAlign: "justify",
   }}
@@ -552,181 +553,106 @@ export default function TeethGrinding() {
 </div>
 
 
-{/* MAP SECTION */}
-    <div style={{ width: "100%", height: "250px", overflow: "hidden" }}>
-      <iframe
-      title="clinic-map"
-      src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13615.739324467939!2d74.268749!3d31.443461!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI2JzM2LjUiTiA3NMKwMTYnMDcuNSJF!5e0!3m2!1sen!2sus!4v1765540023100!5m2!1sen!2sus"
-      width="100%"
-      height="450"
-      style={{ border: "0" }}
-      allowFullScreen
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    />
-    
+<div className="w-full h-[180px] overflow-hidden mt-4">
+  <iframe
+    title="clinic-map"
+    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13615.739324467939!2d74.268749!3d31.443461!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI2JzM2LjUiTiA3NMKwMTYnMDcuNSJF!5e0!3m2!1sen!2sus!4v1765540023100!5m2!1sen!2sus"
+    width="100%"
+    height="450"
+    style={{ border: "0" }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
+
+<div className="bg-[#0c2340] text-white pt-[60px] pb-[60px] px-[40px] mt-0">
+  <div className="flex justify-between flex-wrap max-w-[1400px] mx-auto gap-[40px]">
+    {/* COLUMN 1 */}
+    <div className="min-w-[200px]">
+      <h3 className="text-[20px] mb-[20px]">Useful Links</h3>
+      <p className="my-[6px]">About Us</p>
+      <p className="my-[6px]">Contact Us</p>
+      <p className="my-[6px]">Meet the Team</p>
+      <p className="my-[6px]">Before & After</p>
+      <p className="my-[6px]">Blogs</p>
     </div>
+
     
-    {/* FOOTER SECTION */}
-    <div
-      style={{
-        background: "#0c2340",
-        color: "white",
-        padding: "60px 40px",
-        marginTop: "0px",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          flexWrap: "wrap",
-          maxWidth: "1400px",
-          margin: "0 auto",
-          gap: "40px",
-        }}
-      >
-        {/* COLUMN 1 */}
-        <div style={{ minWidth: "200px" }}>
-          <h3 style={{ fontSize: "20px", marginBottom: "20px" }}>Useful Links</h3>
-          <p style={{ margin: "6px 0" }}>About Us</p>
-          <p style={{ margin: "6px 0" }}>Contact Us</p>
-          <p style={{ margin: "6px 0" }}>Meet the Team</p>
-          <p style={{ margin: "6px 0" }}>Before & After</p>
-          <p style={{ margin: "6px 0" }}>Blogs</p>
-        </div>
-    
-        {/* COLUMN 2 */}
-        <div style={{ minWidth: "200px" }}>
-          <h3 style={{ fontSize: "20px", marginBottom: "20px" }}>Treatments</h3>
-          <p style={{ margin: "6px 0" }}>Exam & X-Rays Check-Up</p>
-          <p style={{ margin: "6px 0" }}>Dental Emergency</p>
-          <p style={{ margin: "6px 0" }}>Smile Makeover</p>
-          <p style={{ margin: "6px 0" }}>Veneers</p>
-          <p style={{ margin: "6px 0" }}>Dental Implants</p>
-          <p style={{ margin: "6px 0" }}>Root Canal Treatment</p>
-          <p style={{ margin: "6px 0" }}>Orthodontic Braces</p>
-          <p style={{ margin: "6px 0" }}>Clear Aligners</p>
-        </div>
-    
-        {/* COLUMN 3 */}
-        <div style={{ minWidth: "200px" }}>
-          <h3 style={{ fontSize: "20px", marginBottom: "20px" }}>
-            Dental Problems
-          </h3>
-          <p style={{ margin: "6px 0" }}>Yellow Teeth</p>
-          <p style={{ margin: "6px 0" }}>Teeth Cleaning</p>
-          <p style={{ margin: "6px 0" }}>Missing Teeth</p>
-          <p style={{ margin: "6px 0" }}>Broken Chipped Tooth</p>
-          <p style={{ margin: "6px 0" }}>Gum Disease</p>
-          <p style={{ margin: "6px 0" }}>Crooked Teeth</p>
-          <p style={{ margin: "6px 0" }}>Sensitive & Sore Teeth</p>
-          <p style={{ margin: "6px 0" }}>Dental Anxiety</p>
-        </div>
-    
-        {/* COLUMN 4 */}
-        <div style={{ minWidth: "200px" }}>
-          <h3 style={{ fontSize: "20px", marginBottom: "20px" }}>Patient Safety</h3>
-          <p style={{ margin: "6px 0" }}>7X SAFETY</p>
-          <p style={{ margin: "6px 0" }}>4 Step Sterilization</p>
-          <p style={{ margin: "6px 0" }}>Safety Equipment</p>
-          <p style={{ margin: "6px 0" }}>Equipment & Technology</p>
-          <p style={{ margin: "6px 0" }}>Quality</p>
-        </div>
-    
-        {/* COLUMN 5 */}
-        <div style={{ minWidth: "250px" }}>
-          <h3 style={{ fontSize: "20px", marginBottom: "20px" }}>Get in touch</h3>
-    
-          <p style={{ margin: "8px 0", display: "flex", gap: "10px" }}>
-            📧 info@smileon.pk
-          </p>
-    
-          <p style={{ margin: "8px 0", display: "flex", gap: "10px" }}>
-            📞 0331 1066666
-          </p>
-    
-          <p
-            style={{
-              margin: "8px 0",
-              display: "flex",
-              gap: "10px",
-              lineHeight: "1.4",
-            }}
+    <div className="min-w-[200px]">
+      <h3 className="text-[20px] mb-[20px]">Treatments</h3>
+      <p className="my-[6px]">Exam & X-Rays Check-Up</p>
+      <p className="my-[6px]">Dental Emergency</p>
+      <p className="my-[6px]">Smile Makeover</p>
+      <p className="my-[6px]">Veneers</p>
+      <p className="my-[6px]">Dental Implants</p>
+      <p className="my-[6px]">Root Canal Treatment</p>
+      <p className="my-[6px]">Orthodontic Braces</p>
+      <p className="my-[6px]">Clear Aligners</p>
+    </div>
+
+    <div className="min-w-[200px]">
+      <h3 className="text-[20px] mb-[20px]">Dental Problems</h3>
+      <p className="my-[6px]">Yellow Teeth</p>
+      <p className="my-[6px]">Teeth Cleaning</p>
+      <p className="my-[6px]">Missing Teeth</p>
+      <p className="my-[6px]">Broken Chipped Tooth</p>
+      <p className="my-[6px]">Gum Disease</p>
+      <p className="my-[6px]">Crooked Teeth</p>
+      <p className="my-[6px]">Sensitive & Sore Teeth</p>
+      <p className="my-[6px]">Dental Anxiety</p>
+    </div>
+
+    <div className="min-w-[200px]">
+      <h3 className="text-[20px] mb-[20px]">Patient Safety</h3>
+      <p className="my-[6px]">7X SAFETY</p>
+      <p className="my-[6px]">4 Step Sterilization</p>
+      <p className="my-[6px]">Safety Equipment</p>
+      <p className="my-[6px]">Equipment & Technology</p>
+      <p className="my-[6px]">Quality</p>
+    </div>
+
+    <div className="min-w-[250px]">
+      <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
+
+      <p className="my-2 flex gap-[10px]">✉ aneelabrar555@gmail.com</p>
+
+      <p className="my-2 flex gap-[10px] ">☏ 03008395562</p>
+
+      <p className="my-2 flex gap-[10px] leading-[1.4]">
+        ⚲ Saddique hospital stadium road khanewal
+      </p>
+
+      <p className="mt-6 font-semibold">🕒 Clinic Timing<br/> 11:00am to 9:00pm</p>
+
+      <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
+        <div className="flex gap-[15px] mt-[20px]">
+          <a
+            href="#"
+            className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
           >
-            📍 335-B Iqbal Avenue, Khayaban-e-Jinnah Service Road, Near<br />
-            Shokat Khanum Hospital Johar Town, Lahore
-          </p>
-    
-          <p style={{ marginTop: "20px", fontWeight: "600" }}>⭐ Clinic Timing</p>
-          <p style={{ margin: "6px 0" }}>11:00am to 9:00pm</p>
-    
-          {/* SOCIAL ICONS */}
-           <div
-          style={{
-            textAlign: "left",
-            background: "#0c2340",
-            color: "white",
-            padding: "50px 20px",
-          }}
-        >
-          {/* Social Icons */}
-          <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
-            {/* Facebook */}
-            <a
-              href="#"
-              style={{
-                width: "40px",
-                height: "40px",
-                background: "#112d53",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "8px",
-                textDecoration: "none",
-              }}
-            >
-              <FaFacebookF size={20} color="white" />
-            </a>
-    
-            {/* Instagram */}
-            <a
-              href="#"
-              style={{
-                width: "40px",
-                height: "40px",
-                background: "#112d53",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "8px",
-                textDecoration: "none",
-              }}
-            >
-              <FaInstagram size={20} color="white" />
-            </a>
-    
-            {/* YouTube */}
-            <a
-              href="#"
-              style={{
-                width: "40px",
-                height: "40px",
-                background: "#112d53",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "8px",
-                textDecoration: "none",
-              }}
-            >
-              <FaYoutube size={22} color="white" />
-            </a>
-          </div>
-        </div>
+            <FaFacebookF size={20} color="white" />
+          </a>
+
+          <a
+            href="#"
+            className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+          >
+            <FaInstagram size={20} color="white" />
+          </a>
+
+          <a
+            href="#"
+            className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+          >
+            <FaYoutube size={22} color="white" />
+          </a>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
 
 
 </>

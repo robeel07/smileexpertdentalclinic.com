@@ -254,14 +254,12 @@ export default function HeroSection() {
     <div className="min-w-[250px]">
       <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
 
-      <p className="my-2 flex gap-[10px]">✉ info@smileon.pk</p>
+      <p className="my-2 flex gap-[10px]">✉ aneelabrar555@gmail.com</p>
 
-      <p className="my-2 flex gap-[10px] ">☏ 0331 1066666</p>
+      <p className="my-2 flex gap-[10px] ">☏ 03008395562</p>
 
       <p className="my-2 flex gap-[10px] leading-[1.4]">
-        ⚲ 335-B Iqbal Avenue, Khayaban-e-Jinnah Service Road, Near
-        <br />
-        Shokat Khanum Hospital Johar Town, Lahore
+        ⚲ Saddique hospital stadium road khanewal
       </p>
 
       <p className="mt-6 font-semibold">🕒 Clinic Timing<br/> 11:00am to 9:00pm</p>
@@ -293,6 +291,7 @@ export default function HeroSection() {
     </div>
   </div>
 </div>
+
 
 
 
