@@ -37,6 +37,10 @@ import Implants from "./Components/Pages/Before&After/Implants";
 import Bonding from "./Components/Pages/Before&After/Bonding";
 import Safety from "./Components/Pages/PatientSafety/Safety";
 import StepSterilization from "./Components/Pages/PatientSafety/StepSterilization";
+import SafetyEquipment from "./Components/Pages/PatientSafety/SafetyEquipment";
+import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechnology";
+
+
 
 
 
@@ -97,6 +101,10 @@ function App() {
         <Route path="/dental-bonding-before-and-after" element={<Bonding />} />
         <Route path="/7x-safety" element={<Safety />} />
         <Route path="/4-step-sterilization" element={<StepSterilization />} />
+        <Route path="/safety-equipment" element={<SafetyEquipment />} />
+        <Route path="/equipment-technology" element={<EquipmentTechnology />} />
+
+
 
 
 

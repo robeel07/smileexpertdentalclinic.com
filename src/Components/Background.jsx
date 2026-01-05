@@ -21,7 +21,7 @@ export default function HeroSection() {
   <div className="pb-8 mt-6 w-full">
     <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
     <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
-      Yellow Teeth Treatment in Lahore
+      Yellow Teeth Treatment in Khanewal
     </h1>
   </div>
 </div>
@@ -29,7 +29,7 @@ export default function HeroSection() {
 
   <div className="w-85 px-40 py-16 align-center text-black">
   <p className="text-base leading-relaxed">
-    Concerned about yellow teeth? You’re not alone. We understand. Despite your efforts with brushing, whitening toothpaste, and flossing, your teeth may still appear yellow. Don’t worry. Professional treatment can effectively address yellow teeth. Visit SmileOn for a discussion on yellow teeth treatment. Stained or yellow teeth can affect your confidence, but there are affordable and durable solutions available.
+    Concerned about yellow teeth? You’re not alone. We understand. Despite your efforts with brushing, whitening toothpaste, and flossing, your teeth may still appear yellow. Don’t worry. Professional treatment can effectively address yellow teeth. Visit SmileExpert for a discussion on yellow teeth treatment. Stained or yellow teeth can affect your confidence, but there are affordable and durable solutions available.
   </p>
 </div>
 
@@ -195,7 +195,7 @@ export default function HeroSection() {
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe
     title="clinic-map"
-    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13615.739324467939!2d74.268749!3d31.443461!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI2JzM2LjUiTiA3NMKwMTYnMDcuNSJF!5e0!3m2!1sen!2sus!4v1765540023100!5m2!1sen!2sus"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.0390050498395!2d71.9162331!3d30.292951199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b557588a60575%3A0x79afa5462675bee1!2sSmile%20expert%20dental%20clinic!5e0!3m2!1sen!2s!4v1767274320473!5m2!1sen!2s"
     width="100%"
     height="450"
     style={{ border: "0" }}
@@ -254,15 +254,15 @@ export default function HeroSection() {
     <div className="min-w-[250px]">
       <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
 
-      <p className="my-2 flex gap-[10px]">✉ aneelabrar555@gmail.com</p>
+      <p className="my-2 flex gap-[10px] px-1">✉ aneelabrar555@gmail.com</p>
 
-      <p className="my-2 flex gap-[10px] ">☏ 03008395562</p>
+      <p className="my-3 flex gap-[10px] px-2 ">☏ 03008395562</p>
 
-      <p className="my-2 flex gap-[10px] leading-[1.4]">
-        ⚲ Saddique hospital stadium road khanewal
+      <p className="my-2 flex gap-[10px] px-2 leading-[1.4]">
+        ⚲ Saddique Hospital Stadium Road Khanewal
       </p>
 
-      <p className="mt-6 font-semibold">🕒 Clinic Timing<br/> 11:00am to 9:00pm</p>
+      <p className="mt-6 font-semibold px-1">🕒 Clinic Timing<br/> 11:00am to 9:00pm</p>
 
       <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
         <div className="flex gap-[15px] mt-[20px]">
