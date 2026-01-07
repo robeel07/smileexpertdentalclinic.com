@@ -18,7 +18,7 @@ export default function AmalgamFilling() {
     <div className="relative h-full max-w-6xl px-4 flex items-end">
   <div className="pb-8 mt-6 w-full">
     <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <h1 className="text-white text-3xl md:text-5xl ml-32 font-bold">
        Amalgam Filling Replacement in Khanewal
     </h1>
   </div>
