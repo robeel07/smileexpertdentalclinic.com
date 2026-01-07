@@ -3,6 +3,8 @@ import Navbar from "./Components/Navbar";
 
 // Home Sections
 import Background from "./Components/Background";
+import Contact from "./Components/Contact";
+
 
 
 // Wisdom Teeth
@@ -39,15 +41,7 @@ import Safety from "./Components/Pages/PatientSafety/Safety";
 import StepSterilization from "./Components/Pages/PatientSafety/StepSterilization";
 import SafetyEquipment from "./Components/Pages/PatientSafety/SafetyEquipment";
 import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechnology";
-
-
-
-
-
-
-
-
-
+import Quality from "./Components/Pages/PatientSafety/Quality";
 
 
 
@@ -103,10 +97,8 @@ function App() {
         <Route path="/4-step-sterilization" element={<StepSterilization />} />
         <Route path="/safety-equipment" element={<SafetyEquipment />} />
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
-
-
-
-
+        <Route path="/quality" element={<Quality />} />
+        <Route path="/contact" element={<Contact />} />
 
 
 
