@@ -1,9 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 
 // Home Sections
 import Background from "./Components/Background";
 import Contact from "./Components/Contact";
+import Blog from "./Components/Blogs/Blog";
+import DentalDecay from "./Components/Blogs/DentalDecay";
+import CosmeticAesthetic from "./Components/Blogs/CosmeticAesthetic";
+import DentalCheckups from "./Components/Blogs/DentalCheckups";
+
+
+
 
 
 
@@ -51,6 +58,7 @@ function Home() {
     <>
       <Background />
       
+      
     </>
   );
 }
@@ -58,9 +66,11 @@ function Home() {
 function App() {
   return (
 
+    <>
+
     
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -99,18 +109,26 @@ function App() {
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/dental-decay" element={<DentalDecay />} />
+        <Route path="/cosmetic-vs-aesthetic" element={<CosmeticAesthetic />} />
+        <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />
 
 
 
-
-
+      
+        
 
 
 
       </Routes>
     </Router>
 
+    
+
+    
   
+  </>
 
   );
 }
