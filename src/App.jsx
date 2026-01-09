@@ -49,6 +49,9 @@ import StepSterilization from "./Components/Pages/PatientSafety/StepSterilizatio
 import SafetyEquipment from "./Components/Pages/PatientSafety/SafetyEquipment";
 import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechnology";
 import Quality from "./Components/Pages/PatientSafety/Quality";
+import Implants2 from "./Components/Pages/Treatments/Implants";
+
+
 
 
 
@@ -109,10 +112,14 @@ function App() {
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
+<<<<<<< HEAD
         <Route path="/blog" element={<Blog />} />
         <Route path="/dental-decay" element={<DentalDecay />} />
         <Route path="/cosmetic-vs-aesthetic" element={<CosmeticAesthetic />} />
         <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />
+=======
+        <Route path="/t/implants" element={<Implants2 />} />
+>>>>>>> c9291c5ed5e859c57a4cd8e45249ca1065ca88ce
 
 
 
