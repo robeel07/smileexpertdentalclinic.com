@@ -42,6 +42,9 @@ import StepSterilization from "./Components/Pages/PatientSafety/StepSterilizatio
 import SafetyEquipment from "./Components/Pages/PatientSafety/SafetyEquipment";
 import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechnology";
 import Quality from "./Components/Pages/PatientSafety/Quality";
+import Implants2 from "./Components/Pages/Treatments/Implants";
+
+
 
 
 
@@ -99,6 +102,7 @@ function App() {
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/t/implants" element={<Implants2 />} />
 
 
 
