@@ -46,6 +46,13 @@ import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechn
 import Quality from "./Components/Pages/PatientSafety/Quality";
 import Implants2 from "./Components/Pages/Treatments/Implants";
 import Veneer from "./Components/Pages/Treatments/Veneer";
+import Orthodontist from "./Components/Pages/Treatments/Orthodontist";
+import Polishing from "./Components/Pages/Treatments/Polishing";
+import Dentures from "./Components/Pages/Treatments/Dentures";
+import Extraction from "./Components/Pages/Treatments/ToothExtraction";
+import Wisdom from "./Components/Pages/Treatments/WisdomTeeth";
+import TMJ from "./Components/Pages/Treatments/TMJ";
+import Canals from "./Components/Pages/Treatments/Canals";
 
 
 
@@ -119,6 +126,13 @@ const [showGoUp, setShowGoUp] = useState(false);
         <Route path="/contact" element={<Contact />} />
         <Route path="/t/implants" element={<Implants2 />} />
         <Route path="/t/veneer" element={<Veneer />} />
+        <Route path="/t/orthodontist" element={<Orthodontist />} />
+        <Route path="/t/polishing" element={<Polishing />} />
+        <Route path="/t/dentures" element={<Dentures />} />
+        <Route path="/t/extraction" element={<Extraction />} />
+        <Route path="/t/wisdom" element={<Wisdom />} />
+        <Route path="/t/tmj" element={<TMJ />} />
+        <Route path="/t/canals" element={<Canals />} />
        
 
 

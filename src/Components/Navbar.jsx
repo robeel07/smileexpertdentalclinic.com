@@ -200,14 +200,14 @@ const Navbar = () => {
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Dental Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/scaling">Scaling & Polishing</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/polishing">Scaling & Polishing</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/fillings">Fillings</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/canals">Root Canals</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="t/canals">Root Canals</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Tooth Extraction</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">TMJ Treatment</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Wisdom Teeth Removal</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/tmj">TMJ Treatment</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/Wisdom">Wisdom Teeth Removal</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Exam and X-Ray Checkup</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Dentures</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/dentures">Dentures</Link>
                                     </div>
                                 </div>
                                 <div>
@@ -220,7 +220,7 @@ const Navbar = () => {
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/dental-crowns">Dental Crowns</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/bridge">Dental Bridge</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/veneer">Dental Veneers</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Orthodontics</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/orthodontist">Orthodontics</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Smile Makeover</Link>
                                     </div>
                                 </div>
@@ -481,28 +481,28 @@ const Navbar = () => {
                                     <Link className="no-underline text-slate-600" to="/t/scaling" onClick={closeAll}>
                                         Dental Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/scaling" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/polishing" onClick={closeAll} >
                                         Scaling & Polishing
                                     </Link>
                                     <Link className="no-underline text-slate-600" to="/t/fillings" onClick={closeAll} >
                                         Fillings
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/canals" onClick={closeAll} >
                                         Root Canals
                                     </Link>
                                     <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
                                         Tooth Extraction
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/tmj" onClick={closeAll} >
                                         TMJ Treatment
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/wisdom" onClick={closeAll} >
                                         Wisdom Teeth Removal
                                     </Link>
                                     <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
                                         Exam & X-Ray Checkup
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/dentures" onClick={closeAll} >
                                         Dentures
                                     </Link>
                                     <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll}>

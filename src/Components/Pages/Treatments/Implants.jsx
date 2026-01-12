@@ -161,9 +161,7 @@ const implantSteps = [
             </div>
             
             <section className="py-16 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto overflow-hidden">
-      {/* lg:flex-row-reverse moves the second child (image) to the start 
-        and the first child (text) to the end on large screens.
-      */}
+      
       <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-28">
         
         {/* RIGHT SIDE: Text Content (on Desktop) */}
@@ -343,10 +341,10 @@ const implantSteps = [
             There are a lot of benefits. Here are the most common benefits of this treatment:
           </motion.p>
         </div>
-{/* Content Section: Changed gap to 4 (16px) for a tiny, professional sliver of space */}
+{/* Content Section*/}
 <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-4">
   
-  {/* LEFT SIDE: Image - Pinned to the right of its container */}
+  {/* LEFT SIDE: Image */}
   <motion.div 
     className="w-full lg:w-1/2 flex justify-center lg:justify-end"
     initial={{ x: -50, opacity: 0 }}
@@ -364,7 +362,7 @@ const implantSteps = [
     </div>
   </motion.div>
 
-  {/* RIGHT SIDE: Content - Pinned to the left of its container */}
+  {/* RIGHT SIDE: Content */}
   <motion.div 
     className="w-full lg:w-1/2 flex justify-center lg:justify-start"
     initial={{ x: 50, opacity: 0 }}
