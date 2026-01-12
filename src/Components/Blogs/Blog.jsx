@@ -4,6 +4,8 @@ import blog from "../Images/blog.jpg"
 import blog1 from "../Images/blog1.jpg"
 import blog2 from "../Images/blog2.jpg"
 import blog3 from "../Images/blog3.jpg"
+import blog4 from "../Images/blog4.jpg"
+
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 
@@ -89,6 +91,92 @@ export default function Blog() {
     </div>
 
     {/* Card 3 */}
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
+      <img
+        src={blog3}
+        alt="Protective Eyewear"
+        className="w-full h-56 object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
+          What Are the Benefits of Dental Checkups
+        </h3>
+        <p className="text-gray-700 text-sm leading-relaxed">
+          Don’t have a healthy smile?
+          It’s something you need to maintain with care and regular checkups. These dental visits help catch problems early, avoid major treatments and keep your teeth looking their best.
+          Here is everything you need to know about what dental checkups mean and why they’re important.
+        </p>
+      </div>
+      <div className="text-[#02173f] mt-10 mb-1 font-bold ">
+        <Link
+    to="/benefits-of-dental-checkups"
+  >
+    Read More»
+  </Link>    
+      </div>
+    </div>
+
+
+  </div>
+</div>  
+
+
+<div className="w-full bg-white py-4">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+
+    {/* Card 4 */}
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
+      <img
+        src={blog4}
+        alt="Disposable Gloves"
+        className="w-full h-56 object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
+          What Are Dental X Rays – Purpose & Types
+        </h3>
+        <p className="text-gray-700 text-sm leading-relaxed">
+          Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They..
+        </p>
+      </div>
+      <div className="text-[#0a2a66] mb-1 font-bold ">
+        <Link
+    to="/what-are-dental-xrays"
+  >
+    Read More»
+  </Link>
+      </div>
+    </div>
+
+    {/* Card 5 */}
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
+      <img
+        src={blog2}
+        alt="Face Masks"
+        className="w-full h-56 object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
+          Cosmetic vs Aesthetic Dentistry
+        </h3>
+        <p className="text-gray-700 text-sm leading-relaxed">
+          When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably.
+          But are they really the same?
+          Knowing the truth can lead you in the direction of choosing the right dental procedure for your teeth and gums!
+          Here you will get all the information necessary for you to make an informed decision on what suits you best as you work towards achieving your dream set of teeth.
+        </p>
+        <div className="text-[#0a2a66] mb-1 font-bold ">
+        <Link
+    to="/cosmetic-vs-aesthetic"
+  >
+    Read More»
+  </Link>
+      </div>
+      </div>
+      
+    </div>
+
+    {/* Card 6 */}
     <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
       <img
         src={blog3}
