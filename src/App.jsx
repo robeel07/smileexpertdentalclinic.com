@@ -1,12 +1,19 @@
-import { useEffect, useState} from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 
 // Home Sections
 import Background from "./Components/Background";
 import Contact from "./Components/Contact";
+import Blog from "./Components/Blogs/Blog";
+import DentalDecay from "./Components/Blogs/DentalDecay";
+import CosmeticAesthetic from "./Components/Blogs/CosmeticAesthetic";
+import DentalCheckups from "./Components/Blogs/DentalCheckups";
+import DentalXrays from "./Components/Blogs/DentalXrays";
+import DentalSurgery from "./Components/Blogs/DentalSurgery";
 import Whatsapp from "./Components/Images/whatsapp-icon-design.png";
 import GoUp from "./Components/Images/go-up.png";
+
 
 
 // Wisdom Teeth
@@ -64,6 +71,7 @@ function Home() {
     <>
       <Background />
       
+      
     </>
   );
 }
@@ -83,9 +91,11 @@ const [showGoUp, setShowGoUp] = useState(false);
 
   return (
 
+    <>
+
     
     <Router>
-      <Navbar />
+      { <Navbar /> }
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -124,6 +134,14 @@ const [showGoUp, setShowGoUp] = useState(false);
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/dental-decay" element={<DentalDecay />} />
+        <Route path="/cosmetic-vs-aesthetic" element={<CosmeticAesthetic />} />
+        <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />
+        <Route path="/what-are-dental-xrays" element={<DentalXrays />} />
+        <Route path="/dental-surgery-procedures" element={<DentalSurgery />} />
+
+
         <Route path="/t/implants" element={<Implants2 />} />
         <Route path="/t/veneer" element={<Veneer />} />
         <Route path="/t/orthodontist" element={<Orthodontist />} />
@@ -133,7 +151,7 @@ const [showGoUp, setShowGoUp] = useState(false);
         <Route path="/t/wisdom" element={<Wisdom />} />
         <Route path="/t/tmj" element={<TMJ />} />
         <Route path="/t/canals" element={<Canals />} />
-       
+
 
 
 
@@ -167,7 +185,11 @@ const [showGoUp, setShowGoUp] = useState(false);
 
     </Router>
 
+    
+
+    
   
+  </>
 
   );
 }

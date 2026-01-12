@@ -290,7 +290,24 @@ export default function HeroSection() {
       </div>
     </div>
   </div>
+   <div className="w-full text-center mt-16 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-white-400 no-underline font-medium "
+    >
+      Verdant Soft
+    </a>
+  </p>
 </div>
+
+</div>
+
 
 
 

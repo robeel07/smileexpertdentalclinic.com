@@ -142,7 +142,7 @@ const Navbar = () => {
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/chipped">Replacing a Amalgam</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline hover:text-brandAccent text-slate-600" to="/p/toothache">Filling</Link>
+                                            <Link className="no-underline hover:text-brandAccent text-slate-600" to="/p/toothache">Filling</Link>
                                         </li>
                                         <li>
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/gums">Dry Mouth</Link>
