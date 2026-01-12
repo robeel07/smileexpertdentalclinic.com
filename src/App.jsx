@@ -8,6 +8,10 @@ import Blog from "./Components/Blogs/Blog";
 import DentalDecay from "./Components/Blogs/DentalDecay";
 import CosmeticAesthetic from "./Components/Blogs/CosmeticAesthetic";
 import DentalCheckups from "./Components/Blogs/DentalCheckups";
+import DentalXrays from "./Components/Blogs/DentalXrays";
+import DentalSurgery from "./Components/Blogs/DentalSurgery";
+
+
 
 
 
@@ -112,6 +116,10 @@ function App() {
         <Route path="/dental-decay" element={<DentalDecay />} />
         <Route path="/cosmetic-vs-aesthetic" element={<CosmeticAesthetic />} />
         <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />
+        <Route path="/what-are-dental-xrays" element={<DentalXrays />} />
+        <Route path="/dental-surgery-procedures" element={<DentalSurgery />} />
+
+
         <Route path="/t/implants" element={<Implants2 />} />
 
 
