@@ -1,10 +1,12 @@
+import { useEffect, useState} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 
 // Home Sections
 import Background from "./Components/Background";
 import Contact from "./Components/Contact";
-
+import Whatsapp from "./Components/Images/whatsapp-icon-design.png";
+import GoUp from "./Components/Images/go-up.png";
 
 
 // Wisdom Teeth
@@ -43,6 +45,7 @@ import SafetyEquipment from "./Components/Pages/PatientSafety/SafetyEquipment";
 import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechnology";
 import Quality from "./Components/Pages/PatientSafety/Quality";
 import Implants2 from "./Components/Pages/Treatments/Implants";
+import Veneer from "./Components/Pages/Treatments/Veneer";
 
 
 
@@ -59,6 +62,18 @@ function Home() {
 }
 
 function App() {
+
+const [showGoUp, setShowGoUp] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setShowGoUp(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
 
     
@@ -103,7 +118,8 @@ function App() {
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/t/implants" element={<Implants2 />} />
-
+        <Route path="/t/veneer" element={<Veneer />} />
+       
 
 
 
@@ -112,6 +128,29 @@ function App() {
 
 
       </Routes>
+
+     {/* WhatsApp – desktop only */}
+      <a href="https://wa.me/+923008395562" target="_blank" rel="noopener noreferrer">
+      <img
+        src={Whatsapp}
+        alt="WhatsApp"
+        className="hidden lg:block h-16 fixed bottom-20 right-6 z-50 cursor-pointer"
+      />
+      </a>
+
+      {/* Go Up – desktop only + only when scrolled */}
+      {showGoUp && (
+        <img
+          src={GoUp}
+          alt="Go Up"
+          onClick={() =>
+            window.scrollTo({ top: 0, behavior: "smooth" })
+          }
+          className="hidden lg:block h-8 fixed bottom-6 right-10 z-50 cursor-pointer"
+        />
+      )}
+
+
     </Router>
 
   

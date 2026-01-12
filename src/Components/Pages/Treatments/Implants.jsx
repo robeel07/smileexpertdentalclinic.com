@@ -2,14 +2,20 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
 import ProcedureTimeline from './ProcedureTimeline';
-
+import DentalFAQ from './DentalFAQ';
+import Why from "../../Images/YImplants.jpg";
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 const Implants2 = () => {
     const reasons = [
-    "Suffered tooth loss due to an injury, or accident",
-    "The tooth is affected by the disease or is chipped",
-    "Currently own ill-fitting bridges",
-    "Having chewing difficulties"
+    "99% Success rate.",
+    "International certified Implantologis",
+    "Minimally invasive and less traumatic surgery",
+    "Well-structured cost policy with affordable dental implants prices",
+    "5000+ Implants Placed",
+
   ];
 
   const benefits = [
@@ -42,6 +48,94 @@ const implantSteps = [
       description: "Once the gum has healed, the permanent replacement is screwed to the abutment to make your bright smile. Our specialists make sure that the last artificial restoration looks like your other natural teeth."
     }
   ];
+
+  const implantQuestions = [
+    { 
+      question: "Is a dental implant permanent fix for toothlessness?", 
+      answer: {
+  text: "Indeed, dental implants can be called a permanent solution to fill in the gaps in the teeth row. They are considered the most effective option among all the means for such a problem. It gives installation stability when put in the right manner."
+}
+    },
+     { 
+      question: "Can dental implants be useful in correcting overbite?", 
+      answer: {
+  text: "While dental implants do not correct an overbite, some dental implants can be a treatment plan that could entail services from an orthodontist."
+} 
+    },
+     { 
+      question: "What material is used to make dental implants?", 
+      answer: {
+  text: "These are primarily made of titanium as they can remain compatible with the jaw bone. Plus, they have a stable structure"
+} 
+    },
+     { 
+      question: "Why does it take a person so much time to receive a dental implant?", 
+      answer: {
+  text: "The last stage of implant placement could be challenging because the process takes some time to heal. It creates a strong attachment to the recipient's jawbone giving it stability."
+} 
+    },
+     { 
+      question: "Is it possible to wear braces when I already have dental implants?", 
+      answer: {
+  text: "Yes, people wearing dental implants can wear braces. But it's better to talk with your dentist first."
+} 
+    },
+     { 
+      question: "Is a dental implant procedure painful?", 
+      answer: {
+  text: "The majority of the patients have little to no pain that they can feel during a dental implant appointment. The client may, however, experience some measure of pain, inflammation, and redness in the area that was operated on. All things considered, there is likely to be slight pressure when on the move during the recovery period"
+} 
+    },
+     { 
+      question: "How much does the dental implant cost in Lahore Pakistan?", 
+      answer: {
+  text: "Indeed, the price of dental implants can differ depending on depending on factors i.e number of implants required , brand of implant chosen , and whether bone graft is required (or not). Price of dental implants in Lahore can ranges from PKR 50,000 to 300,000 PKR."
+} 
+    },
+     { 
+      question: "What is the stability of the procedure?", 
+      answer: {
+  text: "This treatment is designed to be a long-lasting solution for missing teeth. But at the same time, it has to be mentioned that certain basics may influence the lifespan of such treatment– these are the general health of the patient, as well as the patient's lifestyle."
+} 
+    },
+     { 
+      question: "Are dental implants safe?", 
+      answer: {
+  text: "Indeed, this treatment is reliable and rather safe for most patients who need a tooth replacement procedure. The procedures are normally done by experienced dentists who observe standards and policies to avoid patient complications."
+} 
+    },
+     { 
+      question: "How many weeks does this surgery take to heal?", 
+      answer: {
+  text: "Healing time may differ due to one's general health, the implant's location, and the bone's quality to be implanted. Nonetheless, based on other people's experience, it may take weeks to months to become completely secure and connected to the jawbone."
+} 
+    },
+     { 
+      question: "How much dental implant treatment costs in Pakistan?", 
+  answer: {
+  text: "In Pakistan, the price of implant depends upon the two factors.",
+  points: [
+    "implant chosen as there are variety of implant qualities available. ",
+    "Experienced Dentist/Implantologist "
+  ]
+}   
+    },
+     { 
+      question: "What are the 3 types of dental implants?", 
+   
+   answer: {
+  text: "Three main types of teeth implants are endosteal, subperiosteal, and zygomatic implants."
+} 
+    },
+    { 
+      question: "How long do dental implants last?", 
+   answer: {
+  text: "Three main types of teeth implants are endosteal, subperiosteal, and zygomatic implants."
+} 
+    }
+  ];
+
+
 
 
   return (
@@ -303,58 +397,56 @@ const implantSteps = [
 {/* Why */}
 
 <section className="bg-black py-12 px-4 md:px-10 lg:px-20 w-full">
-      {/* Outer White Card */}
-      <div className="max-w-6xl mx-auto bg-white rounded-[2rem] p-8 md:p-12 shadow-2xl overflow-hidden border-b-4 border-r-4 border-[#2db6fa]">
-        
-        {/* Title and Intro */}
-        <div className="text-center mb-10">
-          <h2 className="text-[#1e1b4b] text-2xl md:text-4xl font-bold mb-6">
-            Why SmileOn for Dental Implants?
-          </h2>
-          <p className="text-gray-600 text-xs md:text-sm leading-relaxed max-w-4xl mx-auto font-medium">
-            We Consider Ourselves The Best Clinic For A Dental Implant In Lahore, Pakistan. 
-            Our Dental Implant Specialist Is Foreign Qualified And More Than 17 Years Of Experience 
-            So You Are In Safe And Competent Hands. We Focus On Patient Care. 
-            Our Dental Implant Cost In Pakistan Is Reasonable.
-          </p>
-        </div>
+  <div className="max-w-6xl mx-auto bg-white rounded-[2rem] p-8 md:p-12 shadow-2xl overflow-hidden border-b-4 border-r-4 border-[#2db6fa]">
+    
+    {/* Title and Intro */}
+    <div className="text-center mb-10">
+      <h2 className="text-[#1e1b4b] text-2xl md:text-4xl font-bold mb-6">
+        Why SmileOn for Dental Implants?
+      </h2>
+      <p className="text-gray-600 text-xs md:text-sm leading-relaxed max-w-4xl mx-auto font-medium">
+        We Consider Ourselves The Best Clinic For A Dental Implant In Lahore, Pakistan. 
+        Our Dental Implant Specialist Is Foreign Qualified And More Than 17 Years Of Experience.
+      </p>
+    </div>
 
-        {/* Content Row: Text Left, Image Right */}
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-4">
+    {/* Content Row: Now using items-stretch to ensure equal height */}
+    <div className="flex flex-col lg:flex-row items-stretch justify-center gap-6 lg:gap-8">
+      
+      {/* LEFT SIDE: List Box */}
+      <div className="w-full lg:w-1/2 bg-slate-50 rounded-[1.5rem] p-8 border border-gray-100 flex flex-col justify-center min-h-[400px] lg:min-h-[350px]">
+        <p className="text-[#2db6fa] font-bold text-base italic mb-6">
+          Reasons to choose SmileOn:
+        </p>
+        <ul className="space-y-5">
+          {reasons.map((item, index) => (
+            <li key={index} className="flex items-center gap-3">
+              <CheckCircle2 className="text-[#2db6fa] shrink-0" size={20} />
+              <span className="text-[#1e1b4b] font-bold text-sm">
+                {item}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* RIGHT SIDE: Image */}
+      <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="relative w-full h-full">
+          {/* Decorative Border */}
+          <div className="absolute -inset-2 border-2 border-green-200/50 rounded-[2.5rem] pointer-events-none"></div>
           
-          {/* List Section (Inside a subtle grey card as per screenshot) */}
-          <div className="w-full lg:w-1/2 bg-slate-50 rounded-[1.5rem] p-6 border border-gray-100 h-full">
-            <p className="text-[#2db6fa] font-bold text-xs italic mb-4">
-              Reasons to choose SmileOn:
-            </p>
-            <ul className="space-y-4">
-              {reasons.map((item, index) => (
-                <li key={index} className="flex items-center gap-3">
-                  <CheckCircle2 className="text-[#2db6fa] shrink-0" size={18} />
-                  <span className="text-[#1e1b4b] font-bold text-xs md:text-sm">
-                    {item}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-
-          <div className="w-full lg:w-1/2 order-2 lg:order-2">
-            <div className="relative w-full max-w-[350px] md:max-w-[450px]">
-            
-              <div className="absolute -inset-2 border-2 border-green-200/50 rounded-[2.5rem] pointer-events-none"></div>
-              <img 
-                src="https://smileon.pk/wp-content/uploads/2024/11/Need-Dental-Implants-e1731413028718.webp" 
-                alt="Dental implant procedure illustration" 
-                className="w-full h-auto rounded-[2.5rem] shadow-lg object-cover"
-              />
-            </div>
-          </div>
+          <img 
+            src={Why} 
+            alt="Dental implant procedure illustration" 
+            className="w-full h-[200px] lg:h-[350px] rounded-[1.5rem] shadow-lg object-cover"
+          />
         </div>
       </div>
-    </section>
 
+    </div>
+  </div>
+</section>
 
 
 <ProcedureTimeline 
@@ -363,6 +455,94 @@ const implantSteps = [
         steps={implantSteps}
       />
 
+{/* Transformation */}
+
+<section className="py-16 px-6 md:px-12 lg:px-24 bg-[#f0f9ff] w-full">
+  <div className="max-w-7xl mx-auto">
+    
+    {/* Header */}
+    <div className="text-center mb-12">
+      <h2 className="text-[#1e1b4b] text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+        Dental Implant Transformations
+      </h2>
+      <p className="text-gray-600 max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
+        Dental Implant Are Designed To Improve The Appearance Of Your Teeth And Create A More Aesthetically Pleasing Smile.
+      </p>
+    </div>
+
+    {/* Transformations Card */}
+    <div className="bg-white p-4 md:p-8 lg:p-10 rounded-[2.5rem] shadow-sm border border-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        {[
+          { before: "https://smileon.pk/wp-content/uploads/2024/11/3d-implant-case-before-e1731414512848.webp", after: "https://smileon.pk/wp-content/uploads/2024/11/3d-implant-case-after-e1731414598600.webp" },
+          { before: "http://smileon.pk/wp-content/uploads/2024/11/implants-all-on-six-before.webp", after: "https://smileon.pk/wp-content/uploads/2024/10/2-After.webp" },
+          { before: "https://smileon.pk/wp-content/uploads/2024/11/veneers-case-before-e1731415221418.webp", after: "https://smileon.pk/wp-content/uploads/2024/11/veneers-case-after-e1731415759639.webp" }
+          
+        ].map((item, index) => (
+          <div key={index} className="overflow-hidden  shadow-lg border border-gray-100">
+            <ReactCompareSlider
+itemOne={
+  <div className="relative w-full h-full">
+    <ReactCompareSliderImage src={item.before} alt="Before" />
+    <span
+      className="
+        absolute inset-y-0 left-6
+        flex items-center
+        text-white text-xl md:text-2xl font-bold
+        pointer-events-none
+        [text-shadow:0_2px_10px_rgba(0,0,0,0.4)]
+      "
+    >
+      Before
+    </span>
+  </div>
+}
+
+itemTwo={
+  <div className="relative w-full h-full">
+    <ReactCompareSliderImage src={item.after} alt="After" />
+    
+    <span
+      className="
+        absolute inset-y-0 right-6
+        flex items-center
+        text-white text-xl md:text-2xl font-bold
+        pointer-events-none
+        [text-shadow:0_2px_10px_rgba(0,0,0,0.4)]
+      "
+    >
+      After
+    </span>
+  </div>
+}
+
+              handle={
+                <div className="w-1 h-full bg-white relative flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-white/20  border-2 border-white shadow-lg 
+                    flex items-center justify-center cursor-grab active:cursor-grabbing">
+                    <div className="flex items-center justify-center  text-white text-xl">
+                      <FontAwesomeIcon icon={faCaretLeft}  />
+                      <FontAwesomeIcon icon={faCaretRight}  />
+                    </div>
+                  </div>
+                </div>
+              }
+              style={{ width: '100%', height: '100%', aspectRatio: '4/3' }}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<DentalFAQ 
+      title="FAQs"
+      subtitle="Here are frequently asked questions about dental implants:"
+      sideImage="https://smileon.pk/wp-content/uploads/2024/10/pexels-leeloothefirst-5428835-scaled-e1728899133802-1536x1536.jpg"
+      questions={implantQuestions}
+    />
 
     </div>
   )

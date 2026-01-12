@@ -219,7 +219,7 @@ const Navbar = () => {
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Dental Implants</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/dental-crowns">Dental Crowns</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/bridge">Dental Bridge</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Dental Veneers</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/veneer">Dental Veneers</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Orthodontics</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Smile Makeover</Link>
                                     </div>
@@ -523,10 +523,10 @@ const Navbar = () => {
                                     <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
                                         Dental Crowns
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/implants" onClick={closeAll} >
                                         Dental Bridge
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/t/veneer" onClick={closeAll} >
                                         Dental Veneers
                                     </Link>
                                     <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
