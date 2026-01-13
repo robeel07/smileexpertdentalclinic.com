@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 
 // Home Sections
@@ -11,8 +10,13 @@ import CosmeticAesthetic from "./Components/Blogs/CosmeticAesthetic";
 import DentalCheckups from "./Components/Blogs/DentalCheckups";
 import DentalXrays from "./Components/Blogs/DentalXrays";
 import DentalSurgery from "./Components/Blogs/DentalSurgery";
-import Whatsapp from "./Components/Images/whatsapp-icon-design.png";
-import GoUp from "./Components/Images/go-up.png";
+import DentalImplants from "./Components/Blogs/DentalImplants";
+
+
+
+
+
+
 
 
 
@@ -52,18 +56,6 @@ import SafetyEquipment from "./Components/Pages/PatientSafety/SafetyEquipment";
 import EquipmentTechnology from "./Components/Pages/PatientSafety/EquipmentTechnology";
 import Quality from "./Components/Pages/PatientSafety/Quality";
 import Implants2 from "./Components/Pages/Treatments/Implants";
-import Veneer from "./Components/Pages/Treatments/Veneer";
-import Orthodontist from "./Components/Pages/Treatments/Orthodontist";
-import Polishing from "./Components/Pages/Treatments/Polishing";
-import Dentures from "./Components/Pages/Treatments/Dentures";
-import Extraction from "./Components/Pages/Treatments/ToothExtraction";
-import Wisdom from "./Components/Pages/Treatments/WisdomTeeth";
-import TMJ from "./Components/Pages/Treatments/TMJ";
-import Canals from "./Components/Pages/Treatments/Canals";
-
-
-
-
 
 
 function Home() {
@@ -77,18 +69,6 @@ function Home() {
 }
 
 function App() {
-
-const [showGoUp, setShowGoUp] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      setShowGoUp(window.scrollY > 100);
-    };
-
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
 
     <>
@@ -140,49 +120,15 @@ const [showGoUp, setShowGoUp] = useState(false);
         <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />
         <Route path="/what-are-dental-xrays" element={<DentalXrays />} />
         <Route path="/dental-surgery-procedures" element={<DentalSurgery />} />
+        <Route path="/what-is-all-4-dental-implants" element={<DentalImplants />} />
+
 
 
         <Route path="/t/implants" element={<Implants2 />} />
-        <Route path="/t/veneer" element={<Veneer />} />
-        <Route path="/t/orthodontist" element={<Orthodontist />} />
-        <Route path="/t/polishing" element={<Polishing />} />
-        <Route path="/t/dentures" element={<Dentures />} />
-        <Route path="/t/extraction" element={<Extraction />} />
-        <Route path="/t/wisdom" element={<Wisdom />} />
-        <Route path="/t/tmj" element={<TMJ />} />
-        <Route path="/t/canals" element={<Canals />} />
-
-
-
-
-
 
 
 
       </Routes>
-
-     {/* WhatsApp – desktop only */}
-      <a href="https://wa.me/+923008395562" target="_blank" rel="noopener noreferrer">
-      <img
-        src={Whatsapp}
-        alt="WhatsApp"
-        className="hidden lg:block h-16 fixed bottom-20 right-6 z-50 cursor-pointer"
-      />
-      </a>
-
-      {/* Go Up – desktop only + only when scrolled */}
-      {showGoUp && (
-        <img
-          src={GoUp}
-          alt="Go Up"
-          onClick={() =>
-            window.scrollTo({ top: 0, behavior: "smooth" })
-          }
-          className="hidden lg:block h-8 fixed bottom-6 right-10 z-50 cursor-pointer"
-        />
-      )}
-
-
     </Router>
 
     

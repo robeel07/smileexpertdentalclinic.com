@@ -5,6 +5,9 @@ import blog1 from "../Images/blog1.jpg"
 import blog2 from "../Images/blog2.jpg"
 import blog3 from "../Images/blog3.jpg"
 import blog4 from "../Images/blog4.jpg"
+import blog5 from "../Images/blog5.jpg"
+import blog6 from "../Images/blog6.jpg"
+
 
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
@@ -15,7 +18,7 @@ export default function Blog() {
   return (
     <>
     <div
-          className="relative w-full h-[35vh] bg-cover"
+          className="relative w-full h-[40vh] bg-cover"
           style={{ backgroundImage: `url(${blog})` }}
         >
           
@@ -37,84 +40,90 @@ export default function Blog() {
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
 
     {/* Card 1 */}
-    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
-      <img
-        src={blog1}
-        alt="Disposable Gloves"
-        className="w-full h-56 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
-          What Causes Dental Decay (Caries)
-        </h3>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          Well, if you have ever wondered how a little toothache becomes a full-blown cavity. You’re not alone.
-          Dental caries is one of the most prevalent oral diseases globally that occurs in all age groups. Even those who brush religiously will still develop cavities if certain habits and conditions aren’t addressed.
-          Knowing the cause of a tooth cavity is the first step in protecting your teeth and preserving a healthy smile for life.
-        </p>
-      </div>
-      <div className="text-[#0a2a66] mb-1 font-bold ">
-        <Link
-    to="/dental-decay"
-  >
-    Read More»
-  </Link>
-      </div>
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center flex flex-col h-[500px]">
+  <img
+    src={blog1}
+    alt="Disposable Gloves"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <Link to="/dental-decay" className="no-underline">
+     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What Causes Dental Decay (Caries)  </h3>
+     </Link>
+      <p className="text-gray-700 text-sm leading-relaxed">
+        Well, if you have ever wondered how a little toothache becomes a full-blown cavity. You’re not alone.
+        Dental caries is one of the most prevalent oral diseases globally that occurs in all age groups..
+      </p>
     </div>
+    <div className="mt-4">
+      <Link
+        to="/dental-decay"
+        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+      >
+        Read More »
+      </Link>
+    </div>
+  </div>
+</div>
+
 
     {/* Card 2 */}
-    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
-      <img
-        src={blog2}
-        alt="Face Masks"
-        className="w-full h-56 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
-          Cosmetic vs Aesthetic Dentistry
-        </h3>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably.
-          But are they really the same?
-          Knowing the truth can lead you in the direction of choosing the right dental procedure for your teeth and gums!
-          Here you will get all the information necessary for you to make an informed decision on what suits you best as you work towards achieving your dream set of teeth.
-        </p>
-        <div className="text-[#0a2a66] mb-1 font-bold ">
-        <Link
-    to="/cosmetic-vs-aesthetic"
-  >
-    Read More»
-  </Link>
-      </div>
-      </div>
-      
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center flex flex-col h-[500px]">
+  <img
+    src={blog2}
+    alt="Face Masks"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <Link to="/cosmetic-vs-aesthetic" className="no-underline">
+     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> Cosmetic vs Aesthetic Dentistry</h3>
+     </Link>
+      <p className="text-gray-700 text-sm leading-relaxed">
+        When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably.
+        But are they really the same?
+      </p>
     </div>
+    <div className="mt-4">
+      <Link
+        to="/cosmetic-vs-aesthetic"
+        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+      >
+        Read More »
+      </Link>
+    </div>
+  </div>
+</div>
+
 
     {/* Card 3 */}
-    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
-      <img
-        src={blog3}
-        alt="Protective Eyewear"
-        className="w-full h-56 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
-          What Are the Benefits of Dental Checkups
-        </h3>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          Don’t have a healthy smile?
-          It’s something you need to maintain with care and regular checkups. These dental visits help catch problems early, avoid major treatments and keep your teeth looking their best.
-          Here is everything you need to know about what dental checkups mean and why they’re important.
-        </p>
-      </div>
-      <div className="text-[#02173f] mt-10 mb-1 font-bold ">
-        <Link
-    to="/benefits-of-dental-checkups"
-  >
-    Read More»
-  </Link>    
-      </div>
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center flex flex-col h-[500px]">
+  <img
+    src={blog3}
+    alt="Protective Eyewear"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <Link to="/benefits-of-dental-checkups" className="no-underline">
+     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What Are the Benefits of Dental Checkups</h3>
+     </Link>
+      <p className="text-gray-700 text-sm leading-relaxed">
+        Don’t have a healthy smile? It’s something you need to maintain with care and regular checkups. These dental visits help catch problems early, avoid major treatments and keep your teeth looking their best..
+      </p>
     </div>
+    <div className="mt-4">
+      <Link
+        to="/benefits-of-dental-checkups"
+        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+      >
+        Read More »
+      </Link>    
+    </div>
+  </div>
+</div>
+
 
 
   </div>
@@ -125,82 +134,86 @@ export default function Blog() {
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
 
     {/* Card 4 */}
-    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
-      <img
-        src={blog4}
-        alt="Disposable Gloves"
-        className="w-full h-56 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
-          What Are Dental X Rays – Purpose & Types
-        </h3>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They..
-        </p>
-      </div>
-      <div className="text-[#0a2a66] mb-1 font-bold ">
-        <Link
-    to="/what-are-dental-xrays"
-  >
-    Read More»
-  </Link>
-      </div>
-    </div>
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center h-[500px] flex flex-col">
+  <img
+    src={blog4}
+    alt="Disposable Gloves"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-6 flex-1">
+    <Link to="/what-are-dental-xrays" className="no-underline">
+     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What Are Dental X Rays – Purpose & Types</h3>
+     </Link>
+    <p className="text-gray-700 text-sm leading-relaxed">
+      Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They..
+    </p>
+  </div>
+  <div className="p-6  justify-end">
+    <Link
+      to="/what-are-dental-xrays"
+      className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300">
+      Read More »
+    </Link>
+  </div>
+</div>
+
 
     {/* Card 5 */}
-    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
-      <img
-        src={blog2}
-        alt="Face Masks"
-        className="w-full h-56 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
-          Cosmetic vs Aesthetic Dentistry
-        </h3>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably.
-          But are they really the same?
-          Knowing the truth can lead you in the direction of choosing the right dental procedure for your teeth and gums!
-          Here you will get all the information necessary for you to make an informed decision on what suits you best as you work towards achieving your dream set of teeth.
-        </p>
-        <div className="text-[#0a2a66] mb-1 font-bold ">
-        <Link
-    to="/cosmetic-vs-aesthetic"
-  >
-    Read More»
-  </Link>
-      </div>
-      </div>
-      
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center flex flex-col h-[500px]">
+  <img
+    src={blog6}
+    alt="Face Masks"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <Link to="what-is-all-4-dental-implants" className="no-underline">
+     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What is All-on-4 Dental Implants</h3>
+     </Link>
+      <p className="text-gray-700 text-sm leading-relaxed">
+        All-on-4 dental implants are an innovative and long-term replacement for people who have lost the majority of, or all of, their teeth..
+      </p>
     </div>
+    <div className="mt-12">
+      <Link
+        to="/what-is-all-4-dental-implants"
+        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+      >
+        Read More »
+      </Link>
+    </div>
+  </div>
+</div>
+
 
     {/* Card 6 */}
-    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center">
-      <img
-        src={blog3}
-        alt="Protective Eyewear"
-        className="w-full h-56 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-1xl font-semibold text-[#0a2a66] mb-4">
-          What Are the Benefits of Dental Checkups
-        </h3>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          Don’t have a healthy smile?
-          It’s something you need to maintain with care and regular checkups. These dental visits help catch problems early, avoid major treatments and keep your teeth looking their best.
-          Here is everything you need to know about what dental checkups mean and why they’re important.
-        </p>
-      </div>
-      <div className="text-[#02173f] mt-10 mb-1 font-bold ">
-        <Link
-    to="/benefits-of-dental-checkups"
-  >
-    Read More»
-  </Link>    
-      </div>
+    <div className="bg-[#f5f9fc] rounded-2xl border border-gray-400 shadow-md overflow-hidden text-center flex flex-col h-[500px]">
+  <img
+    src={blog5}
+    alt="Protective Eyewear"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <Link to="/dental-surgery-procedures" className="no-underline">
+     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> Common Dental Surgery Procedures</h3>
+     </Link>
+      
+      <p className="text-gray-700 text-sm leading-relaxed">
+        Dental surgery might seem complex and challenging, but with modern technologies and skilled dentists, it can do wonders to improve your smile..
+      </p>
     </div>
+    <div className="mt-12">
+      <Link
+        to="/dental-surgery-procedures"
+        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+      >
+        Read More »
+      </Link>    
+    </div>
+  </div>
+</div>
+
 
 
   </div>
