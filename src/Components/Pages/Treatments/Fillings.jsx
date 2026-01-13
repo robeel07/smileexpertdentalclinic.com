@@ -1,5 +1,7 @@
-import React from 'react'
-import FAQsSection from "../../FAQ";
+import FAQsSection from "./FAQ";
+import React, { useState } from 'react';
+import Map from "./Map";
+import Footer from "./Footer";
 
 const FillingFAQs = [
 { id: 1, question: "01. How much do Scaling & Polishing services cost?", answer: "The price of Scaling & Polishing services depends upon the tartar deposit upon the teeth which we determine in initial examination. In most cases its 8000 PKR." },
@@ -9,8 +11,40 @@ const FillingFAQs = [
 
 ];
 const Fillings = () => {
+  const [activeTab, setActiveTab] = useState('advantages');
+
+  const content = {
+    advantages: [
+      "Strong and durable",
+      "Cheapest filling type",
+      "Can help prevent recurrent decay"
+    ],
+    disadvantage: [
+      "Not tooth-colored (noticeable when smiling)",
+      "Can darken over time",
+      "Requires more removal of healthy tooth structure",
+      "Contains trace amounts of mercury"
+    ]
+  };
 
   
+
+
+  const content2 = {
+    advantages: [
+      "Natural appearance matched to your teeth",
+      "Strong and durable for modern use",
+      "Almost impossible to detect",
+      "Excellent for replacing stained or chipped fillings"
+    ],
+    disadvantage: [
+      "Takes longer to place",
+      "Sometimes leads to increased sensitivity",
+      "More expensive than amalgam fillings"
+    ]
+  };
+
+
   const InfoCard = ({ title, children }) => (
     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/10 shadow-lg h-full ">
         <h3 className="text-lg font-bold text-cyan-400  pb-2">
@@ -25,9 +59,29 @@ const Fillings = () => {
 
 
   return (
-    <div>
+    <div className='font-jost'>
 
-                           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+      
+      {/* Hero Section */}
+            <div
+                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Fillings.jpg")` }}
+            >
+                <div className="absolute inset-0 bg-black/50"></div>
+
+                <div className="relative h-full max-w-6xl px-4 flex items-end">
+                    <div className="pb-8 mt-6 w-full">
+                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
+                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                      Fillings
+
+
+                        </h1>
+                    </div>
+                </div>
+            </div>  
+
+             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
                              {/* --- Top Text --- */}
       <p className="text-left text-sm md:text-base text-black mb-1  ">
         Fillings are a common dental treatment that fix a hole in your tooth caused by decay. Think you might need a filling? Fillings are very common and most people will need one at some stage in their lives. It’s important to take good care of your oral health to reduce the chance of needing a filling.
@@ -65,7 +119,7 @@ const Fillings = () => {
           {/* Image: Wide & Responsive Height */}
           <div className="w-full lg:w-1/2">
             <img 
-              src={isit} 
+              src="https://smileon.pk/wp-content/uploads/2025/09/What-is-it-2048x1365.jpg"
               alt="Dental procedure" 
               className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
             />
@@ -81,7 +135,7 @@ const Fillings = () => {
             {/* Image: Wide & Responsive Height */}
           <div className="w-full lg:w-1/2">
             <img 
-              src={Happens} 
+              src="https://smileon.pk/wp-content/uploads/2025/09/What-happens-1536x1024.jpg"
               alt="Hand using dental tools" 
               className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
             />
@@ -112,7 +166,7 @@ const Fillings = () => {
           
           
           {/* Text Content */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2  order-2 lg:order-1">
             <h2 className="text-2xl md:text-3xl font-bold text-[#1e1b4b] mb-6">
               Which type
             </h2>
@@ -121,9 +175,9 @@ const Fillings = () => {
             </p>
           </div>
           {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 order-1 lg:order-1">
             <img 
-              src={Type} 
+              src="https://smileon.pk/wp-content/uploads/2025/09/Which-type-1536x1024.jpg"
               alt="Hand using dental tools" 
               className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
             />
@@ -136,15 +190,156 @@ const Fillings = () => {
 
     {/* Amalgam fillings */}
 
+<section className="max-w-7xl mx-auto px-6 py-12 md:py-20 font-sans">
+      <div className="flex flex-col lg:flex-row gap-10 items-center">
+        
+        {/* Left: Image Container */}
+        <div className="w-full lg:w-1/2 ">
+          <img 
+            src="https://smileon.pk/wp-content/uploads/2025/09/Amalgam-fillings-2048x1365.jpg" 
+            alt="Dentist working with loupes" 
+            className="rounded-[2.5rem] w-full h-auto object-cover shadow-sm"
+          />
+        </div>
+
+        {/* Right: Content Container */}
+        <div className="w-full lg:w-1/2 space-y-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e]">
+            Amalgam fillings
+          </h2>
+          
+          <div className="text-gray-600 leading-relaxed space-y-4">
+            <p>
+              Dental amalgam fillings have been used to fill teeth for over 150 years. 
+              Amalgam is what we know as traditional silver fillings. They are not actually 
+              made of silver but a combination of a few metals including silver, tin, 
+              copper and mercury.
+            </p>
+            <p>
+              They are a low-cost filling mostly used for large cavities in back molars 
+              because of their colour. An amalgam filling will darken over time but can 
+              last many years before it needs replacing, typically between 10 and 15 years.
+            </p>
+          </div>
+
+          {/* Tab Buttons */}
+          <div className="flex gap-4 pt-2">
+            <button 
+              onClick={() => setActiveTab('advantages')}
+              className={`px-8 py-2 rounded-md font-semibold transition-all ${
+                activeTab === 'advantages' 
+                ? 'bg-[#1a2b4b] text-white' 
+                : 'bg-gray-100 text-cyan-400'
+              }`}
+            >
+              Advantages
+            </button>
+            <button 
+              onClick={() => setActiveTab('disadvantage')}
+              className={`px-8 py-2 rounded-md font-semibold transition-all ${
+                activeTab === 'disadvantage' 
+                ? 'bg-[#1a2b4b] text-white' 
+                : 'bg-gray-100 text-cyan-400'
+              }`}
+            >
+              Disadvantage
+            </button>
+          </div>
+
+          {/* List Content */}
+          <ul className="space-y-3 min-h-[120px]">
+            {content[activeTab].map((item, index) => (
+              <li key={index} className="flex items-start gap-3 text-gray-700">
+                <span className="text-xl mt-[-2px]">•</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+{/* Composite */}
+
+<section className="max-w-7xl mx-auto px-6 py-12 md:py-20 font-sans">
+      <div className="flex flex-col lg:flex-row items-center gap-12">
+        
 
 
+        {/* Right: Image Container */}
+        <div className="w-full lg:w-1/2 order-2 lg:order-1">
+          <div className="relative">
+            <img 
+              src="https://smileon.pk/wp-content/uploads/2025/09/Composite-white-fillings-1536x1024.jpg" 
+              alt="Dental professional with tools" 
+              className="rounded-[2.5rem] w-full h-auto object-cover"
+            />
+          </div>
+        </div>
 
+        {/* Left: Content Container */}
+        <div className="w-full lg:w-1/2 space-y-6 order-1 lg:order-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1a2b4b]">
+            Composite white fillings
+          </h2>
+          
+          <div className="text-gray-600 leading-relaxed space-y-4">
+            <p>
+              Composite or synthetic white fillings are popular because of their 
+              natural appearance and strength. They typically last up to five years.
+            </p>
+            <p>
+              A composite filling will be matched to the colour of your teeth as 
+              closely as possible. They are almost impossible to detect and are 
+              an excellent replacement for stained, chipped or leaking fillings.
+            </p>
+          </div>
+
+          {/* Interactive Tab Buttons */}
+          <div className="flex gap-3 pt-2">
+            <button 
+              onClick={() => setActiveTab('advantages')}
+              className={`px-6 py-2 rounded-md font-semibold transition-colors duration-200 ${
+                activeTab === 'advantages' 
+                ? 'bg-[#1a2b4b] text-white' 
+                : 'bg-gray-100 text-cyan-400'
+              }`}
+            >
+              Advantages
+            </button>
+            <button 
+              onClick={() => setActiveTab('disadvantage')}
+              className={`px-6 py-2 rounded-md font-semibold transition-colors duration-200 ${
+                activeTab === 'disadvantage' 
+                ? 'bg-[#1a2b4b] text-white' 
+                : 'bg-gray-100 text-cyan-400'
+              }`}
+            >
+              Disadvantage
+            </button>
+          </div>
+
+          {/* Dynamic List */}
+          <ul className="space-y-3 min-h-[140px] pt-2">
+            {content2[activeTab].map((item, index) => (
+              <li key={index} className="flex items-start gap-3 text-gray-700">
+                <span className="text-black font-bold mt-[-2px]">•</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+
+      </div>
+    </section>
     
         {/* Need to know */}
     
     <section 
                 className="w-full py-16 px-4 md:py-20 md:px-10 lg:px-16 relative " 
-                style={{ backgroundImage: `url()`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                style={{ backgroundImage: `url(https://smileon.pk/wp-content/uploads/2022/11/Entrepreneur-Writing-Book-scaled.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
                 {/* Dark Overlay for contrast  */}
                 <div className="absolute inset-0 bg-black/70"></div>
@@ -215,6 +410,9 @@ const Fillings = () => {
     
       <FAQsSection  title="FAQs"
         faqs={FillingFAQs}/>
+  <Map />
+      <Footer />
+        
 
     </div>
   )

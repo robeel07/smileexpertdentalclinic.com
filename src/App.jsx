@@ -60,6 +60,9 @@ import Extraction from "./Components/Pages/Treatments/ToothExtraction";
 import Wisdom from "./Components/Pages/Treatments/WisdomTeeth";
 import TMJ from "./Components/Pages/Treatments/TMJ";
 import Canals from "./Components/Pages/Treatments/Canals";
+import DentalBraces from "./Components/Pages/Treatments/DentalBraces";
+import DentalCrowns from "./Components/Pages/Treatments/DentalCrowns";
+import Fillings from "./Components/Pages/Treatments/Fillings";
 
 
 
@@ -151,6 +154,9 @@ const [showGoUp, setShowGoUp] = useState(false);
         <Route path="/t/wisdom" element={<Wisdom />} />
         <Route path="/t/tmj" element={<TMJ />} />
         <Route path="/t/canals" element={<Canals />} />
+        <Route path="/t/dentalbraces" element={<DentalBraces />} />
+        <Route path="/t/dentalcrowns" element={<DentalCrowns />} />
+        <Route path="/t/fillings" element={<Fillings />} />
 
 
 
