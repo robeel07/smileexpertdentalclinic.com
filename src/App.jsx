@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 
+
 // Home Sections
 import Background from "./Components/Background";
 import Contact from "./Components/Contact";
@@ -64,6 +65,9 @@ import DentalBraces from "./Components/Pages/Treatments/DentalBraces";
 import DentalCrowns from "./Components/Pages/Treatments/DentalCrowns";
 import Fillings from "./Components/Pages/Treatments/Fillings";
 import Exam from "./Components/Pages/Treatments/Exam";
+import Whitening from "./Components/Pages/Treatments/Whitening";
+import Map from "./Components/Pages/Treatments/Map";
+import Footer from "./Components/Pages/Treatments/Footer";
 
 
 
@@ -158,6 +162,7 @@ const [showGoUp, setShowGoUp] = useState(false);
         <Route path="/t/dentalcrowns" element={<DentalCrowns />} />
         <Route path="/t/fillings" element={<Fillings />} />
          <Route path="/treatment/exam" element={<Exam />} />
+                  <Route path="/treatment/whitening" element={<Whitening />} />
 
 
 
@@ -167,6 +172,9 @@ const [showGoUp, setShowGoUp] = useState(false);
 
 
       </Routes>
+
+      <Map />
+      <Footer />
 
      {/* WhatsApp – desktop only */}
       <a href="https://wa.me/+923008395562" target="_blank" rel="noopener noreferrer">
@@ -188,6 +196,9 @@ const [showGoUp, setShowGoUp] = useState(false);
           className="hidden lg:block h-8 fixed bottom-6 right-10 z-50 cursor-pointer"
         />
       )}
+
+
+
 
 
     </Router>

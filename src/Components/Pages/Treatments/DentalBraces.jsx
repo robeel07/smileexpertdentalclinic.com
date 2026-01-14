@@ -1,6 +1,7 @@
 import React from 'react';
 import FAQsSection from './FAQ';
-
+import Map from "./Map";
+import Footer from "./Footer";
 const DentalBraces = () => {
     
 
@@ -225,6 +226,9 @@ const DentalFAQs = [
 
                   <FAQsSection  title="FAQs"
         faqs={DentalFAQs}/>
+
+          <Map />
+           <Footer />
 
         </div>
     );

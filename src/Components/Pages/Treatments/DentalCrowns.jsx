@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import FAQsSection from './FAQ';
+import Map from "./Map";
+import Footer from "./Footer";
 
 
 const DentalCrowns = () => {
@@ -23,45 +25,48 @@ const CrownFAQs = [
     return (
         <div className="font-jost text-gray-800 bg-white">
             {/* Hero Section */}
-            <div
+            
+
+               <div
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Braces.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
-                            Dental Braces
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
+Dental Crowns Treatment in Lahore
                         </h1>
                     </div>
                 </div>
-            </div>
+            </div> 
+
 
             {/* Intro Text */}
             <section className="py-12 px-8 md:pt-12 md:pb-0 max-w-7xl mx-auto text-left ">
-                <p className="text-gray-600 leading-relaxed max-w-4xl mx-auto">
+                <p className="text-gray-600 leading-relaxed max-w-full mx-auto">
                     Are you interested in improving your smile with a tooth crown? Not only can a crown enhance your appearance, but it can also improve your oral health. Crowns are restorations that fully cover dental implants or damaged teeth, providing complete protection.
                 </p>
             </section>
 
             {/* What Are Teeth Crowns Section */}
-            <section className="py-16 px-8 md:px-24 max-w-7xl mx-auto">
+            <section className="py-16 px-8 md:px-24 max-w-full mx-auto">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
-                        <h2 className="text-2xl font-bold text-blue-900 mb-6">What Are Teeth Crowns?</h2>
-                        <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
-                            <p>Crowns have the ability to enhance your smile by modifying the size, shape, and color of your natural teeth. Additionally, they can provide reinforcement for a tooth that has undergone significant restorative work due to cavities or injuries.</p>
-                            <p>When getting a dental crown, your dentist will usually use porcelain teeth that match the color of your natural teeth. However, some people may opt for lighter shades for cosmetic reasons.</p>
-                            <p className="font-bold text-gray-800">Tooth crowns provide many advantages, including repairing and strengthening weak or fractured teeth, protecting teeth after root canal therapy, and enhancing overall oral health.</p>
+                        <h2 className="text-4xl font-bold text-blue-900 mb-6">What Are Teeth Crowns?</h2>
+                        <div className="space-y-4 text-gray-600 text-base leading-relaxed">
+                            <p>Crowns have the ability to enhance your smile by modifying the size, shape, and color of your natural teeth. Additionally, they can provide reinforcement for a tooth that has undergone significant restorative work due to cavities or injuries. The most frequently used materials for dental crowns are zirconia and porcelain fused to metal (PFM), which are both known for their durability.</p>
+                            <p>A provisional crown is attached to your tooth in order to protect it during the process of preparing for a dental crown, and before the final crown is permanently installed.</p>
+                            <p className="font-bold text-gray-800">When getting a dental crown, your dentist will usually use porcelain teeth that match the color of your natural teeth. However, some people may opt for lighter shades for cosmetic reasons. For your molars, you have the option to choose from materials like zirconia and porcelain based on your desired level of strength, durability, and aesthetics.</p>
                         </div>
                     </div>
                     <div className="md:w-1/2">
                         <img
                             src="https://smileon.pk/wp-content/uploads/2025/09/What-Are-Teeth-Crowns-768x512.jpg"
                             alt="Dental Crown Procedure"
-                            className="rounded-3xl shadow-xl"
+              className="w-full h-64 sm:h-72 lg:h-full object-cover rounded-3xl lg:rounded-l-[3rem]  shadow-lg"
                         />
                     </div>
                 </div>
@@ -101,15 +106,15 @@ const CrownFAQs = [
             <section className="py-16 px-8 md:px-24 max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
-                        <h2 className="text-2xl font-bold text-blue-900 mb-6">Types of Dental Crowns</h2>
+                        <h2 className="text-4xl font-bold text-blue-900 mb-6">Types of Dental Crowns</h2>
                         <div className="space-y-6">
                             <div>
                                 <h3 className="font-bold text-blue-800">1. Porcelain Fused to Metal (PFM) Crowns</h3>
-                                <p className="text-sm text-gray-600 mt-2">PFM crowns consist of a metal core and a porcelain shell. The porcelain matches your natural teeth while the metal core provides strength.</p>
+                                <p className="text-xs text-gray-600 mt-2">PFM (porcelain-fused-to-metal) crowns consist of a metal core and a porcelain shell. The porcelain exterior provides a natural appearance, while the metal core gives it strength and resilience. PFM crowns are an excellent choice for patients with tooth-colored fillings or bonding, as they are less prone to discoloration compared to other types of crowns.</p>
                             </div>
                             <div>
                                 <h3 className="font-bold text-blue-800">2. Zirconia Crowns</h3>
-                                <p className="text-sm text-gray-600 mt-2">Zirconia crowns are a strong, white material that offers a highly natural appearance. They are a safe choice for patients with sensitive teeth as they are less likely to cause allergic reactions.</p>
+                                <p className="text-xs text-gray-600 mt-2">Zirconia crowns are a strong, white material that offers a highly natural appearance when used for teeth. Zirconia is a safe choice for patients with sensitive teeth as it is less likely to cause allergic reactions than other materials. While zirconia crowns may be slightly more expensive than other types of crowns, many patients feel that the benefits justify the extra cost.</p>
                             </div>
                         </div>
                     </div>
@@ -125,6 +130,9 @@ const CrownFAQs = [
 
 <FAQsSection  title="FAQs"
         faqs={CrownFAQs}/>
+        
+                  <Map />
+                   <Footer />
         </div>
     );
 };

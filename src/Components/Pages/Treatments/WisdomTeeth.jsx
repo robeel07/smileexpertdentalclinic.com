@@ -1,16 +1,17 @@
 import React from 'react'
 import FAQsSection from './FAQ';
-
+import Map from "./Map";
+import Footer from "./Footer";
 
 
 const Wisdom = () => {
  const InfoCard = ({ title, children }) => (
-    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/10 shadow-lg h-full ">
-        <h3 className="text-lg font-bold text-cyan-400  pb-2">
+    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg  shadow-lg h-full ">
+        <h3 className="text-2xl font-bold text-cyan-400  pb-2">
             {title}
         </h3>
     
-        <div className="text-gray-200 text-sm space-y-3">
+        <div className="text-gray-200 text-lg space-y-3">
             {children}
         </div>
     </div>
@@ -35,22 +36,27 @@ const WisdomFAQs = [
     <div className='font-jost'>
       
       {/* Hero Section */}
-            <div
+            
+                          
+                          
+                        <div
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Wisdom-Teeth-Removal.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
 Wisdom Teeth Removal
-
                         </h1>
                     </div>
                 </div>
-            </div>  
+            </div> 
+         
+                          
+                          
                              <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
                              {/* --- Top Text --- */}
       <p className="text-left text-sm md:text-base text-black mb-1  ">
@@ -60,11 +66,11 @@ Wisdom Teeth Removal
 
      <div className="font-sans text-gray-800">
       {/* --- Section 1: What is it? (Text Left, Image Right on Desktop) --- */}
-      <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
-        <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
+<section className="w-full py-12 md:py-2 flex flex-col lg:flex-row items-center overflow-hidden">
+            <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
           
           {/* Text Content */}
-          <div className="w-full lg:w-1/2">
+<div className="w-full lg:w-1/2 px-6 lg:pl-[calc((100vw-1280px)/2+24px)] lg:pr-12">
             <h2 className="text-2xl md:text-4xl text-[#1e1b4b] mb-6">
               What is it?
             </h2>
@@ -84,11 +90,11 @@ Wisdom Teeth Removal
           </div>
 
           {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-[50%]">
             <img 
               src="https://smileon.pk/wp-content/uploads/2025/09/What-Is-It-wt-2048x1365.jpg"
               alt="What" 
-              className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
+              className="w-full h-56 sm:h-72 lg:h-[450px] object-cover rounded-[2.5rem] shadow-lg"
             />
           </div>
         </div>
@@ -175,6 +181,9 @@ Wisdom Teeth Removal
 
       <FAQsSection  title="FAQs"
         faqs={WisdomFAQs}/>
+
+          <Map />
+                   <Footer />
     </div>
   )
 }

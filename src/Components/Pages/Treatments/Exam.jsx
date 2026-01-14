@@ -1,38 +1,9 @@
 import React from 'react'
-import NeedToKnowSection from "./NeedToKnowSection";
 import FAQsSection from "./FAQ";
 import Map from "./Map";
 import Footer from "./Footer";
 
 
-const examNeedToKnowData = [
-  {
-    title: "Types of Dental X-rays",
-    items: [
-      "Usually 1-2 appointments",
-      "First visit includes examination",
-      "Second visit is usually treatment",
-    ],
-  },
-  {
-    title: "Preparation",
-    items: ["No special preparation needed."],
-  },
-  {
-    title: "Preparation",
-    items: [
-      "Consultation: 30–60 minutes",
-      "Filling procedure: 30–60 minutes",
-    ],
-  },
-  {
-    title: "Dental X-rays Transformation",
-    items: [
-      "Your dental and medical history",
-      "Your normal oral care routine",
-    ],
-  },
-];
 
 
 const ExamFAQs = [
@@ -54,35 +25,53 @@ const ExamFAQs = [
 
 ];
 
+const InfoCard = ({ title, children }) => (
+    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg  shadow-lg h-full ">
+        <h3 className="text-2xl font-bold text-cyan-400  pb-2">
+            {title}
+        </h3>
+    
+        <div className="text-gray-200 text-lg space-y-3">
+            {children}
+        </div>
+    </div>
+);
+
 
 const Exam = () => {
   return (
     <div>
-  <div
-                    className="w-full h-[20em] bg-center bg-cover"
+          {/* Hero Section */}
+
+               <div
+                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                     style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Exam-X-Rays-Check-Up.jpg")` }}
-                  >
-                    <div className='w-full h-full  text-white pt-[12em] p-6 md:p-10 lg:p-40'>
-                      <h4 className='text-sm sm:text-base md:text-lg lg:text-xl'>
-                        Treatments
-                      </h4>
-                      <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold'>
+            >
+                <div className="absolute inset-0 "></div>
+
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
                         Exam & X-rays Check-up
-                      </h1>
+                        </h1>
                     </div>
-                  </div>
+                </div>
+            </div> 
+
+
    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
                              {/* --- Top Text --- */}
       <p className="text-left text-sm md:text-base text-black mb-1  ">
        Do you have any hidden dental problems that are affecting your smile?  Our dental X-ray diagnoses other hidden pathologies, such as cavities, gum disease, or the presence of impacted teeth, without necessarily causing discomfort. Fast, safe, and necessary, X-rays enable us to create an individualized plan to keep your teeth bright and in perfect condition. Choose SmileOn, the best dental X-ray clinic with professionals and powerful tools for proper care of your teeth.
       </p>
      </section>
-       <section className="max-w-full mx-auto px-6 py-12 md:py-20">
+       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
              <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
                
                {/* Text Content */}
                <div className="w-full lg:w-1/2">
-                 <h2 className="text-4xl   font-bold text-[#1e1b4b] mb-6">
+                 <h2 className="text-3xl   text-[#1e1b4b] mb-6">
                   When Should You Go for a Dental X-Ray?
                  </h2>
                  <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">
@@ -117,7 +106,7 @@ Here’s why they are essential:
            {/* Benifits of X-Ray */}
 <section className="max-w-full mx-auto px-6 py-12 md:py-20 bg-[#28D2EA1A]">
         {/* flex-col-reverse ensures Text stays on top when stacked on mobile */}
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-12 xl:gap-20">
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-12 xl:gap-10">
           
             {/* Image: Wide & Responsive Height */}
           <div className="w-full lg:w-1/2">
@@ -149,11 +138,72 @@ Here’s why they are essential:
         
         </div>
       </section>
-<NeedToKnowSection
-  title="Need To Know"
-  bgImage="https://smileon.pk/wp-content/uploads/2022/11/Entrepreneur-Writing-Book-scaled.jpg"
-  cards={examNeedToKnowData}
-/>
+
+    {/* Need to know */}
+
+<section 
+            className="w-full py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 relative " 
+            style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2022/11/Entrepreneur-Writing-Book-scaled.jpg")`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+        >
+            {/* Dark Overlay for contrast  */}
+            <div className="absolute inset-0 bg-black/70"></div>
+            
+            <div className="relative z-10 max-w-7xl mx-auto text-white">
+                
+                <h2 className="text-3xl sm:text-2xl md:text-4xl lg:text-4xl font-bold text-center mb-4 sm:mb-12 md:mb-16 tracking-wide">
+                    Need To Know
+                </h2>
+
+                {/* Cards Section */}
+                {/* 1 column on small screens, 2 on medium, 3 on large */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8">
+                    
+                    {/* 1. Benefits of Scaling Teeth */}
+                    <InfoCard title="Types of Dental X-rays">
+                        <ul className="list-disc list-inside space-y-2">
+                            <li>Bitewing Xrays</li>
+                            <li>Panoramic Xrays</li>
+                            <li>Periapical Xrays</li>
+                            <li>Occlusal Xrays</li>
+                        </ul>
+
+                    </InfoCard>
+
+                    {/* 2. Tips to Follow After Scaling and Polishing Teeth */}
+                    <InfoCard title="Preparation">
+                        <ul className="list-disc list-inside space-y-2">
+                            <li>We will put you in the appropriate position for the X-ray, and you will be required to wear a protective apron</li>
+                            <li>Your instructor will help you know when to hold still while an X-ray is being done on you.</li>
+                          
+                        </ul>
+                    </InfoCard>
+
+                    {/* 3. What to Expect During the Procedure */}
+                    <InfoCard title="Image Processing">
+
+                        <ul className="list-disc list-inside space-y-2">
+                            <li>We will put you in the appropriate position for the X-ray, and you will be required to wear a protective apron</li>
+                            <li>Your instructor will help you know when to hold still while an X-ray is being done on you.</li>
+                          
+                        </ul>
+                        
+                    </InfoCard>
+
+                    {/* 4. Before Procedure */}
+                    <InfoCard title="Dental X-rays Transformation">
+                       <ul className="list-disc list-inside space-y-2">
+                            <li>The procedure usually takes 30-60 minutes.</li>
+                            <li> Follow your doctor’s instructions regarding further treatment.</li>
+                          
+                        </ul>
+                    </InfoCard>
+
+                    
+                </div>
+            </div>
+        </section>
+
+
 <FAQsSection  title="FAQs"
         faqs={ExamFAQs}/>
       <Map />

@@ -213,7 +213,7 @@ const Navbar = () => {
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Cosmetic Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/whitening">Teeth Whitening</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/whitening">Teeth Whitening</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/invisalign">Invisalign</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/dentalbraces">Dental Braces</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Dental Implants</Link>
@@ -508,7 +508,7 @@ const Navbar = () => {
                                     <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll}>
                                         Cosmetic Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/treatment/whitening" onClick={closeAll} >
                                         Teeth Whitening
                                     </Link>
                                     <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
