@@ -17,7 +17,7 @@ export default function MissingTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_65%]"
       style={{ backgroundImage: `url(${sixtytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -157,14 +157,14 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
         marginBottom: "12px",
       }}
     >
-      Missing Teeth Solutions at SmileOn
+      Missing Teeth Solutions at SmileExpert
     </h2>
 
     <p
       style={{
         fontSize: "16px",
         color: "#000",
-        maxWidth: "700px",
+        maxWidth: "1300px",
         margin: "0 auto",
         lineHeight: "1.7",
       }}

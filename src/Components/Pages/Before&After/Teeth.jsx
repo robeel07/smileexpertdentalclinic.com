@@ -33,7 +33,7 @@ export default function Veneers() {
 </div>
     </div>
 
-    {<Link to="/Before&After/veneers"></Link>}
+    {<Link to="/Before&After/teeth"></Link>}
 
 <div className=" px-2 py-2 mt-12">
   <div className="max-w-7xl mx-auto px-6">
@@ -132,7 +132,7 @@ export default function Veneers() {
             1. The teeth whitening process is simple and quick
           </h4>
           <p>
-            Teeth whitening is a very brief procedure that may be done on short notice. We usually perform a comprehensive examination of your mouth before proceeding with treatment at SmileOn. This is to ensure that your gums and teeth are in good condition and avoid any problems.
+            Teeth whitening is a very brief procedure that may be done on short notice. We usually perform a comprehensive examination of your mouth before proceeding with treatment at SmileExpert. This is to ensure that your gums and teeth are in good condition and avoid any problems.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function Veneers() {
           </h4>
           <p>
            After you have Zoom teeth whitening, it’s important to take good care of your teeth to maintain the results. This means brushing twice a day, flossing daily, and avoiding foods and drinks that can stain your teeth. You should also see your dentist regularly for checkups and cleanings.<br/><br/>
-           Our dentists at SmileOn Dentistry will also ask you questions about your lifestyle and hygiene; this helps us tailor your teeth whitening treatments to you specifically. Treatment will begin if your oral health allows it.
+           Our dentists at SmileExpert Dentistry will also ask you questions about your lifestyle and hygiene; this helps us tailor your teeth whitening treatments to you specifically. Treatment will begin if your oral health allows it.
           </p>
         </div>
 

@@ -44,7 +44,7 @@ export default function CrookedTeeth() {
   }}
 >
   <p>
-We know how crooked teeth can affect appearance and confidence level. That’s why at SmileOn, we provide you with a choice of the most effective and cost-saving crooked teeth treatment.It will help you get the perfect straight smile you desire.<br/> 
+We know how crooked teeth can affect appearance and confidence level. That’s why at SmileExpert, we provide you with a choice of the most effective and cost-saving crooked teeth treatment.It will help you get the perfect straight smile you desire.<br/> 
 If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured that we have the right skills to give you the desired outcomes. For all your dental problems, we are here to help you.
   </p>
 </div>
@@ -64,7 +64,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
         they may lead to other severe problems. Common symptoms of crooked teeth include:
       </p>
 
-      <ul className="space-y-3 text-gray-700 list-disc list-inside">
+      <ul className="space-y-1 text-gray-700 list-disc list-inside">
         <li>Difficulty chewing or biting</li>
         <li>
           Growing <span className="text-blue-600 font-medium">gum diseases</span>
@@ -77,7 +77,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       </ul>
 
       <p className="text-gray-600 mt-6">
-        If you have any of these symptoms, then feel free to give SmileOn a call
+        If you have any of these symptoms, then feel free to give SmileExpert a call
         for an effective crooked teeth treatment consultation.
       </p>
     </div>
@@ -130,7 +130,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       Crooked Teeth Treatment Option
     </h2>
     <p className="text-m text-black mb-2">
-      Our treatments and procedures are effective in making your teeth perfectly aligned and healthier at SmileOn Dental Clinic. Whether it’s getting braces on crooked teeth, exploring advanced options like replacing crooked teeth with implants, or seeing the stunning results of crooked teeth braces before after transformations, we have the expertise to meet your needs. Top crooked teeth treatment options include:
+      Our treatments and procedures are effective in making your teeth perfectly aligned and healthier at SmileExpert Dental Clinic. Whether it’s getting braces on crooked teeth, exploring advanced options like replacing crooked teeth with implants, or seeing the stunning results of crooked teeth braces before after transformations, we have the expertise to meet your needs. Top crooked teeth treatment options include:
     </p>
 
     <ul className="list-disc list-inside mb-2 text-black text-m space-y-1">
@@ -155,7 +155,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
     </ul>
 
     <p className="text-s text-black">
-      No matter what your dental issue may be, SmileOn dental clinic is happy to help you. Want a straighter smile? Begin your journey with us right now.
+      No matter what your dental issue may be, SmileExpert dental clinic is happy to help you. Want a straighter smile? Begin your journey with us right now.
     </p>
   </div>
 
@@ -192,11 +192,11 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       </h2>
 
       <p className="text-[15px] text-gray-700 leading-7 mb-1">
-        When you go for crooked teeth treatment at SmileOn Dental Clinic, your dentist is likely
+        When you go for crooked teeth treatment at SmileExpert Dental Clinic, your dentist is likely
         to ask you several questions. Questions your dentist may ask:
       </p>
 
-      <ul className="list-disc pl-6 text-[15px] text-gray-700 leading-7 mb-1">
+      <ul className="list-disc pl-12 text-[15px] text-gray-700 leading-7 mb-1">
         <li>At what age did you realize your teeth had started to grow crooked?</li>
         <li>Where does it hurt?</li>
         <li>Have you ever had braces?</li>
@@ -222,7 +222,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
   <h2 className="text-3xl text-[#0b2c6b] w-full mb-4">
     Book your Appointment Now
   </h2>
-  <p className="text-m text-black-700 mb-10  mx-auto">
+  <p className="text-m text-black-700 mb-10 w-full  mx-auto">
     It is advisable for you to visit a dentist to seek advice regarding your symptoms.
     Book an appointment regarding crooked teeth treatment.
   </p>

@@ -118,7 +118,7 @@ export default function Veneers() {
     <p className="text-gray-700 mb-4">
       Trying to decide if porcelain veneers are right for you? Here are a few things to keep in mind:
     </p>
-    <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
+    <ol className="list-decimal list-outside text-gray-700 space-y-2 mb-4">
       <li>Treatment with porcelain veneers is usually irreversible. This means that once your natural tooth enamel is removed, it cannot be put back.</li>
       <li>Porcelain veneers are not for everyone. In order to be a candidate for this treatment, you must have healthy teeth and gums.</li>
       <li>You should also have a good bite (occlusion) and enough tooth structure to support the veneers.</li>
@@ -139,7 +139,7 @@ export default function Veneers() {
     <p className="text-gray-700 mb-4">
       Porcelain veneers are a beautiful way to enhance your smile. Here are a few things to keep in mind after you get your new veneers:
     </p>
-    <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
+    <ol className="list-decimal list-outside text-gray-700 space-y-2 mb-4">
       <li>Your teeth may be sensitive for a few days after treatment. This is normal and should go away within a week or so.</li>
       <li>You may need to adjust your diet for a few days while your teeth adjust to the veneers. Avoid hard, crunchy, or sticky foods that could damage the veneers.</li>
       <li>Be sure to brush and floss your teeth twice a day and see your dentist regularly for checkups and cleanings.</li>

@@ -14,7 +14,7 @@ export default function WornTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_25%]"
       style={{ backgroundImage: `url(${sixtyeight})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -44,7 +44,7 @@ export default function WornTeeth() {
   }}
 >
   <p>
-Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s outer surface. This outer layer, called enamel, protects against sensitivity to hot, cold, and sugary foods and drinks while providing the white color of teeth. Such teeth can give you a bad outlook and causing other dental issues. You lose your tooth enamel, which means that care from a young age must be taken to maintain appropriately strong jaws. Our worn down teeth treatment includes veneers, <span style={{color :"#0aa6ff", fontWeight: "700" }}>dental crowns,</span> or dental bonding. It can help heal and strengthen your teeth and prevent future wear. At SmileOn Dental, our qualified dentists know how to restore worn teeth, reduce pain, and enhance your smile to last a lifetime of happiness. Say no to dull teeth anymore; visit our clinic to protect tooth enamel.
+Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s outer surface. This outer layer, called enamel, protects against sensitivity to hot, cold, and sugary foods and drinks while providing the white color of teeth. Such teeth can give you a bad outlook and causing other dental issues. You lose your tooth enamel, which means that care from a young age must be taken to maintain appropriately strong jaws. Our worn down teeth treatment includes veneers, <span style={{color :"#0aa6ff", fontWeight: "700" }}>dental crowns,</span> or dental bonding. It can help heal and strengthen your teeth and prevent future wear. At SmileExpert Dental, our qualified dentists know how to restore worn teeth, reduce pain, and enhance your smile to last a lifetime of happiness. Say no to dull teeth anymore; visit our clinic to protect tooth enamel.
   </p>
 </div>
 

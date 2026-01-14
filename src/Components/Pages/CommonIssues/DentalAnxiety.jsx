@@ -15,7 +15,7 @@ export default function DentalAnxiety() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_40%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
       style={{ backgroundImage: `url(${fortytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -190,7 +190,7 @@ Contact us for assistance in preparing for your visit. Regular appointments with
         </h2>
 
         <p className="text-gray-700 mb-0">
-          If you have dental anxiety and schedule an appointment at SmileOn, we understand the need for reassurance. Your dentist will gather essential information to diagnose and treat you effectively. This will ensure a smooth and efficient appointment. Generally, your dentist will inquire about your medical history and conduct a thorough examination of your oral, dental, jaw, tongue, throat, sinus, ear, nose, and neck areas. X-rays may also be necessary based on your dentist’s assessment of your condition. Your dentist will ask you some questions about your teeth and any pain you may have such as:
+          If you have dental anxiety and schedule an appointment at SmileExpert, we understand the need for reassurance. Your dentist will gather essential information to diagnose and treat you effectively. This will ensure a smooth and efficient appointment. Generally, your dentist will inquire about your medical history and conduct a thorough examination of your oral, dental, jaw, tongue, throat, sinus, ear, nose, and neck areas. X-rays may also be necessary based on your dentist’s assessment of your condition. Your dentist will ask you some questions about your teeth and any pain you may have such as:
         </p>
 
         <ul className="list-disc pl-10 space-y-0 text-gray-700 mb-0">

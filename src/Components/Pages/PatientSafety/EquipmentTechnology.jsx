@@ -40,7 +40,7 @@ export default function SafetyEquipment() {
             Equipment & Technology
         </h1>
         <p className="leading-relaxed">
-            SmileExpert clinic offers the very latest advantages in dental technology and equipment. SmileOn doctors are continually trained in the use of our advanced technology and equipment, and in clinical best practices, to ensure that patients benefit from the advantages available today.
+            SmileExpert clinic offers the very latest advantages in dental technology and equipment. SmileExpert doctors are continually trained in the use of our advanced technology and equipment, and in clinical best practices, to ensure that patients benefit from the advantages available today.
         </p>
     </div>
 

@@ -150,7 +150,7 @@ Lifestyle and environmental factors are the causes of oral cancer. Although ever
         
 
         <p className="text-gray-700">
-Consult SmileOn Dental Clinic for oral cancer treatment and find out more about oral cancer treatment costs. Contact us today for all your dental treatments, like crowns and <span className="text-[#0aa6ff] font-medium">dental implants</span>.        </p>
+Consult SmileExpert Dental Clinic for oral cancer treatment and find out more about oral cancer treatment costs. Contact us today for all your dental treatments, like crowns and <span className="text-[#0aa6ff] font-medium">dental implants</span>.        </p>
       </div>
 
       {/* Right Image */}
