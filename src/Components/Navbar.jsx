@@ -94,7 +94,7 @@ const Navbar = () => {
                         <button className="flex items-center   font-semibold text-slate-900 hover:text-brandAccent transition-colors cursor-pointer">
                             Dental Problems <ChevronDown size={14} />
                         </button>
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[850px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10 overflow-hidden">
+                        <div className="absolute top-full left-1/2 -translate-x-[35%] mt-2 w-[850px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10 overflow-hidden">
                             <div className="grid grid-cols-3  2">
                                 <div>
                                     <h3 className="text-brandDark font-bold text-sm mb-4">Teeth & Gums</h3>
@@ -206,7 +206,7 @@ const Navbar = () => {
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Tooth Extraction</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/tmj">TMJ Treatment</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/Wisdom">Wisdom Teeth Removal</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Exam and X-Ray Checkup</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/exam">Exam and X-Ray Checkup</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/dentures">Dentures</Link>
                                     </div>
                                 </div>
