@@ -82,7 +82,7 @@ export default function SoreTeeth() {
 
     <ul
       style={{
-        paddingLeft: "18px",
+        paddingLeft: "38px",
         fontSize: "15px",
         color: "#000",
         lineHeight: "1.8",
@@ -259,7 +259,7 @@ export default function SoreTeeth() {
 
           <ul
             style={{
-              paddingLeft: "20px",
+              paddingLeft: "38px",
               marginBottom: "18px",
               fontSize: "15px",
               color: "#333",
@@ -371,7 +371,7 @@ export default function SoreTeeth() {
 
           <ul
             style={{
-              paddingLeft: "20px",
+              paddingLeft: "38px",
               marginBottom: "16px",
               fontSize: "15px",
               color: "#222",
@@ -593,6 +593,21 @@ export default function SoreTeeth() {
         </div>
       </div>
     </div>
+    <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
   </div>
    
    

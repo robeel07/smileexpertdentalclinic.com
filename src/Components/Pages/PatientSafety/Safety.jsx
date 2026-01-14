@@ -59,7 +59,7 @@ export default function Safety() {
         4-Step Sterilisation for Instruments and Hand Rotors
       </h3>
       <p className="text-gray-600 mt-2 text-sm leading-relaxed">
-        Adherence to SmileOn Dental’s trademarked process to ensure a 100% sterile and safe environment for patients and staff.
+        Adherence to SmileExpert Dental’s trademarked process to ensure a 100% sterile and safe environment for patients and staff.
       </p>
     </div>
   </div>
@@ -89,7 +89,7 @@ export default function Safety() {
         Responsible Bio-Medical Waste Disposal
       </h3>
       <p className="text-gray-600 mt-2 text-sm leading-relaxed">
-        SmileOn team has always worked with Government regulations to dispose of biomedical waste. The new policy ensures that all extra PPE material should be disposed of as per WHO guidelines.
+        SmileExpert team has always worked with Government regulations to dispose of biomedical waste. The new policy ensures that all extra PPE material should be disposed of as per WHO guidelines.
       </p>
     </div>
   </div>
@@ -134,7 +134,7 @@ export default function Safety() {
         Daily Clinic Fumigation
       </h3>
       <p className="text-gray-600 mt-2 text-sm leading-relaxed">
-        SmileOn is fumigated fortnightly to ensure the elimination of all forms of microbial life including viruses, fungi, bacteria, etc.
+        SmileExpert is fumigated fortnightly to ensure the elimination of all forms of microbial life including viruses, fungi, bacteria, etc.
       </p>
     </div>
   </div>
@@ -239,6 +239,21 @@ export default function Safety() {
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
 

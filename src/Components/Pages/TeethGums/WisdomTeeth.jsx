@@ -248,69 +248,44 @@ export default function WisdomTeeth() {
   </p>
 
   {/* Cards Container */}
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      gap: "40px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* CARD 1 */}
-    <div
-      style={{
-        width: "330px",
-        background: "#fff",
-        padding: "40px 20px",
-        borderRadius: "20px",
-        boxShadow: "0px 6px 25px rgba(0,0,0,0.1)",
-        textAlign: "center",
-      }}
-    >
+  <div className="flex justify-center items-center gap-10 flex-wrap">
+
+  {/* CARD 1 */}
+  <div className="w-[330px] h-[300px] bg-white rounded-[20px] shadow-[0px_6px_25px_rgba(0,0,0,0.1)] flex flex-col items-center justify-center">
+
+    <div className="h-[180px] w-full  flex items-center justify-center">
       <img
         src={three}
         alt="Oral Surgeon"
-        style={{ width: "200px", align: "center" }}
+        className="h-full object-contain"
       />
-      <h3
-        style={{
-          fontSize: "18px",
-          fontWeight: "600",
-          color: "#0c1b3a",
-        }}
-      >
-        Oral & Maxillofacial Surgeon
-      </h3>
     </div>
 
-    {/* CARD 2 */}
-    <div
-      style={{
-        width: "330px",
-        background: "#fff",
-        padding: "40px 20px",
-        borderRadius: "20px",
-        boxShadow: "0px 6px 25px rgba(0,0,0,0.1)",
-        textAlign: "center",
-      }}
-    >
+    <h3 className="text-[18px] font-semibold text-[#0c1b3a] text-center mt-4 px-2">
+      Oral & Maxillofacial Surgeon
+    </h3>
+  </div>
+
+
+  {/* CARD 2 */}
+  <div className="w-[330px] h-[300px] bg-white rounded-[20px] shadow-[0px_6px_25px_rgba(0,0,0,0.1)] flex flex-col items-center justify-center">
+
+    <div className="h-[180px] w-full  flex items-center justify-center">
       <img
         src={four}
         alt="Wisdom Removal"
-        style={{ width: "200px", marginBottom: "0px" }}
+        className="h-full object-contain"
       />
-      <h3
-        style={{
-          fontSize: "18px",
-          fontWeight: "600",
-          color: "#0c1b3a",
-        }}
-      >
-        Wisdom Teeth Removal
-      </h3>
     </div>
+
+    <h3 className="text-[18px] font-semibold text-[#0c1b3a] text-center mt-4 px-4">
+      Wisdom Teeth Removal
+    </h3>
   </div>
+
+</div>
+
+
 </div>
 
 <div style={{ textAlign: "center", padding: "60px 20px" }}>
@@ -581,6 +556,21 @@ export default function WisdomTeeth() {
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
 

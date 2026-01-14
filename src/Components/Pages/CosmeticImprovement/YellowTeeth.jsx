@@ -28,7 +28,7 @@ export default function YellowTeeth() {
 
   <div className="w-85 px-40 py-16 align-center text-black">
   <p className="text-base leading-relaxed">
-    Concerned about yellow teeth? You’re not alone. We understand. Despite your efforts with brushing, whitening toothpaste, and flossing, your teeth may still appear yellow. Don’t worry. Professional treatment can effectively address yellow teeth. Visit SmileOn for a discussion on yellow teeth treatment. Stained or yellow teeth can affect your confidence, but there are affordable and durable solutions available.
+    Concerned about yellow teeth? You’re not alone. We understand. Despite your efforts with brushing, whitening toothpaste, and flossing, your teeth may still appear yellow. Don’t worry. Professional treatment can effectively address yellow teeth. Visit SmileExpert for a discussion on yellow teeth treatment. Stained or yellow teeth can affect your confidence, but there are affordable and durable solutions available.
   </p>
 </div>
 
@@ -291,6 +291,21 @@ export default function YellowTeeth() {
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
 

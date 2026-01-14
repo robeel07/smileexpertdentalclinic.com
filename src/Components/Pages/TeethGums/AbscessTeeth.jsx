@@ -13,7 +13,7 @@ export default function AbscessTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
       style={{ backgroundImage: `url(${fortytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -43,7 +43,7 @@ export default function AbscessTeeth() {
   }}
 >
   <p>
- A tooth abscess is a painful dental condition that forms when a bacteria-infected pocket of pus develops in or around the tooth. It can cause swelling, pain and sensitivity, and if not treated it could lead to more serious health problems. Visit SmileOn for an effective dental abscess treatment from qualified dentists to end your suffering.
+ A tooth abscess is a painful dental condition that forms when a bacteria-infected pocket of pus develops in or around the tooth. It can cause swelling, pain and sensitivity, and if not treated it could lead to more serious health problems. Visit SmileExpert for an effective dental abscess treatment from qualified dentists to end your suffering.
 
 Our knowledgeable staff knows how painful a tooth abscess can be, so we are here to help. Do not wait—early treatment is essential to keeping your smile healthy.
   </p>
@@ -53,11 +53,11 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 <div
   style={{
     width: "100%",
-    padding: "80px 120px",   // left & right margin increased
+    padding: "40px 120px",   // left & right margin increased
     display: "flex",
     justifyContent: "space-between",
     alignItems: "flex-start",
-    gap: "40px",
+    gap: "20px",
     backgroundColor: "#ffffff",
   }}
 >
@@ -88,11 +88,11 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 
     <ul
       style={{
-        paddingLeft: "22px",
+        paddingLeft: "38px",
         listStyleType: "disc",
         listStylePosition: "outside",
         fontSize: "15px",
-        lineHeight: "1.9",
+        lineHeight: "1.6",
         marginBottom: "28px",
         color: "#000",
       }}
@@ -143,7 +143,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
         maxWidth: "620px",
         height: "400px",
         objectFit: "cover",
-        marginTop: "30px",
+        marginTop: "10px",
         borderRadius: "20px",
       }}
     />
@@ -153,10 +153,10 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 <div
   style={{
     width: "100%",
-    padding: "80px 120px",
+    padding: "40px 120px",
     display: "flex",
     alignItems: "flex-start",
-    gap: "60px",
+    gap: "40px",
     backgroundColor: "#f3f7fb",
   }}
 >
@@ -182,7 +182,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
         fontSize: "30px",
         fontWeight: "700",
         color: "#0a1b5c",
-        marginBottom: "12px",
+        marginBottom: "4px",
       }}
     >
       Tooth Abscess Stages:
@@ -193,7 +193,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
         fontSize: "15px",
         color: "#000",
         lineHeight: "1.7",
-        marginBottom: "22px",
+        marginBottom: "8px",
       }}
     >
       Knowing the stages of a tooth abscess can help with early identification of
@@ -205,7 +205,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
     <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
       Initial Infection:
     </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "18px" }}>
+    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
       Bacteria somehow get into the tooth (often by way of decay, trauma, or gum
       disease). At this point, you might experience mild discomfort or sensitivity.
     </p>
@@ -214,7 +214,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
     <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
       Pulpal Involvement:
     </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "18px" }}>
+    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
       The infection reaches the tooth’s pulp, leading to inflammation and immense
       pain. This is usually when a periapical abscess develops at the tooth’s tip.
     </p>
@@ -223,7 +223,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
     <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
       Abscess Formation:
     </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "18px" }}>
+    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
       Pus builds up at the site of infection, causing swelling and pressure in the
       gums or jaw. Pain becomes increasingly severe, and other symptoms, such as
       fever or swelling, can occur.
@@ -233,7 +233,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
     <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
       Advanced Abscess:
     </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "18px" }}>
+    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
       The infection can extend to nearby tissues, resulting in complications such
       as facial swelling or difficulty opening the mouth.
     </p>
@@ -253,11 +253,11 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 <div
   style={{
     width: "100%",
-    padding: "80px 120px",
+    padding: "40px 120px",
     display: "flex",
-    alignItems: "flex-start",
+    alignItems: "center",
     justifyContent: "space-between",
-    gap: "60px",
+    gap: "20px",
     backgroundColor: "#ffffff",
   }}
 >
@@ -290,7 +290,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 
     <ul
       style={{
-        paddingLeft: "20px",
+        paddingLeft: "38px",
         marginBottom: "18px",
         fontSize: "15px",
         lineHeight: "1.8",
@@ -338,16 +338,16 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 <div
   style={{
     width: "100%",
-    padding: "80px 120px",
+    padding: "40px 120px",
     backgroundColor: "#f3f8fb",
   }}
 >
   <div
     style={{
       display: "flex",
-      alignItems: "flex-start",
+      alignItems: "center",
       justifyContent: "space-between",
-      gap: "70px",
+      gap: "40px",
     }}
   >
     {/* LEFT IMAGE */}
@@ -401,9 +401,9 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 
       <ul
         style={{
-          paddingLeft: "20px",
+          paddingLeft: "38px",
           fontSize: "15px",
-          lineHeight: "1.8",
+          lineHeight: "1.6",
           marginBottom: "18px",
           listStyleType: "disc",
           listStylePosition: "outside",
@@ -653,6 +653,21 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
 

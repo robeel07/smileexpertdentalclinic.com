@@ -118,7 +118,7 @@ export default function Veneers() {
     <p className="text-gray-700 mb-4">
       Trying to decide if porcelain veneers are right for you? Here are a few things to keep in mind:
     </p>
-    <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
+    <ol className="list-decimal list-outside text-gray-700 space-y-2 mb-4">
       <li>Treatment with porcelain veneers is usually irreversible. This means that once your natural tooth enamel is removed, it cannot be put back.</li>
       <li>Porcelain veneers are not for everyone. In order to be a candidate for this treatment, you must have healthy teeth and gums.</li>
       <li>You should also have a good bite (occlusion) and enough tooth structure to support the veneers.</li>
@@ -139,7 +139,7 @@ export default function Veneers() {
     <p className="text-gray-700 mb-4">
       Porcelain veneers are a beautiful way to enhance your smile. Here are a few things to keep in mind after you get your new veneers:
     </p>
-    <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
+    <ol className="list-decimal list-outside text-gray-700 space-y-2 mb-4">
       <li>Your teeth may be sensitive for a few days after treatment. This is normal and should go away within a week or so.</li>
       <li>You may need to adjust your diet for a few days while your teeth adjust to the veneers. Avoid hard, crunchy, or sticky foods that could damage the veneers.</li>
       <li>Be sure to brush and floss your teeth twice a day and see your dentist regularly for checkups and cleanings.</li>
@@ -249,6 +249,21 @@ export default function Veneers() {
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
 

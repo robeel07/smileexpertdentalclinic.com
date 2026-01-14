@@ -9,7 +9,7 @@ export default function DryMouth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_60%]"
       style={{ backgroundImage: `url(${fiftyeight})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -40,7 +40,7 @@ export default function DryMouth() {
 >
   <p>
   Conditions like oral thrush or dry mouth can be very irritating and troublesome if they become a regular feature of your life. Chronic dry mouth can signal insufficient saliva production. Most people experience dry mouth from time to time, which can be caused by a number of things.<br/><br/>
-It is more prevalent in some people than others. You may feel a dry, sticky mouth after eating. Having a dry mouth weathered often can be bothersome and nerve-racking. Dry mouth treatment is for you to seek out at SmileOn. It’s vital because it can lead to more severe problems if neglected.  
+It is more prevalent in some people than others. You may feel a dry, sticky mouth after eating. Having a dry mouth weathered often can be bothersome and nerve-racking. Dry mouth treatment is for you to seek out at SmileExpert. It’s vital because it can lead to more severe problems if neglected.  
   </p>
 </div>
 
@@ -521,6 +521,21 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
    

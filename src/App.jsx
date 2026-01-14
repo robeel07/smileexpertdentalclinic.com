@@ -66,8 +66,6 @@ import DentalCrowns from "./Components/Pages/Treatments/DentalCrowns";
 import Fillings from "./Components/Pages/Treatments/Fillings";
 import Exam from "./Components/Pages/Treatments/Exam";
 import Whitening from "./Components/Pages/Treatments/Whitening";
-import Map from "./Components/Pages/Treatments/Map";
-import Footer from "./Components/Pages/Treatments/Footer";
 
 
 
@@ -84,8 +82,7 @@ function Home() {
 }
 
 function App() {
-
-const [showGoUp, setShowGoUp] = useState(false);
+  const [showGoUp, setShowGoUp] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -172,9 +169,6 @@ const [showGoUp, setShowGoUp] = useState(false);
 
 
       </Routes>
-
-      <Map />
-      <Footer />
 
      {/* WhatsApp – desktop only */}
       <a href="https://wa.me/+923008395562" target="_blank" rel="noopener noreferrer">

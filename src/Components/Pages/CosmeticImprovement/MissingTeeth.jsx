@@ -17,7 +17,7 @@ export default function MissingTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_65%]"
       style={{ backgroundImage: `url(${sixtytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -157,14 +157,14 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
         marginBottom: "12px",
       }}
     >
-      Missing Teeth Solutions at SmileOn
+      Missing Teeth Solutions at SmileExpert
     </h2>
 
     <p
       style={{
         fontSize: "16px",
         color: "#000",
-        maxWidth: "700px",
+        maxWidth: "1300px",
         margin: "0 auto",
         lineHeight: "1.7",
       }}
@@ -817,6 +817,21 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
       </div>
     </div>
   </div>
+  <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
+  <p className="text-sm text-gray-400">
+    © SmileExpert
+    <span className="mx-2 text-gray-600">|</span>
+    Powered by{" "}
+    <a
+      href="https://verdant-soft.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-blue-400 no-underline font-medium transition-colors duration-300 "
+    >
+      Verdant Soft
+    </a>
+  </p>
+</div>
 </div>
 
 

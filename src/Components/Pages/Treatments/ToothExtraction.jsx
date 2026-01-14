@@ -224,7 +224,7 @@ Understanding these differences will make your process smoother.
         faqs={ExtractionFAQs}/>
 
            <Map />
-                      <Footer />
+           <Footer />
 
     </div>
   )
