@@ -45,13 +45,13 @@ const Fillings = () => {
   };
 
 
-  const InfoCard = ({ title, children }) => (
-    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/10 shadow-lg h-full ">
-        <h3 className="text-lg font-bold text-cyan-400  pb-2">
+const InfoCard = ({ title, children }) => (
+    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg  shadow-lg h-full ">
+        <h3 className="text-2xl font-bold text-cyan-400  pb-2">
             {title}
         </h3>
     
-        <div className="text-gray-200 text-sm space-y-3">
+        <div className="text-gray-200 text-lg space-y-3">
             {children}
         </div>
     </div>
@@ -63,37 +63,41 @@ const Fillings = () => {
 
       
       {/* Hero Section */}
+
+
             <div
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Fillings.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
                       Fillings
-
-
                         </h1>
                     </div>
                 </div>
-            </div>  
+            </div> 
 
-             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
                              {/* --- Top Text --- */}
-      <p className="text-left text-sm md:text-base text-black mb-1  ">
+            <section className="w-full pl-4 sm:pl-6 lg:pl-8 py-10 md:pt-20 md:pb-0 md:mb-20">
+
+             <p className="text-left text-sm md:text-base text-black mb-1  ">
         Fillings are a common dental treatment that fix a hole in your tooth caused by decay. Think you might need a filling? Fillings are very common and most people will need one at some stage in their lives. It’s important to take good care of your oral health to reduce the chance of needing a filling.
       </p>
 <p className="text-left text-sm md:text-base text-black  ">
       If you need a filling your dentist will first remove the caries, or decay, from inside your tooth and then fill the cavity with one of a wide range of filling materials. Depending on the damage to your tooth, dentists use several types of fillings. This is usually based on the material that your dentist uses to fill the cavity left by the decay.
  </p>
-     </section>
+ </section>
 
-     <div className="font-sans ">
+
+     <div >
+
+      
       {/* --- Section 1: What is it? (Text Left, Image Right on Desktop) --- */}
-      <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
+      <section className="max-w-full mx-auto px-6 py-12 md:py-20">
         <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
           
           {/* Text Content */}
@@ -117,56 +121,56 @@ const Fillings = () => {
           </div>
 
           {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 self-stretch">
             <img 
               src="https://smileon.pk/wp-content/uploads/2025/09/What-is-it-2048x1365.jpg"
               alt="Dental procedure" 
-              className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
+              className="w-full h-64 sm:h-72 lg:h-full object-cover rounded-3xl lg:rounded-l-[3rem]  shadow-lg"
             />
           </div>
         </div>
       </section>
 
-      {/* --- Section 2: What Happens (Text Right, Image Left on Desktop) --- */}
-      <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 bg-[rgba(105, 113, 137, 1)]">
-        {/* flex-col-reverse ensures Text stays on top when stacked on mobile */}
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-12 xl:gap-20">
-          
-            {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-1/2">
-            <img 
-              src="https://smileon.pk/wp-content/uploads/2025/09/What-happens-1536x1024.jpg"
-              alt="Hand using dental tools" 
-              className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
-            />
-          </div>
-
-          {/* Text Content */}
-          <div className="w-full lg:w-1/2">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#1e1b4b] mb-6">
-              What happens
-            </h2>
-            <p className="text-sm md:text-base text-gray-600 mb-8 leading-relaxed">
-              Your dentist will usually numb the decayed tooth using a local anaesthetic that’s injected into your gum... How they do this will depend on the type of filling material used.
-            </p>
-            <div className="p-4 bg-grey-200  ">
-              <p className="text-sm md:text-base text-gray-700 font-medium">
-                <span className="font-bold text-[#1e1b4b]">NOTE:</span> local anaesthesia is not usually required in all types of fillings.
-              </p>
+        {/* --- Section 2: What Happens (Text Right, Image Left on Desktop) --- */}
+        <section className="max-w-full mx-auto px-6 py-12 md:py-20 bg-[rgba(105, 113, 137, 1)]">
+          {/* flex-col-reverse ensures Text stays on top when stacked on mobile */}
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-10 xl:gap-20">
+            
+              {/* Image: Wide & Responsive Height */}
+            <div className="w-full lg:w-1/2 ">
+              <img 
+                src="https://smileon.pk/wp-content/uploads/2025/09/What-happens-1536x1024.jpg"
+                alt="Hand using dental tools" 
+              className="w-full h-64 sm:h-72 lg:h-80 object-cover rounded-3xl lg:rounded-l-[3rem]  shadow-lg"
+                        />
             </div>
+
+            {/* Text Content */}
+            <div className="w-full lg:w-1/2">
+              <h2 className="text-2xl md:text-5xl font-bold text-[#1e1b4b] mb-6">
+                What happens
+              </h2>
+              <p className="text-sm md:text-lg text-gray-600 mb-8 leading-relaxed">
+                Your dentist will usually numb the decayed tooth using a local anaesthetic that’s injected into your gum... How they do this will depend on the type of filling material used.
+              </p>
+              <div className="bg-grey-200  ">
+                <p className="text-sm md:text-base text-gray-700 font-medium">
+                  NOTE: local anaesthesia is not usually required in all types of fillings.
+                </p>
+              </div>
+            </div>
+          
           </div>
-        
-        </div>
-      </section>
+        </section>
 
 {/* --- Section3 : Which type (Text Right, Image Left on Desktop) --- */}
-      <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 bg-gray-50/50">
+      <section className="max-w-full mx-auto px-6 py-12 md:py-20 bg-gray-50/50">
         {/* flex-col-reverse ensures Text stays on top when stacked on mobile */}
         <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
           
           
           {/* Text Content */}
-          <div className="w-full lg:w-1/2  order-2 lg:order-1">
+          <div className="w-full lg:w-1/2 order-2 lg:order-1">
             <h2 className="text-2xl md:text-3xl font-bold text-[#1e1b4b] mb-6">
               Which type
             </h2>
@@ -175,7 +179,7 @@ const Fillings = () => {
             </p>
           </div>
           {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-1/2 order-1 lg:order-1">
+          <div className="w-full lg:w-1/2 order-2 lg:order-2">
             <img 
               src="https://smileon.pk/wp-content/uploads/2025/09/Which-type-1536x1024.jpg"
               alt="Hand using dental tools" 
@@ -190,11 +194,11 @@ const Fillings = () => {
 
     {/* Amalgam fillings */}
 
-<section className="max-w-7xl mx-auto px-6 py-12 md:py-20 font-sans">
+<section className="max-w-full mx-auto px-6 py-12 md:py-20 font-sans">
       <div className="flex flex-col lg:flex-row gap-10 items-center">
         
         {/* Left: Image Container */}
-        <div className="w-full lg:w-1/2 ">
+        <div className="w-full lg:w-1/2 order-2 lg:order-1 ">
           <img 
             src="https://smileon.pk/wp-content/uploads/2025/09/Amalgam-fillings-2048x1365.jpg" 
             alt="Dentist working with loupes" 
@@ -203,7 +207,7 @@ const Fillings = () => {
         </div>
 
         {/* Right: Content Container */}
-        <div className="w-full lg:w-1/2 space-y-6">
+        <div className="w-full lg:w-1/2 space-y-6 oorder-1 lg:order-2">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e]">
             Amalgam fillings
           </h2>
@@ -262,7 +266,7 @@ const Fillings = () => {
 
 {/* Composite */}
 
-<section className="max-w-7xl mx-auto px-6 py-12 md:py-20 font-sans">
+<section className="max-w-full mx-auto px-6 py-12 md:py-20 font-sans">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         
 

@@ -1,5 +1,8 @@
 import React from 'react'
 import FAQsSection from "./FAQ";
+import Map from "./Map";
+import Footer from "./Footer";
+
 
 
 
@@ -25,25 +28,26 @@ const Canals = () => {
       
 
       {/* Hero Section */}
-            <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%] bg-blue-900/40"
+
+                 <div
+                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Root-Canals.jpg")` }}
             >
                 <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
 Root Canals
-
                         </h1>
                     </div>
                 </div>
-            </div>  
+            </div> 
 
 
-                                <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+
+                                <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
                                    {/* --- Top Text --- */}
             <p className="text-left text-sm md:text-base text-black mb-1  ">Do you feel nervous about having to get a root canal treatment? Do not worry; this treatment is known to help save millions of teeth each year. Root canal treatments allow dentists and endodontists to save millions of teeth from extraction annually.
             </p>
@@ -57,7 +61,7 @@ Root Canals
       
            <div className="font-sans text-gray-800">
             {/* --- Section 1: What is it? (Text Left, Image Right on Desktop) --- */}
-            <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
+            <section className="max-w-full mx-auto px-6 py-12 md:py-20">
               <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
                 
                 {/* Text Content */}
@@ -85,7 +89,7 @@ Root Canals
                   <img 
                     src="https://smileon.pk/wp-content/uploads/2025/12/When-Do-You-Need-a-Root-Canal-root-canal-2048x1365.jpg"
                     alt="What" 
-                    className="w-full h-56 sm:h-72 lg:h-[400px] object-cover rounded-[2.5rem] shadow-lg"
+                    className="w-full h-56 sm:h-72 lg:h-[450px] object-cover rounded-[2.5rem] shadow-lg"
                   />
                 </div>
               </div>
@@ -101,8 +105,12 @@ Root Canals
       
       
       
-                                      {/* Content wrapper */}
-            <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 text-white">
+              {/* Content wrapper */}
+            <div className="relative z-10 max-w-full mx-auto px-4 md:px-8 text-white">
+
+                 <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12 sm:mb-16 tracking-wide">
+Start Enjoying Your Meals Again
+                    </h2>
               
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
       
@@ -111,7 +119,7 @@ Root Canals
       
                   {/* Benefits */}
                   <div>
-                    <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                       Benefits of Root Canal Treatment
                     </h3>
       
@@ -120,12 +128,10 @@ Root Canals
                     </p>
       
                     <ul className="list-disc list-outside space-y-2 text-sm text-white">
-                      <li> <span className='text-cyan-500'><strong>Infection Prevention:</strong></span> Reduces the intensity of extreme toothache and pain.</li>
-                      <li> <span className='text-cyan-500'><strong>Improved Alignment:</strong></span> Halts wear and tear and prevents infections from spreading across the body.</li>
-                      <li> <span className='text-cyan-500'><strong>Enhanced Oral Health:</strong></span> Provides the opportunity to align the overcrowded teeth.</li>
-                      <li> <span className='text-cyan-500'><strong>Protects Neighbouring Teeth:</strong></span>Helps prevent possible future dental ailments.</li>
-                      <li> <span className='text-cyan-500'><strong>Easier Hygiene:</strong></span>Reduces the chances of affecting other teeth and gums.</li>
-                      <li> <span className='text-cyan-500'><strong>Easier Hygiene:</strong></span> It helps make brushing and flossing easier.</li>
+                    <li>Preserve your natural tooth.</li>
+                    <li>Relieves pain and discomfort.</li>
+                      <li>Saves everyone from getting infected by the sickness.</li>
+                      <li>Helps to regain the functionality of a tooth  </li>
                     </ul>
                   <p className='text-sm text-white mb-4'>  This procedure is standard if a tooth is chipped, broken, or rotted or if it is causing issues affecting other teeth or the gum tissues.</p>
       
@@ -138,7 +144,7 @@ Root Canals
                   {/* Procedure */}
                   <div>
                       
-                    <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                       Tooth Extraction Procedure
                     </h3>
       
@@ -159,7 +165,7 @@ Root Canals
       
                   {/* Need to Know */}
                   <div>
-                    <h3 className="text-cyan-400 font-semibold text-lg ">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                       Need to Know
                     </h3>
       
@@ -175,7 +181,7 @@ Root Canals
       
                   {/* Types */}
                   <div>
-                    <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                       Types of Tooth Extraction: Simple vs. Surgical
                     </h3>
       
@@ -194,7 +200,7 @@ Root Canals
       
                   {/* Precautions */}
                   <div>
-                    <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                       Precautions After Extraction of Teeth
                     </h3>
                     <p className="text-sm text-white leading-relaxed">
@@ -210,7 +216,7 @@ Root Canals
                   </div>
       
  <div>
-                    <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                       Quick Tip
                     </h3>
                     <p className="text-sm text-white leading-relaxed">
@@ -229,6 +235,8 @@ Root Canals
                                    
       <FAQsSection  title="FAQs"
         faqs={CanalsFAQs}/>
+          <Map />
+              <Footer />
       
     </div>
   )

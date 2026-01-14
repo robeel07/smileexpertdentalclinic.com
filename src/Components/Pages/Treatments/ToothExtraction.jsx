@@ -1,5 +1,7 @@
 import React from 'react'
 import FAQsSection from "./FAQ";
+import Map from "./Map";
+import Footer from "./Footer";
 
 
 const ExtractionFAQs = [
@@ -18,26 +20,24 @@ const Extraction = () => {
     <div className='font-jost'>
       
         {/* Hero Section */}
-            <div
+      
+       <div
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Tooth-Extraction.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
                             Tooth Extraction
-
-
                         </h1>
                     </div>
                 </div>
-            </div>
-      
+            </div> 
 
-                           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+                           <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
       
       {/* --- Top Text --- */}
       <div className="text-left text-sm md:text-base text-black mb-12  mx-auto">
@@ -104,8 +104,8 @@ const Extraction = () => {
 
 
 
-                                {/* Content wrapper */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 text-white">
+                                {/* Benifits */}
+      <div className="relative z-10 max-w-full mx-auto px-4 md:px-8 text-white">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
 
@@ -114,15 +114,15 @@ const Extraction = () => {
 
             {/* Benefits */}
             <div>
-              <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                 Benefits of Tooth Extraction
               </h3>
 
-              <p className="text-sm text-white mb-4">
+                           <p className="text-base text-white leading-relaxed">
               Tooth extraction, whether simple or surgical, has numerous advantages for oral well-being and comfort, with several additional benefits.
               </p>
 
-              <ul className="list-disc list-outside space-y-2 text-sm text-white">
+              <ul className="list-disc list-outside space-y-2 text-base text-white">
                 <li> <span className='text-cyan-500'><strong>Infection Prevention:</strong></span> Reduces the intensity of extreme toothache and pain.</li>
                 <li> <span className='text-cyan-500'><strong>Improved Alignment:</strong></span> Halts wear and tear and prevents infections from spreading across the body.</li>
                 <li> <span className='text-cyan-500'><strong>Enhanced Oral Health:</strong></span> Provides the opportunity to align the overcrowded teeth.</li>
@@ -141,16 +141,16 @@ const Extraction = () => {
             {/* Procedure */}
             <div>
                 
-              <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                 Tooth Extraction Procedure
               </h3>
 
-              <p className="text-sm text-white mb-4">
+                           <p className="text-base text-white leading-relaxed">
               Here is a step-by-step procedure for extracting the tooth.
               </p>
               
 
-              <ul className="list-disc list-outside space-y-2 text-sm text-white">
+              <ul className="list-disc list-outside space-y-2 text-base text-white">
                 <li> <span className='text-cyan-500'><strong>Consultation:</strong></span> Your dentist will ask a few questions and review your dental profile, then will give you the best option to extract your tooth.</li>
                 <li> <span className='text-cyan-500'><strong>Anesthesia:</strong></span> You will be given local anesthesia before starting the procedure to numb that area.</li>
                 <li> <span className='text-cyan-500'><strong>Enhanced Oral Health:</strong></span> Provides the opportunity to align the overcrowded teeth.</li>
@@ -162,11 +162,11 @@ const Extraction = () => {
 
             {/* Need to Know */}
             <div>
-              <h3 className="text-cyan-400 font-semibold text-lg ">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                 Need to Know
               </h3>
 
-              <p className="text-sm text-white leading-relaxed">
+                           <p className="text-base text-white leading-relaxed">
                 Pain and slight soreness after the procedure are natural, mainly if your wisdom teeth are extracted. We often advise the patient to stay in bed for at least two to three days. It is also acceptable to experience some bleeding. Plus, the cost of tooth extraction in Pakistan ranges from 2,000 – 10,000 PKR. For more information, visit us today!
               </p>
             </div>
@@ -178,17 +178,17 @@ const Extraction = () => {
 
             {/* Types */}
             <div>
-              <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                 Types of Tooth Extraction: Simple vs. Surgical
               </h3>
 
-              <p className="text-sm text-white leading-relaxed">
+                           <p className="text-base text-white leading-relaxed">
                 There are two categories of tooth extraction: simple and surgical tooth extraction, depending on the situation and the nature of the tooth. The simple extraction would be done in a case where the dentist can readily see the tooth. The surgical extraction is done when the tooth is impacted so it cannot be pulled out easily.
               </p>
-                           <p className="text-sm text-white leading-relaxed">
+                           <p className="text-base text-white leading-relaxed">
 Understanding these differences will make your process smoother.
               </p>
-              <ul className="list-disc list-outside space-y-2 text-sm text-gray-200">
+              <ul className="list-disc list-outside space-y-2 text-base text-gray-200">
                 <li>The simple procedure is undertaken when the whole tooth can be seen without much struggle, whereas the surgical procedure is undertaken when the tooth cannot easily be seen.</li>
                 <li>A simple procedure takes just a few minutes to extract the tooth naturally, whereas surgery extraction of a tooth might leave an incision on the gum to extract the tooth.</li>
                 <li>The recovery time for the less complex procedure is shorter than for the surgical tooth extraction.</li>
@@ -196,15 +196,15 @@ Understanding these differences will make your process smoother.
             </div>
 
             {/* Precautions */}
-            <div>
-              <h3 className="text-cyan-400 font-semibold text-lg mb-3">
+            <div className="pt-10 lg:pt-24 mb-20">
+                    <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
                 Precautions After Extraction of Teeth
               </h3>
-              <p className="text-sm text-white leading-relaxed">
+                           <p className="text-base text-white leading-relaxed">
 Understanding these differences will make your process smoother.
               </p>
 
-               <ul className="list-disc list-outside space-y-2 text-sm text-white">
+               <ul className="list-disc list-outside space-y-2 text-base text-white">
                 <li> <span className='text-cyan-500'><strong>Control Bleeding:</strong></span> Bite gently on a gauze pad over the extraction site of the bleeding. Change the gauze as necessary, and do not spit or use a straw because either procedure will disturb the clot.</li>
                 <li> <span className='text-cyan-500'><strong>Manage Pain and Swelling:</strong></span> Use analgesics only when the doctor recommends or use non-prescribed medications only at the recommended doses. Crush ice with water and put the mixture on the outside of your face for about 15-20 minutes to bring the swelling down.</li>
                 <li> <span className='text-cyan-500'><strong>Follow a Soft Diet: </strong></span> Take cold, pure, or blander liquid and semi-solid foods such as yogurts, milk soups, and mashed vegetables. No hot, spicy, or hard goods are to be taken for a few days after extraction, as the side of the extraction should not be chewed on.</li>
@@ -218,8 +218,13 @@ Understanding these differences will make your process smoother.
       </div>
 
                           </section>
+
+
     <FAQsSection  title="FAQs"
         faqs={ExtractionFAQs}/>
+
+           <Map />
+           <Footer />
 
     </div>
   )

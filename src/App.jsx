@@ -67,7 +67,7 @@ import Canals from "./Components/Pages/Treatments/Canals";
 import DentalBraces from "./Components/Pages/Treatments/DentalBraces";
 import DentalCrowns from "./Components/Pages/Treatments/DentalCrowns";
 import Fillings from "./Components/Pages/Treatments/Fillings";
-
+import Exam from "./Components/Pages/Treatments/Exam";
 
 
 
@@ -151,6 +151,7 @@ function App() {
                 <Route path="/t/dentalbraces" element={<DentalBraces />} />
         <Route path="/t/dentalcrowns" element={<DentalCrowns />} />
         <Route path="/t/fillings" element={<Fillings />} />
+         <Route path="/treatment/exam" element={<Exam />} />
 
 
 

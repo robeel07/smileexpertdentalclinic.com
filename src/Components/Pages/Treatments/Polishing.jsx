@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 import "../../../index.css";
 import FAQsSection from './FAQ';
-
+import Map from "./Map";
+import Footer from "./Footer";
 
 
 const InfoCard = ({ title, children }) => (
-    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/10 shadow-lg h-full ">
-        <h3 className="text-lg font-bold text-cyan-400  pb-2">
+    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg  shadow-lg h-full ">
+        <h3 className="text-2xl font-bold text-cyan-400  pb-2">
             {title}
         </h3>
     
-        <div className="text-gray-200 text-sm space-y-3">
+        <div className="text-gray-200 text-lg space-y-3">
             {children}
         </div>
     </div>
@@ -35,46 +36,47 @@ const Polishing = () => {
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Scaling-Polishing-compressed.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
-Scaling & Polishing
-
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
+                            Scaling & Polishing
                         </h1>
                     </div>
                 </div>
-            </div>  
-            
-            
-             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
-      
-      
-      <p className="text-center text-sm md:text-base text-gray-700 mb-12  mx-auto">
+            </div> 
+
+
+            <section className="w-full pl-4 sm:pl-6 lg:pl-8 py-10 md:pt-20 md:pb-0 md:mb-0">
+             <p className="text-center text-sm md:text-sm lg:text-lg  text-black leading-relaxed">
         Your smile will remain healthy and cheerful if you receive regular scaling & polishing treatment. SmileOn Dental Clinic believes every person needs a perfect set of teeth to achieve that dazzling smile. Our teeth scaling and polishing treatment is one of the ways of making your teeth look clean and healthy. Let us maintain your healthy smile and prevent gum diseases!
       </p>
+      </section>
+
+<section className="w-full pl-4 sm:pl-6 lg:pl-8 py-10 md:pt-20 md:pb-5">
+       
 
       {/* --- Main Content Layout  */}
-      <div className="flex flex-col lg:flex-row lg:space-x-12">
+      <div className="flex flex-col lg:flex-row lg:gap-12 items-start">
         
         {/* --- Text Content Container --- */}
         <div className="lg:w-1/2 mb-8 lg:mb-0">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 mb-6">
             Who Requires Teeth Scaling and Polishing
           </h2>
 
-          <p className="text-sm md:text-base text-gray-700 mb-4">
+          <p className="text-sm md:text-base lg:text-lg text-gray-700 mb-4 leading-relaxed">
             This treatment is suitable for anyone wishing to have healthier, cleaner and much shinier teeth.
           </p>
 
-          <p className="text-sm md:text-base text-gray-700 mb-4">
+          <p className="text-sm md:text-base lg:text-lg text-gray-700 mb-4 font-semibold">
             This treatment is ideal for:
           </p>
           
 
-          <ul className="list-disc list-inside text-sm md:text-base text-gray-700 space-y-2 ml-4">
+          <ul className="list-disc list-inside text-sm md:text-base lg:text-lg text-gray-700 space-y-2 mb-6 ml-2 leading-relaxed">
             <li>People with food deposits</li>
             <li>Patients who are noticing symptoms of gum disease</li>
             <li>Anybody needing white teeth through teeth polishing</li>
@@ -82,18 +84,18 @@ Scaling & Polishing
             <li>Those who wish to have a good oral health</li>
           </ul>
 
-          <p className="text-sm md:text-base text-gray-700 mt-6">
+          <p className="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed">
             If you have the formation of plaque or colored teeth needlessly or simply do not want a buildup of tartar, professional polishing of teeth after scaling is a nice option. For instance, it is useful to users with gum complications or those wanting a beautiful smile.
           </p>
         </div>
 
         {/* --- Image Container --- */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 w-full flex justify-center lg:justify-end px-4 sm:px-0 lg:mt-16">
           
           <img 
             src="https://smileon.pk/wp-content/uploads/2022/11/ascent-dental-care-blog-header-38.jpg" 
             alt="Illustration of teeth scaling and polishing procedure" 
-            className="w-full h-auto object-cover rounded-lg  shadow-xl"
+            className="w-[90%] md:w-[80%]  lg:w-full  max-h-[400px] object-cover rounded-2xl shadow-xl"
           />
         </div>
 
@@ -103,7 +105,7 @@ Scaling & Polishing
     {/* Need to know */}
 
 <section 
-            className="w-full py-16 px-4 md:py-20 md:px-10 lg:px-16 relative " 
+            className="w-full py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 relative " 
             style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2022/11/Entrepreneur-Writing-Book-scaled.jpg")`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             {/* Dark Overlay for contrast  */}
@@ -111,13 +113,13 @@ Scaling & Polishing
             
             <div className="relative z-10 max-w-7xl mx-auto text-white">
                 
-                <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12 sm:mb-16 tracking-wide">
+                <h2 className="text-3xl sm:text-2xl md:text-4xl lg:text-4xl font-bold text-center mb-4 sm:mb-12 md:mb-16 tracking-wide">
                     Need To Know
                 </h2>
 
                 {/* Cards Section */}
                 {/* 1 column on small screens, 2 on medium, 3 on large */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                     
                     {/* 1. Benefits of Scaling Teeth */}
                     <InfoCard title="Benefits of Scaling Teeth">
@@ -127,7 +129,7 @@ Scaling & Polishing
                             <li>Helps to eliminate the foul smell.</li>
                             <li>Gives your teeth a great look to make you gain that smile.</li>
                         </ul>
-                        <p className="pt-2 text-xs ">
+                        <p className="pt-2 text-base ">
                             At SmileOn Dental Clinic, we provide affordable teeth scaling price in Lahore to make it available to everyone.
                         </p>
                     </InfoCard>
@@ -173,7 +175,7 @@ Scaling & Polishing
                             <li>Painless Treatment</li>
                             <li>Affordable Services</li>
                         </ul>
-                        <p className="pt-2 text-xs ">
+                        <p className="pt-2 text-base ">
                             Contact us for teeth scaling and polishing price in Pakistan.
                         </p>
                     </InfoCard>
@@ -185,6 +187,9 @@ Scaling & Polishing
 
       <FAQsSection  title="FAQs"
         faqs={polishingFAQs}/>
+
+        <Map />
+        <Footer />
 
 
     </div>
