@@ -91,7 +91,7 @@ export default function MouthUlcer() {
 
       <ul
         style={{
-          paddingLeft: "20px",
+          paddingLeft: "38px",
           marginBottom: "30px",
           fontSize: "15px",
           color: "#000",
@@ -369,7 +369,7 @@ export default function MouthUlcer() {
 
       <ul
         style={{
-          paddingLeft: "22px",
+          paddingLeft: "38px",
           marginBottom: "14px",
           fontSize: "15px",
           color: "#333",

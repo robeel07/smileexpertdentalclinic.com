@@ -82,7 +82,7 @@ export default function SoreTeeth() {
 
     <ul
       style={{
-        paddingLeft: "18px",
+        paddingLeft: "38px",
         fontSize: "15px",
         color: "#000",
         lineHeight: "1.8",
@@ -259,7 +259,7 @@ export default function SoreTeeth() {
 
           <ul
             style={{
-              paddingLeft: "20px",
+              paddingLeft: "38px",
               marginBottom: "18px",
               fontSize: "15px",
               color: "#333",
@@ -371,7 +371,7 @@ export default function SoreTeeth() {
 
           <ul
             style={{
-              paddingLeft: "20px",
+              paddingLeft: "38px",
               marginBottom: "16px",
               fontSize: "15px",
               color: "#222",

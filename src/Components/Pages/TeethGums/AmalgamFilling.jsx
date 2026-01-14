@@ -10,7 +10,7 @@ export default function AmalgamFilling() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
       style={{ backgroundImage: `url(${fiftyfive})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -49,9 +49,8 @@ If you have concerns about the health impact of amalgam fillings, replacing them
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        gap: "40px",
-        padding: "60px 40px",
-        maxWidth: "1200px",
+        gap: "20px",
+        padding: "40px 120px",
         margin: "auto",
         flexWrap: "wrap",
         fontFamily: "Arial, sans-serif",
@@ -87,7 +86,7 @@ If you have concerns about the health impact of amalgam fillings, replacing them
 
         <ul
           style={{
-            paddingLeft: "20px",
+            paddingLeft: "38px",
             color: "#444",
             fontSize: "16px",
             lineHeight: "1.8",
@@ -122,12 +121,11 @@ If you have concerns about the health impact of amalgam fillings, replacing them
      <div
       style={{
         backgroundColor: "#f5f9fc",
-        padding: "70px 40px",
+        padding: "40px 120px",
       }}
     >
       <div
         style={{
-          maxWidth: "1200px",
           margin: "0 auto",
           display: "flex",
           alignItems: "center",

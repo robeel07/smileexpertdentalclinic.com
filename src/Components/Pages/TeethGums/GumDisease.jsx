@@ -38,6 +38,7 @@ export default function GumDisease() {
     fontSize: "16px",
     color: "#333",
     textAlign: "justify",
+    marginBottom: "0px",
   }}
 >
   <p>
@@ -52,6 +53,7 @@ export default function GumDisease() {
         display: "flex",
         justifyContent: "center",
         background: "#fff",
+        marginBottom: "0px",
       }}
     >
       {/* CENTERED CONTAINER */}
@@ -107,10 +109,11 @@ export default function GumDisease() {
 
             <ul
               style={{
-                paddingLeft: "10px",
+                paddingLeft: "38px",
                 margin: "auto",
                 fontSize: "15px",
                 lineHeight: "1.8",
+                listStyleType: "disc",
               }}
             >
               <li>red, swollen or tender gums</li>
@@ -174,6 +177,7 @@ export default function GumDisease() {
           maxWidth: "1200px",
           width: "180%",
           padding: "80px 60px",
+          marginTop: "0px",
         }}
       >
         <div
@@ -234,10 +238,11 @@ export default function GumDisease() {
 
             <ul
               style={{
-                paddingLeft: "20px",
+                paddingLeft: "38px",
                 marginBottom: "15px",
                 fontSize: "15px",
                 lineHeight: "1.8",
+                listStyleType: "disc",
               }}
             >
               <li>Smoking</li>
@@ -289,7 +294,7 @@ export default function GumDisease() {
       style={{
         fontSize: "15px",
         lineHeight: "1.8",
-        maxWidth: "900px",
+        maxWidth: "1300px",
         margin: "0 auto 30px",
       }}
     >

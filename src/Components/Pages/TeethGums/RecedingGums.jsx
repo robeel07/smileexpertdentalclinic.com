@@ -82,7 +82,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
           symptoms include:
         </p>
 
-        <ul style={{ paddingLeft: "22px", lineHeight: "1.8" }}>
+        <ul style={{ paddingLeft: "38px", lineHeight: "1.8", listStyleType: "disc" }}>
           <li>Fear of tooth loss</li>
           <li>
             Causes of being sensitive to hot or cold foods because of exposed
@@ -180,7 +180,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
             bone structure of your teeth. Other causes include:
           </p>
 
-          <ul style={{ paddingLeft: "22px", lineHeight: "1.8" }}>
+          <ul style={{ paddingLeft: "38px", lineHeight: "1.8", listStyleType: "disc" }}>
             <li>Your genes</li>
             <li>Brushing too hard or incorrectly</li>
             <li>Hormonal changes</li>
@@ -289,7 +289,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
       </div>
 
       {/* BOTTOM SECTION */}
-      <div style={{ marginTop: "70px", maxWidth: "1100px" }}>
+      <div style={{ marginTop: "50px", maxWidth: "1100px" }}>
         <h3
           style={{
             color: "#0b1fa6",
@@ -316,7 +316,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
       </div>
     </div>
 
-    <div style={{ padding: "80px 60px" }}>
+    <div style={{ padding: "20px 60px" }}>
   {/* WHAT NEXT */}
   <h2 style={{ textAlign: "center", color: "#0b1fa6", fontSize: "32px" }}>
     What Next

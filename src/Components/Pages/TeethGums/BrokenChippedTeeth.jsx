@@ -43,16 +43,16 @@ export default function BrokenChippedTeeth() {
 >
   <p>
     A broken tooth is stressful and uncomfortable, but you don’t have to face it alone. Our professional dentists provide effective treatment for your teeth. Our specialists help you with broken teeth treatment, giving procedures that can rebuild your smile and eliminate pain. Whether you have a minor chip or crack, a deep chip or any form of sensitivity, we employ modern technology to get the best service done in the shortest time possible.
-Call <b>SmileOn</b> now for professional dental services, including cracked tooth syndrome treatment, broken tooth pain treatment and more. Keep smiling because your smile is worthy of the best.
+Call <b>SmileExpert</b> now for professional dental services, including cracked tooth syndrome treatment, broken tooth pain treatment and more. Keep smiling because your smile is worthy of the best.
   </p>
 </div>
 
 <div
   style={{
     display: "flex",
-    alignItems: "flex-start",
+    alignItem: "center",
     justifyContent: "space-between",
-    padding: "60px 40px",
+    padding: "40px 120px",
     gap: "40px",
   }}
 >
@@ -83,7 +83,7 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
     </p>
 
     {/* BULLET POINTS */}
-    <ul style={{ fontSize: "18px", lineHeight: "1.8", color: "#222" }}>
+    <ul style={{ fontSize: "18px", lineHeight: "1.4", color: "#222", listStyleType: "disc", paddingLeft: "38px" }}>
       <li>Chewing hard foods</li>
       <li>Accidents or falls</li>
       <li>Grinding teeth at night</li>
@@ -112,7 +112,7 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
 <div
   style={{
     backgroundColor: "#eef5fb",
-    padding: "80px 40px",
+    padding: "40px 120px",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
@@ -151,7 +151,7 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
         fontSize: "18px",
         lineHeight: "1.8",
         color: "#333",
-        marginBottom: "20px",
+        marginBottom: "10px",
         maxWidth: "650px",
       }}
     >
@@ -163,9 +163,10 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
     <ul
       style={{
         fontSize: "18px",
-        lineHeight: "1.8",
+        lineHeight: "1.4",
         color: "#222",
-        paddingLeft: "20px",
+        paddingLeft: "38px",
+        listStyleType: "disc",
       }}
     >
       <li>Pain when chewing or biting</li>
@@ -179,9 +180,9 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
 
  <div
       style={{
-        padding: "60px 40px",
+        padding: "40px 120px",
         display: "flex",
-        alignItems: "flex-start",
+        alignItems: "center",
         justifyContent: "space-between",
         gap: "50px",
       }}
@@ -202,7 +203,7 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
         <p
           style={{
             fontSize: "18px",
-            lineHeight: "1.8",
+            lineHeight: "1.6",
             color: "#333",
             marginBottom: "20px",
             maxWidth: "750px",
@@ -218,9 +219,10 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
         <ul
           style={{
             fontSize: "18px",
-            lineHeight: "1.8",
+            lineHeight: "1.6",
             color: "#222",
-            paddingLeft: "20px",
+            paddingLeft: "38px",
+            listStyleType: "disc",
             maxWidth: "750px",
           }}
         >
@@ -294,7 +296,7 @@ Call <b>SmileOn</b> now for professional dental services, including cracked toot
         style={{
           fontSize: "18px",
           lineHeight: "1.7",
-          maxWidth: "900px",
+          maxWidth: "1300px",
           margin: "0 auto",
           color: "#333",
         }}

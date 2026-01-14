@@ -179,10 +179,11 @@ export default function JawPain() {
 
       <ul
         style={{
-          paddingLeft: "20px",
+          paddingLeft: "38px",
           marginBottom: "15px",
           lineHeight: "1.8",
           fontSize: "15px",
+          listStyleType: "disc",
         }}
       >
         <li>Dental problems, such as misaligned teeth and jaws</li>
@@ -232,7 +233,7 @@ export default function JawPain() {
 
   <p
     style={{
-      maxWidth: "800px",
+      maxWidth: "1300px",
       margin: "0 auto 30px",
       fontSize: "15px",
       lineHeight: "1.7",

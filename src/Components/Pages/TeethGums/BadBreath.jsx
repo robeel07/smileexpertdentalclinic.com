@@ -14,7 +14,7 @@ export default function BadBreath() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
+      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
       style={{ backgroundImage: `url(${thirtytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -51,7 +51,7 @@ export default function BadBreath() {
 <div
   style={{
     width: "100%",
-    padding: "90px 80px",
+    padding: "40px 120px",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center", // ✅ THIS centers both items
@@ -85,9 +85,9 @@ export default function BadBreath() {
 
     <ul
       style={{
-        paddingLeft: "20px",
+        paddingLeft: "38px",
         marginBottom: "30px",
-        lineHeight: "1.8",
+        lineHeight: "1.6",
         listStyleType: "disc",
         listStylePosition: "outside",
       }}
@@ -133,7 +133,7 @@ export default function BadBreath() {
   style={{
     width: "100%",
     backgroundColor: "#f3f8fc",
-    padding: "90px 140px",
+    padding: "40px 120px",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -147,8 +147,8 @@ export default function BadBreath() {
       alt="Dental Checkup"
       style={{
         width: "90%",
-        maxWidth: "1000px",
-        height: "450px",
+        maxWidth: "620px",
+        height: "400px",
         marginleft: "70px",
         borderRadius: "22px",
         objectFit: "cover",
@@ -188,8 +188,8 @@ export default function BadBreath() {
 
     <ul
       style={{
-        paddingLeft: "20px",
-        lineHeight: "1.8",
+        paddingLeft: "38px",
+        lineHeight: "1.6",
         marginBottom: "18px",
         listStyleType: "disc",
         listStylePosition: "outside",
@@ -220,7 +220,7 @@ export default function BadBreath() {
       style={{
         width: "100%",
         backgroundColor: "#f3f8fc",
-        padding: "80px 0",
+        padding: "40px 120px",
         display: "flex",
         justifyContent: "center",
       }}
@@ -257,7 +257,7 @@ export default function BadBreath() {
             solution. <strong>Here are a few typical causes of bad breath:</strong>
           </p>
 
-          <ul style={{ paddingLeft: "1px", lineHeight: "1.8",
+          <ul style={{ paddingLeft: "38px", lineHeight: "1.6",
           listStyleType: "disc",listStylePosition: "outside",}}>
             <li>Poor dental habits such as not brushing and flossing regularly.</li>
             <li>Food fragments caught between teeth or along the gums.</li>
@@ -292,7 +292,7 @@ export default function BadBreath() {
       style={{
         width: "100%",
         backgroundColor: "#f4f8fb",
-        padding: "80px 60px",
+        padding: "40px 120px",
         boxSizing: "border-box",
       }}
     >
@@ -313,7 +313,7 @@ export default function BadBreath() {
               color: "#0b1f66",
               fontSize: "28px",
               fontWeight: "700",
-              marginBottom: "12px",
+              marginBottom: "2px",
             }}
           >
             Related Treatments:
@@ -324,7 +324,7 @@ export default function BadBreath() {
               fontSize: "15px",
               color: "#333",
               lineHeight: "1.7",
-              marginBottom: "16px",
+              marginBottom: "6px",
             }}
           >
             To identify the source of your foul breath, your dentist will
@@ -334,16 +334,14 @@ export default function BadBreath() {
 
           <ul
             style={{
-              paddingLeft: "20px",
-              marginBottom: "35px",
+              paddingLeft: "38px",
+              marginBottom: "15px",
               listStyleType: "disc",
               listStylePosition: "outside",
             }}
           >
             <li style={{ color: "#00a6ff", marginBottom: "6px" }}>Filling</li>
-            <li style={{ color: "#00a6ff", marginBottom: "6px" }}>
-              Root canal
-            </li>
+            <li style={{ color: "#00a6ff", marginBottom: "6px" }}>Root canal</li>
             <li style={{ color: "#00a6ff" }}>Teeth Extraction</li>
           </ul>
 
@@ -376,7 +374,7 @@ export default function BadBreath() {
             discuss the following:
           </p>
 
-          <ul style={{ paddingLeft: "20px", marginBottom: "16px",
+          <ul style={{ paddingLeft: "38px", marginBottom: "16px",
             listStyleType: "disc", listStylePosition: "outside",}}>
             <li style={{ marginBottom: "6px" }}>
               How long have you had bad breath?
@@ -395,7 +393,7 @@ export default function BadBreath() {
 
           <p
             style={{
-              fontSize: "14px",
+              fontSize: "15px",
               color: "#333",
               lineHeight: "1.7",
             }}
@@ -454,7 +452,7 @@ export default function BadBreath() {
   {/* DESCRIPTION */}
   <div
     style={{
-      maxWidth: "900px",
+      maxWidth: "1300px",
       margin: "0 auto 55px auto",
       fontSize: "15px",
       lineHeight: "1.7",
@@ -576,7 +574,7 @@ export default function BadBreath() {
 <div
   style={{
     width: "100%",
-    padding: "90px 40px",
+    padding: "40px 120px",
     backgroundColor: "#ffffff",
     boxSizing: "border-box",
   }}
