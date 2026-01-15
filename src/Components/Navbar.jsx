@@ -127,13 +127,13 @@ const Navbar = () => {
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/bad-breath">Bad Breath</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/sensitive-teeth">Sensitive & Sore Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/sore-teeth-treatment">Sensitive & Sore Teeth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/tooth-abscess">Tooth Abscess</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/abscess-teeth-treatment">Tooth Abscess</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/mouth-sores">Mouth Sores</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/mouth-ulcer-treatment">Mouth Sores</Link>
                                         </li>
                                         <li>
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/teeth-filling-treatment">Teeth Filling</Link>
