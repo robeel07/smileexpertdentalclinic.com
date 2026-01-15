@@ -20,7 +20,6 @@ export default function Contact() {
     
       <div className="relative h-full max-w-6xl px-4 flex items-end">
   <div className="pb-8 mt-6 w-full">
-    <h2 className="text-white text-xl ml-40 mb-2">Contact</h2>
     <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
       Contact Us
     </h1>
@@ -171,43 +170,44 @@ export default function Contact() {
     </div>
 
     <div className="min-w-[250px]">
-      <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
-
-      <p className="my-2 flex gap-[10px]">✉ aneelabrar555@gmail.com</p>
-
-      <p className="my-2 flex gap-[10px] ">☏ 03008395562</p>
-
-      <p className="my-2 flex gap-[10px] leading-[1.4]">
-        ⚲ Saddique hospital stadium road khanewal
-      </p>
-
-      <p className="mt-6 font-semibold">🕒 Clinic Timing<br/> 11:00am to 9:00pm</p>
-
-      <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
-        <div className="flex gap-[15px] mt-[20px]">
-          <a
-            href="#"
-            className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-          >
-            <FaFacebookF size={20} color="white" />
-          </a>
-
-          <a
-            href="#"
-            className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-          >
-            <FaInstagram size={20} color="white" />
-          </a>
-
-          <a
-            href="#"
-            className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-          >
-            <FaYoutube size={22} color="white" />
-          </a>
+          <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
+    
+          <p className="my-2 flex gap-[10px] px-2">📧 aneelabrar555@gmail.com</p>
+    
+          <p className="my-3 flex gap-[10px] px-2 ">📞 03008395562</p>
+    
+          <p className="my-2 flex gap-[10px] px-3">
+              <span className="">📍 Saddique Hospital Stadium Road Khanewal</span>
+          </p>
+    
+          <p className="mt-6 font-semibold px-2"> 🕒 Clinic Timing <br/>   <span className="ml-7">11:00am to 9:00pm</span></p>
+    
+          <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
+            <div className="flex gap-[15px] mt-[20px]">
+              <a
+                href="#"
+                className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+              >
+                <FaFacebookF size={20} color="white" />
+              </a>
+    
+              <a
+                href="#"
+                className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+              >
+                <FaInstagram size={20} color="white" />
+              </a>
+    
+              <a
+                href="#"
+                className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+              >
+                <FaYoutube size={22} color="white" />
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+
   </div>
   <div className="w-full text-center justify-end mb-0 border-t border-gray-300 pt-4">
   <p className="text-sm text-gray-400">

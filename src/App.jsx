@@ -14,6 +14,8 @@ import DentalXrays from "./Components/Blogs/DentalXrays";
 import DentalSurgery from "./Components/Blogs/DentalSurgery";
 import Whatsapp from "./Components/Images/whatsapp-icon-design.png";
 import GoUp from "./Components/Images/go-up.png";
+import OurValues from "./Components/About/OurValues";
+import Team from "./Components/About/Team";
 
 
 
@@ -136,7 +138,7 @@ function App() {
         <Route path="/invisalign-before-and-after" element={<Invisalign />} />
         <Route path="/crowns-before-and-after" element={<Crowns />} />
         <Route path="/veneers-before-and-after" element={<Veneers />} />
-        <Route path="/teeth-before-and-after" element={<Teeth />} />
+        <Route path="/teeth-whitening-before-and-after" element={<Teeth />} />
         <Route path="/dental-implants-before-and-after" element={<Implants />} />
         <Route path="/dental-bonding-before-and-after" element={<Bonding />} />
         <Route path="/7x-safety" element={<Safety />} />
@@ -145,12 +147,15 @@ function App() {
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blogs" element={<Blog />} />
         <Route path="/dental-decay" element={<DentalDecay />} />
         <Route path="/cosmetic-vs-aesthetic" element={<CosmeticAesthetic />} />
         <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />
         <Route path="/what-are-dental-xrays" element={<DentalXrays />} />
         <Route path="/dental-surgery-procedures" element={<DentalSurgery />} />
+        <Route path="/about/our-values" element={<OurValues />} />
+        <Route path="/about/meet-our-team" element={<Team />} />
+
 
 
         <Route path="/t/implants" element={<Implants2 />} />
