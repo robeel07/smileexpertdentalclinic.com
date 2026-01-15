@@ -1,5 +1,8 @@
 import React from 'react'
 import FAQsSection from './FAQ';
+import Map from "./Map";
+import Footer from "./Footer";
+
 
 const Orthodontist = () => {
 
@@ -19,14 +22,13 @@ const OrthodontistFAQs = [
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Orthodontics-2.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
                             Orthodontist Treatment in Lahore
-
                         </h1>
                     </div>
                 </div>
@@ -36,7 +38,7 @@ const OrthodontistFAQs = [
 <section className="py-16 px-6 md:px-12 lg:px-24 bg-white w-full font-sans">
       <div className="max-w-7xl mx-auto">
         
-        <div className="mb-12">
+        <div className="mb-12 ">
           <p className="text-gray-600 text-[13px] md:text-[15px] leading-relaxed">
             Having straight teeth can completely transform your smile, which is why many dental practices offer orthodontic services. 
             Orthodontic treatments, including traditional braces and <span className="text-[#2db6fa] font-bold">Invisalign or Clear Aligners</span>, 
@@ -49,10 +51,10 @@ const OrthodontistFAQs = [
         <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-12">
           
           {/* LEFT COLUMN: Text Content */}
-          <div className="w-full lg:w-[45%] mt-4">
+          <div className="w-full lg:w-[45%] mt-10 lg:mt-24">
           
             <div className="mb-10">
-              <h2 className="text-[#1e1b4b] text-3xl md:text-4xl font-bold mb-4">Overview</h2>
+              <h2 className="text-[#1e1b4b] text-3xl md:text-3xl  ">Overview</h2>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                 Your <span className="text-[#2db6fa] font-bold">specialist orthodontist</span> or dentist will recommend the best option for you, 
                 after assessing your teeth. Your treatment options vary from fixed <span className="text-[#1e1b4b] font-bold">braces</span>, 
@@ -61,7 +63,7 @@ const OrthodontistFAQs = [
             </div>
 
             <div>
-              <h2 className="text-[#1e1b4b] text-3xl md:text-4xl font-bold mb-4">Braces</h2>
+              <h2 className="text-[#1e1b4b] text-3xl md:text-3xl   ">Braces</h2>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                 You will have likely heard of <span className="text-[#2db6fa] font-bold">braces</span>. They're traditionally a metal device 
                 used to straighten your teeth. There are a range of different braces options available.
@@ -94,7 +96,7 @@ const OrthodontistFAQs = [
     <div className="w-full lg:w-[45%] order-2 md:order-2">
       {/* Fixed Braces Block */}
       <div className="mb-10 lg:mb-12">
-        <h2 className="text-[#1e1b4b] text-3xl md:text-4xl font-bold mb-4">Fixed braces</h2>
+        <h2 className="text-[#1e1b4b] text-3xl md:text-4xl  mb-4">Fixed braces</h2>
         <p className="text-gray-600 text-sm md:text-base leading-relaxed">
           Fixed braces are a more traditional and commonly used type of <span className="text-[#2db6fa] font-bold">braces</span>, 
           consisting of small brackets that are bonded to the front surfaces of your teeth, with a wire running through 
@@ -104,7 +106,7 @@ const OrthodontistFAQs = [
 
       {/* Invisalign Block */}
       <div>
-        <h2 className="text-[#1e1b4b] text-3xl md:text-4xl font-bold mb-4">Invisalign</h2>
+        <h2 className="text-[#1e1b4b] text-3xl md:text-4xl  mb-4">Invisalign</h2>
         <p className="text-gray-600 text-sm md:text-base leading-relaxed">
           <span className="text-[#2db6fa] font-bold">Invisalign or Clear Aligners</span> treatment involves wearing a series 
           of clear and thin aligners, similar to a very thin mouthguard or tray. Each aligner is worn for two weeks before 
@@ -116,7 +118,7 @@ const OrthodontistFAQs = [
     
     {/* IMAGE COLUMN: order-2 pulls it to the bottom on mobile */}
     <div className="w-full lg:w-[55%] order-1 md:order-1 flex justify-center lg:justify-start">
-      <div className="w-full"> {/* Removed max-w-[600px] to allow larger size */}
+      <div className="w-full"> 
         <img 
           src="https://smileon.pk/wp-content/uploads/2025/09/Fixed-braces-2048x1367.jpg" 
           alt="Dentist performing procedure" 
@@ -130,11 +132,10 @@ const OrthodontistFAQs = [
 </section>
 {/* Education */}
 
-<section className="py-16 px-6 md:px-12 lg:px-24 bg-white w-full font-sans">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
-        
+<section className="w-full bg-white  overflow-hidden">
+  <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch gap-12">        
         {/* LEFT COLUMN: Text Content */}
-        <div className="w-full lg:w-3/5">
+        <div className="w-full lg:w-1/2">
           <h2 className="text-[#1e1b4b] text-3xl md:text-4xl font-bold mb-6">Education</h2>
           
           <div className="text-gray-600 text-sm md:text-base leading-relaxed space-y-4">
@@ -174,14 +175,13 @@ const OrthodontistFAQs = [
         </div>
 
         {/* RIGHT COLUMN */}
-        <div className="w-full lg:w-2/5 flex justify-center lg:justify-end">
-          <div className="relative w-full max-w-[500px]  ">
+        <div className="w-full lg:w-1/2 flex ">
+          <div className="relative w-full h-full  ">
 
             <img 
               src="https://smileon.pk/wp-content/uploads/2022/11/Benefits-of-Invisalign-clear-aligners-over-traditional-braces-e1759240546413.jpg" 
               alt="Comparison of traditional braces and clear aligners" 
-              className="w-full h-auto rounded-l-[3rem] lg:rounded-r-none rounded-r-[3rem] shadow-sm object-cover"
-            />
+className="w-full h-full min-h-[400px] lg:min-h-full rounded-3xl lg:rounded-r-none lg:rounded-l-[3rem] shadow-sm object-cover"            />
           </div>
         </div>
 
@@ -193,6 +193,9 @@ const OrthodontistFAQs = [
 
       <FAQsSection  title="FAQs"
         faqs={OrthodontistFAQs}/>
+        
+                  <Map />
+                   <Footer />
 
     </div>
   )

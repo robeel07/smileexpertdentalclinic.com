@@ -66,6 +66,13 @@ import DentalCrowns from "./Components/Pages/Treatments/DentalCrowns";
 import Fillings from "./Components/Pages/Treatments/Fillings";
 import Exam from "./Components/Pages/Treatments/Exam";
 import Whitening from "./Components/Pages/Treatments/Whitening";
+import Makeover from "./Components/Pages/Treatments/Makeover";
+import Endodontist from "./Components/Pages/Treatments/Endodontist";
+import Facial from "./Components/Pages/Treatments/Facial";
+import Prosthodontist from "./Components/Pages/Treatments/Prosthodontist";
+import Periodontist from "./Components/Pages/Treatments/Periodontist";
+import Pediatric from "./Components/Pages/Treatments/Pediatric";
+import Specialist from "./Components/Pages/Treatments/Specialist";
 
 
 
@@ -158,8 +165,16 @@ function App() {
         <Route path="/t/dentalbraces" element={<DentalBraces />} />
         <Route path="/t/dentalcrowns" element={<DentalCrowns />} />
         <Route path="/t/fillings" element={<Fillings />} />
-         <Route path="/treatment/exam" element={<Exam />} />
-                  <Route path="/treatment/whitening" element={<Whitening />} />
+        <Route path="/treatment/exam" element={<Exam />} />
+        <Route path="/treatment/whitening" element={<Whitening />} />
+        <Route path="/treatment/makeover" element={<Makeover />} />
+        <Route path="/treatment/endo" element={<Endodontist />} />
+        <Route path="/treatment/facial" element={<Facial />} />
+        <Route path="/treatment/prosthodontist" element={<Prosthodontist />} />
+        <Route path="/treatment/periodontist" element={<Periodontist />} />
+        <Route path="/treatment/pediatric" element={<Pediatric />} />
+        <Route path="/treatment/specialist" element={<Specialist />} />
+
 
 
 

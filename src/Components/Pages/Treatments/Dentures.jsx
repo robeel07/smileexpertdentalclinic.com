@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import FAQsSection from './FAQ';
+import Map from "./Map";
+import Footer from "./Footer";
 
 
 
@@ -42,14 +44,13 @@ const polishingFAQs = [
                 className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Dentures.jpg")` }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 "></div>
 
-                <div className="relative h-full max-w-6xl px-4 flex items-end">
-                    <div className="pb-8 mt-6 w-full">
-                        <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
-                        <h1 className="text-white text-3xl md:text-5xl ml-40 ">
+                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
+                    <div className="pb-8 md:pb-9  w-full">
+                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
+                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
                             Dentures
-
                         </h1>
                     </div>
                 </div>
@@ -225,7 +226,8 @@ const polishingFAQs = [
 <FAQsSection  title="FAQs"
         faqs={polishingFAQs}/>
 
-
+    <Map />
+    <Footer />
 
     </div>
   )

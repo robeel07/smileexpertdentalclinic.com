@@ -221,18 +221,19 @@ const Navbar = () => {
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/bridge">Dental Bridge</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/veneer">Dental Veneers</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/orthodontist">Orthodontics</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Smile Makeover</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/makeover">Smile Makeover</Link>
                                     </div>
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Dental Specialists</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/whitening">Antodontist Services</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/invisalign">Oral & Maxillofacial</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/braces">Orthodontist Specialist</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Pediatric Dentist</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Periodontist Services</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Prosthodontist Services</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/specialist">Dental Specialist</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/endo">Endodontist Services</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/facial">Oral & Maxillofacial Services</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/specialist">Orthodontist Specialist</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/pediatric">Pediatric Dentist</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/periodontist">Periodontist Services</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/prosthodontist">Prosthodontist Services</Link>
                                         <img className="pt-5 w-40" src="https://smileon.pk/wp-content/uploads/2024/09/circle-text.svg" alt="" />
                                     </div>
                                 </div>
@@ -532,28 +533,28 @@ const Navbar = () => {
                                     <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
                                         Orthodontics
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/treatment/makeover" onClick={closeAll} >
                                         Smile Makeover
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
-                                        Dental Specialists
+                                    <Link className="no-underline text-slate-600" to="/treatment/specialist" onClick={closeAll} >
+                                        Dental Specialist
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
-                                        Antodontist Services
+                                    <Link className="no-underline text-slate-600" to="/treatment/endo" onClick={closeAll} >
+                                        Endodontist Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/treatment/facial" onClick={closeAll} >
                                         Oral & Maxillofacial
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/treatment/specialist" onClick={closeAll} >
                                         Orthodontist Specialist
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
-                                        Peditric Dentist
+                                    <Link className="no-underline text-slate-600" to="/treatment/pediatric" onClick={closeAll} >
+                                        Pediatric Dentist
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll}>
-                                        Pereodontist Services
+                                    <Link className="no-underline text-slate-600" to="/treatment/periodontist" onClick={closeAll}>
+                                        Periodontist Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link className="no-underline text-slate-600" to="/treatment/prosthodontist" onClick={closeAll} >
                                         Prosthodontist Services
                                     </Link>
                                 </div>
