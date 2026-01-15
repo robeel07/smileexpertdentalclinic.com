@@ -59,7 +59,7 @@ export default function Blog() {
     <div className="mt-4">
       <Link
         to="/dental-decay"
-        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
       >
         Read More »
       </Link>
@@ -81,14 +81,13 @@ export default function Blog() {
      <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> Cosmetic vs Aesthetic Dentistry</h3>
      </Link>
       <p className="text-gray-700 text-sm leading-relaxed">
-        When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably.
-        But are they really the same?
+        When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably..
       </p>
     </div>
-    <div className="mt-4">
+    <div className="mt-11">
       <Link
         to="/cosmetic-vs-aesthetic"
-        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
       >
         Read More »
       </Link>
@@ -116,7 +115,7 @@ export default function Blog() {
     <div className="mt-4">
       <Link
         to="/benefits-of-dental-checkups"
-        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
       >
         Read More »
       </Link>    
@@ -145,13 +144,13 @@ export default function Blog() {
      <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What Are Dental X Rays – Purpose & Types</h3>
      </Link>
     <p className="text-gray-700 text-sm leading-relaxed">
-      Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They..
+      Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They can make you see..
     </p>
   </div>
   <div className="p-6  justify-end">
     <Link
       to="/what-are-dental-xrays"
-      className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300">
+      className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300">
       Read More »
     </Link>
   </div>
@@ -177,7 +176,7 @@ export default function Blog() {
     <div className="mt-12">
       <Link
         to="/what-is-all-4-dental-implants"
-        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
       >
         Read More »
       </Link>
@@ -206,7 +205,7 @@ export default function Blog() {
     <div className="mt-12">
       <Link
         to="/dental-surgery-procedures"
-        className="text-[#0a1a5c] font-bold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
       >
         Read More »
       </Link>    

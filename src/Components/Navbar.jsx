@@ -80,10 +80,10 @@ const Navbar = () => {
                             About <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-slate-100 p-4">
-                            <Link to="/team" className="block py-2 hover:text-brandAccent text-sm no-underline text-slate-600">
+                            <Link to="/about/meet-our-team" className="block py-2 hover:text-brandAccent text-sm no-underline text-slate-600">
                                 Meet the Team
                             </Link>
-                            <Link to="/values" className="block py-2 hover:text-brandAccent text-sm no-underline text-slate-600">
+                            <Link to="/about/our-values" className="block py-2 hover:text-brandAccent text-sm no-underline text-slate-600">
                                 Our Values
                             </Link>
                         </div>
@@ -100,69 +100,68 @@ const Navbar = () => {
                                     <h3 className="text-brandDark font-bold text-sm mb-4">Teeth & Gums</h3>
                                     <ul className="space-y-2 text-slate-600 text-[13px]">
                                         <li className="hover:text-brandAccent">
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/wisdom">Wisdom Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/wisdom-teeth">Wisdom Teeth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/chipped">Broken Chipped Tooth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/broken-chipped-tooth">Broken Chipped Tooth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/toothache">Toothache</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/toothache">Toothache</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/gums">Receding Gums</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/receding-gums">Receding Gums</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/cleaning">Teeth Cleaning</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/teeth-cleaning">Teeth Cleaning</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/bad-breath">Gum Disease</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/gum-disease">Gum Disease</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/wisdom">Teeth Grinding</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/teeth-grinding">Teeth Grinding</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/chipped">Jaw Pain</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/jaw-pain">Jaw Pain</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/toothache">Bad Breath</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/bad-breath">Bad Breath</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/gums">Sensitive & Sore Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/sensitive-teeth">Sensitive & Sore Teeth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/cleaning">Tooth Abscess</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/tooth-abscess">Tooth Abscess</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/bad-breath">Mouth Sores</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/mouth-sores">Mouth Sores</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/wisdom">Teeth Filling</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/teeth-filling-treatment">Teeth Filling</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/chipped">Replacing a Amalgam</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="amalgam-filling-treatment">Replacing a Amalgam</Link>
                                         </li>
+                                        
                                         <li>
-                                            <Link className="no-underline hover:text-brandAccent text-slate-600" to="/p/toothache">Filling</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="dry-mouth-treatment">Dry Mouth</Link>
                                         </li>
-                                        <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/gums">Dry Mouth</Link>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                                 <div>
                                     <h3 className="text-brandDark font-bold text-sm mb-4">Cosmetic Improvement</h3>
                                     <ul className="space-y-2 text-slate-600 text-[13px]">
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/yellow">Yellow Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/yellow-teeth-treatment">Yellow Teeth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/missing">Missing Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/missing-teeth-treatment">Missing Teeth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/worn">Worn Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/worn-teeth-treatment">Worn Teeth</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/crooked">Crooked Teeth</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/crooked-teeth-treatment">Crooked Teeth</Link>
                                         </li>
                                     </ul>
                                     <img className="pt-32 w-40" src="https://smileon.pk/wp-content/uploads/2023/01/invisible-aligner.jpg" alt="" />
@@ -171,13 +170,13 @@ const Navbar = () => {
                                     <h3 className="text-brandDark font-bold text-sm mb-4 hover:text-gray-400">Common Issues</h3>
                                     <ul className="space-y-2 text-slate-600 text-[13px]">
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/emergency">Emergency Dentist</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/emergency-dentist">Emergency Dentist</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/anxiety">Dental Anxiety</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/dental-anxiety">Dental Anxiety</Link>
                                         </li>
                                         <li>
-                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/p/cancer">Oral Cancer</Link>
+                                            <Link className="hover:text-brandAccent no-underline text-slate-600" to="/oral-cancer">Oral Cancer</Link>
                                         </li>
                                     </ul>
                                     <img
@@ -251,13 +250,13 @@ const Navbar = () => {
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Before & After</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/scaling">Braces - Before & After</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/fillings">Invisalign - Before & After</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/root-canal">Crowns - Before & After</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Veneers - Before & After</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Teeth Whitening - Before & After</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Dental Implants - Before & After</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Dental Bonding - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/braces-before-and-after">Braces - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/invisalign-before-and-after">Invisalign - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/crowns-before-and-after">Crowns - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/veneers-before-and-after">Veneers - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/teeth-whitening-before-and-after">Teeth Whitening - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/dental-implants-before-and-after">Dental Implants - Before & After</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/dental-bonding-before-and-after">Dental Bonding - Before & After</Link>
                                     </div>
                                 </div>
                                 <div>
@@ -285,11 +284,11 @@ const Navbar = () => {
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4">Dental Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/scaling">7X Safety</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/fillings">4 Step Sterilization</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/root-canal">Safety Equipments</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Equipment & Technology</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/extraction">Quality</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/7x-safety">7X Safety</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/4-step-sterilization">4 Step Sterilization</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/safety-equipment">Safety Equipments</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/equipment-technology">Equipment & Technology</Link>
+                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/quality">Quality</Link>
                                     </div>
                                 </div>
                                 <div className="col-span-2">
