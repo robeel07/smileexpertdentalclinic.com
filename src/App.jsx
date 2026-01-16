@@ -155,6 +155,8 @@ function App() {
         <Route path="/dental-surgery-procedures" element={<DentalSurgery />} />
         <Route path="/about/our-values" element={<OurValues />} />
         <Route path="/about/meet-our-team" element={<Team />} />
+        <Route path="/navbar" element={<Navbar/>} />
+
 
 
 

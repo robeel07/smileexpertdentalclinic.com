@@ -310,14 +310,51 @@ const Navbar = () => {
                 </div>
 
                 {/* Right: CTA Buttons */}
-                <div className="hidden lg:flex items-center gap-4 pr-8 ml-auto">
-                    <button className="bg-brandDark text-white px-8 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform cursor-pointer hover:bg-brandAccent ">
-                        Call Now
-                    </button>
-                    <button className="bg-brandAccent text-white px-8 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-lg shadow-brandAccent/30 cursor-pointer hover:bg-brandDark">
-                        Book Appointment
-                    </button>
-                </div>
+                <div className="hidden lg:flex items-center gap-6 pr-8 ml-auto perspective-[1000px]">
+
+  {/* Call Now */}
+  <button
+    className="
+      px-8 py-3
+      font-bold text-sm text-white
+      rounded-full
+      bg-brandDark
+      cursor-pointer
+
+      transform-gpu
+      transition-all duration-300 ease-out
+      animate-blink3d
+      hover:animate-none
+      hover:-translate-y-1
+      hover:bg-brandAccent
+    "
+  >
+    Call Now
+  </button>
+
+  {/* Book Appointment */}
+  <button
+    className="
+      px-8 py-3
+      font-bold text-sm text-white
+      rounded-full
+      bg-brandAccent
+      cursor-pointer
+
+      transform-gpu
+      transition-all duration-300 ease-out
+      animate-blink3d
+      hover:animate-none
+      hover:-translate-y-1
+      hover:bg-brandDark
+    "
+  >
+    Book Appointment
+  </button>
+
+</div>
+
+                
 
                 {/* Hamburger Icon */}
                 <div className="lg:hidden ml-auto pr-8">
@@ -632,27 +669,46 @@ const Navbar = () => {
                             Blog
                         </Link>
 
-    <div className="pt-6 space-y-4 flex items-center justify-start gap-4 bg-[#e0f2ff] p-4 rounded-2xl">
-  
+                    <div className="pt-6 space-y-4 flex items-center justify-start gap-4 bg-[#e0f2ff] p-4 rounded-2xl">
+
+  {/* Call Now Button */}
   <button className="
-    bg-brandDark text-white font-bold py-3 px-6 rounded-2xl
+    relative w-auto py-3 px-6 font-bold text-white rounded-2xl
+    bg-gradient-to-br from-brandDark to-[#142f60]
     transform transition-all duration-300 ease-out
     hover:-translate-y-1 hover:scale-105
-    hover:shadow-lg active:translate-y-1 active:scale-95
+    hover:shadow-[0_12px_25px_rgba(0,0,0,0.35)]
+    active:translate-y-1 active:scale-95
+    overflow-hidden
   ">
     Call Now
+    <span className="
+      absolute top-0 left-0 w-full h-full bg-white opacity-10
+      blur-xl animate-[shine_2s_linear_infinite]
+      pointer-events-none
+    "></span>
   </button>
 
+  {/* Book Appointment Button */}
   <button className="
-    bg-brandAccent text-white font-bold py-3 px-6 rounded-2xl
+    relative w-auto py-3 px-6 font-bold text-white rounded-2xl
+    bg-gradient-to-br from-brandAccent to-[#00d4ff]
     transform transition-all duration-300 ease-out
     hover:-translate-y-1 hover:scale-105
-    hover:shadow-lg active:translate-y-1 active:scale-95
+    hover:shadow-[0_12px_25px_rgba(0,0,0,0.35)]
+    active:translate-y-1 active:scale-95
+    overflow-hidden
   ">
-    Book Appointment
+    Book Appointmentss
+    <span className="
+      absolute top-0 left-0 w-full h-full bg-white opacity-10
+      blur-xl animate-[shine_2s_linear_infinite]
+      pointer-events-none
+    "></span>
   </button>
 
 </div>
+
 
 
 

@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-        fontFamily: {
+      fontFamily: {
         jost: ["Jost", "sans-serif"],
       },
       colors: {
@@ -15,9 +15,23 @@ module.exports = {
         brandLight: "#d1f3ff",
         brandAccent: "#33c1ff",
       },
+      animation: {
+        blink3d: "blink3d 2s ease-in-out infinite",
+      },
+      keyframes: {
+        blink3d: {
+          "0%, 100%": {
+            transform: "translateY(0)",
+            boxShadow: "0 8px 0 rgba(0,0,0,0.25), 0 18px 30px rgba(0,0,0,0.35)",
+          },
+          "50%": {
+            transform: "translateY(-4px)",
+            boxShadow: "0 12px 0 rgba(0,0,0,0.35), 0 30px 45px rgba(0,0,0,0.45)",
+          },
+        },
+      },
     },
   },
-  // YE WALA BLOCK ADD KAREIN AGAR VERSION 2 HAI
   variants: {
     extend: {
       display: ['group-hover'],
@@ -26,4 +40,16 @@ module.exports = {
     },
   },
   plugins: [],
+  extend: {
+  animation: {
+    blink3d: "blink3d 2s ease-in-out infinite",
+  },
+  keyframes: {
+    blink3d: {
+      "0%, 100%": { transform: "translateY(0)", boxShadow: "0 8px 0 rgba(0,0,0,0.25), 0 18px 30px rgba(0,0,0,0.35)" },
+      "50%": { transform: "translateY(-4px)", boxShadow: "0 12px 0 rgba(0,0,0,0.35), 0 30px 45px rgba(0,0,0,0.45)" },
+    },
+  },
+}
+
 };
