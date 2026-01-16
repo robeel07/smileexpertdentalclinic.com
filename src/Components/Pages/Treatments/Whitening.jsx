@@ -100,9 +100,7 @@ const WisdomFAQs = [
         <div className="absolute inset-0 bg-black/40"></div>
         <div className='relative w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end pb-8'>
           <div>
-            <h4 className='text-sm sm:text-base md:text-lg lg:text-xl text-white mb-2'>
-              Treatments
-            </h4>
+            
             <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white'>
               Teeth Whitening in Lahore: Get a Brighter Smile Now
             </h1>

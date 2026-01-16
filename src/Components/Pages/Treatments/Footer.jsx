@@ -50,13 +50,13 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-4 mt-6">
-            <a className="w-10 h-10 bg-[#112d53] flex items-center justify-center rounded-lg text-white bg-blue-500">
+            <a className="w-10 h-10  flex items-center justify-center rounded-lg text-white bg-blue-500">
               <FaFacebookF />
             </a>
-            <a className="w-10 h-10 bg-[#112d53] flex items-center justify-center rounded-lg text-white bg-black">
+            <a className="w-10 h-10  flex items-center justify-center rounded-lg text-white bg-black">
               <FaInstagram />
             </a>
-            <a className="w-10 h-10 bg-[#112d53] flex items-center justify-center rounded-lg text-white bg-red-500">
+            <a className="w-10 h-10  flex items-center justify-center rounded-lg text-white bg-red-500">
               <FaYoutube />
             </a>
           </div>

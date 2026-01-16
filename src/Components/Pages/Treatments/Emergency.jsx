@@ -31,9 +31,6 @@ const Emergency = () => {
                   style={{ backgroundImage: `url(${headerImg})` }}
                 >
                   <div className='w-full h-full  text-white pt-[12em] p-6 md:p-10 lg:p-40'>
-                    <h4 className='text-sm sm:text-base md:text-lg lg:text-xl'>
-                      Treatments
-                    </h4>
                     <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold'>
             Emergency Dentist
                     </h1>
@@ -131,7 +128,7 @@ The following are the warning symptoms of a dental emergency:
 
                       <ul className="list-disc list-outside ml-5 text-md md:text-base text-gray-600 space-y-2 mb-6 "> 
               <li> <Link to="/services/broken-tooth" 
-              className="text-cyan-500 font-semibold hover:text-cyan-700 no-underline transition font-extrabold"> Tooth pain </Link>{" "} that comes on suddenly</li>
+              className="text-cyan-500 font-semibold hover:text-cyan-700 no-underline transition "> Tooth pain </Link>{" "} that comes on suddenly</li>
               <li>Swelling in your mouth or jaw</li>
             </ul>
 

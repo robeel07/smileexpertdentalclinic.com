@@ -11,7 +11,7 @@ const FAQItem = ({ question, answer }) => {
         transition duration-300 bg-teal-600/70  hover:bg-blue-700
         rounded-none"
       >
-        <span className="text-xl text-white text-blue-300 group-hover:text-white transition-colors duration-300">
+        <span className="text-xl text-white group-hover:text-white transition-colors duration-300">
           {isOpen ? "—" : "+"}
         </span>
 

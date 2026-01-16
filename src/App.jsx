@@ -147,7 +147,7 @@ function App() {
         <Route path="/equipment-technology" element={<EquipmentTechnology />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/dental-decay" element={<DentalDecay />} />
         <Route path="/cosmetic-vs-aesthetic" element={<CosmeticAesthetic />} />
         <Route path="/benefits-of-dental-checkups" element={<DentalCheckups />} />

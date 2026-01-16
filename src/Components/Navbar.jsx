@@ -213,11 +213,9 @@ const Navbar = () => {
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Cosmetic Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/whitening">Teeth Whitening</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/invisalign">Invisalign</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/dentalbraces">Dental Braces</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/implants">Dental Implants</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/dentalcrowns">Dental Crowns</Link>
-                                        <Link className="hover:text-brandAccent no-underline text-slate-600" to="/bridge">Dental Bridge</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/veneer">Dental Veneers</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/orthodontist">Orthodontics</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/makeover">Smile Makeover</Link>
@@ -634,10 +632,36 @@ const Navbar = () => {
                             Blog
                         </Link>
 
-                        <div className="pt-6 space-y-3">
-                            <button className="bg-brandDark text-white py-4 rounded-2xl w-full font-bold">Call Now</button>
-                            <button className="bg-brandAccent text-white py-4 rounded-2xl w-full font-bold shadow-lg">Book Appointment</button>
-                        </div>
+    <div className="pt-6 space-y-4 flex items-center justify-start gap-4 bg-[#e0f2ff] p-4 rounded-2xl">
+  
+  <button className="
+    bg-brandDark text-white font-bold py-3 px-6 rounded-2xl
+    transform transition-all duration-300 ease-out
+    hover:-translate-y-1 hover:scale-105
+    hover:shadow-lg active:translate-y-1 active:scale-95
+  ">
+    Call Now
+  </button>
+
+  <button className="
+    bg-brandAccent text-white font-bold py-3 px-6 rounded-2xl
+    transform transition-all duration-300 ease-out
+    hover:-translate-y-1 hover:scale-105
+    hover:shadow-lg active:translate-y-1 active:scale-95
+  ">
+    Book Appointment
+  </button>
+
+</div>
+
+
+
+
+
+
+
+
+
                     </nav>
                 </div>
             </div>

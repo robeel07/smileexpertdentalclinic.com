@@ -20,7 +20,6 @@ export default function HeroSection() {
     
       <div className="relative h-full max-w-6xl px-4 flex items-end">
   <div className="pb-8 mt-6 w-full">
-    <h2 className="text-white text-xl ml-40 mb-2">Treatments</h2>
     <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
       Yellow Teeth Treatment in Khanewal
     </h1>
@@ -228,7 +227,7 @@ export default function HeroSection() {
     Before & After
   </Link>
 
-  <Link to="/blogs" className="block my-[6px] text-inherit no-underline hover:text-blue-600">
+  <Link to="/blog" className="block my-[6px] text-inherit no-underline hover:text-blue-600">
     Blogs
   </Link>
 </div>
@@ -262,13 +261,11 @@ export default function HeroSection() {
     Root Canal Treatment
   </Link>
 
-  <Link to="/t/braces" className="block my-[6px] text-inherit no-underline hover:text-blue-600">
+  <Link to="/t/orthodontist" className="block my-[6px] text-inherit no-underline hover:text-blue-600">
     Orthodontic Braces
   </Link>
 
-  <Link to="/t/invisalign" className="block my-[6px] text-inherit no-underline hover:text-blue-600">
-    Clear Aligners
-  </Link>
+  
 </div>
 
 

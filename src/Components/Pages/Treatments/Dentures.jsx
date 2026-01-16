@@ -48,7 +48,6 @@ const polishingFAQs = [
 
                 <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
                     <div className="pb-8 md:pb-9  w-full">
-                        <h2 className="text-white font-bold text-sm sm:text-base md:text-xl ">Treatments</h2>
                         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
                             Dentures
                         </h1>
