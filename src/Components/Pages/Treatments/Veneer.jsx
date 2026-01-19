@@ -1,11 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
-import ProcedureTimeline from './ProcedureTimeline';
-import DentalFAQ from './DentalFAQ';
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import Map from "./Map";
 import Footer from "./Footer";
 
@@ -179,7 +174,7 @@ Cosmetic dentistry including composite veneers and porcelain teeth veneers is no
 
                 </p>
                 <p className="text-gray-600 text-xs md:text-sm leading-relaxed">
-At SmileOn, we have the best dentist for porcelain veneers. Veneers are used to fix the slight misalignments giving a cosmetic and functional addition to human dentition. Made of high-quality porcelain material our veneers are personalized in terms of color, size and shape to perfectly fit your tooth. It is possible with the right maintenance that veneers can last more than ten years giving you the smile that you have always wanted.
+At SmileExpert, we have the best dentist for porcelain veneers. Veneers are used to fix the slight misalignments giving a cosmetic and functional addition to human dentition. Made of high-quality porcelain material our veneers are personalized in terms of color, size and shape to perfectly fit your tooth. It is possible with the right maintenance that veneers can last more than ten years giving you the smile that you have always wanted.
 
 
                 </p>

@@ -26,7 +26,7 @@ export default function OurValues() {
       <div className="relative h-full max-w-6xl px-4 flex items-end">
   <div className="pb-8 mt-6 w-full">
     <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
-      Meet Our Doctors
+      Meet Our Doctor
     </h1>
   </div>
 </div>
@@ -38,56 +38,31 @@ export default function OurValues() {
   <div className="text-center mb-10">
     <p className="text-teal-400 text-xl font-bold">Meet Our Team</p>
     <h2 className="text-4xl font-bold text-blue-900 mt-2">
-      Meet Our Doctors
+      Meet Our Doctor
     </h2>
   </div>
 
   {/* Slider */}
-  <div className="relative max-w-7xl mx-auto">
-    {/* Cards Wrapper */}
-    <div className="flex gap-6 animate-slide">
+  <div className="relative max-w-xl align-center mx-auto">
       
       {/* Card 1 */}
-      <div className="min-w-[280px] bg-gradient-to-b from-blue-700 to-blue-900 rounded-2xl p-4 text-center shadow-xl">
+      <div className="min-w-[320px] bg-gradient-to-b from-blue-700 to-blue-900 align-center rounded-2xl p-4 text-center shadow-xl">
         <div className="  rounded-xl p-3">
-          <img src={team1} className="w-[200px] h-[250px] rounded-xl mx-auto" />
+          <img src={team1} className="w-[300px] h-[300px] rounded-xl mx-auto" />
         </div>
-        <h3 className="text-white font-semibold mt-4">Dr. Aneel Abrar</h3>
-        <p className="text-sm text-blue-100">EX House surgeon</p>
-        <p className="text-sm text-blue-100 mt-1">Experience : 10 Years</p>
+        <h3 className="text-white font-semibold mt-3">Dr. Aneel Abrar</h3>
+        <p className="text-sm text-blue-100 mt-3">BDS (Nihster institute of dentistry) RDS ( PUNJAB).</p>
+        <p className="text-sm text-blue-100">EX House surgeon Nishter medical university Multan</p>
+        <p className="text-sm text-blue-100 mt-1">Experience : 5 Years</p>
       </div>
 
-      {/* Card 2 */}
-      <div className="min-w-[280px] bg-gradient-to-b from-blue-700 to-blue-900 rounded-2xl p-4 text-center shadow-xl">
-        <div className=" rounded-xl p-3">
-          <img src={team2} className="w-[200px] h-[250px] rounded-xl mx-auto" />
-        </div>
-        <h3 className="text-white font-semibold mt-4">Dr. Usman Rashid</h3>
-        <p className="text-sm text-blue-100">Consultant Periodontist</p>
-        <p className="text-sm text-blue-100 mt-1">Experience : 13 Years</p>
-      </div>
+      
 
-      {/* Card 3 */}
-      <div className="min-w-[280px] bg-gradient-to-b from-blue-700 to-blue-900 rounded-2xl p-4 text-center shadow-xl">
-        <div className=" rounded-xl p-3">
-          <img src={team3} className="w-[200px] h-[250px] rounded-xl mx-auto" />
-        </div>
-        <h3 className="text-white font-semibold mt-4">Dr. Muhammad </h3>
-        <p className="text-sm text-blue-100">Consultant Endodontist</p>
-        <p className="text-sm text-blue-100 mt-1">Experience : 16 Years</p>
-      </div>
+      
 
-      {/* Card 4 */}
-      <div className="min-w-[280px] bg-gradient-to-b from-blue-700 to-blue-900 rounded-2xl p-4 text-center shadow-xl">
-        <div className=" rounded-xl p-3">
-          <img src={team4} className="w-[200px] h-[250px] rounded-xl mx-auto" />
-        </div>
-        <h3 className="text-white font-semibold mt-4">Dr. Ayesha khalid</h3>
-        <p className="text-sm text-blue-100">Restorative Dentist</p>
-        <p className="text-sm text-blue-100 mt-1">Experience : 8 Years</p>
-      </div>
+      
 
-    </div>
+    
 
     
   </div>
