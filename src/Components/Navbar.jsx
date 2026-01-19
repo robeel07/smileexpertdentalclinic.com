@@ -62,7 +62,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-4 left-0 right-0 z-50 px-4">
-            <div className="max-w-[1500px] mx-auto bg-gray-200 px-3 backdrop-blur-md rounded-md flex items-center shadow-xl border border-white/40 h-28 lg:h-30">
+            <div className="max-w-[1500px] mx-auto bg-gray-100 px-3 backdrop-blur-md rounded-md flex items-center shadow-xl border border-white/40 h-28 lg:h-30">
                 {/* Left: Logo Section */}
                 <div className=" h-auto px-0 flex items-center">
                     <Link to="/">
