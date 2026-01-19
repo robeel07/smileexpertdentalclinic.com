@@ -322,24 +322,13 @@ export default function OurValues() {
         
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
-                  <a
-                    href="#"
-                    className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-                  >
+                  <a href="#" className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline">
                     <FaFacebookF size={20} color="white" />
                   </a>
-        
-                  <a
-                    href="#"
-                    className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-                  >
+                  <a href="#" className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline">
                     <FaInstagram size={20} color="white" />
                   </a>
-        
-                  <a
-                    href="#"
-                    className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-                  >
+                  <a href="#" className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline">
                     <FaYoutube size={22} color="white" />
                   </a>
                 </div>
