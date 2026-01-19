@@ -172,7 +172,7 @@ Orthodontist Specialist in Lahore
           <div className="relative w-full max-w-[500px]  ">
 
             <img 
-              src="https://smileon.pk/wp-content/uploads/2025/10/EducationOS0-2048x1367.jpg" 
+              src="https://smileon.pk/wp-content/uploads/2025/10/EducationOS0-2048x1367.jpg" alt="dental"
 className="w-full h-[350px] md:h-[450px] object-cover rounded-3xl shadow-md"/>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import "../../../index.css";
 import FAQsSection from './FAQ';
 import Map from "./Map";
