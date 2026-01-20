@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import invisa from "../../Images/invisa.jpg";
 import nintyseven from "../../Images/nintyseven.jpg";
@@ -8,9 +7,6 @@ import bf3 from "../../Images/bf3.jpg";
 import af1 from "../../Images/af1.jpg";
 import af2 from "../../Images/af2.jpg";
 import af3 from "../../Images/af3.jpg";
-import bf4 from "../../Images/bf4.jpg";
-import bf5 from "../../Images/bf5.jpg";
-import bf6 from "../../Images/bf6.jpg";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 
@@ -95,22 +91,22 @@ export default function Invisalign() {
     {/* Repeat same block */}
     <div className="space-y-2">
       <div className="relative">
-        <img src={bf2} className="w-full h-58 object-cover rounded-lg" />
+        <img src={bf2} alt="Invisalign before treatment" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={af2} className="w-full h-58 object-cover rounded-lg" />
+        <img src={af2} alt="Invisalign after treatment" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>
 
     <div className="space-y-2">
       <div className="relative">
-        <img src={bf3} className="w-full h-58 object-cover rounded-lg" />
+        <img src={bf3} alt="Clear aligner before results" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={af3} className="w-full h-58 object-cover rounded-lg" />
+        <img src={af3} alt="Clear aligner after results" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>    

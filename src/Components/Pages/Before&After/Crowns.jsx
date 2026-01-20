@@ -90,22 +90,22 @@ export default function Crowns() {
     {/* Repeat same block */}
     <div className="space-y-2">
       <div className="relative">
-        <img src={crown3} className="w-full h-58 object-cover rounded-lg" />
+        <img src={crown3} alt="Dental crown treatment" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={crown4} className="w-full h-58 object-cover rounded-lg" />
+        <img src={crown4} alt="Crown restoration results" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>
 
     <div className="space-y-2">
       <div className="relative">
-        <img src={crown5} className="w-full h-58 object-cover rounded-lg" />
+        <img src={crown5} alt="Porcelain crown procedure" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={crown6} className="w-full h-58 object-cover rounded-lg" />
+        <img src={crown6} alt="Dental crown finishing" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>    

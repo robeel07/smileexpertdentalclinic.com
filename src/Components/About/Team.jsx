@@ -44,7 +44,7 @@ export default function OurValues() {
       {/* Card 1 */}
       <div className="min-w-[320px] bg-gradient-to-b from-blue-700 to-blue-900 align-center rounded-2xl p-4 text-center shadow-xl">
         <div className="  rounded-xl p-3">
-          <img src={team1} className="w-[300px] h-[300px] rounded-xl mx-auto" />
+          <img src={team1} alt="Dr. Aneel Abrar - Dental Doctor" className="w-[300px] h-[300px] rounded-xl mx-auto" />
         </div>
         <h3 className="text-white font-semibold mt-3">Dr. Aneel Abrar</h3>
         <p className="text-sm text-blue-100 mt-3">BDS (Nihster institute of dentistry) RDS ( PUNJAB).</p>

@@ -90,22 +90,22 @@ export default function Veneers() {
     {/* Repeat same block */}
     <div className="space-y-2">
       <div className="relative">
-        <img src={teeth3} className="w-full h-58 object-cover rounded-lg" />
+        <img src={teeth3} alt="Teeth whitening before and after" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={teeth4} className="w-full h-58 object-cover rounded-lg" />
+        <img src={teeth4} alt="Teeth brightening results" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>
 
     <div className="space-y-2">
       <div className="relative">
-        <img src={teeth5} className="w-full h-58 object-cover rounded-lg" />
+        <img src={teeth5} alt="Teeth bleaching treatment" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={teeth6} className="w-full h-58 object-cover rounded-lg" />
+        <img src={teeth6} alt="Smile enhancement procedure" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>    

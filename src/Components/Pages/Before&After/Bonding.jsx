@@ -92,18 +92,18 @@ export default function Bonding() {
     {/* Repeat same block */}
     <div className="space-y-2">
       <div className="relative">
-        <img src={bonding4} className="w-full h-58 object-cover rounded-lg" />
+        <img src={bonding4} alt="Bonding treatment before and after" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       <div className="relative">
-        <img src={bonding5} className="w-full h-58 object-cover rounded-lg" />
+        <img src={bonding5} alt="Dental bonding results" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
     </div>
 
     <div className="space-y-2">
       <div className="relative">
-        <img src={bonding6} className="w-full h-58 object-cover rounded-lg" />
+        <img src={bonding6} alt="Cosmetic dental bonding procedure" className="w-full h-58 object-cover rounded-lg" />
         
       </div>
       
