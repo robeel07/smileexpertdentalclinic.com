@@ -146,22 +146,31 @@ export default function Footer() {
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
                   <a
-                    href="#"
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                    aria-label="Follow us on Facebook"
                   >
                     <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
-                    href="#"
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                    aria-label="Follow us on Instagram"
                   >
                     <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
-                    href="#"
+                    href="https://youtube.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                    aria-label="Subscribe to our YouTube channel"
                   >
                     <FaYoutube size={22} color="white" />
                   </a>

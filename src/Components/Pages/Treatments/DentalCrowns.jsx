@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import FAQsSection from './FAQ';
 import Map from "./Map";
 import Footer from "./Footer";
