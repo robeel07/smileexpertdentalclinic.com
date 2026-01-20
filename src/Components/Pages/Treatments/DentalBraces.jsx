@@ -1,4 +1,4 @@
-import React from 'react';
+
 import FAQsSection from './FAQ';
 import Map from "./Map";
 import Footer from "./Footer";

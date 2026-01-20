@@ -164,7 +164,7 @@ const Navbar = () => {
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/crooked-teeth-treatment">Crooked Teeth</Link>
                                         </li>
                                     </ul>
-                                    <img className="pt-32 w-40" src="https://smileon.pk/wp-content/uploads/2023/01/invisible-aligner.jpg" alt="" />
+                                    <img className="pt-32 w-40" src="https://smileon.pk/wp-content/uploads/2023/01/invisible-aligner.jpg" alt="Invisible aligner treatment option" />
                                 </div>
                                 <div>
                                     <h3 className="text-brandDark font-bold text-sm mb-4 hover:text-gray-400">Common Issues</h3>
@@ -182,7 +182,7 @@ const Navbar = () => {
                                     <img
                                         className="pt-32 w-40"
                                         src="https://smileon.pk/wp-content/uploads/2022/01/home1-imagebox-002-new-300x244.png"
-                                        alt=""
+                                        alt="Common dental issues treatment"
                                     />
                                 </div>
                             </div>
@@ -231,7 +231,7 @@ const Navbar = () => {
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/pediatric">Pediatric Dentist</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/periodontist">Periodontist Services</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/prosthodontist">Prosthodontist Services</Link>
-                                        <img className="pt-5 w-40" src="https://smileon.pk/wp-content/uploads/2024/09/circle-text.svg" alt="" />
+                                        <img className="pt-5 w-40" src="https://smileon.pk/wp-content/uploads/2024/09/circle-text.svg" alt="Dental specialists services illustration" />
                                     </div>
                                 </div>
                                 <div className="flex flex-col items-center justify-center"></div>

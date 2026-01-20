@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTeeth, } from '@fortawesome/free-solid-svg-icons';
+import { faTeeth } from '@fortawesome/free-solid-svg-icons';
 
 const ProcedureTimeline = ({ title, subtitle, steps }) => {
   return (

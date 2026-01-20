@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import nine from "../../Images/nine.png";
 import ten from "../../Images/ten.jpg";
@@ -397,24 +397,24 @@ export default function Toothache() {
             }}
           >
             <li>
-              <a href="#" style={{ color: "#00aaff", fontWeight: "600" }}>
+              <Link to="/t/fillings" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
                 Fillings
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" style={{ color: "#00aaff", fontWeight: "600" }}>
+              <Link to="/t/canals" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
                 Root canals
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" style={{ color: "#00aaff", fontWeight: "600" }}>
+              <Link to="/t/tmj" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
                 TMJ
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" style={{ color: "#00aaff", fontWeight: "600" }}>
+              <Link to="/t/extraction" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
                 Tooth extraction
-              </a>
+              </Link>
             </li>
             <li>Antibiotics and pain relief medication</li>
           </ul>

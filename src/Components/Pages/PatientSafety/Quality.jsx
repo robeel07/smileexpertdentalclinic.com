@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import quality from "../../Images/quality.jpg";
 import icon1 from "../../Images/icon1.jpg";

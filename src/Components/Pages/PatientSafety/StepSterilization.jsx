@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import step from "../../Images/step.jpg";
 import step1 from "../../Images/step1.jpg";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import oral from "../../Images/oral.png";
 import ninty from "../../Images/ninty.jpg";

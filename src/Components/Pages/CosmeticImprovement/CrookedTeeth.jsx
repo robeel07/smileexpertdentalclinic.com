@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import seventyeight from "../../Images/seventyeight.jpg";
 import seventynine from "../../Images/seventynine.jpg";
@@ -135,9 +135,9 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
     <ul className="list-disc list-inside mb-2 text-black text-m space-y-1">
       <li>Invisalign Clear Aligners</li>
       <li>
-        <a href="#" className="text-[#00a6ff] font-semibold hover:underline">
+        <Link to="/t/orthodontist" className="text-[#00a6ff] font-semibold hover:underline no-underline">
           Orthodontics
-        </a> (fixed braces)
+        </Link> (fixed braces)
       </li>
       <li>
         <strong className="font-bold">Crowns</strong>
@@ -146,9 +146,9 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
       <li>Veneers</li>
       <li>
         <strong>
-          <a href="#" className="text-[#00a6ff] font-semibold hover:underline">
+          <Link to="/t/implants" className="text-[#00a6ff] font-semibold hover:underline no-underline">
             Dental Implants
-          </a>
+          </Link>
         </strong>
       </li>
     </ul>

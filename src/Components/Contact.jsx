@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import contact from "../Components/Images/contact.jpg";
 import mail from "../Components/Images/mail.png";

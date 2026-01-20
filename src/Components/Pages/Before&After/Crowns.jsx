@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import crown from "../../Images/crown.jpg";
 import crowns from "../../Images/crowns.jpg";

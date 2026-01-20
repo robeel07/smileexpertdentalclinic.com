@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const InfoCard2 = ({ title, children }) => {
   return (

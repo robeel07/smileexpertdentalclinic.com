@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import equip from "../../Images/equip.jpg";
 import equip1 from "../../Images/equip1.jpg";

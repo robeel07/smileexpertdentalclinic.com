@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import veneer from "../../Images/veneer.jpg";
 import veneer1 from "../../Images/veneer1.jpg";
