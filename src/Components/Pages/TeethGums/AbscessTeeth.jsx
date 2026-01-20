@@ -722,7 +722,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 
                     >
 
-                      <FaFacebookF size={20} color="white" />
+                      <FaFacebookF size={20} color="#1877F2" />
                   </a>
         
                   <a
@@ -746,7 +746,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                     >
 
         
-                      <FaInstagram size={20} color="white" />
+                      <FaInstagram size={20} color="#E4405F" />
                   </a>
         
                   <a
@@ -770,7 +770,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                     >
 
         
-                      <FaYoutube size={22} color="white" />
+                      <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
               </div>

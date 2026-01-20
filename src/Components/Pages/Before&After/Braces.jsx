@@ -334,7 +334,7 @@ As you can see, wearing braces made a huge difference in the appearance of their
 
                     >
 
-                      <FaFacebookF size={20} color="white" />
+                      <FaFacebookF size={20} color="#1877F2" />
                   </a>
         
                   <a
@@ -358,7 +358,7 @@ As you can see, wearing braces made a huge difference in the appearance of their
                     >
 
         
-                      <FaInstagram size={20} color="white" />
+                      <FaInstagram size={20} color="#E4405F" />
                   </a>
         
                   <a
@@ -382,7 +382,7 @@ As you can see, wearing braces made a huge difference in the appearance of their
                     >
 
         
-                      <FaYoutube size={22} color="white" />
+                      <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
               </div>

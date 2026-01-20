@@ -62,7 +62,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-4 left-0 right-0 z-50 px-4">
-            <div className="max-w-[1500px] mx-auto bg-gray-100 px-3 backdrop-blur-md rounded-md flex items-center shadow-xl border border-white/40 h-28 lg:h-30">
+            <div className="max-w-[1500px] mx-auto bg-gray-100 px-3 backdrop-blur-md rounded-md flex items-center whitespace-nowrap shadow-xl border border-white/40 h-28 lg:h-30">
                 {/* Left: Logo Section */}
                 <div className=" h-auto px-0 flex items-center">
                     <Link to="/">
@@ -94,11 +94,11 @@ const Navbar = () => {
                         <button className="flex items-center text-base font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             Dental Problems <ChevronDown size={14} />
                         </button>
-                        <div className="absolute top-full left-1/2 -translate-x-[35%] mt-2 w-[850px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10 overflow-hidden">
-                            <div className="grid grid-cols-3  2">
+                        <div className="absolute top-full left-[-100px] mt-2 w-[850px] bg-white items-start text-left rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-6 overflow-hidden">
+                            <div className="grid grid-cols-3 gap-8 text-left">
                                 <div>
                                     <h3 className="text-brandDark font-bold text-sm mb-4">Teeth & Gums</h3>
-                                    <ul className="space-y-2 text-slate-600 text-[13px]">
+                                    <ul className="space-y-2 text-slate-600 text-left text-[13px] pl-0 list-none">
                                         <li className="hover:text-brandAccent">
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/wisdom-teeth">Wisdom Teeth</Link>
                                         </li>
@@ -150,7 +150,7 @@ const Navbar = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-brandDark font-bold text-sm mb-4">Cosmetic Improvement</h3>
-                                    <ul className="space-y-2 text-slate-600 text-[13px]">
+                                    <ul className="space-y-2 text-slate-600 text-[13px] pl-0 list-none">
                                         <li>
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/yellow-teeth-treatment">Yellow Teeth</Link>
                                         </li>
@@ -168,7 +168,7 @@ const Navbar = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-brandDark font-bold text-sm mb-4 hover:text-gray-400">Common Issues</h3>
-                                    <ul className="space-y-2 text-slate-600 text-[13px]">
+                                    <ul className="space-y-2 text-slate-600 text-[13px] pl-0 list-none">
                                         <li>
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/emergency-dentist">Emergency Dentist</Link>
                                         </li>

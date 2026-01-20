@@ -56,12 +56,12 @@ export default function Blog() {
         Dental caries is one of the most prevalent oral diseases globally that occurs in all age groups..
       </p>
     </div>
-    <div className="mt-4">
+    <div className="mt-2 flex justify-center">
       <Link
         to="/dental-decay"
-        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="inline-block px-3 py-1 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-600 transition-all duration-300 no-underline shadow-md hover:shadow-lg"
       >
-        Read More »
+        Read More →
       </Link>
     </div>
   </div>
@@ -84,12 +84,12 @@ export default function Blog() {
         When we talk about perfecting a smile, the words cosmetic dentistry and aesthetic dentistry are sometimes used interchangeably..
       </p>
     </div>
-    <div className="mt-11">
+    <div className="mt-4 justify-center">
       <Link
         to="/cosmetic-vs-aesthetic"
-        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="inline-block px-3 py-1 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-600 transition-all duration-300 no-underline shadow-md hover:shadow-lg"
       >
-        Read More »
+        Read More →
       </Link>
     </div>
   </div>
@@ -112,12 +112,12 @@ export default function Blog() {
         Don’t have a healthy smile? It’s something you need to maintain with care and regular checkups. These dental visits help catch problems early, avoid major treatments and keep your teeth looking their best..
       </p>
     </div>
-    <div className="mt-4">
+    <div className="mt-2 flex justify-center">
       <Link
         to="/benefits-of-dental-checkups"
-        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="inline-block px-3 py-1 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-600 transition-all duration-300 no-underline shadow-md hover:shadow-lg"
       >
-        Read More »
+        Read More →
       </Link>    
     </div>
   </div>
@@ -139,20 +139,22 @@ export default function Blog() {
     alt="Disposable Gloves"
     className="w-full h-56 object-cover"
   />
-  <div className="p-6 flex-1">
-    <Link to="/what-are-dental-xrays" className="no-underline">
-     <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What Are Dental X Rays – Purpose & Types</h3>
-     </Link>
-    <p className="text-gray-700 text-sm leading-relaxed">
-      Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They can make you see..
-    </p>
-  </div>
-  <div className="p-6  justify-end">
-    <Link
-      to="/what-are-dental-xrays"
-      className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300">
-      Read More »
-    </Link>
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <Link to="/what-are-dental-xrays" className="no-underline">
+       <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> What Are Dental X Rays – Purpose & Types</h3>
+       </Link>
+      <p className="text-gray-700 text-sm leading-relaxed">
+        Dental X-rays are one of the easiest ways, and simple tools, for your dentist to peek beneath the surface. They can make you see..
+      </p>
+    </div>
+    <div className="mt-4 flex justify-center">
+      <Link
+        to="/what-are-dental-xrays"
+        className="inline-block px-3 py-1 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-600 transition-all duration-300 no-underline shadow-md hover:shadow-lg">
+        Read More →
+      </Link>
+    </div>
   </div>
 </div>
 
@@ -173,12 +175,12 @@ export default function Blog() {
         All-on-4 dental implants are an innovative and long-term replacement for people who have lost the majority of, or all of, their teeth..
       </p>
     </div>
-    <div className="mt-12">
+    <div className="mt-4 flex justify-center">
       <Link
         to="/what-is-all-4-dental-implants"
-        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="inline-block px-3 py-1 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-600 transition-all duration-300 no-underline shadow-md hover:shadow-lg"
       >
-        Read More »
+        Read More →
       </Link>
     </div>
   </div>
@@ -192,7 +194,7 @@ export default function Blog() {
     alt="Protective Eyewear"
     className="w-full h-56 object-cover"
   />
-  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div className="p-6 flex-1 flex flex-col justify-between">
     <div>
       <Link to="/dental-surgery-procedures" className="no-underline">
      <h3 className="text-1xl font-semibold hover:text-blue-600 text-[#0a2a66] mb-4"> Common Dental Surgery Procedures</h3>
@@ -202,12 +204,12 @@ export default function Blog() {
         Dental surgery might seem complex and challenging, but with modern technologies and skilled dentists, it can do wonders to improve your smile..
       </p>
     </div>
-    <div className="mt-12">
+    <div className="mt-4 flex justify-center">
       <Link
         to="/dental-surgery-procedures"
-        className="text-[#0a1a5c] font-semibold no-underline hover:text-blue-600 transition-colors duration-300"
+        className="inline-block px-3 py-1 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-600 transition-all duration-300 no-underline shadow-md hover:shadow-lg"
       >
-        Read More »
+        Read More →
       </Link>    
     </div>
   </div>
@@ -387,7 +389,7 @@ export default function Blog() {
 
                     >
 
-                      <FaFacebookF size={20} color="white" />
+                      <FaFacebookF size={20} color="#1877F2" />
                   </a>
         
                   <a
@@ -411,7 +413,7 @@ export default function Blog() {
                     >
 
         
-                      <FaInstagram size={20} color="white" />
+                      <FaInstagram size={20} color="#E4405F" />
                   </a>
         
                   <a
@@ -435,7 +437,7 @@ export default function Blog() {
                     >
 
         
-                      <FaYoutube size={22} color="white" />
+                      <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
               </div>

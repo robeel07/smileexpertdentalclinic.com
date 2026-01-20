@@ -395,7 +395,7 @@ If you’re considering dental implants, take a look at some before and after ph
 
                     >
 
-                      <FaFacebookF size={20} color="white" />
+                      <FaFacebookF size={20} color="#1877F2" />
                   </a>
         
                   <a
@@ -419,7 +419,7 @@ If you’re considering dental implants, take a look at some before and after ph
                     >
 
         
-                      <FaInstagram size={20} color="white" />
+                      <FaInstagram size={20} color="#E4405F" />
                   </a>
         
                   <a
@@ -443,7 +443,7 @@ If you’re considering dental implants, take a look at some before and after ph
                     >
 
         
-                      <FaYoutube size={22} color="white" />
+                      <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
               </div>

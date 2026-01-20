@@ -552,7 +552,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
 
                         >
 
-                          <FaFacebookF size={20} color="white" />
+                          <FaFacebookF size={20} color="#1877F2" />
                       </a>
             
                       <a
@@ -576,7 +576,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                         >
 
             
-                          <FaInstagram size={20} color="white" />
+                          <FaInstagram size={20} color="#E4405F" />
                       </a>
             
                       <a
@@ -600,7 +600,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                         >
 
             
-                          <FaYoutube size={22} color="white" />
+                          <FaYoutube size={22} color="#FF0000" />
                       </a>
                     </div>
                   </div>

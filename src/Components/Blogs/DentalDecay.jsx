@@ -545,7 +545,7 @@ There are so many easy things you can do each day that will improve your dental 
 
                     >
 
-                      <FaFacebookF size={20} color="white" />
+                      <FaFacebookF size={20} color="#1877F2" />
                   </a>
         
                   <a
@@ -569,7 +569,7 @@ There are so many easy things you can do each day that will improve your dental 
                     >
 
         
-                      <FaInstagram size={20} color="white" />
+                      <FaInstagram size={20} color="#E4405F" />
                   </a>
         
                   <a
@@ -593,7 +593,7 @@ There are so many easy things you can do each day that will improve your dental 
                     >
 
         
-                      <FaYoutube size={22} color="white" />
+                      <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
               </div>

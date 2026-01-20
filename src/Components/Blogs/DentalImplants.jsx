@@ -588,7 +588,7 @@ export default function DentalImplants() {
 
                       >
 
-                        <FaFacebookF size={20} color="white" />
+                        <FaFacebookF size={20} color="#1877F2" />
                     </a>
           
                     <a
@@ -612,7 +612,7 @@ export default function DentalImplants() {
                       >
 
           
-                        <FaInstagram size={20} color="white" />
+                        <FaInstagram size={20} color="#E4405F" />
                     </a>
           
                     <a
@@ -636,7 +636,7 @@ export default function DentalImplants() {
                       >
 
           
-                        <FaYoutube size={22} color="white" />
+                        <FaYoutube size={22} color="#FF0000" />
                     </a>
                   </div>
                 </div>

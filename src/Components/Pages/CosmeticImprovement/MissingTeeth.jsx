@@ -886,7 +886,7 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
 
                     >
 
-                      <FaFacebookF size={20} color="white" />
+                      <FaFacebookF size={20} color="#1877F2" />
                   </a>
         
                   <a
@@ -910,7 +910,7 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
                     >
 
         
-                      <FaInstagram size={20} color="white" />
+                      <FaInstagram size={20} color="#E4405F" />
                   </a>
         
                   <a
@@ -934,7 +934,7 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
                     >
 
         
-                      <FaYoutube size={22} color="white" />
+                      <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
               </div>
