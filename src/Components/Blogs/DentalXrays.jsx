@@ -620,7 +620,7 @@ So, the more quickly we are able to identify dental problems, the better off you
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -641,7 +641,7 @@ So, the more quickly we are able to identify dental problems, the better off you
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -650,7 +650,7 @@ So, the more quickly we are able to identify dental problems, the better off you
                     >
 
         
-                      <FaInstagram size={20} color="#E4405F" />
+                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
         
                   <a
@@ -665,7 +665,7 @@ So, the more quickly we are able to identify dental problems, the better off you
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -704,3 +704,4 @@ So, the more quickly we are able to identify dental problems, the better off you
 
   )
 }
+

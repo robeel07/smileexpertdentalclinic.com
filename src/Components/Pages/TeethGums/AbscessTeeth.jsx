@@ -716,7 +716,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -737,7 +737,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -746,7 +746,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                     >
 
         
-                      <FaInstagram size={20} color="#E4405F" />
+                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
         
                   <a
@@ -761,7 +761,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -800,3 +800,4 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 </>
   )
 }
+

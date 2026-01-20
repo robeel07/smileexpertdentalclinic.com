@@ -546,7 +546,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
 
                           rel="noopener noreferrer"
 
-                          className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                          className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                           aria-label="Follow us on Facebook"
 
@@ -567,7 +567,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                           rel="noopener noreferrer"
 
             
-                          className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                          className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
             
                           aria-label="Follow us on Instagram"
@@ -576,7 +576,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                         >
 
             
-                          <FaInstagram size={20} color="#E4405F" />
+                          <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                       </a>
             
                       <a
@@ -591,7 +591,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                           rel="noopener noreferrer"
 
             
-                          className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                          className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
             
                           aria-label="Subscribe to our YouTube channel"
@@ -632,3 +632,4 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
     </>
   )
 }
+

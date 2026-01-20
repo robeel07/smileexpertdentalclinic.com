@@ -525,7 +525,7 @@ export default function DentalSurgery() {
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -546,7 +546,7 @@ export default function DentalSurgery() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -555,7 +555,7 @@ export default function DentalSurgery() {
                     >
 
         
-                      <FaInstagram size={20} color="#E4405F" />
+                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
         
                   <a
@@ -570,7 +570,7 @@ export default function DentalSurgery() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -610,3 +610,4 @@ export default function DentalSurgery() {
 </>
   )
 }
+

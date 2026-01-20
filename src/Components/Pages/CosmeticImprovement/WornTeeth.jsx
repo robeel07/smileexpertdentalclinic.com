@@ -779,7 +779,7 @@ Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s out
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -800,7 +800,7 @@ Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s out
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -809,7 +809,7 @@ Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s out
                     >
 
         
-                      <FaInstagram size={20} color="#E4405F" />
+                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
         
                   <a
@@ -824,7 +824,7 @@ Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s out
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -864,3 +864,4 @@ Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s out
 </>
   )
 }
+

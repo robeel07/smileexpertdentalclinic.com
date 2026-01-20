@@ -539,7 +539,7 @@ There are so many easy things you can do each day that will improve your dental 
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -560,7 +560,7 @@ There are so many easy things you can do each day that will improve your dental 
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -569,7 +569,7 @@ There are so many easy things you can do each day that will improve your dental 
                     >
 
         
-                      <FaInstagram size={20} color="#E4405F" />
+                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
         
                   <a
@@ -584,7 +584,7 @@ There are so many easy things you can do each day that will improve your dental 
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -625,3 +625,4 @@ There are so many easy things you can do each day that will improve your dental 
 </>
   )
 }
+

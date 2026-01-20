@@ -321,13 +321,13 @@ export default function OurValues() {
               <p className="mt-6 font-semibold px-2"> 🕒 Clinic Timing <br/>   <span className="ml-7">11:00am to 9:00pm</span></p>
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline" aria-label="Follow us on Facebook">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline" aria-label="Follow us on Facebook">
                     <FaFacebookF size={20} color="#1877F2" />
                   </a>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline" aria-label="Follow us on Instagram">
-                    <FaInstagram size={20} color="#E4405F" />
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline" aria-label="Follow us on Instagram">
+                    <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
-                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline" aria-label="Subscribe to our YouTube channel">
+                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline" aria-label="Subscribe to our YouTube channel">
                     <FaYoutube size={22} color="#FF0000" />
                   </a>
                 </div>
@@ -363,3 +363,4 @@ export default function OurValues() {
     </>
   )
 }
+

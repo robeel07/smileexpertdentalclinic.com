@@ -1,9 +1,9 @@
 
 import { Link } from "react-router-dom";
 import contact from "../Components/Images/contact.jpg";
-import mail from "../Components/Images/mail.png";
-import addres from "../Components/Images/addres.png";
-import phone from "../Components/Images/phone.png";
+import locationIcon from "../Assets/icons/contact-location.svg";
+import phoneIcon from "../Assets/icons/contact-phone.svg";
+import mailIcon from "../Assets/icons/contact-mail-new.svg";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 
@@ -47,13 +47,9 @@ export default function Contact() {
     {/* Address */}
     <div className="bg-white text-center px-6 py-12 border border-gray-500
  border-b md:border-b-0 md:border-r">
-      <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center rounded-lg bg-teal-50">
-  <img
-    src={addres}
-    alt="address"
-    className="w-12 h-12 object-contain"
-  />
-</div>
+      <div className="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-white shadow-md">
+        <img src={locationIcon} alt="Location" className="w-7 h-7" />
+      </div>
       <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
         Our Address
       </h3>
@@ -64,13 +60,9 @@ export default function Contact() {
 
     {/* Phone */}
     <div className="bg-white text-center px-10 py-12 border border-gray-500 md:border-b-0 md:border-r">
-      <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center rounded-lg bg-teal-50">
-  <img
-    src={phone}
-    alt="phone"
-    className="w-12 h-12 object-contain"
-  />
-</div>
+      <div className="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-white shadow-md">
+        <img src={phoneIcon} alt="Phone" className="w-6 h-6" />
+      </div>
 <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
         Our Phone
       </h3>
@@ -81,13 +73,9 @@ export default function Contact() {
 
     {/* Email */}
     <div className="bg-white text-center border border-gray-500 px-10 py-12">
-      <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center rounded-lg bg-teal-50">
-  <img
-    src={mail}
-    alt="Email"
-    className="w-12 h-12 object-contain"
-  />
-</div>
+      <div className="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-white shadow-md">
+        <img src={mailIcon} alt="Email" className="w-6 h-6" />
+      </div>
 
       <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
         Our Email
@@ -263,7 +251,7 @@ export default function Contact() {
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -284,7 +272,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -293,7 +281,7 @@ export default function Contact() {
                     >
 
         
-                      <FaInstagram size={20} color="#E4405F" />
+                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
                   </a>
         
                   <a
@@ -308,7 +296,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -348,3 +336,4 @@ export default function Contact() {
     </>
   )
 }
+
