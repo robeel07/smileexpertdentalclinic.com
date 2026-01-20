@@ -285,3 +285,4 @@ For better and speedy recovery, it is advised to take the rest of the week and n
 }
 
 export default TMJ;
+

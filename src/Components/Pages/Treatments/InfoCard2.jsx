@@ -15,3 +15,4 @@ const InfoCard2 = ({ title, children }) => {
 };
 
 export default InfoCard2;
+

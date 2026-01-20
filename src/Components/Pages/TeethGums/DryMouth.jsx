@@ -590,7 +590,7 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
 
                     >
 
-                      <FaFacebookF size={20} color="#1877F2" />
+                      <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
@@ -605,7 +605,7 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -614,7 +614,7 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
                     >
 
         
-                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
+                      <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
@@ -629,7 +629,7 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -638,7 +638,7 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
                     >
 
         
-                      <FaYoutube size={22} color="#FF0000" />
+                      <FaYoutube size={22} color="white" />
                   </a>
                 </div>
               </div>
@@ -669,4 +669,8 @@ It is more prevalent in some people than others. You may feel a dry, sticky mout
 </>
   )
 }
+
+
+
+
 

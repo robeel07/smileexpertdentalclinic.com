@@ -422,3 +422,4 @@ const InfoCard = ({ title, children }) => (
 }
 
 export default Fillings
+

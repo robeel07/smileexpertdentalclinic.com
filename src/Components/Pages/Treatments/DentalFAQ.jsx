@@ -106,3 +106,4 @@ const DentalFAQ = ({ title, subtitle, questions, sideImage }) => {
 };
 
 export default DentalFAQ;
+

@@ -286,3 +286,4 @@ accommodate our patient’s needs and preferences.</li>
 }
 
 export default Whitening;
+

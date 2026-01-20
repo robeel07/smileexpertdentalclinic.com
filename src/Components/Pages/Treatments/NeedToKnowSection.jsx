@@ -33,3 +33,4 @@ const NeedToKnowSection = ({ title, bgImage, cards }) => {
 };
 
 export default NeedToKnowSection;
+

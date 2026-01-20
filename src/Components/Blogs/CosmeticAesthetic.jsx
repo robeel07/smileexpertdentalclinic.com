@@ -674,7 +674,7 @@ However, these prices can vary from dentist to dentist and according to your mou
 
                     >
 
-                      <FaFacebookF size={20} color="#1877F2" />
+                      <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
@@ -689,7 +689,7 @@ However, these prices can vary from dentist to dentist and according to your mou
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -698,7 +698,7 @@ However, these prices can vary from dentist to dentist and according to your mou
                     >
 
         
-                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
+                      <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
@@ -713,7 +713,7 @@ However, these prices can vary from dentist to dentist and according to your mou
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -722,7 +722,7 @@ However, these prices can vary from dentist to dentist and according to your mou
                     >
 
         
-                      <FaYoutube size={22} color="#FF0000" />
+                      <FaYoutube size={22} color="white" />
                   </a>
                 </div>
               </div>
@@ -753,4 +753,8 @@ However, these prices can vary from dentist to dentist and according to your mou
 </>
   )
 }
+
+
+
+
 

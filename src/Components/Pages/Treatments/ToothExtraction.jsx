@@ -230,3 +230,4 @@ Understanding these differences will make your process smoother.
 }
 
 export default Extraction;
+

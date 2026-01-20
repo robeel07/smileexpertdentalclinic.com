@@ -487,7 +487,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
 
                     >
 
-                      <FaFacebookF size={20} color="#1877F2" />
+                      <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
@@ -502,7 +502,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -511,7 +511,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
                     >
 
         
-                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
+                      <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
@@ -526,7 +526,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -535,7 +535,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
                     >
 
         
-                      <FaYoutube size={22} color="#FF0000" />
+                      <FaYoutube size={22} color="white" />
                   </a>
                 </div>
               </div>
@@ -568,4 +568,8 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
 </>
   )
 }
+
+
+
+
 

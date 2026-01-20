@@ -242,3 +242,4 @@ Start Enjoying Your Meals Again
 }
 
 export default Canals;
+

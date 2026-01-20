@@ -565,7 +565,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
 
                     >
 
-                      <FaFacebookF size={20} color="#1877F2" />
+                      <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
@@ -580,7 +580,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -589,7 +589,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
                     >
 
         
-                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
+                      <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
@@ -604,7 +604,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -613,7 +613,7 @@ Receding gums are risky to health because they expose the roots of the teeth and
                     >
 
         
-                      <FaYoutube size={22} color="#FF0000" />
+                      <FaYoutube size={22} color="white" />
                   </a>
                 </div>
               </div>
@@ -643,4 +643,8 @@ Receding gums are risky to health because they expose the roots of the teeth and
     </>
   )
 }
+
+
+
+
 

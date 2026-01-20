@@ -722,7 +722,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 
                     >
 
-                      <FaFacebookF size={20} color="#1877F2" />
+                      <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
@@ -737,7 +737,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -746,7 +746,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                     >
 
         
-                      <FaInstagram size={20} style={{ color: "#D82D7E" }} />
+                      <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
@@ -761,7 +761,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -770,7 +770,7 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
                     >
 
         
-                      <FaYoutube size={22} color="#FF0000" />
+                      <FaYoutube size={22} color="white" />
                   </a>
                 </div>
               </div>
@@ -800,4 +800,8 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
 </>
   )
 }
+
+
+
+
 

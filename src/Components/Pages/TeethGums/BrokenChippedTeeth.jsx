@@ -552,7 +552,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
 
                         >
 
-                          <FaFacebookF size={20} color="#1877F2" />
+                          <FaFacebookF size={20} color="white" />
                       </a>
             
                       <a
@@ -567,7 +567,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                           rel="noopener noreferrer"
 
             
-                          className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                          className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
 
             
                           aria-label="Follow us on Instagram"
@@ -576,7 +576,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                         >
 
             
-                          <FaInstagram size={20} style={{ color: "#D82D7E" }} />
+                          <FaInstagram size={20} color="white" />
                       </a>
             
                       <a
@@ -591,7 +591,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                           rel="noopener noreferrer"
 
             
-                          className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                          className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
             
                           aria-label="Subscribe to our YouTube channel"
@@ -600,7 +600,7 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
                         >
 
             
-                          <FaYoutube size={22} color="#FF0000" />
+                          <FaYoutube size={22} color="white" />
                       </a>
                     </div>
                   </div>
@@ -632,4 +632,8 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
     </>
   )
 }
+
+
+
+
 

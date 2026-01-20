@@ -15,3 +15,4 @@ const InfoCard = ({ title, items }) => {
 };
 
 export default InfoCard;
+
