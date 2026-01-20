@@ -474,24 +474,68 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
                   <a
-                    href="#"
-                    className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-                  >
-                    <FaFacebookF size={20} color="white" />
+
+                      href="https://facebook.com"
+
+                      target="_blank"
+
+                      rel="noopener noreferrer"
+
+                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+
+                      aria-label="Follow us on Facebook"
+
+                    >
+
+                      <FaFacebookF size={20} color="white" />
                   </a>
         
                   <a
-                    href="#"
-                    className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-                  >
-                    <FaInstagram size={20} color="white" />
+
+        
+                      href="https://instagram.com"
+
+        
+                      target="_blank"
+
+        
+                      rel="noopener noreferrer"
+
+        
+                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+
+        
+                      aria-label="Follow us on Instagram"
+
+        
+                    >
+
+        
+                      <FaInstagram size={20} color="white" />
                   </a>
         
                   <a
-                    href="#"
-                    className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
-                  >
-                    <FaYoutube size={22} color="white" />
+
+        
+                      href="https://youtube.com"
+
+        
+                      target="_blank"
+
+        
+                      rel="noopener noreferrer"
+
+        
+                      className="w-[40px] h-[40px] bg-[#112d53] flex justify-center items-center rounded-[8px] no-underline"
+
+        
+                      aria-label="Subscribe to our YouTube channel"
+
+        
+                    >
+
+        
+                      <FaYoutube size={22} color="white" />
                   </a>
                 </div>
               </div>
