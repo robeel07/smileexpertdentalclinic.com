@@ -48,7 +48,7 @@ export default function Contact() {
     <div className="bg-white text-center px-6 py-12 border border-gray-500
  border-b md:border-b-0 md:border-r">
       <div className="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-white shadow-md">
-        <img src={locationIcon} alt="Location" className="w-7 h-7" />
+        <img src={locationIcon} alt="Location" className="w-9 h-9" />
       </div>
       <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
         Our Address
@@ -61,7 +61,7 @@ export default function Contact() {
     {/* Phone */}
     <div className="bg-white text-center px-10 py-12 border border-gray-500 md:border-b-0 md:border-r">
       <div className="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-white shadow-md">
-        <img src={phoneIcon} alt="Phone" className="w-6 h-6" />
+        <img src={phoneIcon} alt="Phone" className="w-9 h-9" />
       </div>
 <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
         Our Phone
@@ -74,7 +74,7 @@ export default function Contact() {
     {/* Email */}
     <div className="bg-white text-center border border-gray-500 px-10 py-12">
       <div className="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-white shadow-md">
-        <img src={mailIcon} alt="Email" className="w-6 h-6" />
+        <img src={mailIcon} alt="Email" className="w-9 h-9" />
       </div>
 
       <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
