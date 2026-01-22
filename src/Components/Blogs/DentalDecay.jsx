@@ -533,13 +533,13 @@ There are so many easy things you can do each day that will improve your dental 
                 <div className="flex gap-[15px] mt-[20px]">
                   <a
 
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/share/17zJppb7qh/"
 
                       target="_blank"
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -560,7 +560,7 @@ There are so many easy things you can do each day that will improve your dental 
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"

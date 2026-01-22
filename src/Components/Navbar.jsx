@@ -62,7 +62,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-4 left-0 right-0 z-50 px-4">
-            <div className="max-w-[1500px] mx-auto bg-gray-100 px-3 backdrop-blur-md rounded-md flex items-center whitespace-nowrap shadow-xl border border-white/40 h-28 lg:h-30">
+            <div className="max-w-[1450px] mx-auto bg-gray-100 px-4 py-0 backdrop-blur-md rounded-md flex items-center justify-between whitespace-nowrap shadow-xl border border-white/40 h-28 lg:h-30">
                 {/* Left: Logo Section */}
                 <div className=" h-auto px-0 flex items-center">
                     <Link to="/">
@@ -76,7 +76,7 @@ const Navbar = () => {
                 <div className="hidden lg:flex flex-grow items-center justify-center   text-xs">
                     {/* About Dropdown */}
                     <div className="group relative px-4 py-2">
-                        <button className="flex items-center text-base font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
+                        <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             About <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-slate-100 p-4">
@@ -91,7 +91,7 @@ const Navbar = () => {
 
                     {/* Dental Problems Mega Menu */}
                     <div className="group relative px-4 py-2">
-                        <button className="flex items-center text-base font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
+                        <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             Dental Problems <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-[-100px] mt-2 w-[850px] bg-white items-start text-left rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-6 overflow-hidden">
@@ -191,7 +191,7 @@ const Navbar = () => {
 
                     {/* Treatments Mega Menu */}
                     <div className="group relative px-4 py-2">
-                        <button className="flex items-center text-base font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
+                        <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             Treatments <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
@@ -241,7 +241,7 @@ const Navbar = () => {
 
                     {/* Before & After Menu */}
                     <div className="group relative px-4 py-2">
-                        <button className="flex items-center text-base font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
+                        <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             Before & After <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
@@ -275,7 +275,7 @@ const Navbar = () => {
 
                     {/* Patient Safety Menu */}
                     <div className="group relative px-4 py-2">
-                        <button className="flex items-center text-base font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
+                        <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             Patient Safety <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
@@ -301,23 +301,22 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <Link to="/contact" className="hover:text-gray-400 text-base px-4 py-2 font-semibold text-blue-950 transition-colors">
+                    <Link to="/contact" className="hover:text-gray-400 text-xs px-4 py-2 font-semibold text-blue-950 transition-colors">
                         Contact
                     </Link>
-                    <Link to="/blog" className="px-4 py-2 font-semibold text-base text-blue-950 hover:text-gray-400 transition-colors">
+                    <Link to="/blog" className="px-4 py-2 font-semibold text-xs text-blue-950 hover:text-gray-400 transition-colors">
                         Blog
                     </Link>
                 </div>
 
                 {/* Right: CTA Buttons */}
-                <div className="hidden lg:flex items-center gap-6 pr-8 ml-auto ">
+                <div className="hidden md:flex items-center gap-4 whitespace-nowrap ">
 
   {/* Call Now */}
   <button
     className="
-      px-8 py-3
-      font-bold text-sm text-white
-      
+      px-6 py-3 text-sm text-white
+      font-bold
       bg-blue-900
       cursor-pointer
       rounded-md
@@ -335,7 +334,7 @@ const Navbar = () => {
   {/* Book Appointment */}
   <button
     className="
-      px-8 py-3
+      px-6 py-3
       font-bold text-sm text-white
       rounded-md
       bg-blue-900

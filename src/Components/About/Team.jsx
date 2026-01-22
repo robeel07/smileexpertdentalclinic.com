@@ -219,10 +219,10 @@ export default function OurValues() {
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/share/17zJppb7qh/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-[8px] no-underline"
+                    className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
                     aria-label="Follow us on Facebook"
                   >
                     <FaFacebookF size={20} color="white" />
@@ -232,7 +232,7 @@ export default function OurValues() {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
+                    className="w-[40px] h-[40px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
                     aria-label="Follow us on Instagram"
                   >
                     <FaInstagram size={20} color="white" />

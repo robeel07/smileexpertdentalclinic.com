@@ -348,13 +348,13 @@ export default function HeroSection() {
                 <div className="flex gap-[15px] mt-[20px]">
                   <a
 
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/share/17zJppb7qh/"
 
                       target="_blank"
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-[#1877F2] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -375,7 +375,7 @@ export default function HeroSection() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#D82D7E] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[40px] h-[40px] bg-[#1f1f1f] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
