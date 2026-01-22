@@ -712,7 +712,7 @@ export default function TeethGrinding() {
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -733,7 +733,7 @@ export default function TeethGrinding() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -757,7 +757,7 @@ export default function TeethGrinding() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -797,6 +797,9 @@ export default function TeethGrinding() {
 
   )
 }
+
+
+
 
 
 

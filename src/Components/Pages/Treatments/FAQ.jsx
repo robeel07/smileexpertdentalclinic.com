@@ -71,3 +71,6 @@ const FAQsSection = ({ title = "FAQs", faqs }) => {
 
 export default FAQsSection;
 
+
+
+

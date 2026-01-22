@@ -66,7 +66,7 @@ export default function Contact() {
 <h3 className="text-xl font-bold text-[#0A1B5C] mb-4">
         Our Phone
       </h3>
-      <p className="text-gray-800 text-md mt-1">
+      <p className="text-[#0A1B5C] text-md mt-1">
         Mobile : 03008395562
       </p>
     </div>
@@ -251,7 +251,7 @@ export default function Contact() {
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -272,7 +272,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -296,7 +296,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -336,4 +336,7 @@ export default function Contact() {
     </>
   )
 }
+
+
+
 

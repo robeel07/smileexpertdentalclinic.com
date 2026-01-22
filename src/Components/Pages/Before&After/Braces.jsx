@@ -328,7 +328,7 @@ As you can see, wearing braces made a huge difference in the appearance of their
 
                       rel="noopener noreferrer"
 
-                      className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
 
                       aria-label="Follow us on Facebook"
 
@@ -349,7 +349,7 @@ As you can see, wearing braces made a huge difference in the appearance of their
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Follow us on Instagram"
@@ -373,7 +373,7 @@ As you can see, wearing braces made a huge difference in the appearance of their
                       rel="noopener noreferrer"
 
         
-                      className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
+                      className="w-[35px] h-[35px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
 
         
                       aria-label="Subscribe to our YouTube channel"
@@ -412,6 +412,9 @@ As you can see, wearing braces made a huge difference in the appearance of their
 </>
   )
 }
+
+
+
 
 
 

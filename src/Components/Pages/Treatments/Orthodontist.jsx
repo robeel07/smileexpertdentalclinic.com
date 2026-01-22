@@ -202,3 +202,6 @@ className="w-full h-full min-h-[400px] lg:min-h-full rounded-3xl lg:rounded-r-no
 
 export default Orthodontist
 
+
+
+

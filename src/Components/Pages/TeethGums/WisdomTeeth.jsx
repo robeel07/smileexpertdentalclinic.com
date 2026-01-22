@@ -614,7 +614,7 @@ export default function WisdomTeeth() {
                     href="https://www.facebook.com/share/17zJppb7qh/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-[40px] h-[40px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
+                    className="w-[35px] h-[35px] bg-blue-900 flex justify-center items-center rounded-[8px] no-underline"
                     aria-label="Follow us on Facebook"
                   >
                     <FaFacebookF size={20} color="white" />
@@ -624,7 +624,7 @@ export default function WisdomTeeth() {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-[40px] h-[40px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
+                    className="w-[35px] h-[35px] bg-[#000000] flex justify-center items-center rounded-[8px] no-underline"
                     aria-label="Follow us on Instagram"
                   >
                     <FaInstagram size={20} color="white" />
@@ -634,7 +634,7 @@ export default function WisdomTeeth() {
                     href="https://youtube.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-[40px] h-[40px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
+                    className="w-[35px] h-[35px] bg-[#FF0000] flex justify-center items-center rounded-[8px] no-underline"
                     aria-label="Subscribe to our YouTube channel"
                   >
                     <FaYoutube size={22} color="white" />
@@ -671,6 +671,9 @@ export default function WisdomTeeth() {
     
   );
 }
+
+
+
 
 
 
