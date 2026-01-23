@@ -88,10 +88,11 @@ export default function TeethGrinding() {
 
       <ul
         style={{
-          paddingLeft: "20px",
+          paddingLeft: "40px",
           fontSize: "15px",
           lineHeight: "1.8",
           marginBottom: "15px",
+          listStyleType: "disc",
         }}
       >
         <li>You have pain that lasts longer than a day or two</li>
@@ -189,9 +190,10 @@ export default function TeethGrinding() {
 
       <ul
         style={{
-          paddingLeft: "20px",
+          paddingLeft: "40px",
           fontSize: "15px",
           lineHeight: "1.9",
+          listStyleType: "disc",
         }}
       >
         <li>Clenching or grinding your teeth, either awake or asleep</li>
@@ -270,9 +272,10 @@ export default function TeethGrinding() {
 
       <ul
         style={{
-          paddingLeft: "20px",
+          paddingLeft: "40px",
           fontSize: "15px",
           lineHeight: "1.9",
+          listStyleType: "disc",
         }}
       >
         <li>Increased stress, anxiety or frustration</li>

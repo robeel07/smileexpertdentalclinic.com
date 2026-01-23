@@ -579,7 +579,7 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
     scheduling a consultation with a dentist for personalized advice regarding
     your symptoms.{" "}
     <span style={{ color: "#00a6ff", cursor: "pointer" }}>Book online</span> or
-    call <strong>0333-8037161</strong> for an appointment.
+    call <strong>0300-8395562</strong> for an appointment.
   </p>
 
   {/* CARDS */}

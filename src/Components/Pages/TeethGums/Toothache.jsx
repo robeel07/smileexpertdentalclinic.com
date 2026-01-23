@@ -70,9 +70,10 @@ export default function Toothache() {
             fontSize: "18px",
             lineHeight: "1.8",
             color: "#222",
-            paddingLeft: "20px",
+            paddingLeft: "40px",
             maxWidth: "750px",
             marginBottom: "25px",
+            listStyleType: "disc",
           }}
         >
           <li>The pain lasts longer than a day or two</li>
@@ -248,9 +249,10 @@ export default function Toothache() {
             fontSize: "18px",
             lineHeight: "1.8",
             color: "#222",
-            paddingLeft: "20px",
+            paddingLeft: "40px",
             marginBottom: "18px",
             maxWidth: "750px",
+            listStyleType: "disc",
           }}
         >
           <li>Dental cavities as a result of tooth decay</li>
@@ -358,8 +360,9 @@ export default function Toothache() {
             style={{
               marginTop: "10px",
               marginBottom: "20px",
-              paddingLeft: "20px",
+              paddingLeft: "40px",
               lineHeight: "28px",
+              listStyleType: "disc",
             }}
           >
             <li>When did your toothache start?</li>
@@ -391,9 +394,10 @@ export default function Toothache() {
           <ul
             style={{
               marginTop: "0px",
-              paddingLeft: "20px",
+              paddingLeft: "40px",
               lineHeight: "28px",
               fontSize: "16px",
+              listStyleType: "disc",
             }}
           >
             <li>
