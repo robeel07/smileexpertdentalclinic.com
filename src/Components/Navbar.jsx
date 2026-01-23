@@ -194,7 +194,8 @@ const Navbar = () => {
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             Treatments <ChevronDown size={14} />
                         </button>
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
+                        <div className="absolute top-full left-1/4 translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
+                        
                             <div className="grid grid-cols-3 gap-8">
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Dental Services</h4>
@@ -377,13 +378,13 @@ const Navbar = () => {
                     onClick={(e) => e.stopPropagation()}
                 >
                     <div className="flex justify-between items-center p-6 border-b border-slate-100">
-                        <span className="font-bold text-2xl text-brandDark italic">SmileOn</span>
+                        <span className="font-bold text-2xl text-brandDark italic">SmileExpert</span>
                         <button onClick={closeAll} className="text-slate-400 p-2">
                             <X size={32} />
                         </button>
                     </div>
 
-                    <nav className="flex flex-col p-6 space-y-2">
+                    <nav className="flex flex-col p-6 space-y-2 overflow-y-auto">
                         <Link to="/" onClick={closeAll} className="py-3 font-bold text-slate-800 border-b border-slate-50">
                             Home
                         </Link>
@@ -512,82 +513,82 @@ const Navbar = () => {
                             </button>
                             {activeAccordion === "treatments" && (
                                 <div className="pl-4 bg-slate-50 flex flex-col">
-                                    <Link className="no-underline text-slate-600" to="/t/scaling" onClick={closeAll}>
+                                    <Link className="no-underline text-slate-600 py-2 text-sm" to="/t/scaling" onClick={closeAll}>
                                         Dental Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/polishing" onClick={closeAll} >
+                                    <Link to="/t/polishing" onClick={closeAll} >
                                         Scaling & Polishing
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/fillings" onClick={closeAll} >
+                                    <Link to="/t/fillings" onClick={closeAll} >
                                         Fillings
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/canals" onClick={closeAll} >
+                                    <Link  to="/t/canals" onClick={closeAll} >
                                         Root Canals
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link  to="/t/whitening" onClick={closeAll} >
                                         Tooth Extraction
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/tmj" onClick={closeAll} >
+                                    <Link  to="/t/tmj" onClick={closeAll} >
                                         TMJ Treatment
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/wisdom" onClick={closeAll} >
+                                    <Link  to="/t/wisdom" onClick={closeAll} >
                                         Wisdom Teeth Removal
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link  to="/t/whitening" onClick={closeAll} >
                                         Exam & X-Ray Checkup
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/dentures" onClick={closeAll} >
+                                    <Link  to="/t/dentures" onClick={closeAll} >
                                         Dentures
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll}>
+                                    <Link className="no-underline text-slate-600 py-2 text-sm" to="/t/whitening" onClick={closeAll}>
                                         Cosmetic Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/whitening" onClick={closeAll} >
+                                    <Link  to="/treatment/whitening" onClick={closeAll} >
                                         Teeth Whitening
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/whitening" onClick={closeAll} >
+                                    <Link  to="/t/whitening" onClick={closeAll} >
                                         Invisalign
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/dentalbraces" onClick={closeAll} >
+                                    <Link  to="/t/dentalbraces" onClick={closeAll} >
                                         Dental Braces
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link  to="/t/invisalign" onClick={closeAll} >
                                         Dental Implants
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/dentalcrowns" onClick={closeAll} >
+                                    <Link  to="/t/dentalcrowns" onClick={closeAll} >
                                         Dental Crowns
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/implants" onClick={closeAll} >
+                                    <Link  to="/t/implants" onClick={closeAll} >
                                         Dental Bridge
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/veneer" onClick={closeAll} >
+                                    <Link  to="/t/veneer" onClick={closeAll} >
                                         Dental Veneers
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/t/invisalign" onClick={closeAll} >
+                                    <Link  to="/t/invisalign" onClick={closeAll} >
                                         Orthodontics
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/makeover" onClick={closeAll} >
+                                    <Link  to="/treatment/makeover" onClick={closeAll} >
                                         Smile Makeover
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/specialist" onClick={closeAll} >
+                                    <Link  to="/treatment/specialist py-2 text-sm" onClick={closeAll} >
                                         Dental Specialist
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/endo" onClick={closeAll} >
+                                    <Link  to="/treatment/endo" onClick={closeAll} >
                                         Endodontist Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/facial" onClick={closeAll} >
+                                    <Link  to="/treatment/facial" onClick={closeAll} >
                                         Oral & Maxillofacial
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/specialist" onClick={closeAll} >
+                                    <Link  to="/treatment/specialist" onClick={closeAll} >
                                         Orthodontist Specialist
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/pediatric" onClick={closeAll} >
+                                    <Link  to="/treatment/pediatric" onClick={closeAll} >
                                         Pediatric Dentist
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/periodontist" onClick={closeAll}>
+                                    <Link  to="/treatment/periodontist" onClick={closeAll}>
                                         Periodontist Services
                                     </Link>
-                                    <Link className="no-underline text-slate-600" to="/treatment/prosthodontist" onClick={closeAll} >
+                                    <Link  to="/treatment/prosthodontist" onClick={closeAll} >
                                         Prosthodontist Services
                                     </Link>
                                 </div>
@@ -668,9 +669,34 @@ const Navbar = () => {
                             Blog
                         </Link>
 
-                    <div className="pt-6 space-y-4 flex items-center justify-start gap-4 bg-[#e0f2ff] p-4 rounded-2xl">
+                    <div className="pt-6 space-y-4 flex flex-col lg:flex-row lg:items-center lg:justify-start gap-4 bg-[#e0f2ff] p-4 rounded-2xl ">
 
   {/* Call Now Button */}
+  <button className="
+  relative
+  w-full lg:w-auto
+  py-3 px-6
+  font-bold text-white
+  rounded-2xl
+  bg-gradient-to-br from-brandDark to-[#142f60]
+  transition-all duration-300 ease-out
+  lg:hover:-translate-y-1 lg:hover:scale-105
+  hover:shadow-[0_12px_25px_rgba(0,0,0,0.35)]
+  active:scale-95
+  overflow-hidden
+  whitespace-nowrap
+">
+  Call Now
+  <span className="
+    absolute inset-0 bg-white opacity-10
+    blur-xl
+    animate-[shine_2s_linear_infinite]
+    pointer-events-none
+  "></span>
+</button>
+
+
+  {/* Book Appointment Button */}
   <button className="
     relative w-auto py-3 px-6 font-bold text-white rounded-2xl
     bg-gradient-to-br from-brandDark to-[#142f60]
@@ -678,25 +704,7 @@ const Navbar = () => {
     hover:-translate-y-1 hover:scale-105
     hover:shadow-[0_12px_25px_rgba(0,0,0,0.35)]
     active:translate-y-1 active:scale-95
-    overflow-hidden
-  ">
-    Call Now
-    <span className="
-      absolute top-0 left-0 w-full h-full bg-white opacity-10
-      blur-xl animate-[shine_2s_linear_infinite]
-      pointer-events-none
-    "></span>
-  </button>
-
-  {/* Book Appointment Button */}
-  <button className="
-    relative w-auto py-3 px-6 font-bold text-white rounded-2xl
-    bg-gradient-to-br from-brandAccent to-[#00d4ff]
-    transform transition-all duration-300 ease-out
-    hover:-translate-y-1 hover:scale-105
-    hover:shadow-[0_12px_25px_rgba(0,0,0,0.35)]
-    active:translate-y-1 active:scale-95
-    overflow-hidden
+    overflow-hidden whitespace-nowrap
   ">
     Book Appointmentss
     <span className="
