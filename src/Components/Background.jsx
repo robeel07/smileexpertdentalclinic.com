@@ -20,20 +20,77 @@ export default function HeroSection() {
     
       <div className="relative h-full max-w-6xl px-4 flex items-end">
   <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <h1 className="text-white text-3xl md:text-5xl ml-40 mb-3 font-bold">
       Yellow Teeth Treatment in Khanewal
     </h1>
   </div>
 </div>
+
+
+<div className="max-w-6xl mx-auto relative z-10 px-3 mb-0 -mt-8">
+  <div className="bg-gray-100 backdrop-blur-md rounded-2xl border border-slate-200 shadow-lg">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-slate-200">
+
+      {/* Stat 1 */}
+      <div className="py-2 text-center">
+        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
+          400+
+        </h3>
+        <p className="mt-2 text-sm font-medium text-slate-600">
+          Successful Treatments
+        </p>
+      </div>
+
+      {/* Stat 2 */}
+      <div className="py-2 text-center">
+        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
+          100+
+        </h3>
+        <p className="mt-2 text-sm font-medium text-slate-600">
+          Happy Patients
+        </p>
+      </div>
+
+      {/* Stat 3 */}
+      <div className="py-2 text-center">
+        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
+          90%
+        </h3>
+        <p className="mt-2 text-sm font-medium text-slate-600">
+          Satisfaction Rate
+        </p>
+      </div>
+
+      {/* Stat 4 */}
+      <div className="py-2 text-center">
+        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
+          5+
+        </h3>
+        <p className="mt-2 text-sm font-medium text-slate-600">
+          Years of Experience
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
     </div>
 
-  <div className="w-85 px-40 py-16 align-center text-black">
-  <p className="text-base leading-relaxed">
+
+{/* HARD spacer – guarantees no collision */}
+<div className="h-[420px] sm:h-[360px] md:h-[280px] lg:h-[140px]" />
+
+<div className="max-w-7xl mx-auto mt-0 px-4 sm:px-6 md:px-10 lg:px-20
+                py-6 text-center">
+  <p className="text-base leading-relaxed text-slate-700">
     Concerned about yellow teeth? You’re not alone. We understand. Despite your efforts with brushing, whitening toothpaste, and flossing, your teeth may still appear yellow. Don’t worry. Professional treatment can effectively address yellow teeth. Visit SmileExpert for a discussion on yellow teeth treatment. Stained or yellow teeth can affect your confidence, but there are affordable and durable solutions available.
   </p>
 </div>
 
-<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+
+<div className="max-w-7xl mx-auto px-6 py-0 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   
   
   <div>
