@@ -194,7 +194,7 @@ const Navbar = () => {
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-brandAccent transition-colors cursor-pointer">
                             Treatments <ChevronDown size={14} />
                         </button>
-                        <div className="absolute top-full left-1/4 translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
+                        <div className="absolute top-full left-1/2 -translate-x-[40%] mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
                         
                             <div className="grid grid-cols-3 gap-8">
                                 <div>
