@@ -18,9 +18,9 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/50"></div>
 
     
-      <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 mb-3 font-bold">
+      <div className="relative h-full max-w-7xl sm:px-6 lg:px-8 px-4 flex items-end">
+  <div className="pb-6 sm:pb-8 mt-4 sm:mt-6 w-full">
+    <h1 className="text-white sm:text-3xl md:text-4xl lg:text-5xl  sm:ml-8 md:ml-16 lg:ml-32 mb-3 font-bold">
       Yellow Teeth Treatment in Khanewal
     </h1>
   </div>
@@ -161,7 +161,7 @@ export default function HeroSection() {
   </h2>
 
   
-  <p className="w-85 text-center text-gray-900 text-m leading-relaxed px-36">
+  <p className="max-w-7xl mx-auto text-center text-gray-900 sm:px-8 md:px-16 lg:px-24 text-m leading-relaxed px-2">
     Discover treatment options by exploring potential procedures. We suggest scheduling a dental appointment for personalized guidance regarding your condition.
     Book <span className="text-blue-500 cursor-pointer">book online</span> or call now to secure your appointment.
   </p>
@@ -187,14 +187,14 @@ export default function HeroSection() {
   </div>
 </div>
 
-<div className="w-full bg-white py-4">
+<div className="max-w-7xl mx-auto sm:px-8 md:px-16 lg:px-24 bg-white py-4">
 
   <h2 className="text-center text-3xl font-semibold text-[#0a1a5c] mb-6">
     FAQs
   </h2>
 
   
-  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 px-2">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 px-2">
   
     <div className="bg-[#69bdb8] px-4 py-2 cursor-pointer transition-all duration-300 hover:bg-[#5bb0ab] flex items-center">
   <div className="grid grid-cols-[24px_1fr] items-center gap-2 w-full">
@@ -391,15 +391,15 @@ export default function HeroSection() {
     <div className="min-w-[250px]">
               <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
         
-              <p className="my-2 flex gap-[10px] px-2">📧 aneelabrar555@gmail.com</p>
+              <p className="my-2 flex gap-[10px] ">📧 aneelabrar555@gmail.com</p>
         
-              <p className="my-3 flex gap-[10px] px-2 ">📞 03008395562</p>
+              <p className="my-3 flex gap-[10px]  ">📞 03008395562</p>
         
-              <p className="my-2 flex gap-[10px] px-3">
+              <p className="my-2 flex gap-[10px] px-2">
                   <span className="">📍 Saddique Hospital Stadium Road Khanewal</span>
               </p>
         
-              <p className="mt-6 font-semibold px-2"> 🕒 Clinic Timing <br/>   <span className="ml-7">11:00am to 9:00pm</span></p>
+              <p className="mt-6 font-semibold "> 🕒 Clinic Timing <br/>   <span className="ml-7">11:00am to 9:00pm</span></p>
         
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
