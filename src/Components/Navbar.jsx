@@ -62,12 +62,12 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-4 left-0 right-0 z-50 px-4">
-            <div className="max-w-[1450px] mx-auto bg-gray-100 px-4 py-0 backdrop-blur-md rounded-md flex items-center justify-between whitespace-nowrap shadow-xl border border-white/40 h-28 lg:h-30">
+            <div className="max-w-[1450px] mx-auto bg-gray-100 px-4 py-0 backdrop-blur-md rounded-md flex items-center justify-between whitespace-nowrap shadow-xl border border-white/40 h-28 lg:h-32">
                 {/* Left: Logo Section */}
-                <div className=" h-auto px-0 flex items-center">
+                <div className=" flex-shrink-0 min-w-fit">
                     <Link to="/">
-                        <div className="flex flex-col items-start">
-                            <img src={brandLogo} className="h-20 w-auto bg-transparent object-contain" alt="Logo" />
+                        <div className="flex-shrink-0 px-4 sm:px-0 flex items-center ">
+                        <img src={brandLogo} className="block h-16 sm:h-10 md:h-14  lg:h-16 xl:h-20 w-auto ml-0 justify-start object-contain" alt="Logo" />
                         </div>
                     </Link>
                 </div>
@@ -311,7 +311,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Right: CTA Buttons */}
-                <div className="hidden md:flex items-center gap-4 whitespace-nowrap ">
+                <div className="hidden sm:flex items-center gap-4 mr-0 flex-shrink-0 min-w-fit ">
 
   {/* Call Now */}
   <button
@@ -357,7 +357,7 @@ const Navbar = () => {
                 
 
                 {/* Hamburger Icon */}
-                <div className="lg:hidden ml-20 pr-8">
+                <div className="ml-4 sm:ml-12 md:ml-16 lg:ml-24 pr-0 flex items-center">
                     <button onClick={() => setIsMobileMenuOpen(true)} className="text-brandDark p-2 cursor-pointer">
                         <Menu size={32} />
                     </button>
