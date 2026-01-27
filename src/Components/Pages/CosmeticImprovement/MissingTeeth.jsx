@@ -860,15 +860,15 @@ Missing teeth can have a negative impact on your smile and self-confidence. Fort
     <div className="min-w-[250px]">
               <h3 className="text-[20px] mb-[20px]">Get in touch</h3>
         
-              <p className="my-2 flex gap-[10px] px-2">📧 aneelabrar555@gmail.com</p>
+              <p className="my-2 flex gap-[10px] ">📧 aneelabrar555@gmail.com</p>
         
-              <p className="my-3 flex gap-[10px] px-2 ">📞 03008395562</p>
+              <p className="my-3 flex gap-[10px]  ">📞 03008395562</p>
         
-              <p className="my-2 flex gap-[10px] px-3">
+              <p className="my-2 flex gap-[10px] px-2">
                   <span className="">📍 Saddique Hospital Stadium Road Khanewal</span>
               </p>
         
-              <p className="mt-6 font-semibold px-2"> 🕒 Clinic Timing <br/>   <span className="ml-7">11:00am to 9:00pm</span></p>
+              <p className="mt-6 font-semibold "> 🕒 Clinic Timing <br/>   <span className="ml-7">11:00am to 9:00pm</span></p>
         
               <div className="text-left bg-[#0c2340] text-white py-[50px] px-[20px]">
                 <div className="flex gap-[15px] mt-[20px]">
