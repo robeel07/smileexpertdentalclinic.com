@@ -61,19 +61,19 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-4 left-0 right-0 z-50 px-4">
-            <div className="max-w-[1450px] mx-auto bg-gray-100 px-4 py-0 backdrop-blur-md rounded-md flex items-center justify-between whitespace-nowrap shadow-xl border border-white/40 h-28 lg:h-32">
+        <nav className="fixed top-6 left-0 right-0 z-50 px-4">
+            <div className="max-w-[1450px] mx-auto  px-3 whitespace-nowrap bg-gray-100 backdrop-blur-md rounded-md  shadow-xl border borderwhite/20  flex items-center py-3 ">
                 {/* Left: Logo Section */}
-                <div className=" flex-shrink-0 min-w-fit">
+                <div className=" flex-shrink-0 justify-between min-w-fit">
                     <Link to="/">
-                        <div className="flex-shrink-0 px-4 sm:px-0 flex items-center ">
+                        <div className="flex-shrink-0 px-2 sm:px-0 flex items-center ">
                         <img src={brandLogo} className="block h-16 sm:h-10 md:h-14  lg:h-16 xl:h-20 w-auto ml-0 justify-start object-contain" alt="Logo" />
                         </div>
                     </Link>
                 </div>
 
                 {/* Center: Desktop Navigation */}
-                <div className="hidden lg:flex flex-grow items-center justify-center   text-xs">
+                <div className="hidden xl:flex whitespace-nowrap items-center justify-center ml-8  text-xs">
                     {/* About Dropdown */}
                     <div className="group relative px-4 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
@@ -305,13 +305,13 @@ const Navbar = () => {
                     <Link to="/contact" className="hover:text-gray-400 text-xs px-4 py-2 font-semibold text-blue-950 transition-colors">
                         Contact
                     </Link>
-                    <Link to="/blog" className="px-4 py-2 font-semibold text-xs text-blue-950 hover:text-gray-400 transition-colors">
+                    <Link to="/blog" className="px-3 py-2 font-semibold text-xs text-blue-950 hover:text-gray-400 transition-colors">
                         Blog
                     </Link>
                 </div>
 
                 {/* Right: CTA Buttons */}
-                <div className="hidden sm:flex items-center gap-4 mr-0 flex-shrink-0 min-w-fit ">
+                    <div className="hidden md:flex items-center whitespace-nowrap gap-4 ml-auto justify-between flex-shrink-0 ">
 
   {/* Call Now */}
   <button
@@ -357,8 +357,8 @@ const Navbar = () => {
                 
 
                 {/* Hamburger Icon */}
-                <div className="ml-4 sm:ml-12 md:ml-16 lg:ml-24 pr-0 flex items-center">
-                    <button onClick={() => setIsMobileMenuOpen(true)} className="text-brandDark p-2 cursor-pointer">
+                <div className="ml-auto xl:hidden flex items-center justify-between">
+                    <button onClick={() => setIsMobileMenuOpen(true)} className="text-blue-900 p-2 cursor-pointer">
                         <Menu size={32} />
                     </button>
                 </div>
@@ -678,7 +678,7 @@ const Navbar = () => {
                             Blog
                         </Link>
 
-                    <div className="pt-6 space-y-4 flex flex-col lg:flex-row lg:items-center lg:justify-start gap-4 bg-[#e0f2ff] p-4 rounded-2xl ">
+                    <div className="pt-6 space-y-4 flex flex-col lg:hiden w-full  bg-[#e0f2ff] p-4 rounded-2xl ">
 
   {/* Call Now Button */}
   <button className="
