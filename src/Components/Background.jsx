@@ -4,6 +4,7 @@ import bg from "./Images/bg.jpg";
 import bg1 from "./Images/bg1.jpg"; 
 import bg2 from "./Images/bg2.jpg"; 
 import Pic3 from "./Images/Pic3.jpg"; 
+import CountUp from "../Components/Countup.jsx";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 
@@ -11,62 +12,71 @@ export default function HeroSection() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_30%]"
-      style={{ backgroundImage: `url(${bg})` }}
-    >
-      
-      <div className="absolute inset-0 bg-black/50"></div>
+  className="
+    relative w-full
+    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%]
+    flex items-center
+    pt-28 sm:pt-32
+  "
+  style={{ backgroundImage: `url(${bg})` }}
+>
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/55"></div>
 
-    
-      <div className="relative h-full max-w-7xl sm:px-6 lg:px-8 px-4 flex items-end">
-  <div className="pb-6 sm:pb-8 mt-4 sm:mt-6 w-full">
-    <h1 className="text-white sm:text-3xl md:text-4xl lg:text-5xl  sm:ml-8 md:ml-16 lg:ml-32 mb-3 font-bold">
+  {/* Content */}
+  <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1
+      className="
+        text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Yellow Teeth Treatment in Khanewal
     </h1>
   </div>
-</div>
+  </div>
 
 
-<div className="max-w-6xl mx-auto relative z-10 px-3 mb-0 -mt-8">
-  <div className="bg-gray-100 backdrop-blur-md rounded-2xl border border-slate-200 shadow-lg">
+<div className="max-w-6xl mx-auto px-1 relative z-10 mb-0 -mt-8">
+  <div className="bg-blue-900 backdrop-blur-md rounded-2xl border border-slate-200">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-slate-200">
 
       {/* Stat 1 */}
       <div className="py-2 text-center">
-        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
-          400+
+        <h3 className="text-4xl font-extrabold text-white animate-softBlink">
+          <CountUp end={400} duration={5000} />+
         </h3>
-        <p className="mt-2 text-sm font-medium text-slate-600">
+        <p className="mt-2 text-sm font-medium text-gray-200">
           Successful Treatments
         </p>
       </div>
 
       {/* Stat 2 */}
       <div className="py-2 text-center">
-        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
-          100+
+        <h3 className="text-4xl font-extrabold text-white animate-softBlink">
+          <CountUp end={100} duration={5000} />+
         </h3>
-        <p className="mt-2 text-sm font-medium text-slate-600">
+        <p className="mt-2 text-sm font-medium text-gray-200">
           Happy Patients
         </p>
       </div>
 
       {/* Stat 3 */}
       <div className="py-2 text-center">
-        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
-          90%
+        <h3 className="text-4xl font-extrabold text-white animate-softBlink">
+          <CountUp end={90} duration={5000} />%
         </h3>
-        <p className="mt-2 text-sm font-medium text-slate-600">
+        <p className="mt-2 text-sm font-medium text-gray-200">
           Satisfaction Rate
         </p>
       </div>
 
       {/* Stat 4 */}
       <div className="py-2 text-center">
-        <h3 className="text-4xl font-extrabold text-blue-900 animate-softBlink">
-          5+
+        <h3 className="text-4xl font-extrabold text-white animate-softBlink">
+          <CountUp end={5} duration={5000} />+
         </h3>
-        <p className="mt-2 text-sm font-medium text-slate-600">
+        <p className="mt-2 text-sm font-medium text-gray-200">
           Years of Experience
         </p>
       </div>
@@ -75,18 +85,17 @@ export default function HeroSection() {
   </div>
 </div>
 
-    </div>
 
 
-{/* HARD spacer – guarantees no collision */}
-<div className="h-[420px] sm:h-[360px] md:h-[280px] lg:h-[140px]" />
-
-<div className="max-w-7xl mx-auto mt-0 px-4 sm:px-6 md:px-10 lg:px-20
-                py-6 text-center">
+<div className="max-w-7xl mx-auto mb-3 px-4 sm:px-6 md:px-10 lg:px-20
+                py-5 text-center">
   <p className="text-base leading-relaxed text-slate-700">
     Concerned about yellow teeth? You’re not alone. We understand. Despite your efforts with brushing, whitening toothpaste, and flossing, your teeth may still appear yellow. Don’t worry. Professional treatment can effectively address yellow teeth. Visit SmileExpert for a discussion on yellow teeth treatment. Stained or yellow teeth can affect your confidence, but there are affordable and durable solutions available.
   </p>
 </div>
+
+
+
 
 
 

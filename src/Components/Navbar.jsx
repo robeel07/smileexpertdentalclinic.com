@@ -61,8 +61,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-6 left-0 right-0 z-50 px-4">
-            <div className="max-w-[1450px] mx-auto  px-3 whitespace-nowrap bg-gray-100 backdrop-blur-md rounded-md  shadow-xl border borderwhite/20  flex items-center py-3 ">
+        <nav className="fixed top-6 left-0 right-0 z-50 px-4 ">
+            <div className="max-w-[1450px] mx-auto  px-3 whitespace-nowrap bg-gray-100 backdrop-blur-md rounded-xl  shadow-xl border-1 dark:border-blue-900 flex items-center py-3 ">
                 {/* Left: Logo Section */}
                 <div className=" flex-shrink-0 justify-between min-w-fit">
                     <Link to="/">
@@ -311,7 +311,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Right: CTA Buttons */}
-                    <div className="hidden md:flex items-center whitespace-nowrap gap-4 ml-auto justify-between flex-shrink-0 ">
+                    <div className="hidden md:flex items-center whitespace-nowrap gap-4 ml-auto justify-between mr-3 flex-shrink-0 ">
 
   {/* Call Now */}
   <button
