@@ -10,373 +10,140 @@ export default function GumDisease() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_60%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${twenty})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Gum Disease Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/gumdisease"></Link>}
 
-
-
-    <div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-    marginBottom: "0px",
-  }}
->
+   {/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-relaxed text-justify">
   <p>
-  Gum disease, caused by poor dental hygiene, is hazardous. An infection of the gums can lead to tooth-supporting bone damage. Gum disease is often painless; tooth loss may occur if left untreated. The two main types are gingivitis and periodontitis.
-  Gingivitis, affecting up to 70% of Pakistanis, is the most common form. Around 30% of individuals over 30 have periodontitis. Early detection and treatment improve dental health. Regular dental checkups, brushing techniques twice daily, and flossing help prevent gum disease.
+    Gum disease, caused by poor dental hygiene, is hazardous. An infection of the gums can lead to tooth-supporting bone damage. Gum disease is often painless; tooth loss may occur if left untreated. The two main types are gingivitis and periodontitis.
+    Gingivitis, affecting up to 70% of Pakistanis, is the most common form. Around 30% of individuals over 30 have periodontitis. Early detection and treatment improve dental health. Regular dental checkups, brushing techniques twice daily, and flossing help prevent gum disease.
   </p>
 </div>
 
-<div
-      style={{
-        maxWidth: "1800px",
-        display: "flex",
-        justifyContent: "center",
-        background: "#fff",
-        marginBottom: "0px",
-      }}
-    >
-      {/* CENTERED CONTAINER */}
-      <div
-        style={{
-          maxWidth: "1200px",
-          width: "100%",
-        }}
-      >
-        <div
-          style={{
-            padding: "80px 60px",
-            display: "flex",
-            alignItems: "flex-start",
-            justifyContent: "space-between",
-            gap: "60px",
-          }}
-        >
-          {/* LEFT CONTENT */}
-          <div style={{ flex: 1 }}>
-            <div
-              style={{
-                fontSize: "32px",
-                fontWeight: "600",
-                color: "#0B1C6D",
-                margin: " 0 auto",
-              }}
-            >
-              Symptoms of Gum Disease:
-            </div>
+{/* SYMPTOMS SECTION */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
+    {/* LEFT CONTENT */}
+    <div className="flex-1 space-y-4">
+      <h2 className="text-2xl sm:text-3xl font-semibold text-[#0B1C6D]">Symptoms of Gum Disease:</h2>
+      <p className="text-sm sm:text-base leading-relaxed">
+        Good oral health is crucial due to the often painless nature of gum disease. Regular dental checkups are necessary to ensure proper maintenance.
+      </p>
+      <p className="text-sm sm:text-base leading-relaxed">
+        Gum disease symptoms can be imperceptible. Some signs could be:
+      </p>
+      <ul className="pl-9 list-disc space-y-1 text-sm sm:text-base leading-relaxed">
+        <li>red, swollen or tender gums</li>
+        <li>bleeding when you floss or brush</li>
+        <li>loose teeth or separation between teeth</li>
+        <li>continuous bad breath</li>
+        <li>gums that pull away from teeth</li>
+        <li>when you bite, the position of your teeth changes</li>
+      </ul>
+      <p className="text-sm sm:text-base leading-relaxed">
+        Gum disease can be asymptomatic for some individuals. Regular dental checkups serve as the primary defence. Early detection during hygienist visits ensures optimal oral health.
+      </p>
+    </div>
 
-            <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "1.7",
-                marginBottom: "0 auto",
-              }}
-            >
-              Good oral health is crucial due to the often painless nature of gum
-              disease. Regular dental checkups are necessary to ensure proper
-              maintenance.
-            </div>
+    {/* RIGHT IMAGE */}
+    <div className="flex-1">
+        <img
+          src={twentyone}
+          alt="Gum Disease Checkup"
+          className="w-full h-full rounded-3xl object-cover"
+        />
+      
+    </div>
+</div>
 
-            <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "1.7",
-                margin: "auto",
-              }}
-            >
-              Gum disease symptoms can be imperceptible. Some signs could be:
-            </div>
+{/* CAUSES SECTION */}
+<div className="w-full bg-[#F4F8FB] flex justify-center">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    {/* LEFT IMAGE */}
+    <div className="flex-1">
+      <img
+        src={twentytwo}
+        alt="Causes of Gum Disease"
+        className="w-full h-full object-cover rounded-2xl"
+      />
+    </div>
 
-            <ul
-              style={{
-                paddingLeft: "38px",
-                margin: "auto",
-                fontSize: "15px",
-                lineHeight: "1.8",
-                listStyleType: "disc",
-              }}
-            >
-              <li>red, swollen or tender gums</li>
-              <li>bleeding when you floss or brush</li>
-              <li>loose teeth or separation between teeth</li>
-              <li>continuous bad breath</li>
-              <li>gums that pull away from teeth</li>
-              <li>when you bite, the position of your teeth changes</li>
-            </ul>
-
-            <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "1.7",
-              }}
-            >
-              Gum disease can be asymptomatic for some individuals. Regular dental
-              checkups serve as the primary defence. Early detection during
-              hygienist visits ensures optimal oral health.
-            </div>
-          </div>
-
-<div style={{ flex: 1 }}>
-  <div
-    style={{
-      height: "500px",          // 👈 FIXED HEIGHT (IMPORTANT)
-      overflow: "hidden",       // 👈 CLIP IMAGE
-      borderRadius: "20px",
-      position: "relative",
-    }}
-  >
-    <img
-      src={twentyone}
-      alt="Gum Disease Checkup"
-      style={{
-        width: "180%",
-        position: "absolute",
-        top: "-60px",           // 👈 IMAGE MOVES UP HERE
-        right: "0",
-      }}
-    />
+    {/* RIGHT CONTENT */}
+    <div className="flex-1 space-y-4">
+      <h2 className="text-3xl sm:text-3xl font-semibold text-[#0B1C6D]">Causes of Gum Disease:</h2>
+      <p className="text-sm sm:text-base leading-relaxed">
+        Oral bacterial overgrowth leading to plaque buildup is the primary cause of gum disease. Poor oral health is a significant contributing factor.
+      </p>
+      <p className="text-sm sm:text-base leading-relaxed">
+        There are a few more risk factors for gum disease, though, including:
+      </p>
+      <ul className="pl-9 list-disc space-y-1 text-sm sm:text-base leading-relaxed">
+        <li>Smoking</li>
+        <li>Diabetes</li>
+        <li>Pregnancy or hormonal changes</li>
+        <li>Medication</li>
+        <li>Genetics</li>
+        <li>Other health problems</li>
+        <li>Stress</li>
+        <li>Poor nutrition</li>
+      </ul>
+      <p className="text-sm sm:text-base leading-relaxed">
+        Gum disease is common but treatable. Regular dentist and hygienist visits are essential for maintaining dental health.
+      </p>
+    </div>
   </div>
 </div>
 
-
-        </div>
-      </div>
-    </div>
-
-     <div
-      style={{
-        width: "100%",
-        background: "#F4F8FB",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      {/* CENTERED CONTAINER */}
-      <div
-        style={{
-          maxWidth: "1200px",
-          width: "180%",
-          padding: "80px 60px",
-          marginTop: "0px",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "flex-start",
-            gap: "70px",
-          }}
-        >
-          {/* LEFT IMAGE */}
-          <div style={{ flex: 1 }}>
-            <img
-              src={twentytwo}
-              alt="Causes of Gum Disease"
-              style={{
-                width: "120%",
-                height: "500px",
-                borderRadius: "20px",
-                objectFit: "cover",
-              }}
-            />
-          </div>
-
-          {/* RIGHT CONTENT */}
-          <div style={{ flex: 1 }}>
-            <div
-              style={{
-                fontSize: "32px",
-                fontWeight: "600",
-                color: "#0B1C6D",
-                marginBottom: "20px",
-              }}
-            >
-              Causes of Gum Disease:
-            </div>
-
-            <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "1.7",
-                marginBottom: "15px",
-              }}
-            >
-              Oral bacterial overgrowth leading to plaque buildup is the primary
-              cause of gum disease. Poor oral health is a significant contributing
-              factor.
-            </div>
-
-            <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "1.7",
-                marginBottom: "15px",
-              }}
-            >
-              There are a few more risk factors for gum disease, though, including:
-            </div>
-
-            <ul
-              style={{
-                paddingLeft: "38px",
-                marginBottom: "15px",
-                fontSize: "15px",
-                lineHeight: "1.8",
-                listStyleType: "disc",
-              }}
-            >
-              <li>Smoking</li>
-              <li>Diabetes</li>
-              <li>Pregnancy or hormonal changes</li>
-              <li>Medication</li>
-              <li>Genetics</li>
-              <li>Other health problems</li>
-              <li>Stress</li>
-              <li>Poor nutrition</li>
-            </ul>
-
-            <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "1.7",
-              }}
-            >
-              Gum disease is common but treatable. Regular dentist and hygienist
-              visits are essential for maintaining dental health.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div style={{ width: "100%", background: "#fff" }}>
-  {/* WHAT NOW */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      padding: "80px 60px 40px",
-      textAlign: "center",
-    }}
-  >
-    <div
-      style={{
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#0B1C6D",
-        marginBottom: "15px",
-      }}
-    >
-      What now
-    </div>
-
-    <div
-      style={{
-        fontSize: "15px",
-        lineHeight: "1.8",
-        maxWidth: "1300px",
-        margin: "0 auto 30px",
-      }}
-    >
-      Explore available treatments to gain further insight. For personalised
-      advice regarding your symptoms, we recommend scheduling a dentist
-      consultation. Contact us via phone or our online scheduling system to book
-      an{" "}
-      <span style={{ color: "#00AEEF", fontWeight: "500" }}>appointment</span>.
-    </div>
-
-    <div
-      style={{
-        display: "inline-block",
-        background: "#25CFE5",
-        color: "#fff",
-        padding: "14px 32px",
-        borderRadius: "30px",
-        fontSize: "15px",
-        fontWeight: "500",
-        cursor: "pointer",
-      }}
-    >
+{/* WHAT NOW SECTION */}
+<div className="w-full bg-white">
+  <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-0 py-20 text-center space-y-6">
+    <h2 className="text-2xl sm:text-3xl font-semibold text-[#0B1C6D]">What now</h2>
+    <p className="text-sm sm:text-base leading-relaxed max-w-[1300px] mx-auto">
+      Explore available treatments to gain further insight. For personalised advice regarding your symptoms, we recommend scheduling a dentist consultation. Contact us via phone or our online scheduling system to book an{" "}
+      <span className="text-[#00AEEF] font-medium">appointment</span>.
+    </p>
+    <button className="bg-[#25CFE5] text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-[#00C0D8] transition">
       Book an Appointment
-    </div>
+    </button>
   </div>
 
   {/* FAQs */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      padding: "40px 60px 80px",
-    }}
-  >
-    <div
-      style={{
-        textAlign: "center",
-        fontSize: "32px",
-        fontWeight: "600",
-        color: "#0B1C6D",
-        marginBottom: "40px",
-      }}
-    >
-      FAQs
-    </div>
-
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr",
-        gap: "20px",
-      }}
-    >
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;01. How much does it cost to treat gum disease?
-      </div>
-
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;05. Does gum disease hurt?
-      </div>
-
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;02. Can gum disease be prevented?
-      </div>
-
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;06. What happens if you have gum disease?
-      </div>
-
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;03. Does gum disease hurt?
-      </div>
-
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;07. How do you get rid of gum disease at home?
-      </div>
-
-      <div style={{ background: "#67BDB8", padding: "18px 22px", display: "flex", alignItems: "center", cursor: "pointer", fontSize: "15px" }}>
-        +&nbsp;&nbsp;04. Can gum disease be cured?
-      </div>
+  <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-0 pb-20">
+    <h2 className="text-2xl sm:text-3xl font-semibold text-[#0B1C6D] text-center mb-10">FAQs</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {[
+        "01. How much does it cost to treat gum disease?",
+        "05. Does gum disease hurt?",
+        "02. Can gum disease be prevented?",
+        "06. What happens if you have gum disease?",
+        "03. Does gum disease hurt?",
+        "07. How do you get rid of gum disease at home?",
+        "04. Can gum disease be cured?",
+      ].map((faq, i) => (
+        <div
+          key={i}
+          className="bg-[#67BDB8] text-black px-3 py-3 flex items-center cursor-pointer rounded-lg hover:bg-[#57B2AD] transition"
+        >
+          <span className="text-lg font-bold mr-2">+</span>
+          <span className="text-sm sm:text-base">{faq}</span>
+        </div>
+      ))}
     </div>
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

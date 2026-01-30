@@ -62,7 +62,7 @@ export default function YellowTeeth() {
 </div>
 
 <div className="bg-slate-50 py-16">
-  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
 
     {/* Image */}
     <div>

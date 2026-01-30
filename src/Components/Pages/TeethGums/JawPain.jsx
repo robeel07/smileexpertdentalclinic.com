@@ -10,283 +10,99 @@ export default function JawPain() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${twentynine})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Jaw Pain Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/jawpain"></Link>}
 
-
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-relaxed text-justify">
   <p>
     Jaw pain can be excruciating and disruptive to daily life. It is a common and persistent condition that can greatly impact activities like eating and speaking. The intensity of jaw pain can make it difficult to focus, and many individuals experience limitations in mouth opening, along with facial and jaw tenderness. Headaches and earaches can also accompany jaw pain.
   </p>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    background: "#f4f9fc",
-    padding: "80px 60px",
-    boxSizing: "border-box",
-    display: "flex",
-    justifyContent: "center",
-  }}
->
-  {/* MAIN CONTAINER */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      width: "100%",
-      display: "flex",
-      alignItems: "center",
-      gap: "60px",
-    }}
-  >
+{/* SYMPTOMS OF JAW PAIN */}
+<div className="w-full bg-[#f4f9fc] py-20 px-5 flex justify-center">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     {/* LEFT CONTENT */}
-    <div style={{ flex: "1" }}>
-      <h2
-        style={{
-          color: "#0a1c74",
-          fontSize: "30px",
-          marginBottom: "20px",
-        }}
-      >
-        Symptoms of Jaw Pain:
-      </h2>
-
-      <p
-        style={{
-          lineHeight: "1.8",
-          marginBottom: "20px",
-          fontSize: "15px",
-        }}
-      >
-        Untreated, jaw pain can become chronic and unbearable. It can arise from
-        chewing hard foods or excessive gum chewing, but typically resolves
-        quickly. However, chronic jaw pain is often associated with more serious
-        conditions such as temporomandibular joint disease (TMJ).
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1c74] text-3xl sm:text-3xl mb-4">Symptoms of Jaw Pain:</h2>
+      <p className="text-sm sm:text-base leading-relaxed mb-5">
+        Untreated, jaw pain can become chronic and unbearable. It can arise from chewing hard foods or excessive gum chewing, but typically resolves quickly. However, chronic jaw pain is often associated with more serious conditions such as temporomandibular joint disease (TMJ).
       </p>
-
-      <p
-        style={{
-          lineHeight: "1.8",
-          fontSize: "15px",
-        }}
-      >
-        Common symptoms of TMJ and jaw pain include aching or tender jaw, ear
-        pain, discomfort in the temporomandibular joints, and difficulty or pain
-        while chewing. Additional possible symptoms include lower jaw pain,
-        facial pain, and limited mouth movement.
+      <p className="text-sm sm:text-base leading-relaxed">
+        Common symptoms of TMJ and jaw pain include aching or tender jaw, ear pain, discomfort in the temporomandibular joints, and difficulty or pain while chewing. Additional possible symptoms include lower jaw pain, facial pain, and limited mouth movement.
       </p>
     </div>
 
     {/* RIGHT IMAGE */}
-    <div style={{ flex: "1", textAlign: "right" }}>
+    <div className="flex-1 text-right">
       <img
-        src={thirty} // replace with your image import
+        src={thirty}
         alt="Jaw Pain Examination"
-        style={{
-          width: "100%",
-          borderRadius: "20px",
-          objectFit: "cover",
-        }}
+        className="w-full h-full rounded-3xl object-cover"
       />
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    background: "#f4f9fc",
-    padding: "80px 60px",
-    boxSizing: "border-box",
-    display: "flex",
-    justifyContent: "center",
-  }}
->
-  {/* MAIN WRAPPER */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      width: "100%",
-      display: "flex",
-      alignItems: "center",
-      gap: "60px",
-    }}
-  >
+{/* CAUSES OF JAW PAIN */}
+<div className="w-full bg-[#f4f9fc] py-20 px-5 flex justify-center">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     {/* LEFT IMAGE */}
-    <div style={{ flex: "1" }}>
+    <div className="flex-1">
       <img
-        src={thirtyone} // import your image
+        src={thirtyone}
         alt="Causes of Jaw Pain"
-        style={{
-          width: "100%",
-          borderRadius: "20px",
-          objectFit: "cover",
-        }}
+        className="w-full h-full rounded-3xl object-cover"
       />
     </div>
 
     {/* RIGHT CONTENT */}
-    <div style={{ flex: "1" }}>
-      <h2
-        style={{
-          color: "#0a1c74",
-          fontSize: "30px",
-          marginBottom: "20px",
-        }}
-      >
-        Causes of Jaw Pain :
-      </h2>
-
-      <p
-        style={{
-          lineHeight: "1.8",
-          fontSize: "15px",
-          marginBottom: "15px",
-        }}
-      >
-        There are several different causes of jaw pain. TMJ, also known as
-        temporomandibular joint disease, is a frequent source of jaw pain. A
-        crucial joint in the body is the mandible joint. It enables complicated
-        motions like talking, eating, and swallowing. Trauma or damage may
-        result in TMJ. This could be the result of an accident or participating
-        in sports. Jaw discomfort and TMJ may also be brought on by:
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1c74] text-3xl sm:text-3xl mb-5">Causes of Jaw Pain:</h2>
+      <p className="text-sm sm:text-base leading-relaxed mb-4">
+        There are several different causes of jaw pain. TMJ, also known as temporomandibular joint disease, is a frequent source of jaw pain. A crucial joint in the body is the mandible joint. It enables complicated motions like talking, eating, and swallowing. Trauma or damage may result in TMJ. This could be the result of an accident or participating in sports. Jaw discomfort and TMJ may also be brought on by:
       </p>
-
-      <ul
-        style={{
-          paddingLeft: "38px",
-          marginBottom: "15px",
-          lineHeight: "1.8",
-          fontSize: "15px",
-          listStyleType: "disc",
-        }}
-      >
+      <ul className="pl-9 list-disc text-sm sm:text-base leading-relaxed mb-4 space-y-1">
         <li>Dental problems, such as misaligned teeth and jaws</li>
-        <li>
-          <span style={{ color: "#00a6ff", fontWeight: "500" }}>
-            Teeth grinding
-          </span>{" "}
-          or clenching
-        </li>
+        <li><span className="text-[#00a6ff] font-medium">Teeth grinding</span> or clenching</li>
         <li>Arthritis in the joint</li>
         <li>Stress, leading to tightened facial muscles</li>
       </ul>
-
-      <p
-        style={{
-          lineHeight: "1.8",
-          fontSize: "15px",
-        }}
-      >
-        Jaw pain can be triggered by consuming excessively tough food or
-        overextending the mouth. Typically, the discomfort subsides within a
-        couple of days. Severe jaw pain requires attention from a dentist or
-        other qualified professional.
+      <p className="text-sm sm:text-base leading-relaxed">
+        Jaw pain can be triggered by consuming excessively tough food or overextending the mouth. Typically, the discomfort subsides within a couple of days. Severe jaw pain requires attention from a dentist or other qualified professional.
       </p>
     </div>
   </div>
 </div>
 
-{/* WHAT NOW SECTION */}
-<div
-  style={{
-    width: "100%",
-    padding: "80px 40px",
-    textAlign: "center",
-    background: "#ffffff",
-  }}
->
-  <h2
-    style={{
-      fontSize: "32px",
-      color: "#0a1c74",
-      marginBottom: "15px",
-    }}
-  >
-    What Now
-  </h2>
-
-  <p
-    style={{
-      maxWidth: "1300px",
-      margin: "0 auto 30px",
-      fontSize: "15px",
-      lineHeight: "1.7",
-    }}
-  >
-    View some potential therapies to learn more about what comes next. We
-    advise scheduling a dental consultation to receive detailed information
-    concerning your problems.
+{/* WHAT NOW */}
+<div className="w-max-7xl bg-white py-8 px-5 text-center">
+  <h2 className="text-[#0a1c74] text-3xl sm:text-3xl mb-4">What Now</h2>
+  <p className="max-w-[1300px] mx-auto mb-8 text-sm sm:text-base leading-relaxed">
+    View some potential therapies to learn more about what comes next. We advise scheduling a dental consultation to receive detailed information concerning your problems.
   </p>
-
-  <button
-    style={{
-      background: "#2dd4f7",
-      border: "none",
-      color: "#fff",
-      padding: "12px 30px",
-      borderRadius: "30px",
-      fontSize: "15px",
-      cursor: "pointer",
-    }}
-  >
+  <button className="bg-[#2dd4f7] text-white px-8 py-3 rounded-full text-sm sm:text-base cursor-pointer hover:bg-[#1fc0e0] transition">
     Book an Appointment
   </button>
 </div>
 
 {/* FAQ SECTION */}
-<div
-  style={{
-    width: "100%",
-    padding: "60px 40px 100px",
-    background: "#ffffff",
-  }}
->
-  <h2
-    style={{
-      textAlign: "center",
-      fontSize: "32px",
-      color: "#0a1c74",
-      marginBottom: "40px",
-    }}
-  >
-    FAQs
-  </h2>
-
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "20px 30px",
-    }}
-  >
-    {/* FAQ ITEM */}
+<div className="w-full bg-white py-8 px-5">
+  <h2 className="text-[#0a1c74] text-3xl sm:text-3xl text-center mb-10 font-semibold">FAQs</h2>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-6">
     {[
       "01. How much does it cost to treat jaw pain?",
       "02. How do you get rid of jaw pain?",
@@ -297,29 +113,15 @@ export default function JawPain() {
     ].map((item, index) => (
       <div
         key={index}
-        style={{
-          background: "#6cc3c0",
-          padding: "18px 20px",
-          display: "flex",
-          alignItems: "center",
-          fontSize: "15px",
-          fontWeight: "500",
-        }}
+        className="bg-[#6cc3c0] px-3 py-3 flex items-center font-medium text-sm sm:text-base rounded-lg"
       >
-        <span
-          style={{
-            fontSize: "22px",
-            fontWeight: "600",
-            marginRight: "15px",
-          }}
-        >
-          +
-        </span>
-        {item}
+        <span className="text-lg sm:text-xl font-semibold mr-4">+</span>
+        <span>{item}</span>
       </div>
     ))}
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

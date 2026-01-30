@@ -12,275 +12,90 @@ export default function MouthUlcer() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${fortyseven})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Mouth Ulcer Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/mouthulcer"></Link>}
 
 
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-[1.8] text-justify">
   <p>
-   While mouth ulcers and sores can be uncomfortable, they typically aren’t a major concern. They’re quite common, and if you have canker sores or aphthous ulcers, you’ll definitely feel them because they’re close to the surface and can be painful. They usually heal on their own in one to two weeks. Certain foods and drinks can sometimes worsen the pain of mouth ulcers. You can try different treatments to speed up your recovery. If an ulcer persists for three weeks, there may be a more serious underlying issue. See your dentist or doctor for examination and mouth ulcer treatment.
+    While mouth ulcers and sores can be uncomfortable, they typically aren’t a major concern. They’re quite common, and if you have canker sores or aphthous ulcers, you’ll definitely feel them because they’re close to the surface and can be painful. They usually heal on their own in one to two weeks. Certain foods and drinks can sometimes worsen the pain of mouth ulcers. You can try different treatments to speed up your recovery. If an ulcer persists for three weeks, there may be a more serious underlying issue. See your dentist or doctor for examination and mouth ulcer treatment.
   </p>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    backgroundColor: "#ffffff",
-    padding: "70px 90px",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "flex",
-      alignItems: "flex-start",
-      justifyContent: "space-between",
-      gap: "60px",
-    }}
-  >
+{/* WHEN TO SEE A DENTIST */}
+<div className="w-full bg-white py-16 px-5 lg:px-24 box-border">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
     {/* LEFT CONTENT */}
-    <div style={{ flex: 1 }}>
-      <h2
-        style={{
-          color: "#0a1f8f",
-          fontSize: "32px",
-          fontWeight: "700",
-          marginBottom: "20px",
-        }}
-      >
-        When to See a Dentist:
-      </h2>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#000",
-          marginBottom: "18px",
-          lineHeight: "1.6",
-        }}
-      >
-        If in doubt, check it out. Planned a dental appointment as soon as you can
-        for mouth ulcer treatment:
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-4">When to See a Dentist:</h2>
+      <p className="text-sm text-black mb-4 leading-[1.6]">
+        If in doubt, check it out. Planned a dental appointment as soon as you can for mouth ulcer treatment:
       </p>
-
-      <ul
-        style={{
-          paddingLeft: "38px",
-          marginBottom: "30px",
-          fontSize: "15px",
-          color: "#000",
-          lineHeight: "1.7",
-          listStyleType: "disc",
-          listStylePosition: "outside",
-        }}
-      >
+      <ul className="list-disc list-outside pl-10 mb-7 text-sm text-black leading-[1.7] space-y-1">
         <li>You are in pain Pain lasts longer than a day or two</li>
         <li>The pain is severe or unbearable</li>
-        <li>
-          You have a fever, earache or pain when you open your mouth wide
-        </li>
+        <li>You have a fever, earache or pain when you open your mouth wide</li>
         <li>If you’ve had mouth ulcers before</li>
         <li>If you’re experiencing stress, or run down</li>
       </ul>
 
-      <h3
-        style={{
-          color: "#0a1f8f",
-          fontSize: "22px",
-          fontWeight: "700",
-          marginBottom: "12px",
-        }}
-      >
-        Are You in Pain?
-      </h3>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#000",
-          lineHeight: "1.6",
-        }}
-      >
-        If you require immediate dental care, please contact us without delay.
-        We will promptly schedule a meeting with you.
+      <h3 className="text-[#0a1a5c] text-2xl font-bold mb-3">Are You in Pain?</h3>
+      <p className="text-sm text-black leading-[1.6]">
+        If you require immediate dental care, please contact us without delay. We will promptly schedule a meeting with you.
       </p>
     </div>
 
     {/* RIGHT IMAGE */}
-    <div style={{ flex: 1 }}>
-      <img
-        src={fortyeight}
-        alt="Dental Consultation"
-        style={{
-          maxwidth: "620%",
-          height: "auto",
-          borderRadius: "18px",
-          objectFit: "cover",
-        }}
-      />
+    <div className="flex-1">
+      <img src={fortyeight} alt="Dental Consultation" className="w-full h-full rounded-3xl object-cover" />
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    background: "#f3f8fb",
-    padding: "80px 60px",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "flex",
-      alignItems: "center",
-      gap: "60px",
-    }}
-  >
+{/* SYMPTOMS */}
+<div className="w-full bg-[#f3f8fb] py-20 px-5 lg:px-16">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     {/* LEFT IMAGE */}
-    <div style={{ flex: "1" }}>
-      <img
-        src={fortynine}
-        alt="Dental Checkup"
-        style={{
-          maxwidth: "620%",
-          height: "auto",
-          borderRadius: "18px",
-          objectFit: "cover",
-        }}
-      />
+    <div className="flex-1">
+      <img src={fortynine} alt="Dental Checkup" className="w-full h-full rounded-3xl object-cover" />
     </div>
 
     {/* RIGHT CONTENT */}
-    <div style={{ flex: "1" }}>
-      <h2
-        style={{
-          color: "#0b1f8f",
-          fontSize: "30px",
-          fontWeight: "700",
-          marginBottom: "18px",
-        }}
-      >
-        Symptoms of a Mouth Ulcers:
-      </h2>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-          marginBottom: "18px",
-        }}
-      >
-        Although ulcers can occasionally be very large, they are typically
-        small. They often appear as grey, yellow, or white spots that create a
-        depression on the surface. Mouth ulcers can sometimes cause severe pain,
-        especially when eating, drinking, or brushing teeth.
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-4">Symptoms of a Mouth Ulcers:</h2>
+      <p className="text-sm text-gray-800 leading-[1.7] mb-3">
+        Although ulcers can occasionally be very large, they are typically small. They often appear as grey, yellow, or white spots that create a depression on the surface. Mouth ulcers can sometimes cause severe pain, especially when eating, drinking, or brushing teeth.
       </p>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-        }}
-      >
-        If mouth ulcers are causing intense pain, seek medical attention as
-        there could be an underlying issue. Likewise, recurrent ulcers may
-        indicate another problem, like a vitamin deficiency. It is recommended
-        to consult a doctor if ulcers do not heal within three weeks.
+      <p className="text-sm text-gray-800 leading-[1.7]">
+        If mouth ulcers are causing intense pain, seek medical attention as there could be an underlying issue. Likewise, recurrent ulcers may indicate another problem, like a vitamin deficiency. It is recommended to consult a doctor if ulcers do not heal within three weeks.
       </p>
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    background: "#ffffff",
-    padding: "80px 60px",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "flex",
-      alignItems: "flex-start",
-      gap: "70px",
-    }}
-  >
+{/* CAUSES */}
+<div className="w-full bg-white py-20 px-5 lg:px-16">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     {/* LEFT CONTENT */}
-    <div style={{ flex: 1 }}>
-      <h2
-        style={{
-          color: "#0b1f8f",
-          fontSize: "30px",
-          fontWeight: "700",
-          marginBottom: "18px",
-        }}
-      >
-        Causes of Mouth Ulcers:
-      </h2>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-          marginBottom: "16px",
-        }}
-      >
-        Everyone is aware of how uncomfortable it may be to unintentionally
-        bite their tongue or cheek. A mouth ulcer can develop out of this very
-        quickly. Another method to get an ulcer is to hit the inside of your
-        mouth with your toothbrush, get burned by a hot beverage, have ill-
-        fitting dentures, or have a tooth with a sharp edge. Mouth ulcers can
-        also be brought on by the herpes simplex or cold sore viruses, a food
-        intolerance, or even an allergy. Specific lifestyle or health variables,
-        such as being on particular medications, lacking in certain nutrients,
-        or having received radiotherapy, might cause ulcers. Other elements
-        might be:
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-4">Causes of Mouth Ulcers:</h2>
+      <p className="text-sm text-gray-800 leading-[1.7] mb-4">
+        Everyone is aware of how uncomfortable it may be to unintentionally bite their tongue or cheek. A mouth ulcer can develop out of this very quickly. Another method to get an ulcer is to hit the inside of your mouth with your toothbrush, get burned by a hot beverage, have ill-fitting dentures, or have a tooth with a sharp edge. Mouth ulcers can also be brought on by the herpes simplex or cold sore viruses, a food intolerance, or even an allergy. Specific lifestyle or health variables, such as being on particular medications, lacking in certain nutrients, or having received radiotherapy, might cause ulcers. Other elements might be:
       </p>
-
-      <ul
-        style={{
-          paddingLeft: "40px",
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-          listStyleType: "disc",
-          listStylePosition: "outside",
-        }}
-      >
+      <ul className="list-disc list-outside pl-10 text-sm text-gray-800 leading-[1.7] space-y-1">
         <li>During times of high stress</li>
         <li>With hormonal changes in females</li>
         <li>When you are quitting smoking</li>
@@ -288,94 +103,27 @@ export default function MouthUlcer() {
     </div>
 
     {/* RIGHT IMAGE */}
-    <div style={{ flex: 1 }}>
-      <img
-        src={fifty}
-        alt="Dental treatment"
-        style={{
-          maxwidth: "620%",
-          height: "auto",
-          borderRadius: "18px",
-          objectFit: "cover",
-        }}
-      />
+    <div className="flex-1">
+      <img src={fifty} alt="Dental treatment" className="w-full h-full rounded-3xl object-cover" />
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    background: "#f6f9fc",
-    padding: "80px 60px",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "flex",
-      alignItems: "flex-start",
-      gap: "70px",
-    }}
-  >
+{/* GET PREPARED */}
+<div className="w-full bg-[#f6f9fc] py-20 px-5 lg:px-16">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     {/* LEFT IMAGE */}
-    <div style={{ flex: 1 }}>
-      <img
-        src={fiftyone}
-        alt="Dental preparation"
-        style={{
-          maxwidth: "620%",
-          height: "auto",
-          borderRadius: "20px",
-          marginTop: "40px",
-          objectFit: "cover",
-        }}
-      />
+    <div className="flex-1 mt-10">
+      <img src={fiftyone} alt="Dental preparation" className="w-full h-full rounded-3xl object-cover" />
     </div>
 
     {/* RIGHT CONTENT */}
-    <div style={{ flex: 1 }}>
-      <h2
-        style={{
-          color: "#0b1f8f",
-          fontSize: "30px",
-          fontWeight: "700",
-          marginBottom: "14px",
-        }}
-      >
-        Get Prepared:
-      </h2>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-          marginBottom: "14px",
-        }}
-      >
-        For prompt solutions and guidance, book an appointment at SmileOn for
-        any mouth or teeth problem. This approach ensures your dentist has the
-        necessary information for accurate diagnosis and treatment. Typically,
-        your dentist will inquire about your medical history prior to conducting
-        a thorough examination of your mouth, teeth, jaw, tongue, throat,
-        sinuses, ears, nose, and neck. Depending on the suspected cause of your
-        problem, an x-ray may be necessary. Your dentist may ask you some
-        questions, such as:
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-3">Get Prepared:</h2>
+      <p className="text-sm text-gray-800 leading-[1.7] mb-3">
+        For prompt solutions and guidance, book an appointment at SmileOn for any mouth or teeth problem. This approach ensures your dentist has the necessary information for accurate diagnosis and treatment. Typically, your dentist will inquire about your medical history prior to conducting a thorough examination of your mouth, teeth, jaw, tongue, throat, sinuses, ears, nose, and neck. Depending on the suspected cause of your problem, an x-ray may be necessary. Your dentist may ask you some questions, such as:
       </p>
-
-      <ul
-        style={{
-          paddingLeft: "38px",
-          marginBottom: "14px",
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-          listStyleType: "disc",
-        }}
-      >
+      <ul className="list-disc list-outside pl-10 text-sm text-gray-800 leading-[1.7] mb-3 space-y-1">
         <li>What is your dental routine at home?</li>
         <li>Have you made any changes recently?</li>
         <li>Do you have any pain?</li>
@@ -383,151 +131,32 @@ export default function MouthUlcer() {
         <li>How bad is the pain?</li>
         <li>How do you think you got the mouth sore or ulcer?</li>
       </ul>
-
-      <p
-        style={{
-          fontSize: "15px",
-          color: "#333",
-          lineHeight: "1.7",
-        }}
-      >
-        Due to your appointment, consider your responses to these questions.
-        Preparation can hasten the diagnosis.
+      <p className="text-sm text-gray-800 leading-[1.7]">
+        Due to your appointment, consider your responses to these questions. Preparation can hasten the diagnosis.
       </p>
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    background: "#ffffff",
-    padding: "80px 40px",
-    boxSizing: "border-box",
-  }}
->
-  {/* HEADING */}
-  <h2
-    style={{
-      textAlign: "center",
-      color: "#0b1f8f",
-      fontSize: "30px",
-      fontWeight: "700",
-      marginBottom: "50px",
-    }}
-  >
-    FAQs
-  </h2>
-
-  {/* FAQ GRID */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      columnGap: "30px",
-      rowGap: "22px",
-    }}
-  >
-    {/* LEFT COLUMN */}
-    <div
-      style={{
-        background: "#6ec1bd",
-        padding: "18px 24px",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "15px",
-        color: "#000",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "700", marginRight: "12px" }}>
-        +
-      </span>
-      01. What is the treatment for mouth ulcers?
-    </div>
-
-    <div
-      style={{
-        background: "#6ec1bd",
-        padding: "18px 24px",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "15px",
-        color: "#000",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "700", marginRight: "12px" }}>
-        +
-      </span>
-      04. Why do I keep getting mouth ulcers?
-    </div>
-
-    <div
-      style={{
-        background: "#6ec1bd",
-        padding: "18px 24px",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "15px",
-        color: "#000",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "700", marginRight: "12px" }}>
-        +
-      </span>
-      02. Can I treat mouth ulcers at home?
-    </div>
-
-    <div
-      style={{
-        background: "#6ec1bd",
-        padding: "18px 24px",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "15px",
-        color: "#000",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "700", marginRight: "12px" }}>
-        +
-      </span>
-      05. I’m anxious about visiting the dentist.
-    </div>
-
-    <div
-      style={{
-        background: "#6ec1bd",
-        padding: "18px 24px",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "15px",
-        color: "#000",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "700", marginRight: "12px" }}>
-        +
-      </span>
-      03. What nutrient deficiencies cause mouth ulcers?
-    </div>
-
-    <div
-      style={{
-        background: "#6ec1bd",
-        padding: "18px 24px",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "15px",
-        color: "#000",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "700", marginRight: "12px" }}>
-        +
-      </span>
-      06. Can mouth ulcers be prevented?
-    </div>
+{/* FAQ SECTION */}
+<div className="w-full bg-white py-10 px-3 lg:px-10">
+  <h2 className="text-[#0a1a5c] text-3xl font-bold text-center mb-12">FAQs</h2>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-7 gap-y-5">
+    {[
+      "01. What is the treatment for mouth ulcers?",
+      "02. Can I treat mouth ulcers at home?",
+      "03. What nutrient deficiencies cause mouth ulcers?",
+      "04. Why do I keep getting mouth ulcers?",
+      "05. I’m anxious about visiting the dentist.",
+      "06. Can mouth ulcers be prevented?",
+    ].map((faq, idx) => (
+      <div key={idx} className="bg-[#6ec1bd] px-3 py-3 flex items-center text-sm text-black rounded-lg">
+        <span className="text-lg font-bold mr-3">+</span> {faq}
+      </div>
+    ))}
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

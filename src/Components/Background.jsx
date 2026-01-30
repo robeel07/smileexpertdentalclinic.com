@@ -12,13 +12,8 @@ export default function HeroSection() {
   return (
     <>
     <div
-  className="
-    relative w-full
-    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
-    bg-cover bg-[center_40%]
-    flex items-center
-    pt-28 sm:pt-32
-  "
+  className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32 "
   style={{ backgroundImage: `url(${bg})` }}
 >
   {/* Dark Overlay */}
@@ -27,9 +22,7 @@ export default function HeroSection() {
   {/* Content */}
   <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h1
-      className="
-        text-white font-extrabold text-center
-        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+      className=" text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
         leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Yellow Teeth Treatment in Khanewal
     </h1>
@@ -37,7 +30,7 @@ export default function HeroSection() {
   </div>
 
 
-<div className="max-w-6xl mx-auto px-1 relative z-10 mb-0 -mt-8">
+<div className="max-w-7xl mx-auto px-1 relative z-10 mb-0 -mt-8">
   <div className="bg-blue-900 backdrop-blur-md rounded-2xl border border-slate-200">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-slate-200">
 

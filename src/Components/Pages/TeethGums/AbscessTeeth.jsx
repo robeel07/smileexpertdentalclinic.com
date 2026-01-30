@@ -13,291 +13,115 @@ export default function AbscessTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32 "
       style={{ backgroundImage: `url(${fortytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Tooth Abscess Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/abscessteeth"></Link>}
-
-
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: " 40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-relaxed text-justify">
   <p>
- A tooth abscess is a painful dental condition that forms when a bacteria-infected pocket of pus develops in or around the tooth. It can cause swelling, pain and sensitivity, and if not treated it could lead to more serious health problems. Visit SmileExpert for an effective dental abscess treatment from qualified dentists to end your suffering.
-
-Our knowledgeable staff knows how painful a tooth abscess can be, so we are here to help. Do not wait—early treatment is essential to keeping your smile healthy.
+    A tooth abscess is a painful dental condition that forms when a bacteria-infected pocket of pus develops in or around the tooth. It can cause swelling, pain and sensitivity, and if not treated it could lead to more serious health problems. Visit SmileExpert for an effective dental abscess treatment from qualified dentists to end your suffering.
+    <br /><br />
+    Our knowledgeable staff knows how painful a tooth abscess can be, so we are here to help. Do not wait—early treatment is essential to keeping your smile healthy.
   </p>
 </div>
 
-
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",   // left & right margin increased
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "flex-start",
-    gap: "20px",
-    backgroundColor: "#ffffff",
-  }}
->
+{/* WHEN TO SEE A DENTIST */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* LEFT CONTENT */}
-  <div style={{ flex: 1, maxWidth: "55%" }}>
-    <h2
-      style={{
-        fontSize: "30px",
-        fontWeight: "700",
-        color: "#0a1b5c",
-        marginBottom: "14px",
-      }}
-    >
-      When to See a Dentist:
-    </h2>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#000",
-        marginBottom: "18px",
-        lineHeight: "1.7",
-      }}
-    >
-      Check it out if you’re not sure. Put in place a dental appointment as soon
-      as you can if:
+  <div className="flex-1 space-y-4">
+    <h2 className="text-[#0a1b5c] text-3xl lg:text-3xl font-bold mb-3">When to See a Dentist:</h2>
+    <p className="text-sm text-black mb-4 leading-relaxed">
+      Check it out if you’re not sure. Put in place a dental appointment as soon as you can if:
     </p>
-
-    <ul
-      style={{
-        paddingLeft: "38px",
-        listStyleType: "disc",
-        listStylePosition: "outside",
-        fontSize: "15px",
-        lineHeight: "1.6",
-        marginBottom: "28px",
-        color: "#000",
-      }}
-    >
+    <ul className="list-disc list-outside pl-10 mb-7 text-sm text-black leading-relaxed space-y-1">
       <li>You are in pain</li>
       <li>Pain lasts longer than a day or two</li>
       <li>The pain is persistent, severe or unbearable</li>
-      <li>
-        When you open your mouth wide, you experience pain, a fever, or ear, jaw,
-        or headaches.
-      </li>
+      <li>When you open your mouth wide, you experience pain, a fever, or ear, jaw, or headaches.</li>
       <li>If you have difficulty breathing or swallowing</li>
       <li>Your face, cheek, or tender areas of your body may be swelled.</li>
       <li>If you’ve ever experienced a tooth infection</li>
       <li>If you’re experiencing stress, or run down</li>
     </ul>
 
-    <h3
-      style={{
-        fontSize: "22px",
-        fontWeight: "700",
-        color: "#0a1b5c",
-        marginBottom: "10px",
-      }}
-    >
-      Are You in Pain?
-    </h3>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#000",
-        lineHeight: "1.7",
-      }}
-    >
-      In pain? For fast, pain-free recovery from every type of dental infection,
-      including wisdom tooth abscess treatment, contact our dental experts.
+    <h3 className="text-[#0a1b5c] text-2xl font-bold mb-2">Are You in Pain?</h3>
+    <p className="text-sm text-black leading-relaxed">
+      In pain? For fast, pain-free recovery from every type of dental infection, including wisdom tooth abscess treatment, contact our dental experts.
     </p>
   </div>
 
   {/* RIGHT IMAGE */}
-  <div style={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
-    <img
-      src={fortythree}   // replace with your imported image
-      alt="Dentist consultation"
-      style={{
-        width: "650px",
-        maxWidth: "620px",
-        height: "400px",
-        objectFit: "cover",
-        marginTop: "10px",
-        borderRadius: "20px",
-      }}
-    />
+  <div className="flex-1">
+    <img src={fortythree} alt="Dentist consultation" className="w-full h-full rounded-3xl object-cover" />
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    display: "flex",
-    alignItems: "flex-start",
-    gap: "40px",
-    backgroundColor: "#f3f7fb",
-  }}
->
+{/* TOOTH ABSCESS STAGES */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* LEFT IMAGE */}
-  <div style={{ flex: "0 0 45%" }}>
-    <img
-      src={fortyfour} 
-      alt="Dental abscess treatment"
-      style={{
-        maxwidth: "620%",
-        height: "420px",
-        objectFit: "cover",
-        borderRadius: "20px",
-        marginTop: "80px",
-      }}
-    />
+  <div className="flex-1">
+    <img src={fortyfour} alt="Dental abscess treatment" className="w-full h-full rounded-3xl object-cover" />
   </div>
 
   {/* RIGHT CONTENT */}
-  <div style={{ flex: "0 0 55%" }}>
-    <h2
-      style={{
-        fontSize: "30px",
-        fontWeight: "700",
-        color: "#0a1b5c",
-        marginBottom: "4px",
-      }}
-    >
-      Tooth Abscess Stages:
-    </h2>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#000",
-        lineHeight: "1.7",
-        marginBottom: "8px",
-      }}
-    >
-      Knowing the stages of a tooth abscess can help with early identification of
-      the issue and speedy dental abscess treatment. Here’s a breakdown of the
-      typical stages:
+  <div className="flex-1 space-y-3">
+    <h2 className="text-[#0a1b5c] text-3xl lg:text-3xl font-bold mb-1">Tooth Abscess Stages:</h2>
+    <p className="text-sm text-black leading-relaxed mb-2">
+      Knowing the stages of a tooth abscess can help with early identification of the issue and speedy dental abscess treatment. Here’s a breakdown of the typical stages:
     </p>
 
     {/* STAGE 1 */}
-    <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
-      Initial Infection:
-    </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
-      Bacteria somehow get into the tooth (often by way of decay, trauma, or gum
-      disease). At this point, you might experience mild discomfort or sensitivity.
+    <h4 className="text-[#0a1b5c] font-bold mb-1">Initial Infection:</h4>
+    <p className="text-sm leading-relaxed mb-2">
+      Bacteria somehow get into the tooth (often by way of decay, trauma, or gum disease). At this point, you might experience mild discomfort or sensitivity.
     </p>
 
     {/* STAGE 2 */}
-    <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
-      Pulpal Involvement:
-    </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
-      The infection reaches the tooth’s pulp, leading to inflammation and immense
-      pain. This is usually when a periapical abscess develops at the tooth’s tip.
+    <h4 className="text-[#0a1b5c] font-bold mb-1">Pulpal Involvement:</h4>
+    <p className="text-sm leading-relaxed mb-2">
+      The infection reaches the tooth’s pulp, leading to inflammation and immense pain. This is usually when a periapical abscess develops at the tooth’s tip.
     </p>
 
     {/* STAGE 3 */}
-    <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
-      Abscess Formation:
-    </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
-      Pus builds up at the site of infection, causing swelling and pressure in the
-      gums or jaw. Pain becomes increasingly severe, and other symptoms, such as
-      fever or swelling, can occur.
+    <h4 className="text-[#0a1b5c] font-bold mb-1">Abscess Formation:</h4>
+    <p className="text-sm leading-relaxed mb-2">
+      Pus builds up at the site of infection, causing swelling and pressure in the gums or jaw. Pain becomes increasingly severe, and other symptoms, such as fever or swelling, can occur.
     </p>
 
     {/* STAGE 4 */}
-    <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
-      Advanced Abscess:
-    </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7", marginBottom: "8px" }}>
-      The infection can extend to nearby tissues, resulting in complications such
-      as facial swelling or difficulty opening the mouth.
+    <h4 className="text-[#0a1b5c] font-bold mb-1">Advanced Abscess:</h4>
+    <p className="text-sm leading-relaxed mb-2">
+      The infection can extend to nearby tissues, resulting in complications such as facial swelling or difficulty opening the mouth.
     </p>
 
     {/* STAGE 5 */}
-    <h4 style={{ color: "#0a1b5c", fontWeight: "700", marginBottom: "6px" }}>
-      Chronic Stage
-    </h4>
-    <p style={{ fontSize: "15px", lineHeight: "1.7" }}>
-      Without treatment, the abscess can become chronic — it sometimes drains but
-      continues to do damage. This could lead to permanent tooth loss or more
-      serious infections.
+    <h4 className="text-[#0a1b5c] font-bold mb-1">Chronic Stage:</h4>
+    <p className="text-sm leading-relaxed">
+      Without treatment, the abscess can become chronic — it sometimes drains but continues to do damage. This could lead to permanent tooth loss or more serious infections.
     </p>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    gap: "20px",
-    backgroundColor: "#ffffff",
-  }}
->
+{/* CAUSES OF TOOTH ABSCESS */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* LEFT CONTENT */}
-  <div style={{ flex: "0 0 50%" }}>
-    <h2
-      style={{
-        fontSize: "30px",
-        fontWeight: "700",
-        color: "#0a1b5c",
-        marginBottom: "12px",
-      }}
-    >
-      Causes of a Tooth Abscess:
-    </h2>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#000",
-        lineHeight: "1.7",
-        marginBottom: "16px",
-      }}
-    >
-      A tooth abscess occurs when bacteria infect the tooth or the gums. This may
-      be due to poor oral hygiene, untreated cavities or gum disease. If left
-      untreated, in the long term, it can lead to a chronic abscess tooth. Common
-      causes include:
+  <div className="flex-1space-y-3">
+    <h2 className="text-[#0a1b5c] text-3xl lg:text-3xl font-bold mb-3">Causes of a Tooth Abscess:</h2>
+    <p className="text-sm text-black leading-relaxed mb-3">
+      A tooth abscess occurs when bacteria infect the tooth or the gums. This may be due to poor oral hygiene, untreated cavities or gum disease. If left untreated, in the long term, it can lead to a chronic abscess tooth. Common causes include:
     </p>
-
-    <ul
-      style={{
-        paddingLeft: "38px",
-        marginBottom: "18px",
-        fontSize: "15px",
-        lineHeight: "1.8",
-        color: "#000",
-        listStyleType: "disc",
-        listStylePosition: "outside",
-      }}
-    >
+    <ul className="list-disc list-outside pl-10 mb-4 text-sm text-black leading-relaxed space-y-1">
       <li>Cavities or untreated tooth decay.</li>
       <li>Cracks or chips in the tooth that let bacteria inside.</li>
       <li>Periodontal infections or gum disease.</li>
@@ -305,254 +129,69 @@ Our knowledgeable staff knows how painful a tooth abscess can be, so we are here
       <li>Poor dental care and plaque accumulation.</li>
       <li>Dental procedures’ complications.</li>
     </ul>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#000",
-        lineHeight: "1.7",
-      }}
-    >
-      Early detection and treatment can easily address dental abscesses and prevent
-      complications. Whether periapical abscesses or any other type, we offer the
-      best treatment to restore oral health.
+    <p className="text-sm text-black leading-relaxed">
+      Early detection and treatment can easily address dental abscesses and prevent complications. Whether periapical abscesses or any other type, we offer the best treatment to restore oral health.
     </p>
   </div>
 
   {/* RIGHT IMAGE */}
-  <div style={{ flex: "0 0 45%" }}>
-    <img
-      src={fortyfive} 
-      alt="Dental abscess consultation"
-      style={{
-        maxwidth: "620%",
-        height: "420px",
-        objectFit: "cover",
-        borderRadius: "20px",
-      }}
-    />
+  <div className="flex-[0_0_45%]">
+    <img src={fortyfive} alt="Dental abscess consultation" className="w-full h-full rounded-3xl object-cover" />
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    backgroundColor: "#f3f8fb",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "40px",
-    }}
-  >
+{/* GET PREPARED */}
+<div className="w-full bg-[#f3f8fb] py-10 px-5 lg:px-28">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     {/* LEFT IMAGE */}
-    <div style={{ flex: "0 0 48%" }}>
-      <img
-        src={fortysix}
-        alt="Dental procedure"
-        style={{
-          maxwidth: "620%",
-          height: "420px",
-          objectFit: "cover",
-          borderRadius: "20px",
-        }}
-      />
+    <div className="flex-1">
+      <img src={fortysix} alt="Dental procedure" className="w-full h-full rounded-3xl object-cover" />
     </div>
 
     {/* RIGHT CONTENT */}
-    <div style={{ flex: "0 0 50%" }}>
-      <h2
-        style={{
-          fontSize: "30px",
-          fontWeight: "700",
-          color: "#0a1b5c",
-          marginBottom: "14px",
-        }}
-      >
-        Get Prepared:
-      </h2>
-
-      <p
-        style={{
-          fontSize: "15px",
-          lineHeight: "1.7",
-          color: "#000",
-          marginBottom: "18px",
-        }}
-      >
-        When you first have the tooth abscess treated, your dentist will want to
-        know several important things so they can help you feel better.
+    <div className="flex-1 space-y-3">
+      <h2 className="text-[#0a1b5c] text-3xl lg:text-3xl font-bold mb-3">Get Prepared:</h2>
+      <p className="text-sm leading-relaxed text-black mb-3">
+        When you first have the tooth abscess treated, your dentist will want to know several important things so they can help you feel better.
       </p>
-
-      <p
-        style={{
-          fontSize: "15px",
-          fontWeight: "500",
-          marginBottom: "12px",
-        }}
-      >
-        Your dentist may ask:
-      </p>
-
-      <ul
-        style={{
-          paddingLeft: "38px",
-          fontSize: "15px",
-          lineHeight: "1.6",
-          marginBottom: "18px",
-          listStyleType: "disc",
-          listStylePosition: "outside",
-        }}
-      >
+      <p className="text-sm font-medium mb-2">Your dentist may ask:</p>
+      <ul className="list-disc list-outside pl-10 mb-4 text-sm leading-relaxed space-y-1">
         <li>When did the pain or discomfort begin?</li>
         <li>Has there been swelling or cemented into your teeth?</li>
         <li>Do you have sensitivity to hot or cold?</li>
         <li>Have you experienced any sickness symptoms?</li>
-        <li>
-          Do you take any medications or get any other medical treatment?
-        </li>
+        <li>Do you take any medications or get any other medical treatment?</li>
         <li>Did you have any trauma or previous treatments recently?</li>
-        <li>
-          Do you have a history of dental problems, like cavities or gum disease?
-        </li>
+        <li>Do you have a history of dental problems, like cavities or gum disease?</li>
       </ul>
-
-      <p
-        style={{
-          fontSize: "15px",
-          lineHeight: "1.7",
-          color: "#000",
-        }}
-      >
-        Your dentist will depend on you to answer these questions truthfully to
-        help him with an effective abscess tooth removal procedure.
+      <p className="text-sm leading-relaxed text-black">
+        Your dentist will depend on you to answer these questions truthfully to help him with an effective abscess tooth removal procedure.
       </p>
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "80px 120px",
-    backgroundColor: "#ffffff",
-  }}
->
-  {/* HEADING */}
-  <h2
-    style={{
-      textAlign: "center",
-      fontSize: "32px",
-      fontWeight: "700",
-      color: "#0a1b5c",
-      marginBottom: "40px",
-    }}
-  >
-    FAQs
-  </h2>
-
-  {/* GRID */}
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      columnGap: "30px",
-      rowGap: "20px",
-    }}
-  >
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;01. What is the treatment for a tooth abscess?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;05. Can tooth abscesses be prevented?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;02. How can I treat a tooth abscess at home?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;06. Will abscesses go away after tooth extraction?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;03. Can you smoke with an abscessed tooth?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;07. Does the tooth abscess show on the X-ray?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;04. What causes a tooth abscess?</div>
-
-    <div style={{
-      backgroundColor: "#69bebc",
-      padding: "18px 24px",
-      height: "56px",
-      display: "flex",
-      alignItems: "center",
-      fontSize: "15px",
-      fontWeight: "500",
-      cursor: "pointer",
-    }}>+&nbsp;&nbsp;08. Can a dentist pull an abscessed tooth?</div>
+{/* FAQs */}
+<div className="max-w-7xl mx-auto bg-white py-10 px-5 lg:px-28">
+  <h2 className="text-[#0a1b5c] text-3xl font-bold text-center mb-10">FAQs</h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-7">
+    {[
+      "01. What is the treatment for a tooth abscess?",
+      "02. How can I treat a tooth abscess at home?",
+      "03. Can you smoke with an abscessed tooth?",
+      "04. What causes a tooth abscess?",
+      "05. Can tooth abscesses be prevented?",
+      "06. Will abscesses go away after tooth extraction?",
+      "07. Does the tooth abscess show on the X-ray?",
+      "08. Can a dentist pull an abscessed tooth?"
+    ].map((faq, idx) => (
+      <div key={idx} className="bg-[#69bebc] px-3 py-3 h-14 flex items-center text-sm font-medium cursor-pointer rounded-lg">
+        <span className="mr-2 font-bold">+</span> {faq}
+      </div>
+    ))}
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

@@ -10,392 +10,229 @@ export default function RecedingGumms() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32 "
       style={{ backgroundImage: `url(${forteen})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className=" text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Receding Gums Treatment in Khanewal
     </h1>
+  
+</div>
+    </div>
+
+
+   <div className="w-full">
+
+  {/* INTRO TEXT */}
+  <div className="max-w-7xl mx-auto my-10 px-5 text-[16px] leading-[1.8] text-[#333] text-justify">
+    <p>
+      Do you have a receding gums problem? Not to worry. Gum recession is one
+      common dental problem that can be detected and prevented. The process of
+      gums receding doesn’t happen fast enough that most people even realize
+      they have the condition. Also, it can be a very common cause of tooth
+      sensitivity.
+      <br /><br />
+      Receding gums are risky to health because they expose the roots of the
+      teeth and expose them to decay, infections, tooth loss or even the
+      appearance of{" "}
+      <span className="text-[#00a6ff]">yellow teeth</span>. Everybody is
+      recommended to see a dentist immediately.
+    </p>
   </div>
-</div>
-    </div>
 
-      {<Link to="/TeethGums/recedinggums"></Link>}
+  {/* SYMPTOMS SECTION */}
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-
-    <div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
-  <p>
-    Do you have a receding gums problem? Not to worry. Gum recession is one common dental problem that can be detected and prevented. The process of gums receding doesn’t happen fast enough that most people even realize they have the condition. Also, it can be a very common cause of tooth sensitivity.
-
-Receding gums are risky to health because they expose the roots of the teeth and expose them to decay, infections, tooth loss or even the appearance of <span style={{ color: "#00a6ff" }}>yellow teeth</span>. In the end, everybody is recommended to see a dentist immediately for an oral health problem. If you are experiencing gum problems you need to call up the dentist and book an appointment to get the best treatment for receding gums today!
-  </p>
-</div>
-
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        gap: "70px",
-        padding: "70px 80px",
-        maxWidth: "1400px",
-        margin: "auto",
-        flexWrap: "wrap",
-        alignItems: "flex-start",
-      }}
-    >
-      {/* LEFT TEXT */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "350px",
-        }}
-      >
-        <h2
-          style={{
-            color: "#0b1fa6",
-            fontSize: "32px",
-            marginBottom: "20px",
-          }}
-        >
-          Symptoms of Receding Gums
-        </h2>
-
-        <p style={{ lineHeight: "1.8", marginBottom: "18px" }}>
-          Though they may not feel pain at first. People with receding gums may
-          find themselves to be more sensitive to tooth pain and may notice their
-          teeth appear to be extended, farther from the root. Other common
-          symptoms include:
-        </p>
-
-        <ul style={{ paddingLeft: "38px", lineHeight: "1.8", listStyleType: "disc" }}>
-          <li>Fear of tooth loss</li>
-          <li>
-            Causes of being sensitive to hot or cold foods because of exposed
-            tooth roots
-          </li>
-          <li>
-            Concern of how the teeth should look as they agree, and where they
-            should be spaced
-          </li>
-          <li>Bad breath</li>
-          <li>Bleeding gums</li>
-        </ul>
-
-        <p style={{ marginTop: "18px", lineHeight: "1.8" }}>
-          Regular dental check-ups and basic oral hygiene practices can prevent
-          gum disease and{" "}
-          <span style={{ color: "#00a6ff" }}>receding gums</span>. If you have gum
-          problems, it is advisable to visit a dentist promptly.
-        </p>
-      </div>
-
-      {/* RIGHT IMAGE */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "500px",
-          height: "400px",
-          marginTop: "40px",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <img
-          src={fifteen}
-          alt="Dental checkup"
-          style={{
-            width: "100%",
-            maxWidth: "620px",
-            marginLeft: "40px",
-            borderRadius: "26px",
-            objectFit: "cover",
-          }}
-        />
-      </div>
-    </div>
-
-     
-    <div
-      style={{
-        background: "#f3f8fc",
-        padding: "80px 70px",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          gap: "70px",
-          maxWidth: "1400px",
-          margin: "auto",
-          alignItems: "center",
-          flexWrap: "wrap",
-        }}
-      >
-        {/* LEFT IMAGE */}
-        <div style={{ flex: "1", minWidth: "350px" }}>
-          <img
-            src={sixteen}
-            alt="Dental treatment"
-            style={{
-              width: "100%",
-              maxWidth: "620px",
-              borderRadius: "28px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-
-        {/* RIGHT TEXT */}
-        <div style={{ flex: "1", minWidth: "350px" }}>
-          <h2
-            style={{
-              color: "#0b1fa6",
-              fontSize: "32px",
-              marginBottom: "18px",
-            }}
-          >
-            Causes of Receding Gums
-          </h2>
-
-          <p style={{ lineHeight: "1.8", marginBottom: "18px" }}>
-            Gum recession can be caused by various factors including incorrect
-            tooth cleaning methods. There is a common cause of gum disease
-            called periodontal disease. You must look out for the receding gums
-            treatment otherwise it will damage gum tissue and the supporting
-            bone structure of your teeth. Other causes include:
-          </p>
-
-          <ul style={{ paddingLeft: "38px", lineHeight: "1.8", listStyleType: "disc" }}>
-            <li>Your genes</li>
-            <li>Brushing too hard or incorrectly</li>
-            <li>Hormonal changes</li>
-            <li>Not visiting your dentist or hygienist frequently</li>
-            <li>Smoking</li>
-            <li>Grinding or clenching your teeth</li>
-            <li>Crooked teeth</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-     <div
-      style={{
-        padding: "80px 90px",
-        maxWidth: "1400px",
-        margin: "auto",
-      }}
-    >
-      {/* TOP HEADING */}
-      <h2
-        style={{
-          color: "#0b1fa6",
-          fontSize: "34px",
-          marginBottom: "18px",
-        }}
-      >
-        Treatments to Reverse Gum Diseases
+    <div>
+      <h2 className="text-3xl font-semibold  text-[#0a1a5c] mb-4">
+        Symptoms of Receding Gums
       </h2>
 
-      <p style={{ lineHeight: "1.8", maxWidth: "1100px" }}>
-        This is what leads to changes in the texture and color of gums; they
-        become more sensitive and may start bleeding, and so is the case with
-        tooth loss due to loss of gum tissue. However, if you are suffering from
-        this, there is no way you will be able to regain more of those gums
-        unless you pursue treatment for receding gums.
+      <p className="leading-[1.8] mb-4">
+        People with receding gums may experience sensitivity and visual
+        changes. Common symptoms include:
       </p>
 
-      {/* TWO COLUMNS */}
-      <div
-        style={{
-          display: "flex",
-          gap: "80px",
-          marginTop: "60px",
-          flexWrap: "wrap",
-        }}
-      >
-        {/* LEFT COLUMN */}
-        <div style={{ flex: "1", minWidth: "350px" }}>
-          <h3
-            style={{
-              color: "#0b1fa6",
-              fontSize: "26px",
-              marginBottom: "15px",
-            }}
-          >
-            Treatments for Early-Stage Receding Gums:
-          </h3>
+      <ul className="pl-9 list-disc leading-[1.8]">
+        <li>Fear of tooth loss</li>
+        <li>Sensitivity to hot or cold foods</li>
+        <li>Concern about tooth appearance</li>
+        <li>Bad breath</li>
+        <li>Bleeding gums</li>
+      </ul>
 
-          <p style={{ lineHeight: "1.8" }}>
-            In some instances, at the beginning of the treatment, you may be
-            prescribed non-surgical therapy. These include:
-          </p>
+      <p className="mt-4 leading-[1.8]">
+        Regular dental check-ups help prevent{" "}
+        <span className="text-[#00a6ff]">receding gums</span>.
+      </p>
+    </div>
 
-          <p style={{ lineHeight: "1.8" }}>
-            <strong>Deep Cleaning:</strong> These procedures are done to reach
-            subgingival plaque and calculi and will eliminate inflammation and
-            cease further gingival recession.
-          </p>
+    <div className="flex-1 min-w-[300px] flex justify-center">
+      <img
+        src={fifteen}
+        alt="Dental checkup"
+        className="w-full max-w-[620px] h-[400px]
+                   object-cover rounded-[26px]"
+      />
+    </div>
+  </div>
 
-          <p style={{ lineHeight: "1.8" }}>
-            <strong>Antibiotics:</strong> At times, your dentist may put you on
-            antibiotics that would eradicate the bacteria and enable the
-            controlling of gum disease.
-          </p>
-        </div>
+  {/* CAUSES SECTION */}
+  <div className="bg-[#f3f8fc] py-3 px-6 lg:px-20">
+    <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-        {/* RIGHT COLUMN */}
-        <div style={{ flex: "1", minWidth: "350px" }}>
-          <h3
-            style={{
-              color: "#0b1fa6",
-              fontSize: "26px",
-              marginBottom: "15px",
-            }}
-          >
-            Treatments for Advanced Gum Recession:
-          </h3>
-
-          <p style={{ lineHeight: "1.8" }}>
-            In cases where the gum recession is slightly worse, you may require
-            receding gum surgery. Common surgical options include:
-          </p>
-
-          <p style={{ lineHeight: "1.8" }}>
-            <strong>Gum Grafting:</strong> The exposed tooth roots are covered
-            with tissue imported from another part of the mouth, or donor site.
-          </p>
-
-          <p style={{ lineHeight: "1.8" }}>
-            <strong>Pinhole Surgical Technique:</strong> A procedure where
-            stripped gum tissue is rolled back into position over an area of
-            recession in a surgical way.
-          </p>
-        </div>
+      <div className="flex-1">
+        <img
+          src={sixteen}
+          alt="Dental treatment"
+          className="w-full h-full rounded-3xl object-cover"  />
       </div>
 
-      {/* BOTTOM SECTION */}
-      <div style={{ marginTop: "50px", maxWidth: "1100px" }}>
-        <h3
-          style={{
-            color: "#0b1fa6",
-            fontSize: "26px",
-            marginBottom: "15px",
-          }}
-        >
-          Receding Gums and Dentures
-        </h3>
+      <div className="flex-1 min-w-[300px]">
+        <h2 className="text-3xl font-semibold  text-[#0a1a5c] mb-4">
+          Causes of Receding Gums
+        </h2>
 
-        <p style={{ lineHeight: "1.8" }}>
-          Ill-fitting dentures can also cause gum recession. It has to be a
-          good fit since it is difficult to correct ill-fitted dentures without
-          making the problems with the gums worse. But regular visits are just
-          as important as the other adjustments you need to ensure the life of
-          your dentures.
+        <p className="leading-[1.8] mb-4">
+          Gum recession can be caused by various factors including:
         </p>
 
-        <p style={{ lineHeight: "1.8" }}>
-          No matter whether you use non-surgical methods or receding gum surgery
-          if you can stop your gum disease before it gets too out of hand, it
-          will remain so.
+        <ul className="pl-9 list-disc leading-[1.8]">
+          <li>Your genes</li>
+          <li>Brushing too hard</li>
+          <li>Hormonal changes</li>
+          <li>Smoking</li>
+          <li>Grinding teeth</li>
+          <li>Crooked teeth</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {/* TREATMENTS */}
+  <div className="max-w-7xl mx-auto px-6 lg:px-20 py-20">
+
+    <h2 className="text-3xl text-[#0a1a5c] mb-4">
+      Treatments to Reverse Gum Diseases
+    </h2>
+
+    <p className="leading-[1.8]">
+      This is what leads to changes in the texture and color of gums; they become more sensitive and may start bleeding, and so is the case with tooth loss due to loss of gum tissue. However, if you are suffering from this, there is no way you will be able to regain more of those gums unless you pursue treatment for receding gums.
+    </p>
+
+    <div className="flex flex-col lg:flex-row gap-16 mt-14">
+
+      <div className="flex-1 ">
+        <h3 className="text-[24px] md:text-[26px] text-[#0a1a5c] mb-4">
+          Treatments for Early-Stage Receding Gums:
+        </h3>
+
+        <p className="leading-[1.8]">
+          In some instances, at the beginning of the treatment, you may be prescribed non-surgical therapy. These include: <br/>
+          <strong>Deep Cleaning:</strong> These procedures are done to reach subgingival plaque and calculi and will eliminate inflammation and cease further gingival recession.
+        </p>
+
+        <p className="leading-[1.8]">
+          <strong>Antibiotics:</strong> At times, your dentist may put you on antibiotics that would eradicate the bacteria and enable the controlling of gum disease.
+        </p>
+      </div>
+
+      <div className="flex-1 min-w-[300px]">
+        <h3 className="text-[24px] text-[#0a1a5c] mb-4">
+          Advanced Treatments
+        </h3>
+
+        <p className="leading-[1.8]">
+          In cases where the gum recession is slightly worse, you may require receding gum surgery. Common surgical options include: <br/>
+          <strong>Gum Grafting:</strong> The exposed tooth roots are covered with tissue imported from another part of the mouth, or donor site.
+        </p>
+
+        <p className="leading-[1.8]">
+          <strong>Pinhole Technique:</strong> A procedure where stripped gum tissue is rolled back into position over an area of recession in a surgical way.
         </p>
       </div>
     </div>
 
-    <div style={{ padding: "20px 60px" }}>
+    <div className="mt-14 max-w-[1100px]">
+      <h3 className="text-3xl text-[#0a1a5c] mb-4">
+        Receding Gums and Dentures
+      </h3>
+
+      <p className="leading-[1.8]">
+        Ill-fitting dentures can also cause gum recession. It has to be a good fit since it is difficult to correct ill-fitted dentures without making the problems with the gums worse. But regular visits are just as important as the other adjustments you need to ensure the life of your dentures.
+No matter whether you use non-surgical methods or receding gum surgery if you can stop your gum disease before it gets too out of hand, it will remain so.
+      </p>
+    </div>
+  </div>
+
   {/* WHAT NEXT */}
-  <h2 style={{ textAlign: "center", color: "#0b1fa6", fontSize: "32px" }}>
-    What Next
-  </h2>
+  <div className="px-6 lg:px-16 py-12 text-center">
+    <h2 className="text-4xl text-[#0a1a5c]">
+      What Next
+    </h2>
 
-  <p
-    style={{
-      textAlign: "center",
-      maxWidth: "900px",
-      margin: "15px auto 30px",
-      lineHeight: "1.7",
-    }}
-  >
-    Hop on our website and explore more from simple treatment to receding gum
-    surgery. Plan your appointment and start treating your receding gums the
-    way they deserve.
-  </p>
+    <p className="max-w-[900px] mx-auto mt-4 mb-8 leading-[1.7]">
+      Explore treatments and plan your appointment today.
+    </p>
 
-  <div style={{ textAlign: "center", marginBottom: "70px" }}>
-    <button
-      style={{
-        background: "#28cfe8",
-        border: "none",
-        padding: "14px 34px",
-        borderRadius: "30px",
-        color: "#fff",
-        cursor: "pointer",
-        fontSize: "15px",
-      }}
-    >
+    <button className="bg-[#28cfe8] text-white
+                       px-9 py-3 rounded-full
+                       text-[15px] hover:opacity-90">
       Book an Appointment
     </button>
   </div>
 
   {/* FAQs */}
-  <h2 style={{ textAlign: "center", color: "#0b1fa6", fontSize: "30px" }}>
-    FAQs
-  </h2>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+  <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+    
+    {/* LEFT COLUMN */}
+    <div className="flex-1 flex flex-col gap-4">
+      {[
+        "What is the cost of receding gums treatment?",
+        "Why do gums recede?",
+        "What happens when gums recede?",
+      ].map((q, i) => (
+        <div
+          key={i}
+          className="bg-[#6bbfbb] hover:bg-[#57b2ad] transition-colors duration-300
+                     p-4 sm:p-5 flex items-start gap-3 rounded-md cursor-pointer"
+        >
+          <span className="text-lg sm:text-xl font-bold leading-none">+</span>
+          <span className="text-sm sm:text-[15px] leading-relaxed">{q}</span>
+        </div>
+      ))}
+    </div>
 
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))",
-      gap: "20px",
-      maxWidth: "1200px",
-      margin: "40px auto 0",
-    }}
-  >
-    {[
-      "01. What is the cost of receding gums treatment?",
-      "02. Why do gums recede?",
-      "03. What happens when your gums recede?",
-      "04. What to do if my gums are receding?",
-      "05. How do you stop receding gums?",
-      "06. How are receding gums treated?",
-      "07. How do I reverse receding gums naturally?",
-      "08. Can receding gums grow back?",
-      "09. Can receding gums be repaired without surgery?",
-      "10. Is there any treatment for receding gums?",
-    ].map((text, i) => (
-      <div
-        key={i}
-        style={{
-          background: "#6bbfbb",
-          padding: "18px 22px",
-          display: "flex",
-          alignItems: "center",
-          gap: "14px",
-          cursor: "pointer",
-          transition: "0.3s",
-        }}
-        onMouseEnter={(e) => (e.currentTarget.style.background = "#57b2ad")}
-        onMouseLeave={(e) => (e.currentTarget.style.background = "#6bbfbb")}
-      >
-        <span style={{ fontSize: "22px", fontWeight: "bold" }}>+</span>
-        <span style={{ fontSize: "15px" }}>{text}</span>
-      </div>
-    ))}
+    {/* RIGHT COLUMN */}
+    <div className="flex-1 flex flex-col gap-4">
+      {[
+        "How do you stop receding gums?",
+        "Can receding gums grow back?",
+        "Can receding gums be repaired?",
+      ].map((q, i) => (
+        <div
+          key={i}
+          className="bg-[#6bbfbb] hover:bg-[#57b2ad] transition-colors duration-300
+                     p-4 sm:p-5 flex items-start gap-3 rounded-md cursor-pointer"
+        >
+          <span className="text-lg sm:text-xl font-bold leading-none">+</span>
+          <span className="text-sm sm:text-[15px] leading-relaxed">{q}</span>
+        </div>
+      ))}
+    </div>
+
   </div>
 </div>
+
+
+</div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

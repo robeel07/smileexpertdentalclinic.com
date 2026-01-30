@@ -10,271 +10,154 @@ export default function AmalgamFilling() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32 "
       style={{ backgroundImage: `url(${fiftyfive})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-32 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
        Amalgam Filling Replacement in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/amalgamfilling"></Link>}
 
 
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: " 40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* TEXT BLOCK */}
+<div className="max-w-7xl mx-auto my-10 p-5 text-[16px] leading-[1.8] text-gray-700 text-justify">
   <p>
-If you have concerns about the health impact of amalgam fillings, replacing them with <span style={{color:"blue"}}>teeth filling</span> might be the optimal choice. The trend of replacing amalgam fillings has grown in popularity, often accompanied by a holistic approach. If you have conducted thorough research, possess specific health concerns, a relevant medical history, or personal convictions, you have the option to replace amalgam fillings.
+    If you have concerns about the health impact of amalgam fillings, replacing
+    them with{" "}
+    <span className="text-blue-500">teeth filling</span> might be the optimal
+    choice. The trend of replacing amalgam fillings has grown in popularity,
+    often accompanied by a holistic approach. If you have conducted thorough
+    research, possess specific health concerns, a relevant medical history, or
+    personal convictions, you have the option to replace amalgam fillings.
   </p>
 </div>
 
-<div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gap: "20px",
-        padding: "40px 120px",
-        margin: "auto",
-        flexWrap: "wrap",
-        fontFamily: "Arial, sans-serif",
-      }}
-    >
-      {/* LEFT CONTENT */}
-      <div style={{ flex: 1, minWidth: "280px" }}>
-        <h2
-          style={{
-            color: "#0a1f44",
-            fontSize: "32px",
-            fontWeight: "700",
-            marginBottom: "20px",
-          }}
-        >
-          Why Would You Replace Amalgam Filling?
-        </h2>
+{/* WHY REPLACE AMALGAM */}
+<div className="max-w-7xl mx-auto px-5 lg:px-28 py-10 flex flex-col lg:flex-row items-center gap-8">
+  {/* LEFT CONTENT */}
+  <div className="flex-1">
+    <h2 className="text-[#0a1f44] text-2xl lg:text-[32px] font-bold mb-4">
+      Why Would You Replace Amalgam Filling?
+    </h2>
 
-        <p
-          style={{
-            fontSize: "16px",
-            lineHeight: "1.7",
-            color: "#444",
-            marginBottom: "20px",
-          }}
-        >
-          The decision to replace amalgam fillings with another dental material
-          is a matter of personal choice. People have various reasons for opting
-          to do so, often based on personal research, health concerns, prior
-          medical conditions, and religious beliefs. Some of the main reasons for
-          replacing amalgam fillings are:
-        </p>
+    <p className="text-gray-700 text-base leading-[1.7] mb-4">
+      The decision to replace amalgam fillings with another dental material is a
+      matter of personal choice. People have various reasons for opting to do so,
+      often based on personal research, health concerns, prior medical
+      conditions, and religious beliefs.
+    </p>
 
-        <ul
-          style={{
-            paddingLeft: "38px",
-            color: "#444",
-            fontSize: "16px",
-            lineHeight: "1.8",
-            listStyleType: "disc",
-          }}
-        >
-          <li>
-            Amalgam contains mercury, which for certain people may be a health
-            danger.
-          </li>
-          <li>
-            Composite fillings are more aesthetic and look like natural teeth.
-          </li>
-        </ul>
-      </div>
+    <ul className="list-disc pl-9 text-gray-700 text-base leading-[1.8] space-y-1">
+      <li>
+        Amalgam contains mercury, which for certain people may be a health
+        danger.
+      </li>
+      <li>
+        Composite fillings are more aesthetic and look like natural teeth.
+      </li>
+    </ul>
+  </div>
 
-      {/* RIGHT IMAGE */}
-      <div style={{ flex: 1, minWidth: "280px", textAlign: "right" }}>
-        <img
-          src={fiftysix}
-          alt="Dental Treatment"
-          style={{
-            width: "100%",
-            maxWidth: "620px",
-            borderRadius: "18px",
-            objectFit: "cover",
-          }}
-        />
-      </div>
+  {/* RIGHT IMAGE */}
+  <div className="flex-1">
+    <img
+      src={fiftysix}
+      alt="Dental Treatment"
+      className="w-full h-full rounded-3xl object-cover"
+    />
+  </div>
+</div>
+
+{/* PROCESS SECTION */}
+<div className="bg-[#f5f9fc] py-10 px-5 lg:px-28">
+  <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+    {/* LEFT IMAGE */}
+    <div className="flex-1">
+      <img
+        src={fiftyseven}
+        alt="Dental Process"
+        className="w-full h-full rounded-3xl object-cover"
+      />
     </div>
 
-     <div
-      style={{
-        backgroundColor: "#f5f9fc",
-        padding: "40px 120px",
-      }}
-    >
-      <div
-        style={{
-          margin: "0 auto",
-          display: "flex",
-          alignItems: "center",
-          gap: "50px",
-          flexWrap: "wrap",
-        }}
-      >
-        {/* LEFT IMAGE */}
-        <div style={{ flex: "1", minWidth: "280px" }}>
-          <img
-            src={fiftyseven}
-            alt="Dental Process"
-            style={{
-              maxwidth: "620%",
-              borderRadius: "18px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
+    {/* RIGHT CONTENT */}
+    <div className="flex-1 min-w-[280px]">
+      <h2 className="text-[#0a1f44] text-2xl lg:text-[30px] font-bold mb-4">
+        The Process of Replacing Amalgam Filling:
+      </h2>
 
-        {/* RIGHT CONTENT */}
-        <div style={{ flex: "1", minWidth: "280px" }}>
-          <h2
-            style={{
-              color: "#0a1f44",
-              fontSize: "30px",
-              fontWeight: "700",
-              marginBottom: "20px",
-            }}
-          >
-            The Process of Replacing Amalgam Filling:
-          </h2>
+      <p className="text-gray-700 text-base leading-[1.7] mb-3">
+        After deciding to remove an amalgam filling, book a consultation
+        appointment with your dentist to discuss the best long-term restorative
+        option.
+      </p>
 
-          <p
-            style={{
-              fontSize: "16px",
-              lineHeight: "1.7",
-              color: "#333",
-              marginBottom: "16px",
-            }}
-          >
-            After deciding to remove an amalgam filling, book a consultation
-            appointment with your dentist to discuss the best long-term
-            restorative option.
-          </p>
+      <p className="text-gray-700 text-base leading-[1.7] mb-3">
+        During the amalgam removal process, your dentist will follow protocols to
+        protect you from exposure to the old filling material.
+      </p>
 
-          <p
-            style={{
-              fontSize: "16px",
-              lineHeight: "1.7",
-              color: "#333",
-              marginBottom: "16px",
-            }}
-          >
-            During the amalgam removal process, your dentist will follow
-            protocols to protect you from exposure to the old filling material.
-          </p>
-
-          <p
-            style={{
-              fontSize: "16px",
-              lineHeight: "1.7",
-              color: "#333",
-            }}
-          >
-            Once the amalgam is removed, your dentist will rebuild the tooth
-            using appropriate non-metallic material.
-          </p>
-        </div>
-      </div>
+      <p className="text-gray-700 text-base leading-[1.7]">
+        Once the amalgam is removed, your dentist will rebuild the tooth using
+        appropriate non-metallic material.
+      </p>
     </div>
+  </div>
+</div>
 
-    <div style={{ padding: "70px 40px" }}>
-  {/* HEADING */}
-  <h2
-    style={{
-      textAlign: "center",
-      color: "#0a1f44",
-      fontSize: "32px",
-      fontWeight: "700",
-      marginBottom: "50px",
-    }}
-  >
+{/* FAQ SECTION */}
+<div className="py-16 px-5">
+  <h2 className="text-center text-[#0a1f44] text-2xl lg:text-[32px] font-bold mb-12">
     FAQs
   </h2>
 
-  {/* FAQ CONTAINER */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "flex",
-      gap: "30px",
-      flexWrap: "wrap",
-    }}
-  >
+  <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-3">
     {/* LEFT COLUMN */}
-    <div style={{ flex: 1, minWidth: "300px" }}>
+    <div className="flex-1 min-w-[300px] space-y-3">
       {[
         "01. How much does it cost to replace amalgam fillings?",
         "02. Should all amalgam fillings be replaced?",
         "03. When can you eat after amalgam filling?",
         "04. How long does an amalgam filling last?",
         "05. Does it hurt to replace amalgam fillings?",
-      ].map((text, index) => (
+      ].map((text, i) => (
         <div
-          key={index}
-          style={{
-            backgroundColor: "#69bebc",
-            padding: "18px 22px",
-            marginBottom: "14px",
-            display: "flex",
-            alignItems: "center",
-            gap: "14px",
-            cursor: "pointer",
-          }}
+          key={i}
+          className="bg-[#69bebc] px-3 py-3 flex items-center gap-3 cursor-pointer"
         >
-          <span style={{ fontSize: "22px", fontWeight: "700" }}>+</span>
-          <span>{text}</span>
+          <span className="text-[22px] font-bold">+</span>
+          <span className="text-[15px]">{text}</span>
         </div>
       ))}
     </div>
 
     {/* RIGHT COLUMN */}
-    <div style={{ flex: 1, minWidth: "300px" }}>
+    <div className="flex-1  space-y-3">
       {[
         "06. Can fillings be prevented?",
         "07. Which is better amalgam or composite filling?",
         "08. What happens if you swallow amalgam filling?",
         "09. Which amalgam is used for dental filling?",
-      ].map((text, index) => (
+      ].map((text, i) => (
         <div
-          key={index}
-          style={{
-            backgroundColor: "#69bebc",
-            padding: "18px 22px",
-            marginBottom: "14px",
-            display: "flex",
-            alignItems: "center",
-            gap: "14px",
-            cursor: "pointer",
-          }}
+          key={i}
+          className="bg-[#69bebc] px-3 py-3 flex items-center gap-3 cursor-pointer"
         >
-          <span style={{ fontSize: "22px", fontWeight: "700" }}>+</span>
-          <span>{text}</span>
+          <span className="text-[22px] font-bold">+</span>
+          <span className="text-[15px]">{text}</span>
         </div>
       ))}
     </div>
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

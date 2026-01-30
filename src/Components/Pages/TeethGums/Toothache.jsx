@@ -12,542 +12,267 @@ export default function Toothache() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full
+    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%]
+    flex items-center
+    pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${nine})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
        Teeth Pain Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-      {<Link to="/TeethGums/toothache"></Link>}
+
+    {/* WHEN TO SEE A DENTIST */}
+<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
+  {/* LEFT TEXT */}
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
+      When to See a Dentist
+    </h2>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[15px] max-w-[750px]">
+      If in doubt, check it out.
+      <br />
+      Book an appointment to see a dentist as soon as possible if:
+    </p>
+
+    <ul className="text-[16px] leading-[1.8] text-[#222] list-disc pl-[40px] max-w-[750px] mb-[25px]">
+      <li>The pain lasts longer than a day or two</li>
+      <li>The pain is severe or starts to become unbearable</li>
+      <li>You have a fever, earache, or pain when you open your mouth wide</li>
+    </ul>
+
+    <h3 className="text-3xl font-semibold text-[#0A2A7A] mt-[20px] mb-[12px]">
+      Are you in tooth Pain?
+    </h3>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] max-w-[750px]">
+      Call us if you’re experiencing pain and need emergency dental care.
+      We’ll get you in fast for an urgent appointment.
+    </p>
+  </div>
+
+  {/* RIGHT IMAGE */}
+  <div className="flex-1">
+    <img
+      src={ten}
+      alt="Dentist Consultation"
+      className="w-full h-auto rounded-3xl object-cover"
+    />
+  </div>
+</div>
+
+{/* SYMPTOMS OF TOOTH PAIN */}
+<div className="max-w-7xl mx-auto  grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
+  {/* LEFT IMAGE */}
+  <div className="flex-1">
+    <img
+      src={eleven}
+      alt="Symptoms of Tooth Pain"
+      className="w-full h-auto rounded-3xl object-cover"
+    />
+  </div>
+
+  {/* RIGHT TEXT */}
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
+      Symptoms of Tooth Pain
+    </h2>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[18px] max-w-[700px]">
+      Toothache refers to any pain or distress experienced in or around a tooth.
+      The discomfort can range from mild to severe, throbbing, sharp, or persistent.
+    </p>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[18px] max-w-[700px]">
+      Sometimes, pressure on the tooth is the sole means to perceive the pain.
+      Sensitivity to extreme temperatures and discomfort while chewing are common.
+    </p>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] max-w-[700px]">
+      Additional indications may include migraines, fever, gum inflammation,
+      bleeding, or discharge if infection is present.
+    </p>
+  </div>
+</div>
+
+{/* CAUSES OF TOOTHACHE */}
+<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
+  {/* LEFT TEXT */}
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
+      Causes of Toothache
+    </h2>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[18px] max-w-[750px]">
+      Dental and medical problems can result in toothaches. The most typical causes include:
+    </p>
+
+    <ul className="text-[16px] leading-[1.8] text-[#222] list-disc pl-[40px] mb-[18px] max-w-[750px]">
+      <li>Dental cavities from tooth decay</li>
+      <li>
+        <strong className="text-[#008cba]">A fractured or broken tooth</strong>
+      </li>
+      <li>An impacted tooth</li>
+    </ul>
+
+    <p className="text-[16px] leading-[1.8] text-[#333] max-w-[750px]">
+      Toothaches may also be caused by gum disease, TMJ, sinus infections,
+      referred pain, or other medical conditions.
+    </p>
+  </div>
+
+  {/* RIGHT IMAGE */}
+  <div className="flex-1">
+    <img
+      src={twelve}
+      alt="Causes of Toothache"
+      className="w-full h-auto rounded-3xl object-cover"
+    />
+  </div>
+</div>
+
+{/* GET PREPARED */}
+<div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 mt-5 items-center">
+  
+  {/* LEFT IMAGE */}
+  <div>
+    <img
+      src={thirteen}
+      alt="Dental Treatment"
+      className="w-full h-full object-cover rounded-3xl"
+    />
+  </div>
+
+  {/* RIGHT CONTENT */}
+  <div>
+    <h1 className="text-3xl font-bold text-[#0A2A7A] mb-4">
+      Get Prepared
+    </h1>
+
+    <p className="text-[16px] leading-[28px] text-[#333] mb-3">
+      When you schedule a toothache appointment, your dentist will evaluate
+      your condition thoroughly and may require X-rays.
+    </p>
+
+    <ul className="mt-2 mb-5 pl-6 leading-[28px] list-disc text-[#333]">
+      <li>When did your toothache start?</li>
+      <li>How severe is the pain?</li>
+      <li>Where do you feel the pain?</li>
+      <li>What makes it worse?</li>
+      <li>What makes it better?</li>
+    </ul>
+
+    <p className="text-[16px] leading-[28px] text-[#333] mb-5">
+      Preparation helps improve diagnosis.
+    </p>
+
+    <h2 className="text-[24px] font-bold text-[#012970] mb-3">
+      Related Treatments:
+    </h2>
+
+    <ul className="pl-6 leading-[28px] text-[16px] list-disc">
+      <li><Link to="/t/fillings" className="text-[#00aaff] font-semibold">Fillings</Link></li>
+      <li><Link to="/t/canals" className="text-[#00aaff] font-semibold">Root canals</Link></li>
+      <li><Link to="/t/tmj" className="text-[#00aaff] font-semibold">TMJ</Link></li>
+      <li><Link to="/t/extraction" className="text-[#00aaff] font-semibold">Tooth extraction</Link></li>
+      <li>Antibiotics and pain relief medication</li>
+    </ul>
+  </div>
+
+</div>
 
 
-    <div
-      style={{
-        padding: "40px 120px",
-        display: "flex",
-        alignItems: "flex-start",
-        justifyContent: "space-between",
-        gap: "50px",
-      }}
-    >
-      {/* LEFT TEXT SECTION */}
-      <div style={{ flex: 1 }}>
-        <h2
-          style={{
-            fontSize: "36px",
-            fontWeight: "700",
-            color: "#0c1b3a",
-            marginBottom: "20px",
-          }}
-        >
-          When to See a Dentist
-        </h2>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            marginBottom: "15px",
-            maxWidth: "750px",
-          }}
-        >
-          If in doubt, check it out.
-          <br />
-          Book an appointment to see a dentist as soon as possible if:
-        </p>
-
-        <ul
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#222",
-            paddingLeft: "40px",
-            maxWidth: "750px",
-            marginBottom: "25px",
-            listStyleType: "disc",
-          }}
-        >
-          <li>The pain lasts longer than a day or two</li>
-          <li>The pain is severe or starts to become unbearable</li>
-          <li>You have a fever, earache, or pain when you open your mouth wide</li>
-        </ul>
-
-        <h3
-          style={{
-            fontSize: "26px",
-            color: "#0c1b3a",
-            marginBottom: "12px",
-            marginTop: "20px",
-            fontWeight: "600",
-          }}
-        >
-          Are you in tooth Pain?
-        </h3>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            maxWidth: "750px",
-          }}
-        >
-          Call us if you’re experiencing pain and need emergency dental care.  
-          We’ll get you in fast for an urgent appointment.
-        </p>
-      </div>
-
-      {/* RIGHT IMAGE SECTION */}
-      <div style={{ flex: 1 }}>
-        <img
-          src={ten}
-          alt="Dentist Consultation"
-          style={{
-            width: "100%",
-            height: "auto",
-            borderRadius: "30px",
-            objectFit: "cover",
-          }}
-        />
-      </div>
-    </div>
-
-    <div
-      style={{
-        backgroundColor: "#eef4ff",
-        padding: "40px 120px",
-        borderRadius: "20px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gap: "50px",
-      }}
-    >
-      {/* LEFT IMAGE */}
-      <div style={{ flex: 1 }}>
-        <img
-          src= {eleven}
-          alt="Symptoms of Tooth Pain"
-          style={{
-            width: "100%",
-            height: "auto",
-            borderRadius: "30px",
-            objectFit: "cover",
-          }}
-        />
-      </div>
-
-      {/* RIGHT TEXT */}
-      <div style={{ flex: 1 }}>
-        <h2
-          style={{
-            fontSize: "36px",
-            fontWeight: "700",
-            color: "#0c1b3a",
-            marginBottom: "20px",
-          }}
-        >
-          Symptoms of Tooth Pain
-        </h2>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            marginBottom: "18px",
-            maxWidth: "700px",
-          }}
-        >
-          Toothache refers to any pain or distress experienced in or around a
-          tooth. There are diverse forms of pain, making it challenging to
-          convey your sensations to the dentist effectively. The discomfort can
-          range from mild to severe, throbbing, sharp, or persistent.
-        </p>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            marginBottom: "18px",
-            maxWidth: "700px",
-          }}
-        >
-          Sometimes, pressure on the tooth is the sole means to perceive the
-          pain. Furthermore, your teeth may exhibit heightened sensitivity to
-          extreme temperatures. Discomfort while chewing is also quite common.
-        </p>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            maxWidth: "700px",
-          }}
-        >
-          Additional indications may comprise migraines, elevated body
-          temperatures, and gum inflammation near the tooth or within the jaw.
-          Furthermore, gum or tooth bleeding may occur. In the case of an
-          infection, unpleasant-tasting fluid might be discharged from the
-          surrounding area of the tooth.
-        </p>
-      </div>
-    </div>
-
-     (
-    <div
-      style={{
-        backgroundColor: "#eef4ff",
-        padding: "40px 120px",
-        borderRadius: "20px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gap: "60px",
-      }}
-    >
-      {/* LEFT TEXT */}
-      <div style={{ flex: 1 }}>
-        <h2
-          style={{
-            fontSize: "36px",
-            fontWeight: "700",
-            color: "#0c1b3a",
-            marginBottom: "20px",
-          }}
-        >
-          Causes of Toothache
-        </h2>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            marginBottom: "18px",
-            maxWidth: "750px",
-          }}
-        >
-          Dental and medical problems can also result in toothaches. Your teeth,
-          gums, or jaw may be involved in dental pain reasons. The following are
-          the most typical causes of toothaches that our dentists see daily:
-        </p>
-
-        <ul
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#222",
-            paddingLeft: "40px",
-            marginBottom: "18px",
-            maxWidth: "750px",
-            listStyleType: "disc",
-          }}
-        >
-          <li>Dental cavities as a result of tooth decay</li>
-          <li>
-            <strong style={{ color: "#008cba" }}>A fractured or broken tooth</strong>
-          </li>
-          <li>An impacted tooth</li>
-        </ul>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            maxWidth: "750px",
-          }}
-        >
-          Occasionally, discomfort may stem from a broken filling, tooth
-          sensitivity, or an abscess. Similarly, toothaches can be caused by
-          gingivitis or gum disease, although some individuals may not experience
-          pain. Toothaches can also be induced by other pain radiating to the
-          jaw, known as referred pain. The temporomandibular joint (TMJ),
-          commonly called the jaw joint, is one such location. Earaches, sinus
-          infections, shingles, and, on rare occasions, heart conditions are
-          additional medical conditions that can result in toothaches.
-        </p>
-      </div>
-
-      {/* RIGHT IMAGE */}
-      <div style={{ flex: 1 }}>
-        <img
-          src={twelve}
-          alt="Causes of Toothache"
-          style={{
-            width: "100%",
-            height: "auto",
-            borderRadius: "30px",
-            objectFit: "cover",
-          }}
-        />
-      </div>
-    </div>
-
-     
-    <div
-      style={{
-        width: "100%",
-        background: "#f0f7ff",
-        padding: "60px 0",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <div
-        style={{
-          width: "85%",
-          display: "flex",
-          gap: "40px",
-          alignItems: "flex-start",
-        }}
-      >
-        {/* LEFT IMAGE */}
-        <img
-          src={thirteen}
-          alt="Dental Treatment"
-          style={{
-            width: "50%",
-            borderRadius: "25px",
-            objectFit: "cover",
-            marginTop:"90px",
-          }}
-        />
-
-        {/* RIGHT TEXT SECTION */}
-        <div style={{ width: "50%" }}>
-          {/* TITLE */}
-          <h1
-            style={{
-              fontSize: "32px",
-              fontWeight: "700",
-              color: "#012970",
-              marginBottom: "20px",
-            }}
-          >
-            Get Prepared
-          </h1>
-
-          {/* PARAGRAPH */}
-          <p style={{ fontSize: "16px", lineHeight: "28px", color: "#333" }}>
-            When you schedule a toothache appointment at one of our dental
-            offices, you only want the pain to stop. It makes sense that way.
-            Consider what your dentist will require to identify and treat your
-            toothache in advance.
-            <br />
-            <br />
-            Usually, your dentist will ask you about your medical history before
-            performing a comprehensive oral, dental, jaw, tongue, throat, sinus,
-            ear, nose, and neck examination. Depending on what your dentist
-            thinks might be the reason for your toothache, you might also
-            require an X-ray.
-          </p>
-
-          {/* BULLETS */}
-          <ul
-            style={{
-              marginTop: "10px",
-              marginBottom: "20px",
-              paddingLeft: "40px",
-              lineHeight: "28px",
-              listStyleType: "disc",
-            }}
-          >
-            <li>When did your toothache start?</li>
-            <li>How severe is the pain?</li>
-            <li>Where do you feel the pain?</li>
-            <li>What makes it worse?</li>
-            <li>What makes it better?</li>
-          </ul>
-
-          <p style={{ fontSize: "16px", lineHeight: "28px", color: "#333" }}>
-            Before your appointment, consider your responses to these questions.
-            Preparation can improve the diagnosis.
-          </p>
-
-          {/* RELATED TREATMENTS TITLE */}
-          <h2
-            style={{
-              fontSize: "24px",
-              color: "#012970",
-              fontWeight: "700",
-              marginTop: "30px",
-              marginBottom: "15px",
-            }}
-          >
-            Related Treatments:
-          </h2>
-
-          {/* RELATED LINKS */}
-          <ul
-            style={{
-              marginTop: "0px",
-              paddingLeft: "40px",
-              lineHeight: "28px",
-              fontSize: "16px",
-              listStyleType: "disc",
-            }}
-          >
-            <li>
-              <Link to="/t/fillings" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
-                Fillings
-              </Link>
-            </li>
-            <li>
-              <Link to="/t/canals" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
-                Root canals
-              </Link>
-            </li>
-            <li>
-              <Link to="/t/tmj" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
-                TMJ
-              </Link>
-            </li>
-            <li>
-              <Link to="/t/extraction" style={{ color: "#00aaff", fontWeight: "600", textDecoration: "none" }}>
-                Tooth extraction
-              </Link>
-            </li>
-            <li>Antibiotics and pain relief medication</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div style={{ width: "100%", marginTop: "80px" }}>
-  {/* Heading */}
-  <h2
-    style={{
-      textAlign: "center",
-      fontSize: "42px",
-      color: "#0A0A5F",
-      fontWeight: "700",
-      marginBottom: "10px",
-    }}
-  >
+{/* WHAT NEXT + FAQ */}
+<div className="max-w-7xl mx-auto px-6 mt-16 mb-16">
+  <h2 className="text-center text-3xl font-bold text-[#0A0A5F] mb-[10px]">
     What Next
   </h2>
 
-  {/* Subtext */}
-  <p
-    style={{
-      textAlign: "center",
-      fontSize: "18px",
-      maxWidth: "900px",
-      margin: "0 auto",
-      color: "#333",
-    }}
-  >
-    Explore possible treatments to gain further insight into the next steps.
-    We recommend arranging a dental appointment for comprehensive guidance on your concerns.
+  <p className="text-center text-[16px] max-w-[900px] mx-auto text-[#333]">
+    Explore possible treatments and arrange a dental appointment for guidance.
   </p>
 
-  {/* Button */}
-  <div style={{ display: "flex", justifyContent: "center", marginTop: "30px" }}>
-    <button
-      style={{
-        backgroundColor: "#15c0cf",
-        border: "none",
-        padding: "14px 40px",
-        borderRadius: "50px",
-        fontSize: "18px",
-        fontWeight: "600",
-        color: "#fff",
-        cursor: "pointer",
-      }}
-    >
+  <div className="flex justify-center mt-[30px]">
+    <button className="bg-[#15c0cf] px-6 py-3 rounded-[50px] text-[18px] font-semibold text-white cursor-pointer">
       Book an Appointment
     </button>
   </div>
 
-  {/* FAQs SECTION */}
-  <h2
-    style={{
-      textAlign: "center",
-      fontSize: "40px",
-      marginTop: "70px",
-      color: "#0A0A5F",
-      fontWeight: "700",
-    }}
-  >
+  <h2 className="text-center text-3xl font-bold text-[#0A0A5F] mt-[70px]">
     FAQs
   </h2>
 
-  {/* FAQ Container */}
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      gap: "30px",
-      marginTop: "40px",
-      flexWrap: "wrap",
-      hover:"#0ea5e9",
-    }}
-  >
-    {/* LEFT COLUMN */}
-    <div style={{ width: "45%" }}>
-      {[
-        "01. How much does it cost to treat toothache?",
-        "02. Why is toothache so bad?",
-        "03. Why is toothache worse at night?",
-        "04. What are the best painkillers for toothache?",
-      ].map((item, index) => (
-        <div
-          key={index}
-          style={{
-            backgroundColor: "#5AB7B1",
-            padding: "18px 20px",
-            marginBottom: "15px",
-            display: "flex",
-            alignItems: "center",
-            borderRadius: "3px",
-            cursor: "pointer",
-          }}
-        >
-          <span style={{ fontSize: "24px", marginRight: "12px" }}>＋</span>
-          <span style={{ fontSize: "17px", fontWeight: "500" }}>{item}</span>
-        </div>
-      ))}
-    </div>
+  <div className="max-w-7xl mx-auto 
+                grid grid-cols-1 md:grid-cols-2 
+                gap-4 md:gap-6 
+                px-4 sm:px-6 lg:px-8">
 
-    {/* RIGHT COLUMN */}
-    <div style={{ width: "45%",  }}>
-      {[
-        "05. Help! It’s sore but I’m anxious about visiting the dentist!",
-        "06. Can toothache be prevented?",
-        "07. Can toothache go away on its own?",
-        "08. How do you stop toothache at home?",
-      ].map((item, index) => (
-        <div
-          key={index}
-          style={{
-            backgroundColor: "#5AB7B1",
-            padding: "18px 20px",
-            marginBottom: "15px",
-            display: "flex",
-            alignItems: "center",
-            borderRadius: "3px",
-            cursor: "pointer",
-          }}
-        >
-          <span style={{ fontSize: "24px", marginRight: "12px" }}>＋</span>
-          <span style={{ fontSize: "17px", fontWeight: "500" }}>{item}</span>
-        </div>
-      ))}
-    </div>
+  {/* LEFT COLUMN */}
+  <div className="w-full">
+    {[
+      "01. How much does it cost to treat toothache?",
+      "02. Why is toothache so bad?",
+      "03. Why is toothache worse at night?",
+      "04. What are the best painkillers for toothache?",
+    ].map((item, i) => (
+      <div
+        key={i}
+        className="bg-[#5AB7B1] 
+                   p-4 sm:p-[18px_20px] 
+                   mb-3 sm:mb-4 
+                   flex items-center 
+                   rounded 
+                   cursor-pointer 
+                   hover:bg-[#4aa6a0] 
+                   transition-colors"
+      >
+        <span className="text-[22px] sm:text-[24px] mr-3">＋</span>
+        <span className="text-[15px] sm:text-[16px] lg:text-[17px] font-medium">
+          {item}
+        </span>
+      </div>
+    ))}
   </div>
+
+  {/* RIGHT COLUMN */}
+  <div className="w-full">
+    {[
+      "05. Help! It’s sore but I’m anxious about visiting the dentist!",
+      "06. Can toothache be prevented?",
+      "07. Can toothache go away on its own?",
+      "08. How do you stop toothache at home?",
+    ].map((item, i) => (
+      <div
+        key={i}
+        className="bg-[#5AB7B1] 
+                   p-4 sm:p-[18px_20px] 
+                   mb-3 sm:mb-4 
+                   flex items-center 
+                   rounded 
+                   cursor-pointer 
+                   hover:bg-[#4aa6a0] 
+                   transition-colors"
+      >
+        <span className="text-[22px] sm:text-[24px] mr-3">＋</span>
+        <span className="text-[15px] sm:text-[16px] lg:text-[17px] font-medium">
+          {item}
+        </span>
+      </div>
+    ))}
+  </div>
+
+</div>
+
 </div>
 
 <div className="w-full h-[180px] overflow-hidden mt-4">

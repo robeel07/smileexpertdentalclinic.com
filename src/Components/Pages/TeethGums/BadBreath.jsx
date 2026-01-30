@@ -14,594 +14,167 @@ export default function BadBreath() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${thirtytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Bad Breath Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/badbreath"></Link>}
 
 
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: " 40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-relaxed text-justify">
   <p>
     Jaw pain can be excruciating and disruptive to daily life. It is a common and persistent condition that can greatly impact activities like eating and speaking. The intensity of jaw pain can make it difficult to focus, and many individuals experience limitations in mouth opening, along with facial and jaw tenderness. Headaches and earaches can also accompany jaw pain.
   </p>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center", // ✅ THIS centers both items
-    gap: "80px",
-    backgroundColor: "#fff",
-    marginLeft: "80px",
-    margintop: "0px",
-  }}
->
+{/* WHEN TO SEE A DENTIST */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* LEFT CONTENT */}
-  <div
-    style={{
-      flex: 1,
-      maxWidth: "520px",
-    }}
-  >
-    <h2
-      style={{
-        color: "#0b1a6d",
-        fontSize: "34px",
-        marginBottom: "20px",
-      }}
-    >
-      When to See a Dentist:
-    </h2>
-
-    <p style={{ marginBottom: "18px", lineHeight: "1.7" }}>
-      Get it checked up if you are not sure. Make a dental appointment as soon as
-      possible if:
-    </p>
-
-    <ul
-      style={{
-        paddingLeft: "38px",
-        marginBottom: "30px",
-        lineHeight: "1.6",
-        listStyleType: "disc",
-        listStylePosition: "outside",
-      }}
-    >
+  <div className="flex-1 space-y-3">
+    <h2 className="text-[#0b1a6d] text-3xl lg:text-4xl mb-5">When to See a Dentist:</h2>
+    <p className="leading-relaxed mb-4">Get it checked up if you are not sure. Make a dental appointment as soon as possible if:</p>
+    <ul className="list-disc list-outside pl-10 mb-6 leading-relaxed space-y-1 text-base">
       <li>You’ve had chronic bad breath for more than several days</li>
       <li>The smell is more pronounced or alarming</li>
       <li>Your mouth hurts, your teeth hurt</li>
       <li>Teeth bleed, or your gums are painful</li>
     </ul>
-
-    <h3
-      style={{
-        color: "#0b1a6d",
-        fontSize: "22px",
-        marginBottom: "10px",
-      }}
-    >
-      Are You in Pain?
-    </h3>
-
-    <p style={{ lineHeight: "1.7" }}>
-      If you have severe pain and need some dental help right away, please call
-      us! We’ll immediately set up an appointment to check out your halitosis.
-    </p>
+    <h3 className="text-[#0b1a6d] text-xl mb-2">Are You in Pain?</h3>
+    <p className="leading-relaxed">If you have severe pain and need some dental help right away, please call us! We’ll immediately set up an appointment to check out your halitosis.</p>
   </div>
 
   {/* RIGHT IMAGE */}
-  <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-    <img
-      src={thirtythree}
-      alt="Dental examination"
-      style={{
-        width: "620px",
-        borderRadius: "22px",
-        height: "400px",
-        objectFit: "cover",
-      }}
-    />
+  <div className="flex-1 flex justify-center">
+    <img src={thirtythree} alt="Dental examination" className="w-full h-full rounded-3xl object-cover" />
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    backgroundColor: "#f3f8fc",
-    padding: "40px 120px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    gap: "20px",
-  }}
->
+{/* SYMPTOMS OF BAD BREATH */}
+<div className="w-full bg-[#f3f8fc] py-10 px-10 lg:px-32 flex flex-col lg:flex-row justify-between items-center gap-5">
   {/* LEFT IMAGE */}
-  <div style={{ flex: 1 }}>
-    <img
-      src={thirtyfour}
-      alt="Dental Checkup"
-      style={{
-        width: "90%",
-        maxWidth: "620px",
-        height: "400px",
-        marginleft: "70px",
-        borderRadius: "22px",
-        objectFit: "cover",
-      }}
-    />
+  <div className="flex-1 flex justify-center lg:justify-start">
+    <img src={thirtyfour} alt="Dental Checkup" className="w-[90%] max-w-[620px] h-[400px] rounded-[22px] object-cover" />
   </div>
 
   {/* RIGHT CONTENT */}
-  <div
-    style={{
-      flex: 1,
-      maxWidth: "560px",
-      gap: "30px",
-    }}
-  >
-    <h2
-      style={{
-        color: "#0b1a6d",
-        fontSize: "34px",
-        marginBottom: "20px",
-      }}
-    >
-      Symptoms of Bad Breath:
-    </h2>
-
-    <p style={{ lineHeight: "1.7", marginBottom: "18px" }}>
-      Finding bad breath symptoms yourself isn’t always easy, but most other
-      people will notice it first. And if you hear about it from a trusted
-      friend or family member, see that as your cue to go for bad breath
-      treatment. Halitosis can also be accompanied by other symptoms that
-      indicate underlying oral health issues.
+  <div className="flex-1 max-w-7xl space-y-4">
+    <h2 className="text-[#0b1a6d] text-3xl lg:text-4xl mb-5">Symptoms of Bad Breath:</h2>
+    <p className="leading-relaxed mb-4">
+      Finding bad breath symptoms yourself isn’t always easy, but most other people will notice it first. And if you hear about it from a trusted friend or family member, see that as your cue to go for bad breath treatment. Halitosis can also be accompanied by other symptoms that indicate underlying oral health issues.
     </p>
-
-    <p style={{ fontWeight: "600", marginBottom: "10px" }}>
-      Some common signs of bad breath include:
-    </p>
-
-    <ul
-      style={{
-        paddingLeft: "38px",
-        lineHeight: "1.6",
-        marginBottom: "18px",
-        listStyleType: "disc",
-        listStylePosition: "outside",
-      }}
-    >
+    <p className="font-semibold mb-2">Some common signs of bad breath include:</p>
+    <ul className="list-disc list-outside pl-10 mb-4 leading-relaxed space-y-1 text-base">
       <li>Foul odor from the mouth.</li>
       <li>Gums that are painful, bleeding, or swollen.</li>
-      <li>
-        <span style={{ color: "#00a8ff", fontWeight: "600" }}>
-          Toothache
-        </span>{" "}
-        or sensitivity.
-      </li>
+      <li><span className="text-[#00a8ff] font-semibold">Toothache</span> or sensitivity.</li>
       <li>Persistent bad breath for weeks.</li>
-      <li>
-        Problems with dentures, like discomfort or improper fit.
-      </li>
+      <li>Problems with dentures, like discomfort or improper fit.</li>
     </ul>
-
-    <p style={{ lineHeight: "1.7" }}>
-      If you experience any of these symptoms, it is time to make an appointment
-      for bad breath smell treatment.
-    </p>
+    <p className="leading-relaxed">If you experience any of these symptoms, it is time to make an appointment for bad breath smell treatment.</p>
   </div>
 </div>
 
- <div
-      style={{
-        width: "100%",
-        backgroundColor: "#f3f8fc",
-        padding: "40px 120px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      {/* INNER WRAPPER (THIS CENTERS CONTENT) */}
-      <div
-        style={{
-          maxWidth: "1200px",
-          width: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          gap: "260px",
-        }}
-      >
-        {/* LEFT CONTENT */}
-        <div style={{ flex: 1 }}>
-          <h2
-            style={{
-              fontSize: "32px",
-              color: "#0b2c5d",
-              marginBottom: "20px",
-            }}
-          >
-            Reason for Bad Breath:
-          </h2>
-
-          <p style={{ lineHeight: "1.7", marginBottom: "15px" }}>
-            Most bad breath starts in the mouth due to poor oral hygiene, plaque
-            accumulation or gum disease. Dry mouth, dietary choices, or you may
-            also experience bad breath after root canal treatment. It usually
-            happens when there is an infection or if the same tooth is not
-            healing properly. You have to be aware of the cause to find a
-            solution. <strong>Here are a few typical causes of bad breath:</strong>
-          </p>
-
-          <ul style={{ paddingLeft: "38px", lineHeight: "1.6",
-          listStyleType: "disc",listStylePosition: "outside",}}>
-            <li>Poor dental habits such as not brushing and flossing regularly.</li>
-            <li>Food fragments caught between teeth or along the gums.</li>
-            <li>The build-up of plaque from missed dental cleanings.</li>
-            <li>Gum disease, tooth decay, or dental abscesses.</li>
-            <li>
-              Dry mouth (xerostomia) from smoking, certain medications, or mouth
-              breathing.
-            </li>
-            <li>Stress, snoring, hormone changes or too much booze.</li>
-          </ul>
-        </div>
-
-        {/* RIGHT IMAGE */}
-        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-          <img
-            src={thirtyfive}
-            alt="Bad breath dental check"
-            style={{
-              width: "130%",
-              maxWidth: "1200px",
-              height: "450px",
-              borderRadius: "20px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-      </div>
+{/* REASON FOR BAD BREATH */}
+<div className="w-full bg-[#f3f8fc] py-10 px-10 lg:px-32 flex justify-center">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    {/* LEFT CONTENT */}
+    <div className="flex-1 space-y-2">
+      <h2 className="text-[#0b2c5d] text-3xl mb-4">Reason for Bad Breath:</h2>
+      <p className="leading-relaxed mb-4">
+        Most bad breath starts in the mouth due to poor oral hygiene, plaque accumulation or gum disease. Dry mouth, dietary choices, or you may also experience bad breath after root canal treatment. It usually happens when there is an infection or if the same tooth is not healing properly. You have to be aware of the cause to find a solution. <strong>Here are a few typical causes of bad breath:</strong>
+      </p>
+      <ul className="list-disc list-outside pl-10 mb-4 leading-relaxed space-y-1 text-base">
+        <li>Poor dental habits such as not brushing and flossing regularly.</li>
+        <li>Food fragments caught between teeth or along the gums.</li>
+        <li>The build-up of plaque from missed dental cleanings.</li>
+        <li>Gum disease, tooth decay, or dental abscesses.</li>
+        <li>Dry mouth (xerostomia) from smoking, certain medications, or mouth breathing.</li>
+        <li>Stress, snoring, hormone changes or too much booze.</li>
+      </ul>
     </div>
 
-    <div
-      style={{
-        width: "100%",
-        backgroundColor: "#f4f8fb",
-        padding: "40px 120px",
-        boxSizing: "border-box",
-      }}
-    >
-      <div
-        style={{
-          maxWidth: "1200px",
-          margin: "0 auto",
-          display: "flex",
-          alignItems: "flex-start",
-          justifyContent: "space-between",
-          gap: "60px",
-        }}
-      >
-        {/* LEFT CONTENT */}
-        <div style={{ flex: 1 }}>
-          <h2
-            style={{
-              color: "#0b1f66",
-              fontSize: "28px",
-              fontWeight: "700",
-              marginBottom: "2px",
-            }}
-          >
-            Related Treatments:
-          </h2>
+    {/* RIGHT IMAGE */}
+    <div className="flex-1">
+      <img src={thirtyfive} alt="Bad breath dental check" className="w-full h-full rounded-3xl object-cover" />
+    </div>
+  </div>
+</div>
 
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "6px",
-            }}
-          >
-            To identify the source of your foul breath, your dentist will
-            carefully check your mouth. You might require one of these usual
-            cures.
-          </p>
-
-          <ul
-            style={{
-              paddingLeft: "38px",
-              marginBottom: "15px",
-              listStyleType: "disc",
-              listStylePosition: "outside",
-            }}
-          >
-            <li style={{ color: "#00a6ff", marginBottom: "6px" }}>Filling</li>
-            <li style={{ color: "#00a6ff", marginBottom: "6px" }}>Root canal</li>
-            <li style={{ color: "#00a6ff" }}>Teeth Extraction</li>
-          </ul>
-
-          <h2
-            style={{
-              color: "#0b1f66",
-              fontSize: "28px",
-              fontWeight: "700",
-              marginBottom: "12px",
-            }}
-          >
-            Get Prepared:
-          </h2>
-
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "18px",
-            }}
-          >
-            Preparation can speed up the process when you go for bad breath
-            dental treatment at SmileOn Dental Clinic. Your dentist will require
-            this information to help identify the underlying reason so the best
-            course of action can be taken. Your dentist will now take a careful
-            look at your mouth, teeth, tongue, throat and sinuses and a few other
-            places. They will also examine your medical history and may order an
-            X-ray if needed. To maximize your visit, make sure to come ready to
-            discuss the following:
-          </p>
-
-          <ul style={{ paddingLeft: "38px", marginBottom: "16px",
-            listStyleType: "disc", listStylePosition: "outside",}}>
-            <li style={{ marginBottom: "6px" }}>
-              How long have you had bad breath?
-            </li>
-            <li style={{ marginBottom: "6px" }}>
-              How noticeable is the odor?
-            </li>
-            <li style={{ marginBottom: "6px" }}>
-              What did you change about your dental routine?
-            </li>
-            <li style={{ marginBottom: "6px" }}>
-              Are there recent changes to your diet?
-            </li>
-            <li>Do you have any pain or other symptoms?</li>
-          </ul>
-
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-            }}
-          >
-            Thinking through these questions ahead of time will enable your
-            dentist to diagnose the cause and recommend the appropriate solution
-            quickly.
-          </p>
-        </div>
-
-        {/* RIGHT IMAGE */}
-        <div
-          style={{
-            flex: 1,
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <img
-            src={thirtysix}
-            alt="Dental Checkup"
-            style={{
-              width: "110%",
-              maxWidth: "750px",
-              height: "450px",
-              marginTop: "120px",
-              borderRadius: "18px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-      </div>
+{/* RELATED TREATMENTS */}
+<div className="w-full bg-[#f4f8fb] py-10 px-10 lg:px-32">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    {/* LEFT CONTENT */}
+    <div className="flex-1 space-y-2">
+      <h2 className="text-[#0b1f66] text-2xl lg:text-3xl font-bold mb-1">Related Treatments:</h2>
+      <p className="text-sm text-gray-800 leading-relaxed mb-2">
+        To identify the source of your foul breath, your dentist will carefully check your mouth. You might require one of these usual cures.
+      </p>
+      <ul className="list-disc list-outside pl-10 mb-4 space-y-1 text-[#00a6ff]">
+        <li>Filling</li>
+        <li>Root canal</li>
+        <li>Teeth Extraction</li>
+      </ul>
+      <h2 className="text-[#0b1f66] text-2xl lg:text-3xl font-bold mb-2">Get Prepared:</h2>
+      <p className="text-sm text-gray-800 leading-relaxed mb-4">
+        Preparation can speed up the process when you go for bad breath dental treatment at SmileExpert Dental Clinic. Your dentist will require this information to help identify the underlying reason so the best course of action can be taken. Your dentist will now take a careful look at your mouth, teeth, tongue, throat and sinuses and a few other places. They will also examine your medical history and may order an X-ray if needed. To maximize your visit, make sure to come ready to discuss the following:
+      </p>
+      <ul className="list-disc list-outside pl-10 mb-4 space-y-1 text-sm">
+        <li>How long have you had bad breath?</li>
+        <li>How noticeable is the odor?</li>
+        <li>What did you change about your dental routine?</li>
+        <li>Are there recent changes to your diet?</li>
+        <li>Do you have any pain or other symptoms?</li>
+      </ul>
+      <p className="text-sm text-gray-800 leading-relaxed">
+        Thinking through these questions ahead of time will enable your dentist to diagnose the cause and recommend the appropriate solution quickly.
+      </p>
     </div>
 
-   <div
-  style={{
-    width: "100%",
-    padding: "90px 40px",
-    backgroundColor: "#ffffff",
-    textAlign: "center",
-    boxSizing: "border-box",
-  }}
->
-  {/* TITLE */}
-  <div
-    style={{
-      fontSize: "34px",
-      fontWeight: "700",
-      color: "#0b1f66",
-      marginBottom: "10px",
-    }}
-  >
-    What Next
+    {/* RIGHT IMAGE */}
+    <div className="flex-1 flex justify-center">
+      <img src={thirtysix} alt="Dental Checkup" className="w-full h-full rounded-3xl object-cover" />
+    </div>
   </div>
+</div>
 
-  {/* DESCRIPTION */}
-  <div
-    style={{
-      maxWidth: "1300px",
-      margin: "0 auto 55px auto",
-      fontSize: "15px",
-      lineHeight: "1.7",
-      color: "#333",
-    }}
-  >
-    View some potential therapies to learn more about what comes next. We advise
-    scheduling a dental consultation to receive detailed information concerning
-    your bad breath problems. To make an appointment, call us right away or book
-    online right now.
-  </div>
-
-  {/* CARDS */}
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      gap: "40px",
-      flexWrap: "wrap",
-    }}
-  >
+{/* WHAT NEXT */}
+<div className="w-max-7xl py-14 px-5 text-center">
+  <h2 className="text-[#0b1f66] text-3xl lg:text-4xl font-bold mb-4">What Next</h2>
+  <p className="max-w-[1300px] mx-auto mb-14 text-sm leading-relaxed text-gray-800">
+    View some potential therapies to learn more about what comes next. We advise scheduling a dental consultation to receive detailed information concerning your bad breath problems. To make an appointment, call us right away or book online right now.
+  </p>
+  <div className="flex flex-wrap justify-center gap-10">
     {/* CARD 1 */}
-    <div
-      style={{
-        width: "320px",
-        backgroundColor: "#ffffff",
-        borderRadius: "18px",
-        padding: "45px 20px",
-        boxShadow: "0 12px 28px rgba(0,0,0,0.08)",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
-      {/* ICON */}
-      <div
-        style={{
-          width: "90px",
-          height: "90px",
-          marginBottom: "18px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          
-        }}
-      >
-        <img
-          src={toothbrush}
-          alt="Scaling & Polishing"
-          style={{
-            width: "60px",
-            height: "60px",
-            objectFit: "contain",
-          }}
-        />
+    <div className="w-[320px] bg-white rounded-2xl p-12 flex flex-col items-center shadow-lg">
+      <div className="w-24 h-24 mb-4 flex items-center justify-center">
+        <img src={toothbrush} alt="Scaling & Polishing" className="w-15 h-15 object-contain" />
       </div>
-
-      {/* TEXT */}
-      <div
-        style={{
-          fontSize: "16px",
-          fontWeight: "600",
-          color: "#0b1f66",
-        }}
-      >
-        Scaling &amp; Polishing
-      </div>
+      <div className="text-base font-semibold text-[#0b1f66]">Scaling &amp; Polishing</div>
     </div>
-
     {/* CARD 2 */}
-    <div
-      style={{
-        width: "320px",
-        backgroundColor: "#ffffff",
-        borderRadius: "18px",
-        padding: "45px 20px",
-        boxShadow: "0 12px 28px rgba(0,0,0,0.08)",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
-      {/* ICON */}
-      <div
-        style={{
-          width: "90px",
-          height: "90px",
-          marginBottom: "18px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <img
-          src={periodontist}
-          alt="Periodontist Services"
-          style={{
-            width: "60px",
-            height: "60px",
-            objectFit: "contain",
-          }}
-        />
+    <div className="w-[320px] bg-white rounded-2xl p-12 flex flex-col items-center shadow-lg">
+      <div className="w-24 h-24 mb-4 flex items-center justify-center">
+        <img src={periodontist} alt="Periodontist Services" className="w-15 h-15 object-contain" />
       </div>
-
-      {/* TEXT */}
-      <div
-        style={{
-          fontSize: "16px",
-          fontWeight: "600",
-          color: "#0b1f66",
-        }}
-      >
-        Periodontist Services
-      </div>
+      <div className="text-base font-semibold text-[#0b1f66]">Periodontist Services</div>
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    backgroundColor: "#ffffff",
-    boxSizing: "border-box",
-  }}
->
-  {/* HEADING */}
-  <div
-    style={{
-      textAlign: "center",
-      fontSize: "34px",
-      fontWeight: "700",
-      color: "#0b1f66",
-      marginBottom: "50px",
-    }}
-    >
-    FAQs
-  </div>
-
-  {/* FAQ GRID */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "20px 30px",
-    }}
-  >
-    {/* FAQ ITEM */}
+{/* FAQ */}
+<div className="w-full bg-white py-10 px-10 lg:px-32">
+  <h2 className="text-[#0b1f66] text-3xl lg:text-4xl font-bold text-center mb-12">FAQs</h2>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-8">
     {[
       "01. Can ulcers cause bad breath?",
       "02. How to get rid of bad breath permanently?",
@@ -612,40 +185,14 @@ export default function BadBreath() {
       "07. Can a loose tooth make your breath smell bad?",
       "08. Why do I have bad breath even after brushing?",
     ].map((item, index) => (
-      <div
-        key={index}
-        style={{
-          backgroundColor: "#6cc1bc",
-          padding: "18px 22px",
-          display: "flex",
-          alignItems: "center",
-          gap: "14px",
-        }}
-      >
-        {/* PLUS ICON */}
-        <div
-          style={{
-            fontSize: "20px",
-            fontWeight: "700",
-            color: "#000",
-          }}
-        >
-          +
-        </div>
-
-        {/* QUESTION */}
-        <div
-          style={{
-            fontSize: "15px",
-            color: "#000",
-          }}
-        >
-          {item}
-        </div>
+      <div key={index} className="bg-[#6cc1bc] px-3 py-3 flex items-center gap-4 rounded-lg">
+        <span className="text-lg font-bold text-black">+</span>
+        <span className="text-sm text-black">{item}</span>
       </div>
     ))}
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

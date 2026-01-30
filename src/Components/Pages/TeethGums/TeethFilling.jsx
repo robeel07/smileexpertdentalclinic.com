@@ -9,317 +9,121 @@ export default function TeethFilling() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${fiftytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Teeth Filling Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/TeethGums/teethfilling"></Link>}
 
-
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-[1.8] text-justify">
   <p>
-Lost or loose fillings? No need to worry. While it can be bothersome, fixing fillings is straightforward and not considered a dental emergency. However, neglecting a tooth filling can potentially cause more significant oral health problems. Dental fillings are a common solution for tooth decay and can be made from various materials.
+    Lost or loose fillings? No need to worry. While it can be bothersome, fixing fillings is straightforward and not considered a dental emergency. However, neglecting a tooth filling can potentially cause more significant oral health problems. Dental fillings are a common solution for tooth decay and can be made from various materials.
 
-Common filling materials include amalgam, composite resin, and ceramic. Amalgam, a silver-colored material, has been used for many years, while composite resin and ceramic offer a more aesthetically pleasing tooth-colored option. The choice of material depends on factors such as cost, location, and extent of decay, as well as patient preferences. Amalgam fillings are durable and long-lasting, while composite resin and ceramic provide a natural appearance. Consult with your dentist to determine the most suitable filling material for your specific requirements.
+    Common filling materials include amalgam, composite resin, and ceramic. Amalgam, a silver-colored material, has been used for many years, while composite resin and ceramic offer a more aesthetically pleasing tooth-colored option. The choice of material depends on factors such as cost, location, and extent of decay, as well as patient preferences. Amalgam fillings are durable and long-lasting, while composite resin and ceramic provide a natural appearance. Consult with your dentist to determine the most suitable filling material for your specific requirements.
   </p>
 </div>
 
-
-<div
-      style={{
-        width: "100%",
-        backgroundColor: "#f3f8fc",
-        padding: "80px 60px",
-        boxSizing: "border-box",
-      }}
-    >
-      <div
-        style={{
-          maxWidth: "1200px",
-          margin: "0 auto",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          gap: "60px",
-        }}
-      >
-        {/* LEFT CONTENT */}
-        <div style={{ flex: 1 }}>
-          <h2
-            style={{
-              color: "#0b1c7d",
-              fontSize: "32px",
-              fontWeight: "700",
-              marginBottom: "20px",
-            }}
-          >
-            Symptoms of a Teeth Filling:
-          </h2>
-
-          <p
-            style={{
-              fontSize: "16px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "20px",
-            }}
-          >
-            It may not always be visible when a filling is lost or falls out,
-            especially if it is a little filling. You might encounter the
-            following symptoms if you’ve lost a filling:
-          </p>
-
-          <ul
-            style={{
-              paddingLeft: "20px",
-              marginLeft: "20px",
-              listStyleType: "disc", 
-            }}
-          >
-            <li style={{ marginBottom: "10px", color: "#000" }}>
-              Pain in the tooth that has been filled
-            </li>
-            <li style={{ marginBottom: "10px", color: "#000" }}>
-              Sensitivity to hot or cold food
-            </li>
-            <li style={{ marginBottom: "10px", color: "#000" }}>
-              You may notice a gap or hole in your tooth
-            </li>
-            <li style={{ marginBottom: "10px", color: "#000" }}>
-              You may feel a hard object in your mouth when you bite on hard food
-            </li>
-          </ul>
-        </div>
-
-        {/* RIGHT IMAGE */}
-        <div style={{ flex: 1 }}>
-          <img
-            src={fiftytwo}
-            alt="Teeth Filling Treatment"
-            style={{
-              maxwidth: "620%",
-              borderRadius: "18px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-      </div>
-    </div>
-
-    <div
-      style={{
-        width: "100%",
-        backgroundColor: "#f3f8fc",
-        padding: "80px 60px",
-        boxSizing: "border-box",
-      }}
-    >
-      <div
-        style={{
-          maxWidth: "1200px",
-          margin: "0 auto",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          gap: "60px",
-        }}
-      >
-        {/* LEFT IMAGE */}
-        <div style={{ flex: 1 }}>
-          <img
-            src={fiftythree}
-            alt="Causes of a Teeth Filling"
-            style={{
-              maxwidth: "620%",
-              borderRadius: "20px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-
-        {/* RIGHT CONTENT */}
-        <div style={{ flex: 1 }}>
-          <h2
-            style={{
-              color: "#0b1c7d",
-              fontSize: "32px",
-              fontWeight: "700",
-              marginBottom: "20px",
-            }}
-          >
-            Causes of a Teeth Filling:
-          </h2>
-
-          <p
-            style={{
-              fontSize: "16px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "20px",
-            }}
-          >
-            Various factors can lead to the loss or dislodgement of fillings.
-            Hard food or athletic injuries can cause fillings to fall out.
-          </p>
-
-          <p
-            style={{
-              fontSize: "16px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "20px",
-            }}
-          >
-            Furthermore, decay near the filling or prolonged use can result in
-            fillings coming loose.
-          </p>
-
-          <p
-            style={{
-              fontSize: "16px",
-              color: "#333",
-              lineHeight: "1.7",
-              margin: 0,
-            }}
-          >
-            If you suspect a missing filling, it is crucial to promptly schedule
-            a dental appointment.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div
-      style={{
-        width: "100%",
-        padding: "80px 60px",
-        boxSizing: "border-box",
-        backgroundColor: "#ffffff",
-      }}
-    >
-      {/* Heading */}
-      <h2
-        style={{
-          textAlign: "center",
-          fontSize: "32px",
-          fontWeight: "700",
-          color: "#0b1c7d",
-          marginBottom: "50px",
-        }}
-      >
-        FAQs
+{/* SYMPTOMS */}
+<div className="w-full bg-[#f3f8fc] py-20 px-5 lg:px-16">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+    {/* LEFT CONTENT */}
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-4">
+        Symptoms of a Teeth Filling:
       </h2>
-
-      {/* Grid */}
-      <div
-        style={{
-          maxWidth: "1200px",
-          margin: "0 auto",
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "30px",
-        }}
-      >
-        {/* LEFT COLUMN */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-          {[
-            "01. What do you do when you lose a filling?",
-            "02. How much does it cost to fix a lost filling?",
-            "03. Why does my tooth filling hurt after months?",
-            "04. How to relieve tooth pain after filling?",
-            "05. Is a lost filling a dental emergency?",
-          ].map((text, i) => (
-            <div
-              key={i}
-              style={{
-                backgroundColor: "#69bdbb",
-                padding: "18px 22px",
-                display: "flex",
-                alignItems: "center",
-                gap: "16px",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "22px",
-                  fontWeight: "700",
-                  color: "#000",
-                }}
-              >
-                +
-              </span>
-              <span
-                style={{
-                  fontSize: "15px",
-                  color: "#000",
-                }}
-              >
-                {text}
-              </span>
-            </div>
-          ))}
-        </div>
-
-        {/* RIGHT COLUMN */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-          {[
-            "06. How many times can a filling be replaced?",
-            "07. What can you do at home when you lose a filling?",
-            "08. How long does a filling last?",
-            "09. How long after a filling can I drink?",
-          ].map((text, i) => (
-            <div
-              key={i}
-              style={{
-                backgroundColor: "#69bdbb",
-                padding: "18px 22px",
-                display: "flex",
-                alignItems: "center",
-                gap: "16px",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "22px",
-                  fontWeight: "700",
-                  color: "#000",
-                }}
-              >
-                +
-              </span>
-              <span
-                style={{
-                  fontSize: "15px",
-                  color: "#000",
-                }}
-              >
-                {text}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
+      <p className="text-base text-gray-800 leading-[1.7] mb-4">
+        It may not always be visible when a filling is lost or falls out, especially if it is a little filling. You might encounter the following symptoms if you’ve lost a filling:
+      </p>
+      <ul className="list-disc pl-9 space-y-2 text-black">
+        <li>Pain in the tooth that has been filled</li>
+        <li>Sensitivity to hot or cold food</li>
+        <li>You may notice a gap or hole in your tooth</li>
+        <li>You may feel a hard object in your mouth when you bite on hard food</li>
+      </ul>
     </div>
+
+    {/* RIGHT IMAGE */}
+    <div className="flex-1">
+      <img src={fiftytwo} alt="Teeth Filling Treatment" className="w-full h-full rounded-3xl object-cover" />
+    </div>
+  </div>
+</div>
+
+{/* CAUSES */}
+<div className="w-full bg-[#f3f8fc] py-20 px-5 lg:px-16">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+    {/* LEFT IMAGE */}
+    <div className="flex-1">
+      <img src={fiftythree} alt="Causes of a Teeth Filling" className="w-full h-full rounded-3xl object-cover" />
+    </div>
+
+    {/* RIGHT CONTENT */}
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-4">
+        Causes of a Teeth Filling:
+      </h2>
+      <p className="text-base text-gray-800 leading-[1.7] mb-4">
+        Various factors can lead to the loss or dislodgement of fillings. Hard food or athletic injuries can cause fillings to fall out.
+      </p>
+      <p className="text-base text-gray-800 leading-[1.7] mb-4">
+        Furthermore, decay near the filling or prolonged use can result in fillings coming loose.
+      </p>
+      <p className="text-base text-gray-800 leading-[1.7]">
+        If you suspect a missing filling, it is crucial to promptly schedule a dental appointment.
+      </p>
+    </div>
+  </div>
+</div>
+
+{/* FAQ SECTION */}
+<div className="max-w-7xl mx-auto bg-white py-20 px-5 lg:px-16">
+  <h2 className="text-[#0a1a5c] text-3xl font-bold text-center mb-12">
+    FAQs
+  </h2>
+
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
+    {/* LEFT COLUMN */}
+    <div className="flex flex-col gap-3">
+      {[
+        "01. What do you do when you lose a filling?",
+        "02. How much does it cost to fix a lost filling?",
+        "03. Why does my tooth filling hurt after months?",
+        "04. How to relieve tooth pain after filling?",
+        "05. Is a lost filling a dental emergency?",
+      ].map((text, i) => (
+        <div key={i} className="bg-[#69bdbb] px-3 py-3 flex items-center gap-4 rounded-lg">
+          <span className="text-lg font-bold text-black">+</span>
+          <span className="text-sm text-black">{text}</span>
+        </div>
+      ))}
+    </div>
+
+    {/* RIGHT COLUMN */}
+    <div className="flex flex-col gap-3">
+      {[
+        "06. How many times can a filling be replaced?",
+        "07. What can you do at home when you lose a filling?",
+        "08. How long does a filling last?",
+        "09. How long after a filling can I drink?",
+      ].map((text, i) => (
+        <div key={i} className="bg-[#69bdbb] px-3 py-3  flex items-center gap-4 rounded-lg">
+          <span className="text-lg font-bold text-black">+</span>
+          <span className="text-sm text-black">{text}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
 
  <div className="w-full h-[180px] overflow-hidden mt-4">
    <iframe

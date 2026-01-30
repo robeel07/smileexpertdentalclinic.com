@@ -10,420 +10,174 @@ export default function TeethCleaning() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${seventeen})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Teeth Cleaning Service in Khanewal
     </h1>
-  </div>
+  
 </div>
     </div>
 
 
-      {<Link to="/TeethGums/teethcleaning"></Link>}
-
-
-    <div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+   {/* TEXT INTRO */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-[#333] text-base leading-relaxed text-justify">
   <p>
- Do you desire a white, healthy smile? Regularly cleaning your teeth prevents future problems and ensures dental health. Achieve a happy, healthy smile through home dental hygiene and regular dentist visits. The dental cleaning process in Pakistan helps maintain excellent oral health and provides the satisfaction of fresh, clean teeth.
+    Do you desire a white, healthy smile? Regularly cleaning your teeth prevents future problems and ensures dental health. Achieve a happy, healthy smile through home dental hygiene and regular dentist visits. The dental cleaning process in Pakistan helps maintain excellent oral health and provides the satisfaction of fresh, clean teeth.
   </p>
 </div>
 
-<div
-  style={{
-    maxWidth: "1200px",
-    margin: "0 auto",
-    padding: "60px 20px",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      gap: "50px",
-      alignItems: "flex-start",
-      flexWrap: "wrap",
-    }}
-  >
+{/* TWO COLUMN SECTION */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
     {/* LEFT TEXT */}
-    <div style={{ flex: "1 1 500px" }}>
-      <h2
-        style={{
-          fontSize: "30px",
-          color: "#0b1c6d",
-          fontWeight: "600",
-          marginBottom: "20px",
-        }}
-      >
+    <div className="flex-1">
+      <h2 className="text-3xl font-semibold  text-[#0a1a5c] mb-5">
         What is Teeth Cleaning Process?
       </h2>
 
-      <p style={{ color: "#555", lineHeight: "1.8", marginBottom: "15px" }}>
-        Do you desire a white, healthy smile? Teeth cleaning prevents future
-        issues and is crucial for dental health. Home dental hygiene and regular
-        dentist visits maintain a happy, healthy smile. Clean teeth after a
-        dental visit in Pakistan provide unmatched satisfaction. It supports
-        good oral health!
+      <p className="text-[#555] leading-relaxed mb-4">
+        Do you desire a white, healthy smile? Teeth cleaning prevents future issues and is crucial for dental health. Home dental hygiene and regular dentist visits maintain a happy, healthy smile. Clean teeth after a dental visit in Pakistan provide unmatched satisfaction. It supports good oral health!
       </p>
 
-      <p style={{ color: "#555", lineHeight: "1.8", marginBottom: "15px" }}>
-        Cleaning removes plaque and tartar to prevent cavities and gum disease.
-        Good oral hygiene prevents costly problems. Home care and dental visits
-        keep teeth clean.
+      <p className="text-[#555] leading-relaxed mb-4">
+        Cleaning removes plaque and tartar to prevent cavities and gum disease. Good oral hygiene prevents costly problems. Home care and dental visits keep teeth clean.
       </p>
 
-      <p style={{ color: "#555", lineHeight: "1.8", marginBottom: "15px" }}>
-        Our dentists train patients to maintain healthy teeth and gums. During
-        teeth cleaning in Lahore, dentists assess your oral condition and check
-        for disease. Plaque and bacteria are removed, leaving teeth smooth and
-        clean.
+      <p className="text-[#555] leading-relaxed mb-4">
+        Our dentists train patients to maintain healthy teeth and gums. During teeth cleaning in Lahore, dentists assess your oral condition and check for disease. Plaque and bacteria are removed, leaving teeth smooth and clean.
       </p>
 
-      <p style={{ color: "#555", lineHeight: "1.8", marginBottom: "15px" }}>
-        Dentists provide home care guidance, including flossing and brushing
-        techniques.
+      <p className="text-[#555] leading-relaxed mb-4">
+        Dentists provide home care guidance, including flossing and brushing techniques.
       </p>
 
-      <p style={{ color: "#555", lineHeight: "1.8" }}>
-        Deep cleaning, called scaling and root planning, treats severe gum
-        disease. It removes plaque and tartar from tooth surfaces and roots.
+      <p className="text-[#555] leading-relaxed">
+        Deep cleaning, called scaling and root planning, treats severe gum disease. It removes plaque and tartar from tooth surfaces and roots.
       </p>
     </div>
 
     {/* RIGHT IMAGE */}
-    <div style={{ flex: "1 1 500px" }}>
+    <div className="flex-1 ">
       <img
         src={eighteen}
         alt="Teeth Cleaning"
-        style={{
-          width: "620px",
-          height: "480px",
-          objectFit: "cover",
-          borderRadius: "20px",
-        }}
+        className="w-full h-full object-cover rounded-3xl"
       />
     </div>
-  </div>
 </div>
 
-    <div
-  style={{
-    width: "100%",
-    padding: "80px 40px",
-    backgroundImage: `url(${nineteen})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
+{/* BACKGROUND IMAGE SECTION WITH CARDS */}
+<div
+  className="w-full py-20 px-5 relative bg-cover bg-center"
+  style={{ backgroundImage: `url(${nineteen})` }}
 >
   {/* OVERLAY */}
-  <div
-    style={{
-      background: "rgba(0,0,0,0.55)",
-      padding: "60px 40px",
-      borderRadius: "30px",
-      maxWidth: "1400px",
-      margin: "auto",
-    }}
-  >
-    {/* CARDS ROW */}
-    <div
-      style={{
-        display: "flex",
-        gap: "30px",
-        justifyContent: "space-between",
-        flexWrap: "wrap",
-      }}
-    >
-      {/* CARD 1 */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "320px",
-          background: "rgba(255,255,255,0.12)",
-          borderRadius: "20px",
-          padding: "30px",
-          color: "#fff",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        <h3 style={{ color: "#3fe0d0", marginBottom: "15px" }}>
-          Appointments:
-        </h3>
-        <ul style={{ lineHeight: "1.8", paddingLeft: "18px" }}>
-          <li>Routine cleaning every six months.</li>
-          <li>Scaling may require two visits.</li>
-          <li>Follow-up sessions may be needed.</li>
-        </ul>
-      </div>
-
-      {/* CARD 2 */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "320px",
-          background: "rgba(255,255,255,0.12)",
-          borderRadius: "20px",
-          padding: "30px",
-          color: "#fff",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        <h3 style={{ color: "#3fe0d0", marginBottom: "15px" }}>
-          Before Your Appointment:
-        </h3>
-        <ul style={{ lineHeight: "1.8", paddingLeft: "18px" }}>
-          <li>No special preparation required.</li>
-          <li>Brush and floss normally.</li>
-        </ul>
-      </div>
-
-      {/* CARD 3 */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "320px",
-          background: "rgba(255,255,255,0.12)",
-          borderRadius: "20px",
-          padding: "30px",
-          color: "#fff",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        <h3 style={{ color: "#3fe0d0", marginBottom: "15px" }}>
-          How Long it Takes:
-        </h3>
-        <ul style={{ lineHeight: "1.8", paddingLeft: "18px" }}>
-          <li>Hygiene treatments: 30–60 minutes.</li>
-          <li>Consultations: ~60 minutes.</li>
-        </ul>
-      </div>
+  <div className="bg-black/55 rounded-3xl max-w-[1400px] mx-auto px-5 sm:px-10 py-12 sm:py-16">
+    {/* CARDS ROW 1 */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {[
+        {
+          title: "Appointments:",
+          content: [
+            "Routine cleaning every six months.",
+            "Scaling may require two visits.",
+            "Follow-up sessions may be needed.",
+          ],
+        },
+        {
+          title: "Before Your Appointment:",
+          content: ["No special preparation required.", "Brush and floss normally."],
+        },
+        {
+          title: "How Long it Takes:",
+          content: ["Hygiene treatments: 30–60 minutes.", "Consultations: ~60 minutes."],
+        },
+      ].map((card, i) => (
+        <div
+          key={i}
+          className="bg-white/10 backdrop-blur-md rounded-2xl p-6 sm:p-8 text-white flex flex-col"
+        >
+          <h3 className="text-[#3fe0d0] text-lg sm:text-xl font-semibold mb-4">{card.title}</h3>
+          <ul className="pl-4 list-disc space-y-2">
+            {card.content.map((item, j) => (
+              <li key={j} className="leading-relaxed text-sm sm:text-base">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
 
-    {/* SECOND ROW */}
-    <div
-      style={{
-        display: "flex",
-        gap: "30px",
-        justifyContent: "space-between",
-        flexWrap: "wrap",
-        marginTop: "40px",
-      }}
-    >
-      {/* CARD 4 */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "320px",
-          background: "rgba(255,255,255,0.12)",
-          borderRadius: "20px",
-          padding: "30px",
-          color: "#fff",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        <h3 style={{ color: "#3fe0d0", marginBottom: "15px" }}>
-          After Your Appointment:
-        </h3>
-        <ul style={{ lineHeight: "1.8", paddingLeft: "18px" }}>
-          <li>You can resume normal activities.</li>
-        </ul>
-      </div>
-
-      {/* CARD 5 */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "320px",
-          background: "rgba(255,255,255,0.12)",
-          borderRadius: "20px",
-          padding: "30px",
-          color: "#fff",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        <h3 style={{ color: "#3fe0d0", marginBottom: "15px" }}>
-          You May Be Asked About:
-        </h3>
-        <ul style={{ lineHeight: "1.8", paddingLeft: "18px" }}>
-          <li>Dental & medical history.</li>
-          <li>Daily oral care routine.</li>
-        </ul>
-      </div>
-
-      {/* CARD 6 */}
-      <div
-        style={{
-          flex: "1",
-          minWidth: "320px",
-          background: "rgba(255,255,255,0.12)",
-          borderRadius: "20px",
-          padding: "30px",
-          color: "#fff",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        <h3 style={{ color: "#3fe0d0", marginBottom: "15px" }}>
-          Quick Tips:
-        </h3>
-        <p style={{ lineHeight: "1.8" }}>
-          Building good dental habits takes time. Place reminders near your
-          mirror and follow your dentist’s advice.
-        </p>
-      </div>
+    {/* CARDS ROW 2 */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+      {[
+        {
+          title: "After Your Appointment:",
+          content: ["You can resume normal activities."],
+        },
+        {
+          title: "You May Be Asked About:",
+          content: ["Dental & medical history.", "Daily oral care routine."],
+        },
+        {
+          title: "Quick Tips:",
+          content: [
+            "Building good dental habits takes time. Place reminders near your mirror and follow your dentist’s advice.",
+          ],
+        },
+      ].map((card, i) => (
+        <div
+          key={i}
+          className="bg-white/10 backdrop-blur-md rounded-2xl p-6 sm:p-8 text-white flex flex-col"
+        >
+          <h3 className="text-[#3fe0d0] text-lg sm:text-xl font-semibold mb-4">{card.title}</h3>
+          <ul className="pl-4 list-disc space-y-2">
+            {card.content.map((item, j) => (
+              <li key={j} className="leading-relaxed text-sm sm:text-base">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   </div>
 </div>
 
-<div style={{ padding: "60px 40px" }}>
-  {/* TITLE */}
-  <div
-    style={{
-      textAlign: "center",
-      fontSize: "28px",
-      fontWeight: "600",
-      marginBottom: "40px",
-      color: "#0B1C6D",
-    }}
-  >
+
+{/* FAQ SECTION */}
+<div className="py-10 px-5">
+  <h2 className="text-center text-[#0B1C6D] text-2xl sm:text-3xl font-semibold mb-10">
     FAQs
-  </div>
+  </h2>
 
-  {/* FAQ GRID */}
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "20px",
-      maxWidth: "1200px",
-      margin: "0 auto",
-    }}
-  >
-    {/* ROW 1 */}
-    <div
-      style={{
-        background: "#67BDB8",
-        padding: "18px 22px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "16px",
-        cursor: "pointer",
-      }}
-    >
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      01. How much does it cost to get your teeth cleaned?
-    </div>
-
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      05. What is ultrasonic dental cleaning?
-    </div>
-
-    {/* ROW 2 */}
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      02. Is professional teeth cleaning painful?
-    </div>
-
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      06. When would you get ultrasonic dental cleaning?
-    </div>
-
-    {/* ROW 3 */}
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      03. How often should I visit a dentist or hygienist?
-    </div>
-
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      07. What is the best way to clean dentures?
-    </div>
-
-    {/* ROW 4 */}
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      04. Why should you get dental teeth cleaning done?
-    </div>
-
-    <div style={{
-      background: "#67BDB8",
-      padding: "18px 22px",
-      display: "flex",
-      alignItems: "center",
-      gap: "15px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}>
-      <div style={{ fontSize: "22px", fontWeight: "bold" }}>+</div>
-      08. What is teeth cleaning price in Pakistan?
-    </div>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
+    {[
+      "01. How much does it cost to get your teeth cleaned?",
+      "02. Is professional teeth cleaning painful?",
+      "03. How often should I visit a dentist or hygienist?",
+      "04. Why should you get dental teeth cleaning done?",
+      "05. What is ultrasonic dental cleaning?",
+      "06. When would you get ultrasonic dental cleaning?",
+      "07. What is the best way to clean dentures?",
+      "08. What is teeth cleaning price in Pakistan?",
+    ].map((faq, i) => (
+      <div key={i} className="bg-[#67BDB8] px-3 py-3 flex items-center gap-1 text-base cursor-pointer rounded-md hover:bg-[#57b2ad] transition-colors">
+        <span className="text-lg font-bold">+</span>
+        <span>{faq}</span>
+      </div>
+    ))}
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

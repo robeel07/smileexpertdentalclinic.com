@@ -11,34 +11,28 @@ export default function WisdomTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full
+    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%]
+    flex items-center
+    pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${one})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Wisdom Teeth Treatment in Khanewal
     </h1>
-  </div>
+  
 </div>
     </div>
-
-      {<Link to="/TeethGums/wisdom-teeth"></Link>}
   
 
-    <div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+   {/* INTRO TEXT */}
+<div className="max-w-7xl mx-auto px-3 py-16 text-[16px] text-[#333] text-justify">
   <p>
     Do you experience discomfort from your wisdom teeth? It can be bothersome.
     We understand how difficult it can be. The pain caused by wisdom teeth can
@@ -52,61 +46,28 @@ export default function WisdomTeeth() {
   </p>
 </div>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: "40px 120px",
-  }}
->
-  {/* LEFT SIDE TEXT */}
-  <div style={{ flex: 1 }}>
-    <h2
-      style={{
-        fontSize: "32px",
-        fontWeight: "700",
-        color: "#0A2A7A",
-        marginBottom: "20px",
-      }}
-    >
+{/* SECTION 1 */}
+<div className="max-w-7xl mx-auto flex justify-center items-center gap-3">
+  {/* LEFT TEXT */}
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
       Symptoms of wisdom teeth pain
     </h2>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.8",
-        color: "#333",
-        marginBottom: "20px",
-      }}
-    >
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[20px]">
       During the eruption of wisdom teeth, discomfort or pain is common. Initial
       symptoms of wisdom teeth problems may include gum swelling, redness, and
       upper or lower jaw pain. Headaches or earaches may also arise with the
       eruption of wisdom teeth.
     </p>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.8",
-        color: "#333",
-        marginBottom: "20px",
-      }}
-    >
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[20px]">
       The unease in the vicinity of the wisdom tooth can vary from mild
       tenderness to pulsating, continual agony that hinders you from opening
       your mouth and brushing your teeth.
     </p>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.8",
-        color: "#333",
-      }}
-    >
+    <p className="text-[16px] leading-[1.8] text-[#333]">
       Ignoring impacted or extremely painful wisdom teeth may lead to dental
       caries, cavities, bleeding gums, bad breath, difficulty swallowing, severe
       pain, and even the formation of cysts that can spread the infection to
@@ -114,66 +75,34 @@ export default function WisdomTeeth() {
     </p>
   </div>
 
-  {/* RIGHT SIDE IMAGE */}
-  <div style={{ flex: 1 }}>
+  {/* RIGHT IMAGE */}
+  <div className="flex-1">
     <img
-      src={one} 
+      src={one}
       alt="Wisdom Teeth Treatment"
-      style={{
-        width: "100%",
-        height: "520px",
-        borderRadius: "20px",
-        objectFit: "cover",
-      }}
+      className="w-full h-auto rounded-3xl object-cover"
     />
   </div>
 </div>
 
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: "40px 120px",
-    backgroundColor: "#f1f7fd",
-  }}
->
+{/* SECTION 2 */}
+<div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 mt-5 gap-12 items-center bg-[#f1f7fd]">
   {/* LEFT IMAGE */}
-  <div style={{ flex: 1, paddingRight: "30px" }}>
+  <div className="flex-1 pr-[30px]">
     <img
       src={two}
       alt="Wisdom Teeth"
-      style={{
-        width: "100%",
-        height: "520px",
-        display: "flex",
-        borderRadius: "20px",
-        objectFit: "cover",
-      }}
+      className="w-full h-auto rounded-3xl object-cover"
     />
   </div>
 
   {/* RIGHT CONTENT */}
-  <div style={{ flex: 1, paddingLeft: "30px" }}>
-    <h2
-      style={{
-        fontSize: "32px",
-        color: "#0c1b3a",
-        fontWeight: "700",
-        marginBottom: "20px",
-      }}
-    >
+  <div>
+    <h2 className="text-3xl font-semibold mt-3 text-[#0a1a5c] mb-4">
       Causes of wisdom teeth pain
     </h2>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.7",
-        color: "#333",
-        marginBottom: "20px",
-      }}
-    >
+    <p className="text-[16px] leading-[1.7] text-[#333] ">
       Wisdom teeth are not linked to intelligence. Sometimes, they may need to
       be removed as they can cause annoyance and disruption. Most people have
       four wisdom teeth, but not everyone will get all four. Wisdom teeth often
@@ -183,278 +112,85 @@ export default function WisdomTeeth() {
       Effected wisdom teeth can lead to problems like:
     </p>
 
-    <ul
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.8",
-        color: "#333",
-        marginLeft: "20px",
-        marginBottom: "20px",
-        listStyleType: "disc",
-      }}
-    >
+    <ul className="text-[16px] leading-[1.8] text-[#333] list-disc">
       <li>Infection</li>
       <li>Decay</li>
       <li>Cysts</li>
       <li>Damage to surrounding teeth</li>
     </ul>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.7",
-        color: "#333",
-      }}
-    >
-      Experiencing pain due to wisdom teeth is common, and there’s no need to
-      be anxious. If you’re suffering from wisdom teeth pain, it’s advisable to
+    <p className="text-[18px] leading-[1.7] text-[#333]">
+      Experiencing pain due to wisdom teeth is common, and there’s no need to be
+      anxious. If you’re suffering from wisdom teeth pain, it’s advisable to
       seek treatment from SmileOn Lahore. Timely extraction can prevent the
       potentially severe complications associated with wisdom teeth.
     </p>
   </div>
 </div>
 
-<div style={{ textAlign: "center", padding: "60px 20px" }}>
-
-  {/* Heading */}
-  <h2
-    style={{
-      fontSize: "34px",
-      fontWeight: "700",
-      color: "#0f2b62ff",
-      marginBottom: "20px",
-    }}
-  >
+{/* WHAT NEXT */}
+<div className="max-w-7xl mx-auto text-center px-[20px] py-[60px]">
+  <h2 className="text-[34px] font-bold text-[#0f2b62ff] mb-[20px]">
     What Next
   </h2>
 
-  {/* Paragraph */}
-  <p
-    style={{
-      fontSize: "18px",
-      lineHeight: "1.7",
-      color: "#444",
-      maxWidth: "1300px",
-      margin: "0 auto 50px auto",
-    }}
-  >
+  <p className="text-[16px] leading-[1.7] text-[#444] max-w-[1300px] mx-auto mb-[50px]">
     Review available treatments to learn about the next steps. We recommend
-    scheduling a consultation with SmileOn Lahore, specialising in wisdom teeth
-    treatment, to receive customised advice regarding your symptoms. You can
-    specify that the painful tooth is wisdom and that a maxillofacial surgeon
-    typically performs this treatment.
+    scheduling a consultation with SmileExpert Lahore, specialising in wisdom teeth
+    treatment, to receive customised advice regarding your symptoms.
   </p>
 
-  {/* Cards Container */}
   <div className="flex justify-center items-center gap-10 flex-wrap">
-
-  {/* CARD 1 */}
-  <div className="w-[330px] h-[300px] bg-white rounded-[20px] shadow-[0px_6px_25px_rgba(0,0,0,0.1)] flex flex-col items-center justify-center">
-
-    <div className="h-[180px] w-full  flex items-center justify-center">
-      <img
-        src={three}
-        alt="Oral Surgeon"
-        className="h-full object-contain"
-      />
+    {/* CARD 1 */}
+    <div className="w-[330px] h-[300px] bg-white rounded-[20px] shadow-[0px_6px_25px_rgba(0,0,0,0.1)] flex flex-col items-center justify-center">
+      <div className="h-[180px] w-full flex items-center justify-center">
+        <img src={three} alt="Oral Surgeon" className="h-full object-contain" />
+      </div>
+      <h3 className="text-[18px] font-semibold text-[#0c1b3a] text-center mt-4 px-2">
+        Oral & Maxillofacial Surgeon
+      </h3>
     </div>
 
-    <h3 className="text-[18px] font-semibold text-[#0c1b3a] text-center mt-4 px-2">
-      Oral & Maxillofacial Surgeon
-    </h3>
-  </div>
-
-
-  {/* CARD 2 */}
-  <div className="w-[330px] h-[300px] bg-white rounded-[20px] shadow-[0px_6px_25px_rgba(0,0,0,0.1)] flex flex-col items-center justify-center">
-
-    <div className="h-[180px] w-full  flex items-center justify-center">
-      <img
-        src={four}
-        alt="Wisdom Removal"
-        className="h-full object-contain"
-      />
+    {/* CARD 2 */}
+    <div className="w-[330px] h-[300px] bg-white rounded-[20px] shadow-[0px_6px_25px_rgba(0,0,0,0.1)] flex flex-col items-center justify-center">
+      <div className="h-[180px] w-full flex items-center justify-center">
+        <img src={four} alt="Wisdom Removal" className="h-full object-contain" />
+      </div>
+      <h3 className="text-[18px] font-semibold text-[#0c1b3a] text-center mt-4 px-4">
+        Wisdom Teeth Removal
+      </h3>
     </div>
-
-    <h3 className="text-[18px] font-semibold text-[#0c1b3a] text-center mt-4 px-4">
-      Wisdom Teeth Removal
-    </h3>
   </div>
-
 </div>
 
-
-</div>
-
-<div style={{ textAlign: "center", padding: "60px 20px" }}>
-  {/* Heading */}
-  <h2
-    style={{
-      fontSize: "34px",
-      fontWeight: "700",
-      color: "#0c1b3a",
-      marginBottom: "40px",
-    }}
-  >
+{/* FAQS */}
+<div className="max-w-7xl mx-auto text-center px-3 py-3">
+  <h2 className="text-[34px] font-bold text-[#0c1b3a] mb-[40px]">
     FAQs
   </h2>
 
-  {/* FAQ GRID */}
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "20px",
-      maxWidth: "1300px",
-      margin: "0 auto",
-    }}
-  >
-
-    {/* FAQ ITEM 1 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      01. How much does it cost to get wisdom teeth removed?
-    </div>
-
-    {/* FAQ ITEM 2 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      05. Does it hurt getting my wisdom teeth removed?
-    </div>
-
-    {/* FAQ ITEM 3 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      02. How do you make wisdom teeth pain go away?
-    </div>
-
-    {/* FAQ ITEM 4 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      06. What does wisdom teeth pain feel like?
-    </div>
-
-    {/* FAQ ITEM 5 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      03. Is it normal for wisdom teeth to hurt?
-    </div>
-
-    {/* FAQ ITEM 6 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      07. What are some home remedies for wisdom tooth pain?
-    </div>
-
-    {/* FAQ ITEM 7 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      04. How long does wisdom tooth pain last?
-    </div>
-
-    {/* FAQ ITEM 8 */}
-    <div
-      style={{
-        background: "#69B8BB",
-        padding: "20px 25px",
-        borderRadius: "6px",
-        display: "flex",
-        alignItems: "center",
-        gap: "15px",
-        fontSize: "18px",
-        fontWeight: "500",
-        color: "#0c1b3a",
-      }}
-    >
-      <span style={{ fontSize: "22px", fontWeight: "900" }}>+</span>
-      08. I'm anxious about visiting the dentist.
-    </div>
+  <div className="grid grid-cols-2 gap-[20px] max-w-[1300px] mx-auto">
+    {[
+      "01. How much does it cost to get wisdom teeth removed?",
+      "05. Does it hurt getting my wisdom teeth removed?",
+      "02. How do you make wisdom teeth pain go away?",
+      "06. What does wisdom teeth pain feel like?",
+      "03. Is it normal for wisdom teeth to hurt?",
+      "07. What are some home remedies for wisdom tooth pain?",
+      "04. How long does wisdom tooth pain last?",
+      "08. I'm anxious about visiting the dentist.",
+    ].map((item, i) => (
+      <div
+        key={i}
+        className="bg-[#69B8BB] px-[25px] py-[20px] rounded-[6px] flex items-center gap-[15px] text-[18px] font-medium text-[#0c1b3a]"
+      >
+        <span className="text-[22px] font-black">+</span>
+        {item}
+      </div>
+    ))}
   </div>
 </div>
+
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

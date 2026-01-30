@@ -12,77 +12,54 @@ export default function BrokenChippedTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_40%]"
+      className="relative w-full
+    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%]
+    flex items-center
+    pt-28 sm:pt-32 "
       style={{ backgroundImage: `url(${five})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+  <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Broken Tooth Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
   
-      {<Link to="/TeethGums/broken-chipped-tooth"></Link>}
 
-
-    <div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO */}
+<div className="max-w-7xl mx-auto px-3 py-16 text-[16px] text-[#333] text-justify">
   <p>
-    A broken tooth is stressful and uncomfortable, but you don’t have to face it alone. Our professional dentists provide effective treatment for your teeth. Our specialists help you with broken teeth treatment, giving procedures that can rebuild your smile and eliminate pain. Whether you have a minor chip or crack, a deep chip or any form of sensitivity, we employ modern technology to get the best service done in the shortest time possible.
-Call <b>SmileExpert</b> now for professional dental services, including cracked tooth syndrome treatment, broken tooth pain treatment and more. Keep smiling because your smile is worthy of the best.
+    A broken tooth is stressful and uncomfortable, but you don’t have to face it alone.
+    Our professional dentists provide effective treatment for your teeth. Our specialists
+    help you with broken teeth treatment, giving procedures that can rebuild your smile
+    and eliminate pain. Whether you have a minor chip or crack, a deep chip or any form
+    of sensitivity, we employ modern technology to get the best service done in the
+    shortest time possible. Call <b>SmileExpert</b> now for professional dental services,
+    including cracked tooth syndrome treatment, broken tooth pain treatment and more.
+    Keep smiling because your smile is worthy of the best.
   </p>
 </div>
 
-<div
-  style={{
-    display: "flex",
-    alignItem: "center",
-    justifyContent: "space-between",
-    padding: "40px 120px",
-    gap: "40px",
-  }}
->
-  {/* LEFT SECTION */}
-  <div style={{ flex: 1, maxWidth: "50%" }}>
-    <h2
-      style={{
-        fontSize: "36px",
-        fontWeight: "700",
-        color: "#10254fff",
-        marginBottom: "20px",
-      }}
-    >
+{/* CAUSES SECTION */}
+<div className="max-w-7xl mx-auto flex justify-center items-center gap-3">
+  {/* LEFT */}
+  <div className="flex-1 ">
+    <h2 className="text-3xl font-bold text-[#0a1a5c] mb-[20px]">
       Causes of a Broken Tooth
     </h2>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.7",
-        color: "#333",
-        marginBottom: "20px",
-      }}
-    >
+    <p className="text-[16px] leading-[1.7] text-[#333] mb-[20px]">
       A crack within a tooth can occur for many causes, either through an
       accident or due to our daily practices. Here are some common reasons
       for a broken tooth:
     </p>
 
-    {/* BULLET POINTS */}
-    <ul style={{ fontSize: "18px", lineHeight: "1.4", color: "#222", listStyleType: "disc", paddingLeft: "38px" }}>
+    <ul className="text-[16px] leading-[1.4] text-[#222] list-disc pl-[38px]">
       <li>Chewing hard foods</li>
       <li>Accidents or falls</li>
       <li>Grinding teeth at night</li>
@@ -94,80 +71,39 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
   </div>
 
   {/* RIGHT IMAGE */}
-  <div style={{ flex: 1, maxWidth: "50%" }}>
+  <div className="flex-1 max-w-[50%]">
     <img
       src={six}
       alt="Dentist treating patient"
-      style={{
-        width: "100%",
-        height: "auto",
-        borderRadius: "20px",
-        objectFit: "cover",
-      }}
+      className="w-full h-auto rounded-[20px] object-cover"
     />
   </div>
 </div>
 
-<div
-  style={{
-    backgroundColor: "#eef5fb",
-    padding: "40px 120px",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    gap: "50px",
-  }}
->
+{/* SYMPTOMS SECTION */}
+<div className="bg-[#eef5fb] max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 mt-5 gap-12 items-center">
   {/* LEFT IMAGE */}
-  <div style={{ flex: 1 }}>
+  <div className="flex-1">
     <img
       src={seven}
       alt="Dental check"
-      style={{
-        width: "100%",
-        height: "auto",
-        borderRadius: "30px",
-        objectFit: "cover",
-      }}
+      className="w-full h-auto rounded-3xl object-cover"
     />
   </div>
 
   {/* RIGHT TEXT */}
-  <div style={{ flex: 1, paddingRight: "20px" }}>
-    <h2
-      style={{
-        fontSize: "36px",
-        fontWeight: "700",
-        color: "#0c1b3a",
-        marginBottom: "20px",
-      }}
-    >
+  <div className="flex-1 ">
+    <h2 className="text-3xl font-bold text-[#0c1b3a] mb-[20px]">
       Symptoms of Chipped or Broken Teeth
     </h2>
 
-    <p
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.8",
-        color: "#333",
-        marginBottom: "10px",
-        maxWidth: "650px",
-      }}
-    >
+    <p className="text-[16px] leading-[1.8] text-[#333] mb-[10px] max-w-[650px]">
       It is thus helpful to understand some of the symptoms you are likely to
       experience with a broken tooth so that you can seek treatment immediately.
       Here are the common signs to watch for:
     </p>
 
-    <ul
-      style={{
-        fontSize: "18px",
-        lineHeight: "1.4",
-        color: "#222",
-        paddingLeft: "38px",
-        listStyleType: "disc",
-      }}
-    >
+    <ul className="text-[16px] leading-[1.4] text-[#222] list-disc pl-[38px]">
       <li>Pain when chewing or biting</li>
       <li>Sensitivity to hot, cold, or sweet food</li>
       <li>Inflammation or pain in the region of the tooth</li>
@@ -177,212 +113,84 @@ Call <b>SmileExpert</b> now for professional dental services, including cracked 
   </div>
 </div>
 
- <div
-      style={{
-        padding: "40px 120px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gap: "50px",
-      }}
-    >
-      {/* LEFT TEXT SECTION */}
-      <div style={{ flex: 1 }}>
-        <h2
-          style={{
-            fontSize: "36px",
-            fontWeight: "700",
-            color: "#0c1b3a",
-            marginBottom: "20px",
-          }}
-        >
-          Broken Tooth Repair Options
-        </h2>
+{/* REPAIR OPTIONS */}
+<div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 mt-5 gap-12 items-center">
+  {/* LEFT TEXT */}
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-[#0a1a5c] mb-[20px]">
+      Broken Tooth Repair Options
+    </h2>
 
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.6",
-            color: "#333",
-            marginBottom: "20px",
-            maxWidth: "750px",
-          }}
-        >
-          At SmileOn Dental Clinic, we provide various treatments for broken,
-          damaged or cracked teeth. Whether you want broken tooth pain treatment
-          or need a smile makeover, our experts will recommend the best option
-          based on your situation. <br />
-          Our treatment options include:
-        </p>
+    <p className="text-[16px] leading-[1.6] text-[#333] mb-[20px] max-w-[750px]">
+      At SmileOn Dental Clinic, we provide various treatments for broken, damaged
+      or cracked teeth. Whether you want broken tooth pain treatment or need a
+      smile makeover, our experts will recommend the best option based on your
+      situation.
+      <br />
+      Our treatment options include:
+    </p>
 
-        <ul
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.6",
-            color: "#222",
-            paddingLeft: "38px",
-            listStyleType: "disc",
-            maxWidth: "750px",
-          }}
-        >
-          <li>
-            <strong>Dental Fillings</strong> — this procedure is best suited for
-            minor chipped or cracked sections of a tooth; fillings will restore
-            the strength of the offending tooth.
-          </li>
+    <ul className="text-[16px] leading-[1.6] text-[#222] list-disc pl-[38px] max-w-[750px]">
+      <li><strong>Dental Fillings</strong> — best for minor chips or cracks.</li>
+      <li><strong>Dental Bonding</strong> — quick and affordable repair.</li>
+      <li><strong>Dental Crowns</strong> — full coverage for deep fractures.</li>
+      <li><strong>Veneers</strong> — ideal for front tooth repair.</li>
+      <li><strong>Root Canal Treatment</strong> — needed when pulp is affected.</li>
+      <li><strong>Tooth Extraction</strong> — removed and replaced if unsavable.</li>
+    </ul>
+  </div>
 
-          <li>
-            <strong>Dental Bonding</strong> — A speedy and cheap chipped tooth
-            treatment; bonding utilizes resin material named dental bonding
-            material.
-          </li>
+  {/* RIGHT IMAGE */}
+  <div className="flex-1">
+    <img
+      src={eight}
+      alt="Repair Options"
+      className="w-full h-auto rounded-3xl object-cover"
+    />
+  </div>
+</div>
 
-          <li>
-            <strong>Dental Crowns</strong> — When cracks or fractures extend
-            deep, crowns encircle the whole tooth. It provides the support it
-            needs as well as produces the look.
-          </li>
+{/* WHAT NEXT + FAQ */}
+<div className="max-w-7xl mx-auto mt-5 px-3 py-3 text-center">
+  <h2 className="text-3xl font-bold text-[#0a1a5c] mb-[10px]">
+    What Next
+  </h2>
 
-          <li>
-            <strong>Veneers</strong> — Designed for broken front tooth repair,
-            veneers enhance the tooth’s appearance and strength.
-          </li>
+  <p className="text-[16px] leading-[1.7] max-w-[1300px] mx-auto text-[#333]">
+    Expert staff enables you to get the most appropriate cracked tooth treatment
+    for a long time. Make an appointment today!
+  </p>
 
-          <li>
-            <strong>Root Canal Treatment</strong> — For a case where decay goes
-            deeper and touches the pulp, a root canal is required to relieve
-            pain and avoid worsening.
-          </li>
+  <button className="mt-[25px] px-[20px] py-[15px] rounded-[40px] border-2 border-[#00aab5] bg-[#00c8d2] text-white text-[18px] font-semibold cursor-pointer">
+    Book an Appointment
+  </button>
 
-          <li>
-            <strong>Tooth Extraction</strong> — In cases where the tooth cannot
-            be saved, it is removed. The lost tooth is later restored with
-            implants or a bridge.
-          </li>
-        </ul>
-      </div>
+  <h2 className="text-[32px] font-bold text-[#0c1b3a] mt-[50px] mb-[30px]">
+    FAQs
+  </h2>
 
-      {/* RIGHT IMAGE */}
-      <div style={{ flex: 1 }}>
-        <img
-          src={eight}
-          alt="Repair Options"
-          style={{
-            width: "100%",
-            height: "auto",
-            borderRadius: "30px",
-            objectFit: "cover",
-          }}
-        />
-      </div>
-    </div>
-
-    <div style={{ width: "100%", textAlign: "center", paddingTop: "40px" }}>
-      {/* Heading */}
-      <h2
-        style={{
-          fontSize: "36px",
-          fontWeight: "700",
-          color: "#0c1b3a",
-          marginBottom: "10px",
-        }}
-      >
-        What Next
-      </h2>
-
-      {/* Description */}
-      <p
-        style={{
-          fontSize: "18px",
-          lineHeight: "1.7",
-          maxWidth: "1300px",
-          margin: "0 auto",
-          color: "#333",
-        }}
-      >
-        Expert staff enables you to get the most appropriate cracked tooth
-        treatment for a long time. Find yourself another day without fixing your
-        smile? Make an appointment today!
-      </p>
-
-      {/* Button */}
-      <button
-        style={{
-          marginTop: "25px",
-          padding: "15px 40px",
-          borderRadius: "40px",
-          border: "2px solid #00aab5",
-          background: "#00c8d2",
-          color: "#fff",
-          fontSize: "18px",
-          cursor: "pointer",
-          fontWeight: "600",
-        }}
-      >
-        Book an Appointment
-      </button>
-
-      {/* FAQs Heading */}
-      <h2
-        style={{
-          fontSize: "32px",
-          fontWeight: "700",
-          color: "#0c1b3a",
-          marginTop: "50px",
-          marginBottom: "30px",
-        }}
-      >
-        FAQs
-      </h2>
-
-      {/* FAQ GRID */}
+  <div className="max-w-7xl mx-auto grid grid-cols-2 gap-[20px] px-3 pb-6">
+    {[
+      "01. How to treat a cracked tooth?",
+      "02. What happens if one of the front teeth is chipped?",
+      "03. Can you replace tooth enamel?",
+      "04. Can broken or chipped teeth be prevented?",
+      "05. What is the price to get a chipped tooth repaired?",
+      "06. What is the treatment for a fractured tooth?",
+      "07. What are the measures you take when you have a broken tooth?",
+      "08. Are there any home remedies for a broken tooth?",
+    ].map((item, index) => (
       <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "20px",
-          padding: "0 150px 60px",
-        }}
+        key={index}
+        className="bg-[#57b7b7] p-[20px] flex items-center gap-[15px] rounded-[3px] cursor-pointer"
       >
-        {[
-          "01. How to treat a cracked tooth?",
-          "02. What happens if one of the front teeth is chipped?",
-          "03. Can you replace tooth enamel?",
-          "04. Can broken or chipped teeth be prevented?",
-          "05. What is the price to get a chipped tooth repaired?",
-          "06. What is the treatment for a fractured tooth?",
-          "07. What are the measures you take when you have a broken tooth?",
-          "08. Are there any home remedies for a broken tooth?",
-        ].map((item, index) => (
-          <div
-            key={index}
-            style={{
-              background: "#57b7b7",
-              padding: "20px",
-              display: "flex",
-              alignItems: "center",
-              gap: "15px",
-              borderRadius: "3px",
-              cursor: "pointer",
-            }}
-          >
-            {/* Plus icon */}
-            <span
-              style={{
-                fontSize: "22px",
-                fontWeight: "900",
-                marginTop: "-3px",
-              }}
-            >
-              +
-            </span>
-
-            {/* Question */}
-            <span style={{ fontSize: "18px", color: "#0c1b3a" }}>{item}</span>
-          </div>
-        ))}
+        <span className="text-[22px] font-black mt-[-3px]">+</span>
+        <span className="text-[18px] text-[#0c1b3a]">{item}</span>
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+
 
     <div className="w-full h-[180px] overflow-hidden mt-4">
       <iframe

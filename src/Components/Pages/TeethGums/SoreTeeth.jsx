@@ -12,487 +12,160 @@ export default function SoreTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${thirtyseven})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Sensitive Sore Teeth Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-      {<Link to="/TeethGums/soreteeth"></Link>}
 
-
-    <div
-  style={{
-    maxWidth: "1300px",
-    margin: "40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+    {/* INTRO PARAGRAPH */}
+<div className="max-w-7xl mx-auto my-10 px-5 text-gray-800 text-base leading-relaxed text-justify">
   <p>
-   Tooth sensitivity and pain can be highly uncomfortable. Fortunately, there are available remedies. Causes include tooth decay, fractures, abscesses, receding gums, and poor oral hygiene. Tooth sensitivity can vary, and it’s best to consult a dentist before it worsens. Treatment options include avoiding certain foods, using specialized toothpaste and toothbrushes, and receiving procedures such as <span style={{ color: "blue", fontWeight: "600" }}> fillings, root canals, crowns and tooth extractions</span> .
+    Tooth sensitivity and pain can be highly uncomfortable. Fortunately, there are available remedies. Causes include tooth decay, fractures, abscesses, receding gums, and poor oral hygiene. Tooth sensitivity can vary, and it’s best to consult a dentist before it worsens. Treatment options include avoiding certain foods, using specialized toothpaste and toothbrushes, and receiving procedures such as <span className="text-blue-500 font-semibold">fillings, root canals, crowns and tooth extractions</span>.
   </p>
 </div>
 
-
- <div
-  style={{
-    width: "100%",
-    padding: "100px 160px", // ⬅ increased left & right space
-    display: "flex",
-    backgroundColor: "#ffffff",
-  }}
->
+{/* WHEN TO SEE A DENTIST */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* LEFT TEXT */}
-  <div style={{ width: "55%" }}>
-    <h2
-      style={{
-        fontSize: "32px",
-        fontWeight: "700",
-        color: "#0b1f8f",
-        marginBottom: "14px",
-      }}
-    >
-      When to See a Dentist:
-    </h2>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#333",
-        marginBottom: "18px",
-        maxWidth: "520px",
-      }}
-    >
-      Check it out if you’re unsure. Set up a dental appointment as soon as you
-      can if:
+  <div className=" space-y-4">
+    <h2 className="text-[#0a1a5c] text-3xl font-bold mb-4">When to See a Dentist:</h2>
+    <p className="text-sm text-gray-800 mb-4 max-w-[520px]">
+      Check it out if you’re unsure. Set up a dental appointment as soon as you can if:
     </p>
-
-    <ul
-      style={{
-        paddingLeft: "38px",
-        fontSize: "15px",
-        color: "#000",
-        lineHeight: "1.8",
-        marginBottom: "28px",
-        listStyleType: "disc",
-        listStylePosition: "outside",
-      }}
-    >
+    <ul className="list-disc list-outside pl-10 mb-7 text-sm text-black leading-relaxed space-y-1">
       <li>You are in pain</li>
       <li>Pain lasts longer than a day or two</li>
       <li>The pain is severe or unbearable</li>
-      <li>
-        You have a fever, earache or pain when you open your mouth wide
-      </li>
+      <li>You have a fever, earache or pain when you open your mouth wide</li>
     </ul>
-
-    <h3
-      style={{
-        fontSize: "22px",
-        fontWeight: "700",
-        color: "#0b1f8f",
-        marginBottom: "8px",
-      }}
-    >
-      Are You in Pain?
-    </h3>
-
-    <p
-      style={{
-        fontSize: "15px",
-        color: "#333",
-        maxWidth: "520px",
-      }}
-    >
-      For urgent dental care, contact us if you’re in pain. We’ll promptly
-      arrange an appointment for you.
+    <h3 className="text-[#0a1a5c] text-2xl font-bold mb-2">Are You in Pain?</h3>
+    <p className="text-sm text-gray-800 max-w-[520px]">
+      For urgent dental care, contact us if you’re in pain. We’ll promptly arrange an appointment for you.
     </p>
   </div>
 
   {/* RIGHT IMAGE */}
-  <div
-    style={{
-      width: "45%",
-      display: "flex",
-      justifyContent: "center",
-    }}
-  >
-    <img
-      src={thirtyeight} // keep your image
-      alt="Dentist"
-      style={{
-        width: "100%",
-        maxWidth: "620px",
-        borderRadius: "18px",
-        objectFit: "cover",
-      }}
-    />
+  <div className="flex-1">
+    <img src={thirtyeight} alt="Dentist" className="w-full h-full rounded-3xl object-cover" />
   </div>
 </div>
 
-<div
-      style={{
-        width: "100%",
-        backgroundColor: "#f4f8fb",
-        padding: "70px 100px",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "60px",
-        }}
-      >
-        {/* LEFT IMAGE */}
-        <div style={{ flex: "0 0 50%" }}>
-          <img
-            src={thirtynine}
-            alt="Dental treatment"
-            style={{
-              width: "100%",
-              maxWidth: "620px",
-              borderRadius: "18px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-
-        {/* RIGHT CONTENT */}
-        <div style={{ flex: "0 0 50%" }}>
-          <h2
-            style={{
-              fontSize: "30px",
-              fontWeight: "700",
-              color: "#0b1f8f",
-              marginBottom: "18px",
-            }}
-          >
-            Symptoms of Sensitive Teeth:
-          </h2>
-
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "18px",
-              maxWidth: "520px",
-            }}
-          >
-            Pain or discomfort often signals a more severe issue. It may vary or
-            worsen gradually. Chewing can cause sharp pain, while hot or cold
-            liquids may increase the discomfort. Sweet or acidic foods can also
-            heighten sensitivity or tooth soreness.
-          </p>
-
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-              maxWidth: "520px",
-            }}
-          >
-            Cold air or mouth breathing can sometimes worsen sensitivity or
-            pain. Tooth sensitivity occurs when the inner dentin layer is
-            exposed due to enamel wear on the outer layer.
-          </p>
-        </div>
-      </div>
+{/* SYMPTOMS OF SENSITIVE TEETH */}
+<div className="w-full bg-[#f4f8fb] py-18 px-10 lg:px-24">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    {/* LEFT IMAGE */}
+    <div className="flex-1">
+      <img src={thirtynine} alt="Dental treatment" className="w-full h-full rounded-3xl object-cover" />
     </div>
 
-    <div
-      style={{
-        width: "100%",
-        padding: "70px 100px",
-        backgroundColor: "#ffffff",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "flex-start",
-          gap: "60px",
-        }}
-      >
-        {/* LEFT CONTENT */}
-        <div style={{ flex: "0 0 50%" }}>
-          <h2
-            style={{
-              fontSize: "30px",
-              fontWeight: "700",
-              color: "#0b1f8f",
-              marginBottom: "18px",
-            }}
-          >
-            Causes of Teeth Grinding:
-          </h2>
-
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-              marginBottom: "18px",
-              maxWidth: "520px",
-            }}
-          >
-            One of the primary causes of tooth sensitivity is unprotected dentine.
-            There are several possible causes for this. Common causes include plaque
-            buildup, dental decay, receding gums, chips in your tooth, and gum
-            disease. Additional factors include:
-          </p>
-
-          <ul
-            style={{
-              paddingLeft: "38px",
-              marginBottom: "18px",
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.8",
-              listStyleType: "disc",
-              listStylePosition: "outside",
-            }}
-          >
-            <li>Acidic food, drink or mouthwash</li>
-            <li>
-              <span style={{ color: "#1ecad3", fontWeight: "600" }}>
-                Bruxism
-              </span>
-              , or grinding and clenching your teeth
-            </li>
-            <li>Brushing your teeth too hard</li>
-            <li>Some tooth whitening products</li>
-          </ul>
-
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#333",
-              lineHeight: "1.7",
-              maxWidth: "520px",
-            }}
-          >
-            To maintain good oral health, maintain regular dental and hygienist
-            appointments. We all occasionally need reminders of the best oral
-            hygiene practices.
-          </p>
-        </div>
-
-        {/* RIGHT IMAGE */}
-        <div style={{ flex: "0 0 50%" }}>
-          <img
-            src={forty}
-            alt="Dental procedure"
-            style={{
-              width: "100%",
-              maxWidth: "620px",
-              borderRadius: "18px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-      </div>
-    </div>
-
-    <div
-      style={{
-        width: "100%",
-        backgroundColor: "#f3f8fc",
-        padding: "70px 90px",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "flex-start",
-          gap: "60px",
-        }}
-      >
-        {/* LEFT IMAGE */}
-        <div style={{ flex: "0 0 48%" }}>
-          <img
-            src={fortyone}
-            alt="Dental patient preparation"
-            style={{
-              width: "100%",
-              maxWidth: "620px",
-              height: "auto",
-              borderRadius: "18px",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-
-        {/* RIGHT CONTENT */}
-        <div style={{ flex: "0 0 52%" }}>
-          <h2
-            style={{
-              fontSize: "30px",
-              fontWeight: "700",
-              color: "#0b1f8f",
-              marginBottom: "18px",
-            }}
-          >
-            Get Prepared:
-          </h2>
-
-          <p
-            style={{
-              fontSize: "15px",
-              lineHeight: "1.8",
-              color: "#222",
-              marginBottom: "16px",
-            }}
-          >
-            When you schedule an appointment at SmileOn for sensitive or
-            uncomfortable teeth, your primary goal is alleviating your suffering.
-            Understanding what information your dentist will need for an accurate
-            diagnosis and treatment is important. Usually, your dentist will inquire
-            about your medical history before thoroughly examining your oral, dental,
-            jaw, tongue, throat, sinus, ear, nose, and neck areas. Sometimes, an X-ray
-            may be necessary based on your dentist’s assessment of the underlying
-            cause. Your dentist will ask you questions about the pain, such as:
-          </p>
-
-          <ul
-            style={{
-              paddingLeft: "38px",
-              marginBottom: "16px",
-              fontSize: "15px",
-              color: "#222",
-              lineHeight: "1.8",
-              listStyleType: "disc",
-              listStylePosition: "outside",
-            }}
-          >
-            <li>When did the pain start?</li>
-            <li>How severe is it?</li>
-            <li>Where do you feel sensitivity?</li>
-            <li>What makes it worse?</li>
-            <li>What makes it better?</li>
-          </ul>
-
-          <p
-            style={{
-              fontSize: "15px",
-              lineHeight: "1.8",
-              color: "#222",
-            }}
-          >
-            Before to your appointment, consider your responses to these questions.
-            Preparation can hasten the diagnosis.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div style={{ width: "100%", padding: "80px 60px" }}>
-      
-      {/* WHAT NEXT */}
-      <h2
-        style={{
-          textAlign: "center",
-          fontSize: "32px",
-          fontWeight: "700",
-          color: "#0b1f8f",
-          marginBottom: "10px",
-        }}
-      >
-        What Next
-      </h2>
-
-      <p
-        style={{
-          textAlign: "center",
-          fontSize: "15px",
-          color: "#000",
-          maxWidth: "750px",
-          margin: "0 auto 30px",
-          lineHeight: "1.6",
-        }}
-      >
-        Explore therapeutic strategies to gain further insight. Book a dental
-        consultation for detailed information on your concerns.
+    {/* RIGHT CONTENT */}
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-3xl lg:text-3xl font-bold mb-4">Symptoms of Sensitive Teeth:</h2>
+      <p className="text-sm text-gray-800 leading-relaxed mb-4 max-w-[520px]">
+        Pain or discomfort often signals a more severe issue. It may vary or worsen gradually. Chewing can cause sharp pain, while hot or cold liquids may increase the discomfort. Sweet or acidic foods can also heighten sensitivity or tooth soreness.
       </p>
-
-      <div style={{ textAlign: "center", marginBottom: "70px" }}>
-        <button
-          style={{
-            backgroundColor: "#10c6e8",
-            color: "#fff",
-            border: "none",
-            padding: "14px 34px",
-            borderRadius: "30px",
-            fontSize: "15px",
-            fontWeight: "600",
-            cursor: "pointer",
-          }}
-        >
-          Book an Appointment
-        </button>
-      </div>
-
-      {/* FAQs */}
-      <h2
-        style={{
-          textAlign: "center",
-          fontSize: "30px",
-          fontWeight: "700",
-          color: "#0b1f8f",
-          marginBottom: "40px",
-        }}
-      >
-        FAQs
-      </h2>
-
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "20px 30px",
-        }}
-      >
-        {/* LEFT COLUMN */}
-        <div className="faq-item">+&nbsp;&nbsp;01. How much does it cost to treat sensitive teeth?</div>
-        <div className="faq-item">+&nbsp;&nbsp;04. Why are my teeth sore during spring?</div>
-
-        <div className="faq-item">+&nbsp;&nbsp;02. Why are my teeth sore or sensitive?</div>
-        <div className="faq-item">+&nbsp;&nbsp;05. I’m anxious about visiting the dentist.</div>
-
-        <div className="faq-item">+&nbsp;&nbsp;03. How can I treat sensitive teeth?</div>
-        <div className="faq-item">+&nbsp;&nbsp;06. Can sensitive teeth be prevented?</div>
-      </div>
-
-      {/* Inline style for FAQ boxes */}
-      <style>
-        {`
-          .faq-item {
-            background-color: #69bebc;
-            color: #000;
-            padding: 18px 22px;
-            font-size: 15px;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-          }
-        `}
-      </style>
+      <p className="text-sm text-gray-800 leading-relaxed max-w-[520px]">
+        Cold air or mouth breathing can sometimes worsen sensitivity or pain. Tooth sensitivity occurs when the inner dentin layer is exposed due to enamel wear on the outer layer.
+      </p>
     </div>
+  </div>
+</div>
+
+{/* CAUSES OF TEETH GRINDING */}
+<div className="w-full bg-white py-18 px-10 lg:px-24">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    {/* LEFT CONTENT */}
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#0a1a5c] text-2xl lg:text-3xl font-bold mb-4">Causes of Teeth Grinding:</h2>
+      <p className="text-sm text-gray-800 leading-relaxed mb-4 max-w-[520px]">
+        One of the primary causes of tooth sensitivity is unprotected dentine. There are several possible causes for this. Common causes include plaque buildup, dental decay, receding gums, chips in your tooth, and gum disease. Additional factors include:
+      </p>
+      <ul className="list-disc list-outside pl-10 mb-4 text-sm text-gray-800 leading-relaxed space-y-1">
+        <li>Acidic food, drink or mouthwash</li>
+        <li><span className="text-teal-400 font-semibold">Bruxism</span>, or grinding and clenching your teeth</li>
+        <li>Brushing your teeth too hard</li>
+        <li>Some tooth whitening products</li>
+      </ul>
+      <p className="text-sm text-gray-800 leading-relaxed max-w-[520px]">
+        To maintain good oral health, maintain regular dental and hygienist appointments. We all occasionally need reminders of the best oral hygiene practices.
+      </p>
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <div className="flex-1">
+      <img src={forty} alt="Dental procedure" className="w-full h-full rounded-xl object-cover" />
+    </div>
+  </div>
+</div>
+
+{/* GET PREPARED */}
+<div className="w-full bg-[#f3f8fc] py-18 px-10 lg:px-24">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    {/* LEFT IMAGE */}
+    <div className="flex-[0_0_48%]">
+      <img src={fortyone} alt="Dental patient preparation" className="w-full h-full rounded-3xl object-cover" />
+    </div>
+
+    {/* RIGHT CONTENT */}
+    <div className="flex-[0_0_52%] space-y-4">
+      <h2 className="text-[#0a1a5c] text-2xl lg:text-3xl font-bold mb-4">Get Prepared:</h2>
+      <p className="text-sm text-gray-800 leading-relaxed mb-4">
+        When you schedule an appointment at SmileOn for sensitive or uncomfortable teeth, your primary goal is alleviating your suffering. Understanding what information your dentist will need for an accurate diagnosis and treatment is important. Usually, your dentist will inquire about your medical history before thoroughly examining your oral, dental, jaw, tongue, throat, sinus, ear, nose, and neck areas. Sometimes, an X-ray may be necessary based on your dentist’s assessment of the underlying cause. Your dentist will ask you questions about the pain, such as:
+      </p>
+      <ul className="list-disc list-outside pl-10 mb-4 text-sm text-gray-800 leading-relaxed space-y-1">
+        <li>When did the pain start?</li>
+        <li>How severe is it?</li>
+        <li>Where do you feel sensitivity?</li>
+        <li>What makes it worse?</li>
+        <li>What makes it better?</li>
+      </ul>
+      <p className="text-sm text-gray-800 leading-relaxed">
+        Before your appointment, consider your responses to these questions. Preparation can hasten the diagnosis.
+      </p>
+    </div>
+  </div>
+</div>
+
+{/* WHAT NEXT */}
+<div className="max-w-7xl mx-auto py-10 px-5">
+  <h2 className="text-[#0a1a5c] text-3xl lg:text-4xl font-bold text-center mb-4">What Next</h2>
+  <p className="text-sm text-black text-center max-w-[750px] mx-auto mb-8 leading-relaxed">
+    Explore therapeutic strategies to gain further insight. Book a dental consultation for detailed information on your concerns.
+  </p>
+  <div className="text-center mb-16">
+    <button className="bg-[#10c6e8] text-white rounded-full px-9 py-3 font-semibold text-sm hover:opacity-90 transition">
+      Book an Appointment
+    </button>
+  </div>
+
+  {/* FAQ */}
+  <h2 className="text-[#0a1a5c] text-2xl lg:text-3xl font-bold text-center mb-10">FAQs</h2>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-8">
+    {[
+      "01. How much does it cost to treat sensitive teeth?",
+      "02. Why are my teeth sore or sensitive?",
+      "03. How can I treat sensitive teeth?",
+      "04. Why are my teeth sore during spring?",
+      "05. I’m anxious about visiting the dentist.",
+      "06. Can sensitive teeth be prevented?"
+    ].map((faq, idx) => (
+      <div key={idx} className="bg-[#69bebc] text-black px-3 py-3 flex items-center font-medium cursor-pointer rounded-lg">
+        <span className="mr-2 font-bold">+</span> {faq}
+      </div>
+    ))}
+  </div>
+</div>
+
 
   <div className="w-full h-[180px] overflow-hidden mt-4">
     <iframe
