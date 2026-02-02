@@ -14,34 +14,22 @@ export default function CrookedTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+          bg-cover bg-[center_65%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${seventyeight})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Crooked Teeth Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/CosmeticImprovement/crookedteeth"></Link>}
 
-
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: " 40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+<div className="max-w-7xl mx-auto px-6 py-10">
   <p>
 We know how crooked teeth can affect appearance and confidence level. That’s why at SmileExpert, we provide you with a choice of the most effective and cost-saving crooked teeth treatment.It will help you get the perfect straight smile you desire.<br/> 
 If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured that we have the right skills to give you the desired outcomes. For all your dental problems, we are here to help you.
@@ -82,11 +70,11 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
     </div>
 
     {/* Right Image */}
-    <div className="w-full h-[420px] rounded-2xl overflow-hidden">
+    <div className="flex-1">
       <img
         src={seventynine}
         alt="Dental consultation"
-        className="w-full h-full object-cover"
+        className="w-full h-full rounded-3xl object-cover"
       />
     </div>
 
@@ -94,17 +82,17 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
 </div>
 
 
-<div class="flex flex-col md:flex-row items-center md:items-start gap-8 p-8 bg-white">
+<div class="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center md:items-start gap-8">
   
-  <div class="md:w-1/2">
+  <div class="flex-1">
     <img 
       src={eighty} 
       alt="Dentist checking teeth" 
-      className="w-[620px] h-[400px] object-cover rounded-lg ml-28"
+      className="w-full h-full object-cover rounded-lg"
     />
   </div>
 
-  <div class="md:w-1/2">
+  <div class="flex-1">
     <h2 class="text-3xl md:text-4xl text-[#0b1c63] mb-4">Causes Of Crooked Teeth</h2>
     <p class="text-gray-700 mb-4">
       Misaligned or crooked teeth may occur as a result of genetic issues or in response to specific influences in your environment. Knowing the origin of the problem can help select the right treatment for crooked teeth. Common causes of crooked teeth include:
@@ -124,7 +112,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
 
 <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center md:items-start gap-8">
   {/* LEFT TEXT */}
-  <div className="md:w-1/2">
+  <div className="flex-1">
     <h2 className="text-3xl md:text-4xl text-[#0b1c63] mb-4">
       Crooked Teeth Treatment Option
     </h2>
@@ -159,11 +147,11 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
   </div>
 
   {/* RIGHT IMAGE */}
-  <div className="md:w-1/2">
+  <div className="flex-1">
     <img
       src={eightyone}
       alt="Dentist treating patient"
-      className="rounded-lg w-full object-cover"
+      className="rounded-3xl w-full h-full object-cover"
     />
   </div>
 </div>
@@ -174,18 +162,18 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
   <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center px-10">
 
     {/* Image Section */}
-    <div className=" lg:h-[410px] w-[650px] -ml-16 ">
+    <div className=" flex-1 ">
   <img
     src={eightytwo}
     alt="Dental Treatment"
-    className="rounded-lg w-full object-cover"
+    className="rounded-3xl h-full w-full object-cover"
   />
 </div>
 
 
 
     {/* Content Section */}
-    <div className="max-w-xl">
+    <div className="flex-1">
       <h2 className="text-3xl md:text-4xl text-[#0b1c63] mb-3">
         Get Prepared
       </h2>
