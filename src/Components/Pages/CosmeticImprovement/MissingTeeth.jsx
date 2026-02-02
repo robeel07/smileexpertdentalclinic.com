@@ -17,706 +17,163 @@ export default function MissingTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_65%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_65%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${sixtytwo})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Missing Teeth Treatment in Khanewal
     </h1>
-  </div>
 </div>
     </div>
 
-    {<Link to="/CosmeticImprovement/missingteeth"></Link>}
 
+      {/* INTRO TEXT */}
+      <div className="max-w-7xl mx-auto my-10 p-5 text-[16px] leading-[1.8] text-[#333] text-justify">
+        <p>
+          Missing teeth can have a negative impact on your smile and self-confidence.
+          Fortunately, there are solutions available. Tooth replacement can improve
+          your chewing ability, facial aesthetics and speech.
+          <span className="text-[#0aa6ff] font-bold"> Dental implants</span>, mini implants,
+          <span className="text-[#0aa6ff] font-bold"> fixed bridges</span>, and removable or
+          implant support <span className="text-[#0aa6ff] font-bold"> dentures</span> are
+          among the treatment options.
+        </p>
+      </div>
 
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: " 40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
-  <p>
-Missing teeth can have a negative impact on your smile and self-confidence. Fortunately, there are solutions available. Tooth replacement can improve your chewing ability,facial aesthetics and speech. <span style={{color :"#0aa6ff", fontWeight: "700" }}>Dental implants</span>, mini implants, <span style={{color :"#0aa6ff", fontWeight: "700" }}>fixed bridges</span>, and removable or implant support <span style={{color :"#0aa6ff", fontWeight: "700" }}>dentures</span> are among the treatment options. Consult with your dentist to explore the available choices.
-  </p>
-</div>
+      {/* CAUSES SECTION */}
+      <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="flex-1">
+            <img
+              src={sixtythree}
+              alt="Dental checkup"
+              className="w-full h-full rounded-3xl object-cover"
+            />
+          </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    boxSizing: "border-box",
-  }}
->
-  {/* TOP SECTION */}
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "20px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT IMAGE */}
-    <div
-      style={{
-        flex: "1 1 480px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <img
-        src={sixtythree}
-        alt="Dental checkup"
-        style={{
-          width: "100%",
-          maxWidth: "620px",
-          height: "400px",
-          borderRadius: "24px",
-          objectFit: "cover",
-        }}
-      />
-    </div>
+          <div className="flex-1">
+            <h2 className="text-[32px] text-[#0a1b5c] mb-4">
+              Causes of Missing Teeth
+            </h2>
 
-    {/* RIGHT CONTENT */}
-    <div
-      style={{
-        flex: "1 1 500px",
-        maxWidth: "620px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a2db3",
-          marginBottom: "16px",
-        }}
-      >
-        Causes of Missing Teeth
-      </h2>
+            <p className="text-[16px] leading-[1.7] text-black mb-3">
+              There are multiple causes for missing teeth, some major ones are:
+            </p>
 
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.7",
-          color: "#000",
-          marginBottom: "14px",
-        }}
-      >
-        There are multiple causes for missing teeth, some major ones are:
-      </p>
+            <ul className="pl-[50px] mb-3 list-disc text-[16px] leading-[1.8] text-black">
+              <li>Tooth decay and cavities</li>
+              <li>Gum diseases</li>
+              <li>Injury or accident</li>
+              <li>Age factor</li>
+              <li>Poor oral hygiene</li>
+            </ul>
 
-      <ul
-        style={{
-          paddingLeft: "50px",
-          marginBottom: "14px",
-          listStyleType: "disc",
-          lineHeight: "1.8",
-          fontSize: "16px",
-          color: "#000",
-        }}
-      >
-        <li>Tooth decay and cavities</li>
-        <li>Gum diseases</li>
-        <li>Injury or accident</li>
-        <li>Age factor</li>
-        <li>Poor oral hygiene</li>
-      </ul>
+            <p className="text-[16px] leading-[1.7] text-black">
+              Apart from these, there are genetic causes like hypodontia.
+            </p>
+          </div>
+      </div>
 
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.7",
-          color: "#000",
-        }}
-      >
-        Apart from these, there are genetic causes like hypodontia. In this, a
-        person has one or more missing teeth at birth. We offer effective
-        hypodontia treatment options.
-      </p>
-    </div>
-  </div>
+      <div className=" w-full px-3 py-3 mt-9 text-center">
+          <h2 className="text-[32px] align-center text-[#0a1b5c] mb-3">
+            Missing Teeth Solutions at SmileExpert
+          </h2>
 
-  {/* BOTTOM HEADING */}
-  <div style={{ marginTop: "80px", textAlign: "center" }}>
-    <h2
-      style={{
-        fontSize: "32px",
-        color: "#0a2db3",
-        marginBottom: "12px",
-      }}
-    >
-      Missing Teeth Solutions at SmileExpert
-    </h2>
+          <p className="text-[16px] leading-[1.7] text-black max-w-[1300px] mx-auto">
+            We provide various missing teeth treatment options that restore both
+            aesthetics and functionality.
+          </p>
+        </div>
 
-    <p
-      style={{
-        fontSize: "16px",
-        color: "#000",
-        maxWidth: "1300px",
-        margin: "0 auto",
-        lineHeight: "1.7",
-      }}
-    >
-      We provide various missing teeth treatment options that restore both
-      aesthetics and functionality.
-    </p>
-  </div>
-</div>
+      {/* IMPLANTS */}
+      <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="flex-1">
+            <h2 className="text-[32px] text-[#0a1b5c] mb-4">
+              Dental Implants Surgery
+            </h2>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 150px",
-    boxSizing: "border-box",
-    backgroundColor: "#f4f9fd",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "40px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT CONTENT */}
-    <div
-      style={{
-        flex: "1 1 520px",
-        maxWidth: "600px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a2db3",
-          marginBottom: "20px",
-        }}
-      >
-        Dental Implants Surgery
-      </h2>
+            <p className="text-[16px] leading-[1.7] text-black mb-2">
+              For individuals with one or multiple missing teeth in different areas of their mouth, a dental implant offers a potential solution. It involves a surgical procedure where an implant or screw is placed in the jaw, serving as a permanent foundation for a missing tooth.
+            </p>
 
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.7",
-          color: "#000",
-          marginBottom: "16px",
-        }}
-      >
-        For individuals with one or multiple missing teeth in different areas
-        of their mouth, a dental implant offers a potential solution. It involves
-        a surgical procedure where an implant or screw is placed in the jaw,
-        serving as a permanent foundation for a missing tooth.
-      </p>
+            <p className="text-[16px] leading-[1.7] text-black">
+              The implant is topped with a <span className="font-semibold text-[#0aa6ff]"> crown</span> that closely resembles a natural tooth and can last for many years. Importantly, neighboring teeth remain unaffected by the implant.
+            </p>
+          </div>
 
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.7",
-          color: "#000",
-        }}
-      >
-        The implant is topped with a{" "}
-        <span style={{ fontWeight: "600", color: "#0aa6ff" }}>
-          crown
-        </span>{" "}
-        that closely resembles a natural tooth and can last for many years.
-        Importantly, neighboring teeth remain unaffected by the implant.
-      </p>
-    </div>
+          <div className="flex-1">
+            <img
+              src={sixtyfour}
+              alt="Dental implant"
+              className="w-full h-full rounded-3xl object-cover"
+            />
+          </div>
+      </div>
 
-    {/* RIGHT IMAGE */}
-    <div
-      style={{
-        flex: "1 1 480px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <img
-        src={sixtyfour}
-        alt="Dental implant illustration"
-        style={{
-          width: "100%",
-          maxWidth: "620px",
-          height: "400px",
-          borderRadius: "24px",
-          objectFit: "cover",
-        }}
-      />
-    </div>
-  </div>
-</div>
+      {/* WHAT NEXT */}
+      <div className="w-full px-10 py-20 bg-white text-center">
+        <h2 className="text-[34px] text-[#0a1b5c] mb-4">What Next</h2>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 130px",
-    backgroundColor: "#f4f9fd",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "60px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT IMAGE */}
-    <div
-      style={{
-        flex: " 520px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <img
-        src={sixtyfive}
-        alt="Implant supported dentures illustration"
-        style={{
-          width: "100%",
-          maxWidth: "620px",
-          height: "400px",
-          borderRadius: "24px",
-          objectFit: "cover",
-        }}
-      />
-    </div>
+        <p className="max-w-7xl mx-auto mb-12 text-[16px] leading-[1.7] text-black">
+          <span className="text-[#00a6ff] cursor-pointer">Book online</span> or call
+          <strong> 0300-8395562</strong>
+        </p>
 
-    {/* RIGHT CONTENT */}
-    <div
-      style={{
-        flex: " 420px",
-        maxWidth: "600px",
-        marginRight: "50px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a2db3",
-          marginBottom: "20px",
-        }}
-      >
-        Implant Supported Dentures
-      </h2>
+        <div className="flex flex-wrap justify-center gap-8">
+          {[
+            { title: "Bridges", icon: <RiToothFill /> },
+            { title: "Dentures", icon: <LiaTeethSolid /> },
+            { title: "Dental Implants", icon: <PiToothFill /> },
+            { title: "Crowns", icon: <RiToothFill /> },
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="w-[260px] h-[150px] bg-white rounded-[18px]
+                         shadow-[0_10px_25px_rgba(0,0,0,0.08)]
+                         flex flex-col items-center justify-center gap-4"
+            >
+              <div className="text-[42px] text-sky-400">{item.icon}</div>
+              <h4 className="text-[18px] text-[#0a2db3]">{item.title}</h4>
+            </div>
+          ))}
+        </div>
+      </div>
 
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.7",
-          color: "#000",
-          marginBottom: "16px",
-        }}
-      >
-        Unlike conventional dentures that sit on the gums, implant supported
-        dentures are attached to the implants placed in the jaw.
-      </p>
+      {/* FAQ */}
+      <div className="px-10 py-12 bg-white">
+        <h2 className="text-center text-[36px] text-[#0a1b5c] mb-12">FAQs</h2>
 
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.7",
-          color: "#000",
-        }}
-      >
-        This treatment is suitable when there are no teeth present in the jaw
-        but there is sufficient bone to support the implants.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div
-  style={{
-    width: "100%",
-    padding: "40px 150px",
-    backgroundColor: "#ffffff",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "60px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT CONTENT */}
-    <div
-      style={{
-        flex: "520px",
-        maxWidth: "620px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a2db3",
-          marginBottom: "15px",
-        }}
-      >
-        Fixed Bridge
-      </h2>
-
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.5",
-          color: "#000",
-          marginBottom: "10px",
-        }}
-      >
-        A fixed bridge might work for you if you have a single missing tooth or
-        more than one missing tooth in the same area{" "}
-        <span style={{ color: "#0aa6ff", fontWeight: "500" }}>bridge</span>{" "}
-        might work for you. As the name suggests, this solution bridges a gap
-        from a missing tooth. A dental bridge consists of{" "}
-        <strong>abutments</strong> (natural tooth serving as a pillar to support)
-        and <strong>pontic</strong> (artificial teeth that will “bridge the gap”
-        in your smile).
-      </p>
-
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.5",
-          color: "#000",
-        }}
-      >
-        The artificial tooth is supported by adjacent natural teeth and bonded
-        to them with dental cement. A dental bridge closely resembles and serves
-        almost the same purpose as natural teeth.
-      </p>
-    </div>
-
-    {/* RIGHT IMAGE */}
-    <div
-      style={{
-        flex: " 520px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <img
-        src={sixtysix}
-        alt="Fixed dental bridge illustration"
-        style={{
-          width: "120%",
-          maxWidth: "620px",
-          height: "400px",
-          borderRadius: "24px",
-          objectFit: "cover",
-        }}
-      />
-    </div>
-  </div>
-</div>
-
-<div
-  style={{
-    width: "100%",
-    padding: "40px 120px",
-    backgroundColor: "#f3f8fd",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      alignItems: "flex-start",
-      justifyContent: "space-between",
-      gap: "60px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT IMAGE */}
-    <div
-      style={{
-        flex: "520px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <img
-        src={sixtyseven}
-        alt="Dental consultation"
-        style={{
-          width: "100%",
-          maxWidth: "620px",
-          height: "400px",
-          borderRadius: "24px",
-          objectFit: "cover",
-        }}
-      />
-    </div>
-
-    {/* RIGHT CONTENT */}
-    <div
-      style={{
-        flex: " 520px",
-        maxWidth: "650px",
-        marginTop: "35px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a2db3",
-          marginBottom: "10px",
-        }}
-      >
-        Get Prepared For Treatment
-      </h2>
-
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.5",
-          color: "#000",
-          marginBottom: "8px",
-        }}
-      >
-        When you schedule an appointment at SmileOn to address a missing tooth
-        or teeth, after consultation you will be provided with all the required
-        information and options that will be suitable according to your case.
-        Generally your dentist will ask you about your medical history and will
-        then thoroughly examine your mouth, teeth, gums, jaw, tongue, throat,
-        sinuses, ears, nose and neck. You may also need an x-ray, depending on
-        your situation.
-      </p>
-
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.5",
-          color: "#000",
-          marginBottom: "10px",
-        }}
-      >
-        Your dentist may ask you some questions about your missing teeth
-        treatment such as:
-      </p>
-
-      <ul
-        style={{
-          paddingLeft: "40px",
-          marginBottom: "16px",
-          color: "#000",
-          fontSize: "16px",
-          listStyleType: "disc",
-          lineHeight: "1.5",
-        }}
-      >
-        <li>How long has it been like this?</li>
-        <li>Are you experiencing any pain?</li>
-        <li>Does it affect how you eat or drink?</li>
-      </ul>
-
-      <p
-        style={{
-          fontSize: "16px",
-          lineHeight: "1.5",
-          color: "#000",
-        }}
-      >
-        Prepare your answers to these questions prior to your appointment to
-        expedite the diagnosis.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div
-  style={{
-    width: "100%",
-    padding: "80px 40px",
-    backgroundColor: "#ffffff",
-    boxSizing: "border-box",
-    textAlign: "center",
-  }}
->
-  {/* HEADING */}
-  <h2
-    style={{
-      fontSize: "34px",
-      color: "#0a2db3",
-      marginBottom: "14px",
-    }}
-  >
-    What Next
-  </h2>
-
-  {/* DESCRIPTION */}
-  <p
-    style={{
-      maxWidth: "1300px",
-      margin: "0 auto 50px",
-      fontSize: "16px",
-      lineHeight: "1.7",
-      color: "#000",
-    }}
-  >
-    Explore treatment options by reviewing potential procedures. We suggest
-    scheduling a consultation with a dentist for personalized advice regarding
-    your symptoms.{" "}
-    <span style={{ color: "#00a6ff", cursor: "pointer" }}>Book online</span> or
-    call <strong>0300-8395562</strong> for an appointment.
-  </p>
-
-  {/* CARDS */}
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    gap: "30px",
-    flexWrap: "wrap",
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-8 max-w-7xl mx-auto">
+          {[
+            "How to fix missing teeth without implants?",
+            "What is the best way to replace missing teeth?",
+            "How much will it cost?",
+            "I’ve had an accident and lost a tooth, what should I do?",
+            " I have loose teeth, what should I do?",
+            "Does it matter if I have missing teeth?",
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="bg-[#69bfbf] hover:bg-[#58b0b0]
+                         transition-all duration-300
+                         p-[18px_24px] rounded
+                         flex items-center gap-4 cursor-pointer
+                         hover:-translate-y-0.5"
+            >
+              <span className="text-[22px] font-bold">+</span>
+              <span className="text-[15px]">{item}</span>
+            </div>
+          ))}
+        </div>
+      </div>
     
+  
 
-  }}
->
-  {[
-    { title: "Bridges", icon: <RiToothFill /> },
-    { title: "Dentures", icon: <LiaTeethSolid /> },
-    { title: "Dental Implants", icon: <PiToothFill /> },
-    { title: "Crowns", icon: <RiToothFill /> },
-  ].map(({ title, icon }, index) => (
-    <div
-      key={index}
-      style={{
-        width: "260px",
-        height: "150px",
-        backgroundColor: "#fff",
-        borderRadius: "18px",
-        boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: "14px",
-      }}
-    >
-      {/* ICON */}
-      <div style={{ fontSize: "42px", color: "#38bdf8" }}>
-        {icon}
-      </div>
 
-      {/* TITLE */}
-      <h4
-        style={{
-          fontSize: "18px",
-          color: "#0a2db3",
-          margin: 0,
-        }}
-      >
-        {title}
-      </h4>
-    </div>
-  ))}
-</div>
-</div>
-
-<div
-  style={{
-    padding: "80px 40px",
-    backgroundColor: "#fff",
-  }}
->
-  {/* TITLE */}
-  <h2
-    style={{
-      textAlign: "center",
-      fontSize: "36px",
-      color: "#0a2db3",
-      marginBottom: "50px",
-    }}
-  >
-    FAQs
-  </h2>
-
-  {/* FAQ GRID */}
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: "20px 30px",
-      maxWidth: "1200px",
-      margin: "0 auto",
-    }}
-  >
-    {[
-      "01. How to fix missing teeth without implants?",
-      "02. What is the best way to replace missing teeth?",
-      "03. How much will it cost to replace a missing tooth?",
-      "04. Does it matter if I have missing teeth?",
-      "05. Why is replacement of missing teeth important?",
-      "06. I’ve had an accident and lost a tooth, what should I do?",
-      "07. I have loose teeth, what should I do?",
-      "08. My child has lost a baby tooth, what should I do?",
-      "09. Can I prevent losing my teeth?",
-    ].map((item, index) => (
-      <div
-        key={index}
-        style={{
-          backgroundColor: "#69bfbf",
-          color: "#000",
-          padding: "18px 24px",
-          borderRadius: "4px",
-          display: "flex",
-          alignItems: "center",
-          gap: "14px",
-          cursor: "pointer",
-          transition: "all 0.3s ease",
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = "#58b0b0";
-          e.currentTarget.style.transform = "translateY(-2px)";
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = "#69bfbf";
-          e.currentTarget.style.transform = "translateY(0)";
-        }}
-      >
-        {/* PLUS */}
-        <span
-          style={{
-            fontSize: "22px",
-            fontWeight: "bold",
-          }}
-        >
-          +
-        </span>
-
-        {/* TEXT */}
-        <span
-          style={{
-            fontSize: "15px",
-          }}
-        >
-          {item}
-        </span>
-      </div>
-    ))}
-  </div>
-</div>
 
 <div className="w-full h-[180px] overflow-hidden mt-4">
   <iframe

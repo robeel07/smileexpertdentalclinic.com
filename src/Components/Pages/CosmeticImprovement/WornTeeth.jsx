@@ -14,607 +14,171 @@ export default function WornTeeth() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_25%]"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_25%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${sixtyeight})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
       Worn Teeth Treatment in Khanewal
     </h1>
   </div>
-</div>
     </div>
 
-    {<Link to="/CosmeticImprovement/wornteeth"></Link>}
 
 
-<div
-  style={{
-    maxWidth: "1300px",
-    margin: " 40px auto",
-    padding: " 20px",
-    lineHeight: "1.8",
-    fontSize: "16px",
-    color: "#333",
-    textAlign: "justify",
-  }}
->
+{/* INTRO TEXT */}
+<div className="max-w-7xl mx-auto my-6 p-5 text-[16px] leading-[1.8] text-[#333] text-justify">
   <p>
-Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s outer surface. This outer layer, called enamel, protects against sensitivity to hot, cold, and sugary foods and drinks while providing the white color of teeth. Such teeth can give you a bad outlook and causing other dental issues. You lose your tooth enamel, which means that care from a young age must be taken to maintain appropriately strong jaws. Our worn down teeth treatment includes veneers, <span style={{color :"#0aa6ff", fontWeight: "700" }}>dental crowns,</span> or dental bonding. It can help heal and strengthen your teeth and prevent future wear. At SmileExpert Dental, our qualified dentists know how to restore worn teeth, reduce pain, and enhance your smile to last a lifetime of happiness. Say no to dull teeth anymore; visit our clinic to protect tooth enamel.
+    Worn teeth refer to the gradual erosion, abrasion, and loss of the tooth’s
+    outer surface. This outer layer, called enamel, protects against sensitivity
+    to hot, cold, and sugary foods and drinks while providing the white color of
+    teeth. Our worn down teeth treatment includes veneers,
+    <span className="text-[#0aa6ff] font-bold"> dental crowns </span>
+    or dental bonding to strengthen and protect teeth enamel.
   </p>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "40px 170px",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    gap: "40px",
-    flexWrap: "wrap", // makes it responsive
-    boxSizing: "border-box",
-  }}
->
-  {/* LEFT CONTENT */}
-  <div
-    style={{
-      flex: "1 1 480px",
-      maxWidth: "600px",
-    }}
-  >
-    <h2
-      style={{
-        fontSize: "32px",
-        color: "#0a1a7a",
-        marginBottom: "20px",
-      }}
-    >
+{/* SYMPTOMS SECTION */}
+<div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+  <div className="flex-1">
+    <h2 className="text-[28px] text-[#0a1b5c] mb-4">
       Symptoms of worn teeth
     </h2>
 
-    <p
-      style={{
-        fontSize: "15px",
-        lineHeight: "1.7",
-        color: "#333",
-        marginBottom: "20px",
-      }}
-    >
-      It can sometimes be difficult to recognize when you need to make changes
-      to your teeth. However, if you notice these signs, it may be time for
-      expert care and tooth enamel restoration treatment:
+    <p className="text-[15px] leading-[1.7] text-[#333] mb-4">
+      If you notice these signs, it may be time for expert tooth enamel
+      restoration treatment:
     </p>
 
-    <ul
-      style={{
-        paddingLeft: "40px",
-        marginBottom: "20px",
-        color: "#333",
-        lineHeight: "1.8",
-        fontSize: "15px",
-        listStyleType: "disc",
-      }}
-    >
+    <ul className="list-disc pl-10 mb-4 text-[15px] leading-[1.8] text-[#333]">
       <li>
-        <span style={{ color :"#0aa6ff", fontWeight: "700"  }}>
-          Yellow teeth
-        </span>{" "}
-        result from the loss of enamel
+        <span className="text-[#0aa6ff] font-bold">Yellow teeth</span> from enamel loss
       </li>
-      <li>Sensitive teeth when eating foods that are hot, cold or sweet</li>
+      <li>Sensitivity to hot, cold or sweet foods</li>
       <li>Worn or damaged teeth due to bruxism</li>
-      <li>Uneven external surface of the teeth</li>
-      <li>Feeling discomfort while chewing</li>
+      <li>Uneven tooth surfaces</li>
+      <li>Pain while chewing</li>
     </ul>
 
-    <p
-      style={{
-        fontSize: "15px",
-        lineHeight: "1.7",
-        color: "#333",
-      }}
-    >
-      So, if you have any of these symptoms, please do not hesitate and take
-      care of your teeth with the help of a tooth enamel repair dentist.
+    <p className="text-[15px] leading-[1.7] text-[#333]">
+      Early treatment can help prevent further damage.
     </p>
   </div>
 
-  {/* RIGHT IMAGE */}
-  <div
-    style={{
-      flex: " 420px",
-      display: "flex",
-      justifyContent: "center",
-    }}
-  >
+  <div className="flex-1">
     <img
       src={sixtynine}
       alt="Dental checkup"
-      style={{
-        width: "120%",
-        maxWidth: "620px",
-        borderRadius: "20px",
-        objectFit: "cover",
-      }}
+      className="w-full h-full rounded-3xl object-cover"
     />
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    backgroundColor: "#f4f9fd",
-    padding: "60px 140px",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      maxWidth: "1250px",
-      margin: "0 auto",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "40px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT IMAGE */}
-    <div
-      style={{
-        flex: " 480px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
+{/* CAUSES SECTION */}
+<div className="w-full bg-[#f4f9fd] px-6 py-10">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div className="flex-1">
       <img
         src={seventy}
         alt="Dental treatment"
-        style={{
-          width: "100%",
-          maxWidth: "620px",
-          borderRadius: "20px",
-          objectFit: "cover",
-        }}
+        className="w-full h-full rounded-3xl object-cover"
       />
     </div>
 
-    {/* RIGHT CONTENT */}
-    <div
-      style={{
-        flex: " 500px",
-        maxWidth: "600px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a1a7a",
-          marginBottom: "10px",
-        }}
-      >
+    <div className="flex-1">
+      <h2 className="text-[28px] text-[#0a1b5c] mb-3">
         Causes of worn teeth
       </h2>
 
-      <p
-        style={{
-          fontSize: "15px",
-          lineHeight: "1.7",
-          color: "#333",
-          marginBottom: "10px",
-        }}
-      >
-        It is important to learn the causes of worn teeth so you do not
-        aggravate the situation and go for worn-down teeth treatment. If the
-        situation is left unaddressed, then you experience sensitivity, and
-        pain, so go for tooth enamel erosion restoration before it gets late.
-        <strong> Common causes include:</strong>
+      <p className="text-[15px] leading-[1.7] text-[#333] mb-3">
+        It is important to learn the causes of worn teeth so you do not aggravate the situation and go for worn-down teeth treatment. If the situation is left unaddressed, then you experience sensitivity, and pain, so go for tooth enamel erosion restoration before it gets late. Common causes include:It is important to learn the causes of worn teeth so you do not aggravate the situation and go for worn-down teeth treatment. If the situation is left unaddressed, then you experience sensitivity, and pain, so go for tooth enamel erosion restoration before it gets late. <span className="font-bold">Common causes include:</span> 
       </p>
 
-      {/* BULLET LIST */}
-      <ul
-        style={{
-          listStyle: "none",
-          paddingLeft: "30px",
-          marginBottom: "5px",
-        }}
-      >
+      <ul className="space-y-1 pl-6 mb-3">
         {[
-          "Consuming fruits and foods of an acidic nature often.",
-          <>
-            Includes tooth grinding{" "}
-            <span style={{ color: "#1a73e8", fontWeight: "600" }}>
-              (bruxism)
-            </span>
-          </>,
+          "Frequent acidic food intake",
+          "Tooth grinding (bruxism)",
           "Age-related enamel thinning",
           "Not drinking enough water",
-          "Brushing your teeth too hard",
-        ].map((item, index) => (
-          <li
-            key={index}
-            style={{
-              display: "flex",
-              alignItems: "flex-start",
-              gap: "10px",
-              marginBottom: "10px",
-              fontSize: "15px",
-              color: "#333",
-            }}
-          >
-            <span
-              style={{
-                width: "7px",
-                height: "7px",
-                backgroundColor: "#000",
-                borderRadius: "50%",
-                marginTop: "8px",
-                flexShrink: 0,
-              }}
-            ></span>
+          "Brushing too hard",
+        ].map((item, i) => (
+          <li key={i} className="flex gap-3 text-[15px] text-[#333]">
+            <span className="w-[7px] h-[7px] bg-black rounded-full mt-2 shrink-0"></span>
             <span>{item}</span>
           </li>
         ))}
       </ul>
 
-      <p
-        style={{
-          fontSize: "15px",
-          lineHeight: "1.7",
-          color: "#333",
-        }}
-      >
-        If your teeth are beginning to look dull and aged, get in touch with us
-        and learn how we can help restore and protect teeth enamel!
+      <p className="text-[15px] leading-[1.7] text-[#333]">
+        If your teeth are beginning to look dull and aged, get in touch with us and learn how we can help restore and protect teeth enamel!
       </p>
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "60px 160px",
-    boxSizing: "border-box",
-  }}
->
-  <div
-    style={{
-      maxWidth: "1250px",
-      margin: "0 auto",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "40px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT CONTENT */}
-    <div
-      style={{
-        flex: "500px",
-        maxWidth: "600px",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "32px",
-          color: "#0a1a7a",
-          marginBottom: "18px",
-        }}
-      >
+{/* TOOTH ENAMEL SECTION */}
+<div className="w-full px-6 md:px-16 lg:px-[160px] py-14">
+  <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div className="flex-1 min-w-[280px] max-w-[600px]">
+      <h2 className="text-[28px] md:text-[32px] text-[#0a1b5c] mb-4">
         What is Tooth Enamel?
       </h2>
 
-      <p
-        style={{
-          fontSize: "15px",
-          lineHeight: "1.8",
-          color: "#333",
-          marginBottom: "15px",
-        }}
-      >
-        Enamel is a thin outer layer of your teeth, protecting your teeth from
-        sensitivity and damage in your everyday life. It is one of the
-        strongest tissues in the human body and can protect from chewing,
-        biting, and acids. Nonetheless, enamel is different from most tissues
-        of the body in that it cannot regenerate once it has been damaged.
+      <p className="text-[15px] leading-[1.8] text-[#333] mb-3">
+        Enamel is a thin outer layer of your teeth, protecting your teeth from sensitivity and damage in your everyday life. It is one of the strongest tissues in the human body and can protect from chewing, biting, and acids. Nonetheless, enamel is different from most tissues of the body in that it cannot regenerate once it has been damaged.
       </p>
 
-      <p
-        style={{
-          fontSize: "15px",
-          lineHeight: "1.8",
-          color: "#333",
-        }}
-      >
-        The primary problem that develops when enamel wear is the sensitivity
-        and the yellowish shade of teeth, as well as cavity proneness. In cases
-        where your enamel is worn out, treatments such as tooth enamel erosion
-        restoration can be done to save the teeth. As well as regain their
-        functionality.
+      <p className="text-[15px] leading-[1.8] text-[#333]">
+        The primary problem that develops when enamel wear is the sensitivity and the yellowish shade of teeth, as well as cavity proneness. In cases where your enamel is worn out, treatments such as tooth enamel erosion restoration can be done to save the teeth. As well as regain their functionality.
       </p>
     </div>
 
-    {/* RIGHT IMAGE */}
-    <div
-      style={{
-        flex: "480px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
+    <div className="flex-1">
       <img
         src={seventyone}
-        alt="Dental treatment"
-        style={{
-          width: "100%",
-          maxWidth: "620px",
-          borderRadius: "20px",
-          objectFit: "cover",
-        }}
+        alt="Dental enamel"
+        className="w-full h-full rounded-3xl object-cover"
       />
     </div>
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "80px 40px",
-    boxSizing: "border-box",
-    textAlign: "center",
-  }}
->
-  {/* HEADING */}
-  <h2
-    style={{
-      fontSize: "30px",
-      color: "#0a1a7a",
-      marginBottom: "12px",
-    }}
-  >
+{/* CALL TO ACTION */}
+<div className="w-full text-center px-6 py-20">
+  <h2 className="text-[28px] md:text-[30px] text-[#0a1b5c]  mb-3">
     In Pain? Call us Now
   </h2>
 
-  <p
-    style={{
-      maxWidth: "1250px",
-      margin: "0 auto 50px",
-      fontSize: "15px",
-      lineHeight: "1.8",
-      color: "#333",
-    }}
-  >
-    It’s advisable to consult a specialist dentist who deals with worn teeth. For
-    personalized advice regarding your symptoms, schedule an appointment with a
-    dentist specializing in worn teeth treatment. You can{" "}
-    <span style={{ color :"#0aa6ff", fontWeight: "700"  }}>
-      book online
-    </span>{" "}
-    or call{" "}
-    <span style={{ color :"#0aa6ff", fontWeight: "700"  }}>
-      0300-8395562
-    </span>
-    .
+  <p className="max-w-[1250px] mx-auto mb-12 text-[15px] leading-[1.8] text-[#333]">
+    <span className="text-[#0aa6ff] font-bold">Book online</span> or call
+    <span className="text-[#0aa6ff] font-bold"> 0300-8395562</span>
   </p>
 
-  {/* CARDS */}
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      gap: "30px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* CARD 1 */}
-    <div
-      style={{
-        width: "300px",
-        backgroundColor: "#fff",
-        borderRadius: "18px",
-        padding: "50px 20px",
-        boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
-      }}
-    >
-      {/* ICON */}
-      <img
-        src={seventyfour}
-        alt="Prosthodontist"
-        style={{
-          width: "70px",
-          height: "70px",
-          objectFit: "contain",
-          marginBottom: "20px",
-          marginLeft: "90px",
-        }}
-      />
-
-      <h4
-        style={{
-          fontSize: "16px",
-          color: "#0a1a7a",
-        }}
+  <div className="flex justify-center gap-8 flex-wrap">
+    {[
+      { img: seventyfour, title: "Prosthodontist Services" },
+      { img: seventytwo, title: "Fillings" },
+      { img: seventythree, title: "Crowns" },
+    ].map((card, i) => (
+      <div
+        key={i}
+        className="w-[300px] bg-white rounded-[18px] px-5 py-12 shadow-[0_10px_30px_rgba(0,0,0,0.08)]"
       >
-        Prosthodontist Services
-      </h4>
-    </div>
-
-    {/* CARD 2 */}
-    <div
-      style={{
-        width: "300px",
-        backgroundColor: "#fff",
-        borderRadius: "18px",
-        padding: "50px 20px",
-        boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
-      }}
-    >
-      <img
-        src={seventytwo}
-        alt="Fillings"
-        style={{
-          width: "70px",
-          height: "70px",
-          objectFit: "contain",
-          marginBottom: "20px",
-          marginLeft: "90px",
-        }}
-      />
-
-      <h4
-        style={{
-          fontSize: "16px",
-          color: "#0a1a7a",
-        }}
-      >
-        Fillings
-      </h4>
-    </div>
-
-    {/* CARD 3 */}
-    <div
-      style={{
-        width: "300px",
-        backgroundColor: "#fff",
-        borderRadius: "18px",
-        padding: "50px 20px",
-        boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
-      }}
-    >
-      <img
-        src={seventythree}
-        alt="Crowns"
-        style={{
-          width: "70px",
-          height: "70px",
-          objectFit: "contain",
-          marginBottom: "20px",
-          marginLeft: "90px",
-
-        }}
-      />
-
-      <h4
-        style={{
-          fontSize: "16px",
-          color: "#0a1a7a",
-        }}
-      >
-        Crowns
-      </h4>
-    </div>
+        <img
+          src={card.img}
+          alt={card.title}
+          className="w-[70px] h-[70px] object-contain mx-auto mb-5"
+        />
+        <h4 className="text-[16px] text-[#0a1a7a]">{card.title}</h4>
+      </div>
+    ))}
   </div>
 </div>
 
-<div
-  style={{
-    width: "100%",
-    padding: "20px 40px",
-    boxSizing: "border-box",
-    marginBottom: "30px",
-  }}
->
-  {/* HEADING */}
-  <h2
-    style={{
-      textAlign: "center",
-      fontSize: "32px",
-      color: "#0a1a7a",
-      marginBottom: "20px",
-    }}
-  >
-    FAQs
-  </h2>
-
-  {/* GRID */}
-  <div
-    style={{
-      maxWidth: "1200px",
-      margin: "0 auto",
-      display: "flex",
-      gap: "30px",
-      flexWrap: "wrap",
-    }}
-  >
-    {/* LEFT COLUMN */}
-    <div style={{ flex: "1 1 500px" }}>
-      {[
-        "01. How much does it cost to treat worn teeth?",
-        "02. What is tooth enamel?",
-        "03. Can you replace tooth enamel?",
-        "04. Does tooth enamel regrow?",
-      ].map((text, i) => (
-        <div
-          key={i}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = "#142c4c";
-            e.currentTarget.style.color = "#fff";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = "#6cc2bf";
-            e.currentTarget.style.color = "#000";
-          }}
-          style={{
-            backgroundColor: "#6cc2bf",
-            padding: "18px 20px",
-            marginBottom: "16px",
-            display: "flex",
-            alignItems: "center",
-            gap: "12px",
-            fontSize: "15px",
-            cursor: "pointer",
-            transition: "all 0.3s ease",
-          }}
-        >
-          <span style={{ fontSize: "20px", fontWeight: "700" }}>+</span>
-          <span>{text}</span>
-        </div>
-      ))}
-    </div>
-
-    {/* RIGHT COLUMN */}
-    <div style={{ flex: "1 1 500px" }}>
-      {[
-        "05. How will I know if I have worn teeth?",
-        "06. How do you treat worn teeth?",
-        "07. Can tooth enamel repair itself?",
-        "08. Can worn teeth be prevented?",
-      ].map((text, i) => (
-        <div
-          key={i}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = "#142c4c";
-            e.currentTarget.style.color = "#fff";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = "#6cc2bf";
-            e.currentTarget.style.color = "#000";
-          }}
-          style={{
-            backgroundColor: "#6cc2bf",
-            padding: "18px 20px",
-            marginBottom: "16px",
-            display: "flex",
-            alignItems: "center",
-            gap: "12px",
-            fontSize: "15px",
-            cursor: "pointer",
-            transition: "all 0.3s ease",
-          }}
-        >
-          <span style={{ fontSize: "20px", fontWeight: "700" }}>+</span>
-          <span>{text}</span>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
 
 
 <div className="w-full h-[180px] overflow-hidden mt-4">

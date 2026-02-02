@@ -157,7 +157,7 @@ export default function HeroSection() {
   </div>
 </div>
 
-<div className="w-full bg-white py-20">
+<div className="w-full bg-white px-3 py-20">
   <h2 className="text-center text-4xl font-semibold text-[#0a1a5c] mb-4">
     What Next
   </h2>

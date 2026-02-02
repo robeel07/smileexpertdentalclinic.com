@@ -62,7 +62,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-6 left-0 right-0 z-50 px-4 ">
-            <div className="max-w-[1450px] mx-auto  px-3 whitespace-nowrap bg-gray-100 backdrop-blur-md rounded-xl  shadow-xl border-1 dark:border-blue-900 flex items-center py-3 ">
+            <div className="max-w-[1440px] mx-auto  px-4 whitespace-nowrap bg-gray-100 backdrop-blur-md rounded-xl min-w-0 shadow-xl border-1 dark:border-blue-900 flex flex-shrink justify-between py-3 ">
                 {/* Left: Logo Section */}
                 <div className=" flex-shrink-0 justify-between min-w-fit">
                     <Link to="/">
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Center: Desktop Navigation */}
-                <div className="hidden xl:flex whitespace-nowrap items-center justify-center ml-8  text-xs">
+                <div className="hidden xl:flex whitespace-nowrap flex-shrink min-w-0 items-center justify-center ml-8  text-xs">
                     {/* About Dropdown */}
                     <div className="group relative px-4 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
@@ -311,7 +311,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Right: CTA Buttons */}
-                    <div className="hidden md:flex items-center whitespace-nowrap gap-4 ml-auto justify-between mr-3 flex-shrink-0 ">
+                    <div className="hidden lg:flex md:flex 2xl:flex items-center whitespace-nowrap gap-4 ml-auto justify-between px-3 py-2 flex-shrink-0 ">
 
   {/* Call Now */}
   <button
@@ -678,7 +678,7 @@ const Navbar = () => {
                             Blog
                         </Link>
 
-                    <div className="pt-6 space-y-4 flex flex-col lg:hiden w-full  bg-[#e0f2ff] p-4 rounded-2xl ">
+                    <div className="pt-6 space-y-4 flex flex-col lg:hiden xl:flex 2xl:hidden w-full  bg-[#e0f2ff] p-4 rounded-2xl ">
 
   {/* Call Now Button */}
   <button className="
