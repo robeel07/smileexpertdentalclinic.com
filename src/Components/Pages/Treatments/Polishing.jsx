@@ -32,24 +32,25 @@ const Polishing = () => {
     <div className='font-jost'>
       {/* Hero Section */}
             <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Scaling-Polishing-compressed.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-                            Scaling & Polishing
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Scaling & Polishing
+    </h1>
+  
+</div>
             </div> 
 
 
             <section className="w-full pl-4 sm:pl-6 lg:pl-8 py-10 md:pt-20 md:pb-0 md:mb-0">
              <p className="text-center text-sm md:text-sm lg:text-lg  text-black leading-relaxed">
-        Your smile will remain healthy and cheerful if you receive regular scaling & polishing treatment. SmileOn Dental Clinic believes every person needs a perfect set of teeth to achieve that dazzling smile. Our teeth scaling and polishing treatment is one of the ways of making your teeth look clean and healthy. Let us maintain your healthy smile and prevent gum diseases!
+        Your smile will remain healthy and cheerful if you receive regular scaling & polishing treatment. SmileExpert Dental Clinic believes every person needs a perfect set of teeth to achieve that dazzling smile. Our teeth scaling and polishing treatment is one of the ways of making your teeth look clean and healthy. Let us maintain your healthy smile and prevent gum diseases!
       </p>
       </section>
 
@@ -128,7 +129,7 @@ const Polishing = () => {
                             <li>Gives your teeth a great look to make you gain that smile.</li>
                         </ul>
                         <p className="pt-2 text-base ">
-                            At SmileOn Dental Clinic, we provide affordable teeth scaling price in Lahore to make it available to everyone.
+                            At SmileExpert Dental Clinic, we provide affordable teeth scaling price in Lahore to make it available to everyone.
                         </p>
                     </InfoCard>
 
@@ -163,8 +164,8 @@ const Polishing = () => {
                         </p>
                     </InfoCard>
 
-                    {/* 6. Choose SmileOn for Dental Treatment */}
-                    <InfoCard title="Choose SmileOn for Dental Treatment">
+                    {/* 6. Choose SmileExpert for Dental Treatment */}
+                    <InfoCard title="Choose SmileExpert for Dental Treatment">
                         <p className="mb-2">
                             At the clinic, we give you the best dental health care for your beautiful smile.
                         </p>

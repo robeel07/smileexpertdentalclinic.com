@@ -153,10 +153,10 @@ export default function BrokenChippedTeeth() {
 {/* WHAT NEXT + FAQ */}
 <div className="max-w-7xl mx-auto mt-5 px-3 py-3 text-center">
   <h2 className="text-3xl font-bold text-[#0a1a5c] mb-[10px]">
-    What Next
+    What's Next
   </h2>
 
-  <p className="text-[16px] leading-[1.7] max-w-[1300px] mx-auto text-[#333]">
+  <p className="text-[16px] leading-[1.7] max-w-7xl mx-auto text-[#333]">
     Expert staff enables you to get the most appropriate cracked tooth treatment
     for a long time. Make an appointment today!
   </p>

@@ -195,7 +195,7 @@ export default function Toothache() {
 {/* WHAT NEXT + FAQ */}
 <div className="max-w-7xl mx-auto px-6 mt-16 mb-16">
   <h2 className="text-center text-3xl font-bold text-[#0A0A5F] mb-[10px]">
-    What Next
+    What's Next
   </h2>
 
   <p className="text-center text-[16px] max-w-[900px] mx-auto text-[#333]">

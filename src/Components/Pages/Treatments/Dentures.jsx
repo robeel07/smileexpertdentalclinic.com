@@ -41,18 +41,23 @@ const polishingFAQs = [
     <div className='font-jost'>
 {/* Hero Section */}
             <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full
+    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%]
+    flex items-center
+    pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Dentures.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-                            Dentures
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Dentures
+    </h1>
+  
+</div>
             </div>
 
                     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
@@ -89,7 +94,7 @@ const polishingFAQs = [
      
                  </ul>
                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                  They are considered both a necessity and a luxury, helping satisfy your hunger, help you speak properly, and show off a stunning smile. No matter how many teeth you lack, at SmileOn we are offering partial dentures as well as total teeth replacement. Come to SmileOn for complete
+                  They are considered both a necessity and a luxury, helping satisfy your hunger, help you speak properly, and show off a stunning smile. No matter how many teeth you lack, at SmileExpert we are offering partial dentures as well as total teeth replacement. Come to SmileExpert for complete
                    <Link 
         to="/polish" className="text-cyan-600 font-bold hover:text-blue-800"> denture problems
         </Link> and solutions, getting your dazzling smile today!
@@ -140,7 +145,7 @@ const polishingFAQs = [
                    <li>Custom Fit</li>
                     <li>Convenience</li>
                  </ul>
-                 <p className="text-sm md:text-base text-black mb-8 ">If you are looking for a denture replacement near me, then look further than SmileOn. Easily accessible dental clinic providing quality services to your whole family. Whether you need bottom teeth dentures or partial dentures, we are at your service. Are you curious about the dentures price in Pakistan? We give the best quality denture teeth at a reasonable price. Our prices depend on the treatment situation.</p>
+                 <p className="text-sm md:text-base text-black mb-8 ">If you are looking for a denture replacement near me, then look further than SmileExpert. Easily accessible dental clinic providing quality services to your whole family. Whether you need bottom teeth dentures or partial dentures, we are at your service. Are you curious about the dentures price in Pakistan? We give the best quality denture teeth at a reasonable price. Our prices depend on the treatment situation.</p>
 
 </div>
 
@@ -204,7 +209,7 @@ const polishingFAQs = [
             </h3>
 
             <p className="text-sm md:text-base mb-6 text-white">
-              Reasons to choose SmileOn for your dental procedures:
+              Reasons to choose SmileExpert for your dental procedures:
             </p>
 
             <ul className="list-disc list-inside space-y-3 text-sm md:text-base text-white">

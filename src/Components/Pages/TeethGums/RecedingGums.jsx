@@ -171,17 +171,17 @@ No matter whether you use non-surgical methods or receding gum surgery if you ca
   </div>
 
   {/* WHAT NEXT */}
-  <div className="px-6 lg:px-16 py-12 text-center">
+  <div className="px-6 lg:px-16 py-8 text-center">
     <h2 className="text-4xl text-[#0a1a5c]">
-      What Next
+      What's Next
     </h2>
 
-    <p className="max-w-[900px] mx-auto mt-4 mb-8 leading-[1.7]">
+    <p className="max-w-7xl mx-auto mt-4 mb-8 leading-[1.7]">
       Explore treatments and plan your appointment today.
     </p>
 
     <button className="bg-[#28cfe8] text-white
-                       px-9 py-3 rounded-full
+                       px-9 py-3 rounded-full mb-3
                        text-[15px] hover:opacity-90">
       Book an Appointment
     </button>

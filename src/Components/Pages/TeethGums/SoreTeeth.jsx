@@ -138,8 +138,8 @@ export default function SoreTeeth() {
 
 {/* WHAT NEXT */}
 <div className="max-w-7xl mx-auto py-10 px-5">
-  <h2 className="text-[#0a1a5c] text-3xl lg:text-4xl font-bold text-center mb-4">What Next</h2>
-  <p className="text-sm text-black text-center max-w-[750px] mx-auto mb-8 leading-relaxed">
+  <h2 className="text-[#0a1a5c] text-3xl lg:text-4xl font-bold text-center mb-4">What's Next</h2>
+  <p className="text-sm text-black text-center max-w-7xl mx-auto mb-8 leading-relaxed">
     Explore therapeutic strategies to gain further insight. Book a dental consultation for detailed information on your concerns.
   </p>
   <div className="text-center mb-16">

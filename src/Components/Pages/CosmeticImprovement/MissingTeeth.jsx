@@ -115,15 +115,15 @@ export default function MissingTeeth() {
       </div>
 
       {/* WHAT NEXT */}
-      <div className="w-full px-10 py-20 bg-white text-center">
-        <h2 className="text-[34px] text-[#0a1b5c] mb-4">What Next</h2>
+      <div className="max-w-7xl mx-auto px-10 py-20 bg-white text-center">
+        <h2 className="text-[34px] text-[#0a1b5c] mb-4">What's Next</h2>
 
         <p className="max-w-7xl mx-auto mb-12 text-[16px] leading-[1.7] text-black">
           <span className="text-[#00a6ff] cursor-pointer">Book online</span> or call
           <strong> 0300-8395562</strong>
         </p>
 
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="flex flex-wrap justify-center px-3 gap-8">
           {[
             { title: "Bridges", icon: <RiToothFill /> },
             { title: "Dentures", icon: <LiaTeethSolid /> },

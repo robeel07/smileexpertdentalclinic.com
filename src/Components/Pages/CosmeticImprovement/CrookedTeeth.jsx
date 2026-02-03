@@ -204,7 +204,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
   </div>
 </div>
 
-<div className="text-center py-16 bg-white">
+<div className="max-w-7xl mx-auto text-center py-16 px-3 bg-white">
   {/* Section Heading */}
   <h2 className="text-3xl text-[#0b2c6b] w-full mb-4">
     Book your Appointment Now
@@ -215,7 +215,7 @@ If you need Invisalign Clear Aligners, crowns, or veneers, you can rest assured 
   </p>
 
   {/* Cards */}
-  <div className="flex justify-center gap-8 flex-wrap">
+  <div className="flex justify-center gap-8 px-3 flex-wrap">
     {/* Card 1 */}
     <div className="bg-white shadow-md rounded-xl p-8 w-72 flex flex-col items-center transition-transform hover:scale-105">
       <img

@@ -101,13 +101,13 @@ export default function YellowTeeth() {
   </div>
 </div>
 
-<div className="w-full bg-white py-20">
+<div className="max-w-7xl mx-auto bg-white py-20">
   <h2 className="text-center text-4xl font-semibold text-[#0a1a5c] mb-4">
-    What Next
+    What's Next
   </h2>
 
   
-  <p className="w-85 text-center text-gray-900 text-m leading-relaxed px-36">
+  <p className="max-w-7xl mx-auto text-center text-gray-900 text-m leading-relaxed px-36">
     Discover treatment options by exploring potential procedures. We suggest scheduling a dental appointment for personalized guidance regarding your condition.
     Book <span className="text-blue-500 cursor-pointer">book online</span> or call now to secure your appointment.
   </p>

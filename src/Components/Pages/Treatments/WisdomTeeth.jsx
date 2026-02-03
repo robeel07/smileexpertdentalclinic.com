@@ -40,18 +40,19 @@ const WisdomFAQs = [
                           
                           
                         <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Wisdom-Teeth-Removal.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-Wisdom Teeth Removal
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Wisdom Teeth Removal
+    </h1>
+  
+</div>
             </div> 
          
                           
@@ -157,7 +158,7 @@ Wisdom Teeth Removal
                         </InfoCard>
 
                  
-                        {/* 6. Choose SmileOn for Dental Treatment */}
+                        {/* 6. Choose SmileExpert for Dental Treatment */}
                         <InfoCard title="Quick tip">
                             <ul className="list-disc list-outside space-y-1">
                                 <li>If your hygienist gives you advice about daily dental care like teeth brushing techniques and how often you should floss, write it down. It takes time to build a new habit – some say 21 days or more. In the meantime, here’s a handy idea. Stick your note about your new dental care routine on your bathroom mirror as a daily reminder.</li>

@@ -146,18 +146,19 @@ const implantSteps = [
         
          {/* Hero Section */}
             <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2024/11/images.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-                            Dental Implant Treatment Lahore
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Dental Implant Treatment in Khanewal
+    </h1>
+  
+</div>
             </div>
             
             <section className="py-16 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto overflow-hidden">
@@ -188,7 +189,7 @@ const implantSteps = [
 
           <div className="text-sm md:text-base text-gray-600 space-y-6 mb-10 leading-loose">
             <p>
-            You should undergo dental implant treatment. Now, you may be thinking, what are dental implants? They are a simple surgical procedure to transplant an artificial tooth to fill the gap in the jaw area. They are a permanent and long-term answer to correcting the functionality and aesthetics of your mouth. SmileOn is the best dental implant clinic that provides quality services to patients. Whether a single tooth implant or complete mouth rehabilitation, our dental implant specialist will offer the best treatment, comfort, and quality outcome.
+            You should undergo dental implant treatment. Now, you may be thinking, what are dental implants? They are a simple surgical procedure to transplant an artificial tooth to fill the gap in the jaw area. They are a permanent and long-term answer to correcting the functionality and aesthetics of your mouth. SmileExpert is the best dental implant clinic that provides quality services to patients. Whether a single tooth implant or complete mouth rehabilitation, our dental implant specialist will offer the best treatment, comfort, and quality outcome.
 </p>
           </div>
 
@@ -383,7 +384,7 @@ const implantSteps = [
       </ul>
       
       <p className="text-gray-500 text-xs md:text-sm  pl-4 pr-4">
-        At SmileOn, we assure you that our treatments provide better and quality solutions.
+        At SmileExpert, we assure you that our treatments provide better and quality solutions.
       </p>
     </div>
   </motion.div>
@@ -400,7 +401,7 @@ const implantSteps = [
     {/* Title and Intro */}
     <div className="text-center mb-10">
       <h2 className="text-[#1e1b4b] text-2xl md:text-4xl font-bold mb-6">
-        Why SmileOn for Dental Implants?
+        Why SmileExpert for Dental Implants?
       </h2>
       <p className="text-gray-600 text-xs md:text-sm leading-relaxed max-w-4xl mx-auto font-medium">
         We Consider Ourselves The Best Clinic For A Dental Implant In Lahore, Pakistan. 
@@ -414,7 +415,7 @@ const implantSteps = [
       {/* LEFT SIDE: List Box */}
       <div className="w-full lg:w-1/2 bg-slate-50 rounded-[1.5rem] p-8 border border-gray-100 flex flex-col justify-center min-h-[400px] lg:min-h-[350px]">
         <p className="text-[#2db6fa] font-bold text-base italic mb-6">
-          Reasons to choose SmileOn:
+          Reasons to choose SmileExpert:
         </p>
         <ul className="space-y-5">
           {reasons.map((item, index) => (

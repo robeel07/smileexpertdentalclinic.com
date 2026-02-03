@@ -61,7 +61,7 @@ const cardData = [
     },
     {
       id: 6,
-      title: "Choose SmileOn for Dental Treatment",
+      title: "Choose SmileExpert for Dental Treatment",
       content: (
         <>
           <p>At the clinic, we give you the best dental health care for your beautiful smile.</p>
@@ -94,18 +94,19 @@ const WisdomFAQs = [
   return (
     <div className='font-sans'>
                                 <div
-        className="w-full h-[20em] bg-center bg-cover relative"
+        className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
         style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Teeth-Whitening.jpg")` }}
       >
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className='relative w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end pb-8'>
-          <div>
-            
-            <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white'>
-              Teeth Whitening in Lahore: Get a Brighter Smile Now
-            </h1>
-          </div>
-        </div>
+        <div className="absolute inset-0 bg-black/50"></div>
+
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Teeth Whitening in Khanewal
+    </h1>
+  
+</div>
       </div>
 
 
@@ -115,7 +116,7 @@ const WisdomFAQs = [
         <div className="text-black text-lg leading-relaxed space-y-4 mb-16">
               {/* --- Top Text --- */}
       <p className="text-left text-sm md:text-base text-black mb-1  ">
-       Want to enhance your smile? Teeth whitening is a cost-effective and popular solution to add extra sparkle to your teeth. In recent years, teeth whitening has gained widespread popularity, and for good reason. Brightening your teeth can significantly boost your self-confidence, as a radiant smile can do wonders for your overall appearance. SmileOn provides teeth whitening in Lahore, with the best dentist offering professional in-office treatments.
+       Want to enhance your smile? Teeth whitening is a cost-effective and popular solution to add extra sparkle to your teeth. In recent years, teeth whitening has gained widespread popularity, and for good reason. Brightening your teeth can significantly boost your self-confidence, as a radiant smile can do wonders for your overall appearance. SmileExpert provides teeth whitening in Lahore, with the best dentist offering professional in-office treatments.
       </p>
 <p className="text-left text-sm md:text-base text-black  ">
      After a comprehensive evaluation, your dentist will suggest the optimal solution tailored to your individual needs.

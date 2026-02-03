@@ -148,8 +148,8 @@ export default function BadBreath() {
 </div>
 
 {/* WHAT NEXT */}
-<div className="w-max-7xl py-14 px-5 text-center">
-  <h2 className="text-[#0b1f66] text-3xl lg:text-4xl font-bold mb-4">What Next</h2>
+<div className="max-w-7xl mx-auto py-14 px-5 text-center">
+  <h2 className="text-[#0b1f66] text-3xl lg:text-4xl font-bold mb-4">What's Next</h2>
   <p className="max-w-[1300px] mx-auto mb-14 text-sm leading-relaxed text-gray-800">
     View some potential therapies to learn more about what comes next. We advise scheduling a dental consultation to receive detailed information concerning your bad breath problems. To make an appointment, call us right away or book online right now.
   </p>

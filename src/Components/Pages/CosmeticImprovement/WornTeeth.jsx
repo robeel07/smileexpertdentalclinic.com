@@ -153,12 +153,12 @@ export default function WornTeeth() {
     In Pain? Call us Now
   </h2>
 
-  <p className="max-w-[1250px] mx-auto mb-12 text-[15px] leading-[1.8] text-[#333]">
+  <p className="max-w-7xl mx-auto mb-12 text-[15px] leading-[1.8] text-[#333]">
     <span className="text-[#0aa6ff] font-bold">Book online</span> or call
     <span className="text-[#0aa6ff] font-bold"> 0300-8395562</span>
   </p>
 
-  <div className="flex justify-center gap-8 flex-wrap">
+  <div className="flex justify-center gap-8 px-3 flex-wrap">
     {[
       { img: seventyfour, title: "Prosthodontist Services" },
       { img: seventytwo, title: "Fillings" },

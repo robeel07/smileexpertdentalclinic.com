@@ -33,18 +33,19 @@ const pediatricFAQs = [
     <div className='font-jost'>
               {/* Hero Section */}
             <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Paediatric-Dentist.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-Pediatric dentists
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Pediatric Dentists
+    </h1>
+  
+</div>
             </div>
       
 {/* What */}
@@ -52,7 +53,7 @@ Pediatric dentists
       <div className="max-w-7xl mx-auto">
         
         <div className="mb-12 ">
-          <p className="text-gray-600 text-[13px] md:text-[15px] leading-relaxed mb-0">SmileOn Pediatric Dental Care: Where Little Smiles Shine Bright! 
+          <p className="text-gray-600 text-[13px] md:text-[15px] leading-relaxed mb-0">SmileExpert Pediatric Dental Care: Where Little Smiles Shine Bright! 
           </p>
            <p className="text-gray-600 text-[13px] md:text-[15px] leading-relaxed mb-0">Pediatric dentists are specialized professionals characterized by specialized care in children’s dental health and is our primary concern. We are proud to be the best pediatric dentist in Lahore. Thus, our environment is friendly enough to make your little ones comfortable.
           </p>
@@ -68,7 +69,7 @@ Pediatric dentists
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">For children, our dental care services start from the first signs of tooth eruption up to the normal development of regular teeth.
               </p>
                        
-                        <p className="text-gray-600 text-sm md:text-base leading-relaxed">Hence, our staff is committed to offering quality dental services that benefit children. Rather than having dentist appointments being a chore you attend due to health concerns, SmileOn is exciting and where every person prepares to go for the appointment so they can have a great smile!
+                        <p className="text-gray-600 text-sm md:text-base leading-relaxed">Hence, our staff is committed to offering quality dental services that benefit children. Rather than having dentist appointments being a chore you attend due to health concerns, SmileExpert is exciting and where every person prepares to go for the appointment so they can have a great smile!
               </p>
             </div>
           </div>
@@ -96,7 +97,7 @@ Pediatric dentists
 
     <div className="w-full lg:w-[45%] lg:order-2 lg:pt-16">
       <div className="mb-10 lg:mb-12">
-        <h2 className="text-[#1e1b4b] text-3xl md:text-2xl font-bold  mb-2 ">Choose SmileOn for the Pediatric Dentist</h2>
+        <h2 className="text-[#1e1b4b] text-3xl md:text-2xl font-bold  mb-2 ">Choose SmileExpert for the Pediatric Dentist</h2>
         <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-2">we embrace professionalism in dental care in a pediatric setting. Here’s why families trust us with their children’s smiles:
         </p>
                 <p className="text-gray-600 text-sm md:text-base font-medium leading-relaxed mb-0">Our pediatric dentist services include:</p>

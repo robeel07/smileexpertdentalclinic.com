@@ -32,25 +32,26 @@ const TMJ = () => {
 
 
                  <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/TMJ.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-TMJ
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      TMJ
+    </h1>
+  
+</div>
             </div> 
 
 
 
                                 <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 md:pb-0">
                                    {/* --- Top Text --- */}
-            <p className="text-left text-sm md:text-lg text-black mb-1  ">If you feel extreme jaw pain while eating and carrying out your normal activities, you have temporomandibular joint dysfunction. TMJ treatment in Pakistan is possible with the expert and advanced treatment at SmileOn Dental Clinic, where we focus on your comfort and the easing of pain in your jaw.
+            <p className="text-left text-sm md:text-lg text-black mb-1  ">If you feel extreme jaw pain while eating and carrying out your normal activities, you have temporomandibular joint dysfunction. TMJ treatment in Pakistan is possible with the expert and advanced treatment at SmileExpert Dental Clinic, where we focus on your comfort and the easing of pain in your jaw.
 
 
             </p>
@@ -138,19 +139,19 @@ TMJ Treatment Can Help You:
                 <li> Reduce headaches and ear discomfort</li>
                 <li> Prevent further damage to teeth and jaw</li>
               </ul>
-            <p className='text-base text-white mb-4'>  Our TMJ services can provide the right treatment option, which can help in managing your symptoms efficiently. It would be best to visit the TMJ specialist in Lahore at SmileOn Dental Clinic for such issues.</p>
+            <p className='text-base text-white mb-4'>  Our TMJ services can provide the right treatment option, which can help in managing your symptoms efficiently. It would be best to visit the TMJ specialist in Lahore at SmileExpert Dental Clinic for such issues.</p>
             </div>
 
             {/* Why */}
             <div className='"pt-10 lg:pt-40 mb-20"'>
                 
                     <h3 className="text-cyan-400 font-semibold text-2xl mb-3">
-Why Choose SmileOn for TMJ Treatment?
+Why Choose SmileExpert for TMJ Treatment?
               </h3>
 
                            <p className="text-base text-white leading-relaxed">
 Get your treatment done with our highly qualified staff and the best doctor for jaw pain.
-<p className='font-bold'>Reasons to Choose SmileOn:</p>
+<p className='font-bold'>Reasons to Choose SmileExpert:</p>
 
 
               </p>

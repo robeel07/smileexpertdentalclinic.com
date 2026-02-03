@@ -44,25 +44,27 @@ const Exam = () => {
           {/* Hero Section */}
 
                <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full
+    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
                     style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Exam-X-Rays-Check-Up.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-                        Exam & X-rays Check-up
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Exam & X-rays Check-Up
+    </h1>
+  
+</div>
             </div> 
 
 
    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
                              {/* --- Top Text --- */}
       <p className="text-left text-sm md:text-base text-black mb-1  ">
-       Do you have any hidden dental problems that are affecting your smile?  Our dental X-ray diagnoses other hidden pathologies, such as cavities, gum disease, or the presence of impacted teeth, without necessarily causing discomfort. Fast, safe, and necessary, X-rays enable us to create an individualized plan to keep your teeth bright and in perfect condition. Choose SmileOn, the best dental X-ray clinic with professionals and powerful tools for proper care of your teeth.
+       Do you have any hidden dental problems that are affecting your smile?  Our dental X-ray diagnoses other hidden pathologies, such as cavities, gum disease, or the presence of impacted teeth, without necessarily causing discomfort. Fast, safe, and necessary, X-rays enable us to create an individualized plan to keep your teeth bright and in perfect condition. Choose SmileExpert, the best dental X-ray clinic with professionals and powerful tools for proper care of your teeth.
       </p>
      </section>
        <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
@@ -87,7 +89,7 @@ Here’s why they are essential:
      
                  </ul>
                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                   Moreover, they reveal more comprehensive information on diseases that may be undetectable sometimes such as cavities, bone loss or impacted teeth. SmileOn offers advanced dental X-ray Lahore services to improve the quality of your dental health.
+                   Moreover, they reveal more comprehensive information on diseases that may be undetectable sometimes such as cavities, bone loss or impacted teeth. SmileExpert offers advanced dental X-ray Lahore services to improve the quality of your dental health.
                  </p>
                </div>
      
@@ -129,7 +131,7 @@ Here’s why they are essential:
             <p className='m-0'>Support for dental restorations</p>
             <p className='m-0'>Orthodontic guidance</p>
             <p className='m-0'>Comprehensive assessment</p>
-            <p className='m-0'>At SmileOn, we have turned X-Ray into a comfortable experience whether for families or kids. Dental X-ray photographs are essential for oral health depending on the regimen or a specific treatment.</p>
+            <p className='m-0'>At SmileExpert, we have turned X-Ray into a comfortable experience whether for families or kids. Dental X-ray photographs are essential for oral health depending on the regimen or a specific treatment.</p>
 </div>
 
             

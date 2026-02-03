@@ -11,11 +11,7 @@ export default function WisdomTeeth() {
   return (
     <>
     <div
-      className="relative w-full
-    min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
-    bg-cover bg-[center_40%]
-    flex items-center
-    pt-28 sm:pt-32"
+      className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32"
       style={{ backgroundImage: `url(${one})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -131,7 +127,7 @@ export default function WisdomTeeth() {
 {/* WHAT NEXT */}
 <div className="max-w-7xl mx-auto text-center px-[20px] py-[60px]">
   <h2 className="text-[34px] font-bold text-[#0f2b62ff] mb-[20px]">
-    What Next
+    What's Next
   </h2>
 
   <p className="text-[16px] leading-[1.7] text-[#444] max-w-[1300px] mx-auto mb-[50px]">

@@ -35,18 +35,19 @@ const makeoverFAQs = [
     <div className='font-jost'>
               {/* Hero Section */}
             <div
-                className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
+                className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]  bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32"
                 style={{ backgroundImage: `url("https://smileon.pk/wp-content/uploads/2023/04/Cosmetic-Dental-Makeover.jpg")` }}
             >
-                <div className="absolute inset-0 "></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
-                <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 flex items-end">
-                    <div className="pb-8 md:pb-9  w-full">
-                        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-medium">
-                            Cosmetic Dental Makeover Service in Lahore
-                        </h1>
-                    </div>
-                </div>
+    <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 className="text-white font-extrabold text-center
+        text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]">
+      Cosmetic Dental Makeover Services in Khanewal
+    </h1>
+  
+</div>
             </div>
       
 {/* What */}
@@ -55,7 +56,7 @@ const makeoverFAQs = [
         
         <div className="mb-12 ">
           <p className="text-gray-600 text-[13px] md:text-[15px] leading-relaxed mb-0">
-           Are you considering a makeover?  SmileOn Dental has the best cosmetic dentist, who will help you in crafting a perfect smile. Choosing cosmetic dentists for a makeover is a major decision. Here, you will get professionals, you can trust for this investment.
+           Are you considering a makeover?  SmileExpert Dental has the best cosmetic dentist, who will help you in crafting a perfect smile. Choosing cosmetic dentists for a makeover is a major decision. Here, you will get professionals, you can trust for this investment.
           </p>
             <p className="text-gray-600 text-[13px] md:text-[15px] leading-relaxed">
          Cosmetic dentistry services differ from essential or emergency care. Do thorough research for an informed choice. Our Lahore team consists of skilled and experienced cosmetic dentists.
@@ -168,7 +169,7 @@ Cosmetic Dentistry Procedures
 
                     {/* 3. What to Expect During the Procedure */}
                     <InfoCard title="Teeth Straightening with Invisalign or Orthodontic Treatment">
-                        <p>Invisalign or traditional orthodontic treatments are straightening your teeth discreetly. <span className='text-cyan-400 font-medium hover:text-blue-900'>With clear</span> aligners or braces, SmileOn can customize solutions to get your teeth aligned and get the perfect smile you deserve.
+                        <p>Invisalign or traditional orthodontic treatments are straightening your teeth discreetly. <span className='text-cyan-400 font-medium hover:text-blue-900'>With clear</span> aligners or braces, SmileExpert can customize solutions to get your teeth aligned and get the perfect smile you deserve.
                         </p>
                     </InfoCard>
 
@@ -186,8 +187,8 @@ Cosmetic Dentistry Procedures
                         </p>
                     </InfoCard>
 
-                    {/* 6. Choose SmileOn for Dental Treatment */}
-                    <InfoCard title="Choose SmileOn for Dental Treatment">
+                    {/* 6. Choose SmileExpert for Dental Treatment */}
+                    <InfoCard title="Choose SmileExpert for Dental Treatment">
                         <p className="mb-2">
 Under the leadership of the best female dentist in Lahore, our team strives to provide you, with excellent cosmetic dentistry services to meet your personal goals.
                         </p>
@@ -209,7 +210,7 @@ Under the leadership of the best female dentist in Lahore, our team strives to p
           
             <div className="mb-10">
               <h2 className="text-[#1e1b4b] text-3xl md:text-3xl  ">Get Prepared</h2>
-              <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-0">When you schedule a smile makeover treatment at SmileOn, you’ll likely have questions about the process. It’s natural to be curious. However, it’s always better to get prepared earlier. It helps your dentist understand your needs.
+              <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-0">When you schedule a smile makeover treatment at SmileExpert, you’ll likely have questions about the process. It’s natural to be curious. However, it’s always better to get prepared earlier. It helps your dentist understand your needs.
               </p>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-0">A good cosmetic dentist will ask for your medical history and perform a general examination of your mouth, teeth, gum, jaws, tongue, throat, sinuses, ears, nose, and neck. They may also ask you to go for x-rays to get a complete checkup of your mouth.
               </p>
@@ -222,7 +223,7 @@ Under the leadership of the best female dentist in Lahore, our team strives to p
                             <li>What’s your biggest concern?</li>
                             <li>How has this issue affected you?</li>
                         </ul>
-                         <p className="text-gray-600 text-sm md:text-base leading-relaxed">Think about your answers to these questions before your appointment with SmileOn cosmetic dental makeover specialist. Being prepared can speed up the process.
+                         <p className="text-gray-600 text-sm md:text-base leading-relaxed">Think about your answers to these questions before your appointment with SmileExpert cosmetic dental makeover specialist. Being prepared can speed up the process.
               </p>
             </div>
           </div>
