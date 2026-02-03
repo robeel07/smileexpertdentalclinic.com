@@ -16,23 +16,24 @@ export default function OralCancer() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_40%]"
-      style={{ backgroundImage: `url(${oral})` }}
-    >
-      <div className="absolute inset-0 bg-black/50"></div>
+  className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_40%] flex items-center pt-28 sm:pt-32 "
+  style={{ backgroundImage: `url(${oral})` }}
+>
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/55"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+  {/* Content */}
+  <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1
+      className=" text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Oral Cancer Treatment in Khanewal
     </h1>
   </div>
-</div>
-    </div>
+  </div>
 
-    {<Link to="/CommonIssues/oralcancer"></Link>}
-
-<div className="w-85 px-40 py-16 align-center text-black">
+<div className="max-w-7xl mx-auto px-3 py-16 align-center text-black">
   <p className="text-base leading-relaxed">
     We are one of the most professional and specialized clinics in diagnosing and treating oral cancer in Lahore. We respond using innovative technology and efficient solutions to patients with oral health issues. Our team of experts are committed to providing accurate diagnosis and treatment of oral cancer. As a result, the early-stage diagnosing and subsequent superior treatment options are well appreciated to reduce the recurrences among the patients.<br/>
 You can get back on your feet and give your body the care it deserves with our oral cancer treatment. Smile makeover does matter – contact us today and get your brand-new beautiful smile.

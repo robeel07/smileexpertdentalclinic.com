@@ -15,23 +15,24 @@ export default function DentalAnxiety() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_50%]"
-      style={{ backgroundImage: `url(${fortytwo})` }}
-    >
-      <div className="absolute inset-0 bg-black/50"></div>
+  className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32 "
+  style={{ backgroundImage: `url(${fortytwo})` }}
+>
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/55"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+  {/* Content */}
+  <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1
+      className=" text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Dental Anxiety Treatment in Khanewal
     </h1>
   </div>
-</div>
-    </div>
+  </div>
 
-    {<Link to="/CommonIssues/dentalanxiety"></Link>}
-
-<div className="w-85 px-40 py-16 align-center text-black">
+<div className="max-w-7xl mx-auto px-3 py-16 align-center text-black">
   <p className="text-base leading-relaxed">
 Dental fear is valid. We understand and are here to help. Various reasons can cause apprehension before a dental appointment. Past experiences might have led to a fear of dentists. Major procedures like <span className="text-[#0aa6ff] font-semibold">root canals</span> or long gaps since your last dental visit can contribute to concerns about your teeth.<br/>
 Feeling some anxiety before a dental visit is normal. However, for some individuals, it goes beyond typical nervousness. Please communicate your feelings to us so we can address them. We are committed to ensuring your comfort and will make every effort to alleviate your worries.
@@ -220,13 +221,13 @@ Contact us for assistance in preparing for your visit. Regular appointments with
   </div>
 </div>
 
-<div className="w-full bg-white py-20">
+<div className="max-w-7xl mx-auto px-3 bg-white py-20">
   <h2 className="text-center text-4xl font-semibold text-[#0a1a5c] mb-4">
-    What Next
+    What's Next
   </h2>
 
   
-  <p className="w-85 text-center text-gray-900 text-m leading-relaxed px-36">
+  <p className="max-w-7xl mx-auto  text-center text-gray-900 text-m leading-relaxed px-3">
     Explore treatment options to gather more information about the next steps. Consider scheduling a dental consultation for in-depth guidance on your concerns.
     Book <span className="text-[#0aa6ff] font-semibold">book online</span> or call now to secure your appointment.
   </p>

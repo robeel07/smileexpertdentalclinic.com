@@ -11,24 +11,25 @@ export default function OurValues() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_60%]"
-      style={{ backgroundImage: `url(${value})` }}
-    >
-      
-      <div className="absolute inset-0 bg-black/50"></div>
+  className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_60%] flex items-center pt-28 sm:pt-32 "
+  style={{ backgroundImage: `url(${value})` }}
+>
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/55"></div>
 
-    
-      <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+  {/* Content */}
+  <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1
+      className=" text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Our Values
     </h1>
   </div>
-</div>
-    </div>
+  </div>
 
 
-<div className="max-w-7xl flex flex-col lg:flex-row items-center gap-12 mx-auto w-fit mt-9">
+<div className="max-w-7xl flex flex-col lg:flex-row items-center px-3 gap-12 mx-auto w-fit mt-9">
 
   {/* Left Image Card */}
   <div className="relative group">
@@ -91,7 +92,7 @@ export default function OurValues() {
 </div>
 
 
-<div className="max-w-7xl flex flex-col lg:flex-row gap-8 mx-auto justify-center py-10 bg-white">
+<div className="max-w-7xl flex flex-col lg:flex-row gap-8 mx-auto justify-center px-3 py-10 bg-white">
   {/* Left Card */}
   <div className="w-full lg:w-1/2 bg-white border border-gray-600 shadow-lg rounded-3xl px-4 py-6 text-center">
     <h3 className="text-xl font-bold  text-[#0a1a5c] mb-4">
@@ -132,7 +133,7 @@ export default function OurValues() {
 </div>
 
 
-<div className="max-w-7xl flex flex-col lg:flex-row gap-8 mx-auto justify-center py-6 bg-white">
+<div className="max-w-7xl flex flex-col lg:flex-row gap-8 mx-auto justify-center px-3 py-6 bg-white">
   {/* Left Card */}
   <div className="w-full lg:w-1/2 bg-white border border-gray-600 shadow-lg rounded-3xl px-4 py-6 text-center">
     <h3 className="text-xl font-bold  text-[#0a1a5c] mb-4">

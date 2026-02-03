@@ -157,9 +157,9 @@ export default function HeroSection() {
   </div>
 </div>
 
-<div className="w-full bg-white px-3 py-20">
+<div className="max-w-7xl mx-auto bg-white px-3 py-20">
   <h2 className="text-center text-4xl font-semibold text-[#0a1a5c] mb-4">
-    What Next
+    What's Next
   </h2>
 
   
@@ -170,19 +170,19 @@ export default function HeroSection() {
 
 
   <div className="mt-16 flex justify-center">
-    <div className="w-[380px] bg-white rounded-2xl shadow-lg py-10 flex flex-col items-center">
+    <div className="w-[350px] bg-white rounded-2xl shadow-lg px-3 py-10 flex flex-col items-center">
       
       
-      <div className="mb-2">
+      <div className="mb-2 saturate-150 contrast-110">
         <img
         src={Pic3}
         alt="Teeth Whitening"
-        className="w-[110px] h-[90px] object-contain mb-0"
+        className="w-[200px] h-[110px] object-contain mb-0"
       />
       </div>
 
       
-      <p className="text-[#0a1a5c] font-semibold mb-0">
+      <p className=" text-[#0a1a5c] font-semibold mb-0">
         Teeth Whitening Treatment
       </p>
     </div>

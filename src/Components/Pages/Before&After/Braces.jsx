@@ -11,21 +11,22 @@ export default function Braces() {
   return (
     <>
     <div
-      className="relative w-full h-[45vh] bg-cover bg-[center_52%]"
-      style={{ backgroundImage: `url(${nintysix})` }}
-    >
-      <div className="absolute inset-0 bg-black/50"></div>
+  className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
+    bg-cover bg-[center_50%] flex items-center pt-28 sm:pt-32 "
+  style={{ backgroundImage: `url(${nintysix})` }}
+>
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/55"></div>
 
-    <div className="relative h-full max-w-6xl px-4 flex items-end">
-  <div className="pb-8 mt-6 w-full">
-    <h1 className="text-white text-3xl md:text-5xl ml-40 font-bold">
+  {/* Content */}
+  <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1
+      className=" text-white font-extrabold text-center text-3xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl
+        leading-tight pt-5 pb-1 max-w-5xl -mt-12 sm:mt-0 mx-auto drop-shadow-[0_6px_20px_rgba(0,0,0,0.7)]" >
       Braces - Before and After
     </h1>
   </div>
-</div>
-    </div>
-
-    {<Link to="/Before&After/braces"></Link>}
+  </div>
 
 <div className=" px-2 py-2 mt-12">
   <div className="max-w-7xl mx-auto px-6">

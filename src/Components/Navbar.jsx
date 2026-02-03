@@ -75,7 +75,7 @@ const Navbar = () => {
                 {/* Center: Desktop Navigation */}
                 <div className="hidden xl:flex whitespace-nowrap flex-shrink min-w-0 items-center justify-center ml-8  text-xs">
                     {/* About Dropdown */}
-                    <div className="group relative px-4 py-2">
+                    <div className="group relative px-3 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             About <ChevronDown size={14} />
                         </button>
@@ -97,7 +97,7 @@ const Navbar = () => {
                         <div className="absolute top-full left-[-100px] mt-2 w-[850px] bg-white items-start text-left rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-6 overflow-hidden">
                             <div className="grid grid-cols-3 gap-8 text-left">
                                 <div>
-                                    <h3 className="text-brandDark font-bold text-sm mb-4">Teeth & Gums</h3>
+                                    <h3 className="text-brandDark font-bold text-xl mb-4">Teeth & Gums</h3>
                                     <ul className="space-y-2 text-slate-600 text-left text-[13px] pl-0 list-none">
                                         <li className="hover:text-brandAccent">
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/wisdom-teeth">Wisdom Teeth</Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
                                     </ul>
                                 </div>
                                 <div>
-                                    <h3 className="text-brandDark font-bold text-sm mb-4">Cosmetic Improvement</h3>
+                                    <h3 className="text-brandDark font-bold text-xl mb-4">Cosmetic Improvement</h3>
                                     <ul className="space-y-2 text-slate-600 text-[13px] pl-0 list-none">
                                         <li>
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/yellow-teeth-treatment">Yellow Teeth</Link>
@@ -167,7 +167,7 @@ const Navbar = () => {
                                     <img className="pt-32 w-40" src="https://smileon.pk/wp-content/uploads/2023/01/invisible-aligner.jpg" alt="Invisible aligner treatment option" />
                                 </div>
                                 <div>
-                                    <h3 className="text-brandDark font-bold text-sm mb-4 hover:text-gray-400">Common Issues</h3>
+                                    <h3 className="text-brandDark font-bold text-xl mb-4 hover:text-gray-400">Common Issues</h3>
                                     <ul className="space-y-2 text-slate-600 text-[13px] pl-0 list-none">
                                         <li>
                                             <Link className="hover:text-brandAccent no-underline text-slate-600" to="/emergency-dentist">Emergency Dentist</Link>
@@ -302,10 +302,10 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <Link to="/contact" className="hover:text-gray-400 text-xs px-4 py-2 font-semibold text-blue-950 transition-colors">
+                    <Link to="/contact" className="hover:text-gray-400 text-sm px-4 py-2 font-semibold text-blue-950 transition-colors">
                         Contact
                     </Link>
-                    <Link to="/blog" className="px-3 py-2 font-semibold text-xs text-blue-950 hover:text-gray-400 transition-colors">
+                    <Link to="/blog" className="px-3 py-2 font-semibold text-sm text-blue-950 hover:text-gray-400 transition-colors">
                         Blog
                     </Link>
                 </div>
