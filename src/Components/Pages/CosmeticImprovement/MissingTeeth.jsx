@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import sixtytwo from "../../Images/sixtytwo.jpg";
 import sixtythree from "../../Images/sixtythree.jpg";
 import sixtyfour from "../../Images/sixtyfour.jpg";
-import sixtyfive from "../../Images/sixtyfive.jpg";
-import sixtysix from "../../Images/sixtysix.jpg";
-import sixtyseven from "../../Images/sixtyseven.jpg";
 import { PiToothFill } from "react-icons/pi";
 import { RiToothFill } from "react-icons/ri";
 import { LiaTeethSolid } from "react-icons/lia";
@@ -15,6 +12,7 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function MissingTeeth() {
   return (
+  
     <>
     <div
       className="relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]

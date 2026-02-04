@@ -1,7 +1,6 @@
 
 import { Link } from "react-router-dom";
 import teeth from "../../Images/teeth.jpg";
-import white from "../../Images/white.jpg";
 import teeth1 from "../../Images/teeth1.jpg";
 import teeth2 from "../../Images/teeth2.jpg";
 import teeth3 from "../../Images/teeth3.jpg";
