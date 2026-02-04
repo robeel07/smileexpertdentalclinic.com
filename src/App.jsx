@@ -16,6 +16,9 @@ import Whatsapp from "./Components/Images/whatsapp-icon-design.png";
 import GoUp from "./Components/Images/go-up.png";
 import OurValues from "./Components/About/OurValues";
 import Team from "./Components/About/Team";
+import Appointment from "./Components/Appointment";
+
+
 
 
 
@@ -156,6 +159,8 @@ function App() {
         <Route path="/about/our-values" element={<OurValues />} />
         <Route path="/about/meet-our-team" element={<Team />} />
         <Route path="/navbar" element={<Navbar/>} />
+        <Route path="/book-appointment" element={<Appointment/>} />
+
 
 
 

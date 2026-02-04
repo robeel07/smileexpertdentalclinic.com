@@ -19,7 +19,7 @@ export default function SafetyEquipment() {
     <>
     <div
   className=" relative w-full min-h-[300px] sm:min-h-[400px] lg:min-h-[350px]
-    bg-cover bg-[center_30%] flex items-center pt-28 sm:pt-32 "
+    bg-cover bg-[center_25%] flex items-center pt-28 sm:pt-32 "
   style={{ backgroundImage: `url(${tech})` }}
 >
   {/* Dark Overlay */}

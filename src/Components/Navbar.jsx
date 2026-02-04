@@ -333,6 +333,7 @@ const Navbar = () => {
   </button>
 
   {/* Book Appointment */}
+  <Link to="/book-appointment">
   <button
     className="
       px-6 py-3
@@ -351,6 +352,7 @@ const Navbar = () => {
   >
     Book Appointment
   </button>
+  </Link>
 
 </div>
 
@@ -699,6 +701,7 @@ const Navbar = () => {
 
 
   {/* Book Appointment Button */}
+    <Link to="/book-appointment">
   <button className="
     relative w-auto py-3 px-6 font-bold text-white rounded-2xl
     bg-gradient-to-br from-brandDark to-[#142f60]
@@ -714,6 +717,7 @@ const Navbar = () => {
       blur-xl animate-[shine_2s_linear_infinite] pointer-events-none
     "></span>
   </button>
+  </Link>
 
 </div>
 

@@ -257,7 +257,7 @@ Contact us for assistance in preparing for your visit. Regular appointments with
     <h2 className="text-3xl font-semibold text-center text-[#0a0a5c] mb-6">
     FAQs
   </h2>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
     
     {/* Left Column */}
     <div className="space-y-2 items-center">
@@ -280,7 +280,7 @@ Contact us for assistance in preparing for your visit. Regular appointments with
     </div>
 
     {/* Right Column */}
-    <div className="space-y-2">
+    <div className="space-y-2 flex-1 items-center">
       {[
         "Does medication help with dental anxiety?",
         "I’m really anxious about visiting the dentist, what can I do?",
