@@ -137,13 +137,10 @@ const WisdomFAQs = [
       </div>
     </section>
 
-     <div className="font-sans ">
-      {/* --- Section 1: What is it? (Text Left, Image Right on Desktop) --- */}
-      <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
-        <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
+     <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center font-sans ">
           
           {/* Text Content */}
-          <div className="w-full lg:w-1/2">
+          <div className="flex-1 px-3">
             <h2 className="text-2xl md:text-3xl  text-[#1e1b4b] mb-6">
               Teeth Whitening: A Modern Guide
             </h2>
@@ -175,18 +172,17 @@ In-practice teeth whitening is a professional procedure performed in the dental 
           </div>
 
           {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-1/2">
+          <div className="flex-1 px-3">
             <img 
               src="https://smileon.pk/wp-content/uploads/2025/09/Teeth-Whitening-A-Modern-Guide-3-1536x1024.jpg"
               alt="Dental procedure" 
-              className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-[2.5rem] shadow-lg"
+              className="w-full h-full md:h-[500px] lg:h-[600px] object-cover rounded-[2.5rem] shadow-lg"
             />
           </div>
         </div>
-      </section>
 
 
-<section className="max-w-full mx-auto px-6 py-12 md:py-20 bg-[#DDEEED]">
+<section className="max-w-7xl mx-auto px-6 py-12 md:py-20 bg-[#DDEEED]">
   <div className="text-center mb-8 md:mb-16">
     <h2 className="text-3xl md:text-3xl font-bold text-[#1e1b4b]">
      Why Choose Smile On For Teeth Whitening?
@@ -245,7 +241,7 @@ accommodate our patient’s needs and preferences.</li>
 </section>
 
 
-</div>
+
 
 <section 
       className="relative py-16 md:py-24 bg-cover bg-center bg-fixed"

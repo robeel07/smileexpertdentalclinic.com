@@ -128,11 +128,11 @@ export default function WornTeeth() {
         What is Tooth Enamel?
       </h2>
 
-      <p className="text-[15px] leading-[1.8] text-[#333] mb-3">
+      <p className="text-[15px] leading-[1.8] px-3 text-[#333] mb-3">
         Enamel is a thin outer layer of your teeth, protecting your teeth from sensitivity and damage in your everyday life. It is one of the strongest tissues in the human body and can protect from chewing, biting, and acids. Nonetheless, enamel is different from most tissues of the body in that it cannot regenerate once it has been damaged.
       </p>
 
-      <p className="text-[15px] leading-[1.8] text-[#333]">
+      <p className="text-[15px] leading-[1.8] px-3 text-[#333]">
         The primary problem that develops when enamel wear is the sensitivity and the yellowish shade of teeth, as well as cavity proneness. In cases where your enamel is worn out, treatments such as tooth enamel erosion restoration can be done to save the teeth. As well as regain their functionality.
       </p>
     </div>

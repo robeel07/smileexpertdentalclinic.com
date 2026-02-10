@@ -79,9 +79,9 @@ export default function TeethCleaning() {
   style={{ backgroundImage: `url(${nineteen})` }}
 >
   {/* OVERLAY */}
-  <div className="bg-black/55 rounded-3xl max-w-[1400px] mx-auto px-5 sm:px-10 py-12 sm:py-16">
+  <div className="bg-black/55 rounded-3xl max-w-7xl mx-auto px-5 sm:px-5 py-12 sm:py-12">
     {/* CARDS ROW 1 */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 text-base sm:text-xl font-semibold mb-4 break-words leading-snug gap-6">
       {[
         {
           title: "Appointments:",
@@ -117,7 +117,7 @@ export default function TeethCleaning() {
     </div>
 
     {/* CARDS ROW 2 */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+    <div className="grid grid-cols-1 text-base sm:text-xl font-semibold mb-4 break-words leading-snug gap-6 mt-10">
       {[
         {
           title: "After Your Appointment:",
@@ -141,7 +141,7 @@ export default function TeethCleaning() {
           <h3 className="text-[#3fe0d0] text-lg sm:text-xl font-semibold mb-4">{card.title}</h3>
           <ul className="pl-4 list-disc space-y-2">
             {card.content.map((item, j) => (
-              <li key={j} className="leading-relaxed text-sm sm:text-base">
+              <li key={j} className="text-base sm:text-xl font-semibold mb-4 break-words leading-snug">
                 {item}
               </li>
             ))}

@@ -53,52 +53,43 @@ const WisdomFAQs = [
     </h1>
   
 </div>
-            </div> 
-         
+            </div>                    
                           
-                          
-                             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
-                             {/* --- Top Text --- */}
-      <p className="text-left text-sm md:text-base text-black mb-1  ">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+      <p className="text-left text-sm md:text-base text-gray-700 mb-1  ">
         The extraction of wisdom teeth is an action performed with such regularity that it has become a somewhat banal occurrence. Although you may be feeling apprehensive, rest assured that the process is not as unpleasant as you might imagine. If you have received news that your wisdom teeth must be extracted, you may be experiencing some trepidation. However, do not fret, for our team of considerate dentists are experts in making the removal of your wisdom teeth a seamless and worry-free experience.
       </p>
      </section>
 
-     <div className="font-sans text-gray-800">
-      {/* --- Section 1: What is it? (Text Left, Image Right on Desktop) --- */}
-<section className="w-full py-12 md:py-2 flex flex-col lg:flex-row items-center overflow-hidden">
-            <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-20">
+     <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center font-sans text-gray-800">
           
-          {/* Text Content */}
-<div className="w-full lg:w-1/2 px-6 lg:pl-[calc((100vw-1280px)/2+24px)] lg:pr-12">
+     <div>
             <h2 className="text-2xl md:text-4xl text-[#1e1b4b] mb-6">
               What is it?
             </h2>
-            <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 mb-6 leading-relaxed">
            Many people need to have their wisdom teeth removed due to problems they are having. The removal of wisdom teeth is a frequent dental procedure. The removal of wisdom teeth by a professional, such as an oral and maxillofacial surgeon, is occasionally necessary. Timely removal of your wisdom teeth may also help to avoid additional issues if they have gotten impacted or lodged under your gums. These include:
             </p>
-            <ul className="list-disc list-outside ml-5 text-md md:text-base text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc list-outside ml-5 text-md md:text-base text-gray-700 space-y-2 mb-6">
               <li>Gum flap on top of tooth infection</li>
               <li>Deterioration in the wisdom teeth</li>
               <li>Damage to the teeth nearby</li>
               <li>A cyst that could be harmful to the nearby bone’s health</li>
 
             </ul>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               Your dentist will evaluate your wisdom teeth and your alternatives for having them removed when you visit. To aid with the removal of a tooth, an incision may occasionally be created in the gum to expose the entire tooth. In other circumstances, the tooth may need to be extracted in parts after some of the surrounding bone has been removed.
             </p>
           </div>
 
           {/* Image: Wide & Responsive Height */}
-          <div className="w-full lg:w-[50%]">
+          <div className="flex-1 px-3">
             <img 
               src="https://smileon.pk/wp-content/uploads/2025/09/What-Is-It-wt-2048x1365.jpg"
               alt="What" 
-              className="w-full h-56 sm:h-72 lg:h-[450px] object-cover rounded-[2.5rem] shadow-lg"
+              className="w-full h-full object-cover rounded-[2.5rem] shadow-lg"
             />
           </div>
-        </div>
-      </section>
 </div>  
     {/* Need to know */}
     

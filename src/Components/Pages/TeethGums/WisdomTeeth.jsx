@@ -43,7 +43,7 @@ export default function WisdomTeeth() {
 </div>
 
 {/* SECTION 1 */}
-<div className="max-w-7xl mx-auto flex justify-center items-center gap-3">
+<div className="max-w-7xl mx-auto flex justify-center px-3 py-3 items-center gap-3">
   {/* LEFT TEXT */}
   <div className="flex-1">
     <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
@@ -165,15 +165,15 @@ export default function WisdomTeeth() {
     FAQs
   </h2>
 
-  <div className="grid grid-cols-2 gap-[20px] max-w-[1300px] mx-auto">
+  <div className="grid grid-cols-2 gap-[20px] max-w-7xl mx-auto">
     {[
       "01. How much does it cost to get wisdom teeth removed?",
-      "05. Does it hurt getting my wisdom teeth removed?",
-      "02. How do you make wisdom teeth pain go away?",
-      "06. What does wisdom teeth pain feel like?",
-      "03. Is it normal for wisdom teeth to hurt?",
-      "07. What are some home remedies for wisdom tooth pain?",
-      "04. How long does wisdom tooth pain last?",
+      "02. Does it hurt getting my wisdom teeth removed?",
+      "03. How do you make wisdom teeth pain go away?",
+      "04. What does wisdom teeth pain feel like?",
+      "05. Is it normal for wisdom teeth to hurt?",
+      "06. What are some home remedies for wisdom tooth pain?",
+      "07. How long does wisdom tooth pain last?",
       "08. I'm anxious about visiting the dentist.",
     ].map((item, i) => (
       <div

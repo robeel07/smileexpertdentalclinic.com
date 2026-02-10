@@ -46,7 +46,7 @@ export default function BrokenChippedTeeth() {
 </div>
 
 {/* CAUSES SECTION */}
-<div className="max-w-7xl mx-auto flex justify-center items-center gap-3">
+<div className="max-w-7xl mx-auto px-3 py-3 flex justify-center items-center gap-3">
   {/* LEFT */}
   <div className="flex-1 ">
     <h2 className="text-3xl font-bold text-[#0a1a5c] mb-[20px]">
@@ -151,25 +151,29 @@ export default function BrokenChippedTeeth() {
 </div>
 
 {/* WHAT NEXT + FAQ */}
-<div className="max-w-7xl mx-auto mt-5 px-3 py-3 text-center">
-  <h2 className="text-3xl font-bold text-[#0a1a5c] mb-[10px]">
+{/* WHAT'S NEXT SECTION */}
+<div className="max-w-7xl mx-auto mt-5 px-3 py-6 text-center">
+  <h2 className="text-2xl sm:text-3xl font-bold text-[#0a1a5c] mb-[10px]">
     What's Next
   </h2>
 
-  <p className="text-[16px] leading-[1.7] max-w-7xl mx-auto text-[#333]">
+  <p className="text-[15px] sm:text-[16px] leading-[1.7] max-w-3xl mx-auto text-[#333]">
     Expert staff enables you to get the most appropriate cracked tooth treatment
     for a long time. Make an appointment today!
   </p>
 
-  <button className="mt-[25px] px-[20px] py-[15px] rounded-[40px] border-2 border-[#00aab5] bg-[#00c8d2] text-white text-[18px] font-semibold cursor-pointer">
+  <button className="mt-[25px] px-[20px] py-[15px] rounded-[40px] border-2 border-[#00aab5] bg-[#00c8d2] text-white text-[16px] sm:text-[18px] font-semibold cursor-pointer">
     Book an Appointment
   </button>
+</div>
 
-  <h2 className="text-[32px] font-bold text-[#0c1b3a] mt-[50px] mb-[30px]">
+{/* FAQ SECTION */}
+<div className="max-w-7xl mx-auto px-3 py-6">
+  <h2 className="text-[24px] sm:text-[32px] font-bold text-[#0c1b3a] text-center mt-[20px] mb-[30px]">
     FAQs
   </h2>
 
-  <div className="max-w-7xl mx-auto grid grid-cols-2 gap-[20px] px-3 pb-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
     {[
       "01. How to treat a cracked tooth?",
       "02. What happens if one of the front teeth is chipped?",
@@ -182,10 +186,12 @@ export default function BrokenChippedTeeth() {
     ].map((item, index) => (
       <div
         key={index}
-        className="bg-[#57b7b7] p-[20px] flex items-center gap-[15px] rounded-[3px] cursor-pointer"
+        className="bg-[#57b7b7] p-[18px] sm:p-[20px] flex items-center gap-[15px] rounded-[3px] cursor-pointer"
       >
         <span className="text-[22px] font-black mt-[-3px]">+</span>
-        <span className="text-[18px] text-[#0c1b3a]">{item}</span>
+        <span className="text-[16px] sm:text-[18px] text-[#0c1b3a]">
+          {item}
+        </span>
       </div>
     ))}
   </div>

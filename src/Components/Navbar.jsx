@@ -557,9 +557,7 @@ const Navbar = () => {
                                     <Link className=" hover:!text-slate-900 no-underline !text-slate-700" to="/treatment/whitening" onClick={closeAll} >
                                         Teeth Whitening
                                     </Link>
-                                    <Link className=" hover:!text-slate-900 no-underline !text-slate-700" to="/t/whitening" onClick={closeAll} >
-                                        Invisalign
-                                    </Link>
+                                    
                                     <Link className=" hover:!text-slate-900 no-underline !text-slate-700" to="/t/dentalbraces" onClick={closeAll} >
                                         Dental Braces
                                     </Link>

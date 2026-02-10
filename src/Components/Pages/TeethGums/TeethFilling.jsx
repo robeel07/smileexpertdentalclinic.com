@@ -91,7 +91,7 @@ export default function TeethFilling() {
     FAQs
   </h2>
 
-  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
+  <div className="max-w-7xl mx-auto px-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
     {/* LEFT COLUMN */}
     <div className="flex flex-col gap-3">
       {[

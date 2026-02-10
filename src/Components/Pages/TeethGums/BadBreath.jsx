@@ -63,7 +63,7 @@ export default function BadBreath() {
 <div className="w-full bg-[#f3f8fc] py-10 px-10 lg:px-32 flex flex-col lg:flex-row justify-between items-center gap-5">
   {/* LEFT IMAGE */}
   <div className="flex-1 flex justify-center lg:justify-start">
-    <img src={thirtyfour} alt="Dental Checkup" className="w-[90%] max-w-[620px] h-[400px] rounded-[22px] object-cover" />
+    <img src={thirtyfour} alt="Dental Checkup" className="w-full h-full rounded-3xl object-cover" />
   </div>
 
   {/* RIGHT CONTENT */}

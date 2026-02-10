@@ -113,14 +113,14 @@ export default function AmalgamFilling() {
 </div>
 
 {/* FAQ SECTION */}
-<div className="py-16 px-5">
+<div className="max-w-7xl mx-autopy-16 px-5">
   <h2 className="text-center text-[#0a1f44] text-2xl lg:text-[32px] font-bold mb-12">
     FAQs
   </h2>
 
   <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-3">
     {/* LEFT COLUMN */}
-    <div className="flex-1 min-w-[300px] space-y-3">
+    <div className="flex-1 space-y-3">
       {[
         "01. How much does it cost to replace amalgam fillings?",
         "02. Should all amalgam fillings be replaced?",

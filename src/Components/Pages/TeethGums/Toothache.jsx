@@ -32,7 +32,7 @@ export default function Toothache() {
 
 
     {/* WHEN TO SEE A DENTIST */}
-<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
+<div className="max-w-7xl mx-auto grid grid-cols-1 px-3 md:grid-cols-2 justify-center mt-5 items-center gap-3">
   {/* LEFT TEXT */}
   <div className="flex-1">
     <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
@@ -72,7 +72,7 @@ export default function Toothache() {
 </div>
 
 {/* SYMPTOMS OF TOOTH PAIN */}
-<div className="max-w-7xl mx-auto  grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
+<div className="max-w-7xl mx-auto px-3 grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
   {/* LEFT IMAGE */}
   <div className="flex-1">
     <img
@@ -106,7 +106,7 @@ export default function Toothache() {
 </div>
 
 {/* CAUSES OF TOOTHACHE */}
-<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
+<div className="max-w-7xl mx-auto px-3 grid grid-cols-1 md:grid-cols-2 justify-center mt-5 items-center gap-3">
   {/* LEFT TEXT */}
   <div className="flex-1">
     <h2 className="text-3xl font-bold text-[#0A2A7A] mb-[20px]">
@@ -208,7 +208,7 @@ export default function Toothache() {
     </button>
   </div>
 
-  <h2 className="text-center text-3xl font-bold text-[#0A0A5F] mt-[70px]">
+  <h2 className="text-center text-3xl font-bold text-[#0A0A5F] mt-[60px] mb-4">
     FAQs
   </h2>
 

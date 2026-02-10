@@ -31,7 +31,7 @@ export default function EmergencyDentist() {
   </div>
   </div>
 
-<div className=" px-2 py-16">
+<div className=" px-3 py-16">
   <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
     
     {/* LEFT CONTENT */}
@@ -57,7 +57,7 @@ export default function EmergencyDentist() {
     </div>
 
     {/* RIGHT IMAGE */}
-      <div className="w-full h-[420px] rounded-2xl overflow-hidden">
+      <div className="w-full h-full rounded-2xl object-cover">
         <img
           src={eightythree}
           alt="Dental Injury"
@@ -67,12 +67,12 @@ export default function EmergencyDentist() {
   </div>
 </div>
 
-<div className="bg-[#f5f9fc] px-2 py-16">
+<div className="bg-[#f5f9fc] px-3 py-16">
   <div className="max-w-7xl mx-auto ">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
       
       {/* Left Image */}
-      <div className="w-full h-[420px] overflow-hidden rounded-2xl">
+      <div className="w-full h-full object-cover rounded-2xl">
         <img
           src={eightyfour}
           alt="Dental Emergency"
@@ -82,11 +82,11 @@ export default function EmergencyDentist() {
 
       {/* Right Content */}
       <div>
-        <h2 className="text-3xl font-bold text-[#0a0a5c] mb-4">
+        <h2 className="text-3xl font-bold px-3 text-[#0a0a5c] mb-4">
           Common Emergency Symptoms
         </h2>
 
-        <p className="text-gray-700 mb-0 leading-relaxed">
+        <p className="text-gray-700 mb-0 px-3 leading-relaxed">
           Dental crises can be excruciatingly painful and disruptive. They
           frequently occur suddenly and put you through a lot of stress. You
           may not feel any pain in some circumstances, but you still need
@@ -105,7 +105,7 @@ export default function EmergencyDentist() {
           <li>tender to touch</li>
         </ul>
 
-        <p className=" text-gray-800 font-medium mt-0">
+        <p className=" text-gray-800 px-3 font-medium mt-0">
           Book a dentist appointment immediately for a dental emergency.
         </p>
       </div>
@@ -114,7 +114,7 @@ export default function EmergencyDentist() {
   </div>
 </div>
 
-<div className="max-w-7xl mx-auto px-2 py-16">
+<div className="max-w-7xl mx-auto px-3 py-16">
   
   {/* Top Paragraph */}
   <p className="text-gray-700 mb-12 leading-relaxed">

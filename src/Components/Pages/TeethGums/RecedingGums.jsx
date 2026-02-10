@@ -72,12 +72,12 @@ export default function RecedingGumms() {
       </p>
     </div>
 
-    <div className="flex-1 min-w-[300px] flex justify-center">
+    <div className="flex-1">
       <img
         src={fifteen}
         alt="Dental checkup"
-        className="w-full max-w-[620px] h-[400px]
-                   object-cover rounded-[26px]"
+        className="w-full h-full
+                   object-cover rounded-3xl"
       />
     </div>
   </div>

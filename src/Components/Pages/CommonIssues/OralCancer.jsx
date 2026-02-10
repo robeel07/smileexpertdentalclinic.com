@@ -166,7 +166,7 @@ Consult SmileExpert Dental Clinic for oral cancer treatment and find out more ab
   </div>
 </div>
 
-<div className=" max-w-7xl mx-auto px-2 py-2">
+<div className=" max-w-7xl mx-auto px-3 py-3">
   <h1 className="text-3xl font-semibold text-[#0a0a5c] mb-4">
     Oral Cancer Stages
   </h1>
