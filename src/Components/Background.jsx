@@ -30,7 +30,7 @@ export default function HeroSection() {
   </div>
 
 
-<div className="max-w-7xl mx-auto px-1 relative z-10 mb-0 -mt-8">
+<div className="max-w-6xl mx-auto px-1 relative z-10 mb-0 -mt-8">
   <div className="bg-blue-900 backdrop-blur-md rounded-2xl border border-slate-200">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-slate-200">
 

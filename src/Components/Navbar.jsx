@@ -61,19 +61,21 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-6 left-0 right-0 z-50 px-4 ">
-            <div className="max-w-[1440px] mx-auto  px-4 whitespace-nowrap bg-gray-100 backdrop-blur-md rounded-xl min-w-0 shadow-xl border-1 dark:border-blue-900 flex flex-shrink justify-between py-3 ">
+        <nav className="fixed top-4 left-0 right-0 z-50 px-3 sm:px-4 ">
+            <div className="max-w-[1340px] mx-auto bg-gray-100 backdrop-blur-md rounded-2xl shadow-xl border border-gray-200 
+                            flex items-center justify-between px-4 sm:px-6 lg:px-8 py-3 gap-4  ">
                 {/* Left: Logo Section */}
-                <div className=" flex-shrink-0 justify-between min-w-fit">
+                <div className="flex-shrink-0 flex items-center">
                     <Link to="/">
-                        <div className="flex-shrink-0 px-2 sm:px-0 flex items-center ">
-                        <img src={brandLogo} className="block h-16 sm:h-10 md:h-14  lg:h-16 xl:h-20 w-auto ml-0 justify-start object-contain" alt="Logo" />
+                        <div className="flex items-center order-1 lg:order-none ">
+                        <img src={brandLogo} className="block h-16 sm:h-10 md:h-14  lg:h-16 xl:h-20 w-auto ml-0 object-contain" alt="Logo" />
                         </div>
                     </Link>
                 </div>
 
                 {/* Center: Desktop Navigation */}
-                <div className="hidden xl:flex whitespace-nowrap flex-shrink min-w-0 items-center justify-center ml-8  text-xs">
+                <div className="hidden lg:flex flex-1 justify-center items-center 
+                                flex-wrap gap-x-6 gap-y-2 text-center font-medium text-gray-700 min-w-0">
                     {/* About Dropdown */}
                     <div className="group relative px-3 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
@@ -90,7 +92,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Dental Problems Mega Menu */}
-                    <div className="group relative px-4 py-2">
+                    <div className="group relative px-1 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             Dental Problems <ChevronDown size={14} />
                         </button>
@@ -190,7 +192,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Treatments Mega Menu */}
-                    <div className="group relative px-4 py-2">
+                    <div className="group relative px-1 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             Treatments <ChevronDown size={14} />
                         </button>
@@ -241,7 +243,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Before & After Menu */}
-                    <div className="group relative px-4 py-2">
+                    <div className="group relative px-1 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             Before & After <ChevronDown size={14} />
                         </button>
@@ -275,7 +277,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Patient Safety Menu */}
-                    <div className="group relative px-4 py-2">
+                    <div className="group relative px-1 py-2">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             Patient Safety <ChevronDown size={14} />
                         </button>
@@ -302,31 +304,35 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <Link to="/contact" className="hover:text-gray-400 text-sm px-4 py-2 font-semibold text-blue-950 transition-colors">
+                    <Link to="/contact" className="hover:text-gray-400 text-sm px-1 py-2 font-semibold text-blue-950 transition-colors">
                         Contact
                     </Link>
-                    <Link to="/blog" className="px-3 py-2 font-semibold text-sm text-blue-950 hover:text-gray-400 transition-colors">
+                    <Link to="/blog" className="px-1 py-2 font-semibold text-sm text-blue-950 hover:text-gray-400 transition-colors">
                         Blog
                     </Link>
                 </div>
 
                 {/* Right: CTA Buttons */}
-                    <div className="hidden lg:flex md:flex 2xl:flex items-center whitespace-nowrap gap-4 ml-auto justify-between px-3 py-2 flex-shrink-0 ">
+                    <div className="hidden sm:flex items-center gap-3 sm:gap-3 lg:gap-4 flex-shrink-0 whitespace-nowrap order-3">
 
   {/* Call Now */}
   <button
     className="
-      px-6 py-3 text-sm text-white
-      font-bold
-      bg-blue-900
-      cursor-pointer
-      rounded-md
-      transform-gpu
-      transition-all duration-300 ease-out
-      animate-blink3d
-      hover:animate-none
-      hover:-translate-y-1
-      hover:bg-brandDark
+      px-3 sm:px-4 lg:px-6
+  py-3 lg:py-3
+  text-xs sm:text-sm
+  font-bold text-white
+  bg-blue-900
+  rounded-md
+  whitespace-nowrap
+  cursor-pointer
+
+  transform-gpu
+  transition-all duration-300 ease-out
+  animate-blink3d
+  hover:animate-none
+  hover:-translate-y-1
+  hover:bg-brandDark
     "
   >
     Call Now
@@ -336,18 +342,21 @@ const Navbar = () => {
   <Link to="/book-appointment">
   <button
     className="
-      px-6 py-3
-      font-bold text-sm text-white
-      rounded-md
-      bg-blue-900
-      cursor-pointer
+      px-3 sm:px-4 lg:px-6
+  py-3 lg:py-3
+  text-xs sm:text-sm
+  font-bold text-white
+  bg-blue-900
+  rounded-md
+  whitespace-nowrap
+  cursor-pointer
 
-      transform-gpu
-      transition-all duration-300 ease-out
-      animate-blink3d
-      hover:animate-none
-      hover:-translate-y-1
-      hover:bg-brandDark
+  transform-gpu
+  transition-all duration-300 ease-out
+  animate-blink3d
+  hover:animate-none
+  hover:-translate-y-1
+  hover:bg-brandDark
     "
   >
     Book Appointment
@@ -359,8 +368,8 @@ const Navbar = () => {
                 
 
                 {/* Hamburger Icon */}
-                <div className="ml-auto xl:hidden flex items-center justify-between">
-                    <button onClick={() => setIsMobileMenuOpen(true)} className="text-blue-900 p-2 cursor-pointer">
+                <div className="flex lg:hidden flex-1 justify-center items-center order-2">
+                    <button onClick={() => setIsMobileMenuOpen(true)} className="w-10 h-10 flex items-center justify-center text-blue-900">
                         <Menu size={32} />
                     </button>
                 </div>
