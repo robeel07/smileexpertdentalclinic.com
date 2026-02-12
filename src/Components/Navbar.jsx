@@ -62,26 +62,26 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-4 left-0 right-0 z-50 px-3 sm:px-4 ">
-            <div className="max-w-[1340px] mx-auto bg-gray-100 backdrop-blur-md rounded-2xl shadow-xl border border-gray-200 
+            <div className="max-w-[1250px] mx-auto bg-gray-100 backdrop-blur-md rounded-2xl shadow-xl border border-gray-200 
                             flex items-center justify-between px-4 sm:px-6 lg:px-8 py-3 gap-4  ">
                 {/* Left: Logo Section */}
                 <div className="flex-shrink-0 flex items-center">
                     <Link to="/">
                         <div className="flex items-center order-1 lg:order-none ">
-                        <img src={brandLogo} className="block h-16 sm:h-10 md:h-14  lg:h-16 xl:h-20 w-auto ml-0 object-contain" alt="Logo" />
+                        <img src={brandLogo} className="block h-14 sm:h-10 md:h-14  lg:h-16 xl:h-20 w-auto ml-0 object-contain" alt="Logo" />
                         </div>
                     </Link>
                 </div>
 
                 {/* Center: Desktop Navigation */}
                 <div className="hidden lg:flex flex-1 justify-center items-center 
-                                flex-wrap gap-x-6 gap-y-2 text-center font-medium text-gray-700 min-w-0">
+                                flex-wrap gap-x-4 gap-y-2 text-center font-medium text-gray-700 min-w-0">
                     {/* About Dropdown */}
-                    <div className="group relative px-3 py-2">
+                    <div className="group relative px-1 py-1">
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             About <ChevronDown size={14} />
                         </button>
-                        <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-slate-100 p-4">
+                        <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-2xl text-left shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-slate-100 p-4">
                             <Link to="/about/meet-our-team" className="block py-2 hover:text-brandAccent text-sm no-underline text-slate-600">
                                 Meet the Team
                             </Link>
@@ -196,11 +196,10 @@ const Navbar = () => {
                         <button className="flex items-center text-sm font-semibold text-blue-950 hover:text-gray-400 transition-colors cursor-pointer">
                             Treatments <ChevronDown size={14} />
                         </button>
-                        <div className="absolute top-full left-1/2 -translate-x-[40%] mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
-                        
-                            <div className="grid grid-cols-3 gap-8">
+                        <div className="absolute top-full left-[-220px] mt-2 w-[850px] bg-white items-start text-left rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-6 overflow-hidden">
+                            <div className="grid grid-cols-3 gap-8 text-left">
                                 <div>
-                                    <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Dental Services</h4>
+                                    <h4 className="font-bold text-brandDark items-start pb-2 mb-4 hover:text-gray-400">Dental Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/polishing">Scaling & Polishing</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/fillings">Fillings</Link>
@@ -213,7 +212,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Cosmetic Services</h4>
+                                    <h4 className="font-bold text-brandDark items-start pb-2 mb-4 hover:text-gray-400">Cosmetic Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/whitening">Teeth Whitening</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/t/dentalbraces">Dental Braces</Link>
@@ -225,7 +224,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Dental Specialists</h4>
+                                    <h4 className="font-bold text-brandDark items-start pb-2 mb-4 hover:text-gray-400">Dental Specialists</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/specialist">Dental Specialist</Link>
                                         <Link className="hover:text-brandAccent no-underline text-slate-600" to="/treatment/endo">Endodontist Services</Link>
@@ -237,7 +236,6 @@ const Navbar = () => {
                                         <img className="pt-5 w-40" src="https://smileon.pk/wp-content/uploads/2024/09/circle-text.svg" alt="Dental specialists services illustration" />
                                     </div>
                                 </div>
-                                <div className="flex flex-col items-center justify-center"></div>
                             </div>
                         </div>
                     </div>
@@ -248,7 +246,7 @@ const Navbar = () => {
                             Before & After <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
-                            <div className="grid grid-cols-2 gap-8">
+                            <div className="grid grid-cols-2 gap-8 text-left">
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4 hover:text-gray-400">Before & After</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
@@ -282,7 +280,7 @@ const Navbar = () => {
                             Patient Safety <ChevronDown size={14} />
                         </button>
                         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] bg-white rounded-[30px] shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-slate-100 p-10">
-                            <div className="grid grid-cols-3 gap-8">
+                            <div className="grid grid-cols-3 gap-8 text-left">
                                 <div>
                                     <h4 className="font-bold text-brandDark pb-2 mb-4">Dental Services</h4>
                                     <div className="flex flex-col gap-2 text-sm text-slate-600">
@@ -318,10 +316,10 @@ const Navbar = () => {
   {/* Call Now */}
   <button
     className="
-      px-3 sm:px-4 lg:px-6
-  py-3 lg:py-3
+      px-2 sm:px-4 lg:px-6
+  py-2 lg:py-3
   text-xs sm:text-sm
-  font-bold text-white
+  font-semibold text-white
   bg-blue-900
   rounded-md
   whitespace-nowrap
@@ -342,10 +340,10 @@ const Navbar = () => {
   <Link to="/book-appointment">
   <button
     className="
-      px-3 sm:px-4 lg:px-6
-  py-3 lg:py-3
+      px-2 sm:px-4 lg:px-6
+  py-2 lg:py-3
   text-xs sm:text-sm
-  font-bold text-white
+  font-semibold text-white
   bg-blue-900
   rounded-md
   whitespace-nowrap
