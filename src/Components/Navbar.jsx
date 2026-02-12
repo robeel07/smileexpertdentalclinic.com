@@ -314,6 +314,7 @@ const Navbar = () => {
                     <div className="hidden sm:flex items-center gap-3 sm:gap-3 lg:gap-4 flex-shrink-0 whitespace-nowrap order-3">
 
   {/* Call Now */}
+    <Link to="/contact">
   <button
     className="
       px-2 sm:px-4 lg:px-6
@@ -335,6 +336,7 @@ const Navbar = () => {
   >
     Call Now
   </button>
+    </Link>
 
   {/* Book Appointment */}
   <Link to="/book-appointment">
@@ -688,6 +690,7 @@ const Navbar = () => {
                     <div className="pt-6 space-y-4 flex flex-col lg:hiden xl:flex 2xl:hidden w-full  bg-[#e0f2ff] p-4 rounded-2xl ">
 
   {/* Call Now Button */}
+      <Link to="/contact">
   <button className="
   relative w-full lg:w-auto py-3 px-6 font-bold text-white
   rounded-2xl bg-gradient-to-br from-brandDark to-[#142f60]
@@ -703,6 +706,7 @@ const Navbar = () => {
     blur-xl animate-[shine_2s_linear_infinite] pointer-events-none
   "></span>
 </button>
+    </Link>
 
 
   {/* Book Appointment Button */}
